@@ -7,6 +7,7 @@
   "scripts": {
     "start": "webpack-dev-server --env.NODE_ENV=local --port 8000 --mode development --devtool eval-source-map --hot --injectHot --inline --progress",
     "build": "webpack --env.NODE_ENV=production --mode production --optimize-minimize --profile --progress"
+
   },
   "reactSnap": {
     "source": "dist"

@@ -20,7 +20,7 @@ import * as d3 from 'd3'
 (async () => {  
 let location_search = window.location.search //default: ""
 window.emplStatusCounties = ["Maryland", "Worcester County", "Wicomico County", "Talbot County", "St. Mary's County", "Queen Anne's County", "Kent County", "Garrett County", "Dorchester County", "Allegany County", "Caroline County", "Calvert County"]
-console.log("location_search.replace("?county=","").replace(".html","").replace(/([A-Z])/g, ' $1').trim()", location_search)
+console.log("location_search.replace('?county=','').replace('.html','').replace(/([A-Z])/g, ' $1').trim()", location_search)
 window.CountyName = location_search.replace("?county=","").replace(".html","").replace(/([A-Z])/g, ' $1').trim()
 
     let countySelects = `
