@@ -28,7 +28,7 @@ module.exports = env => {
     minimizer: [
       new TerserPlugin({
 		sourceMap: true,
-		terserOptions: { compress:{ pure_funcs: ['console.log'] } }
+		// terserOptions: { compress:{ pure_funcs: ['console.log'] } }
 	  }), 
       new OptimizeCssAssetsPlugin({})],
     splitChunks: { chunks: 'all' }
