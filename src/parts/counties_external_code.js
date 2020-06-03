@@ -11,11 +11,17 @@ import * as dimple from 'dimple';
  * 5 - Snap
 */
 (async()=>{    
-    let pcnt = (d) => { return d.slice( d.length -1 ) != '%' ? (d3.format(".1%")(d*1) ) : (d3.format(".1%")(Number(d.slice(0, -1)*.01 ) ) ) }
-    let pcnt2 = (d) => { return d.slice( d.length -1 ) != '%' ? (d3.format(".1%")(d*.01) ) : (d3.format(".1%")(Number(d.slice(0, -1)*.01 ) ) ) }
+    let pcnt = (d) => {
+      if(d==undefined | d=='--'){ return '--'} 
+      return d.slice( d.length -1 ) != '%' ? (d3.format(".1%")(d*1) ) : (d3.format(".1%")(Number(d.slice(0, -1)*.01 ) ) ) 
+    }
+    let pcnt2 = (d) => { 
+      if(d==undefined | d=='--'){ return '--'}
+      return d.slice( d.length -1 ) != '%' ? (d3.format(".1%")(d*.01) ) : (d3.format(".1%")(Number(d.slice(0, -1)*.01 ) ) ) 
+    }
     
     // Retrieve Data
-    let url =  CountyName2 == 'Maryland' ? './data/MarylandData_5-5-20.csv' : "https://docs.google.com/spreadsheets/d/e/2PACX-1vR917bKT6GZooR-f-Jba82-l0qhzNC6MM7gOVCJK6iNCNTxnlauxNrki3TjphoGv4T8f7U1kUdHwttH/pub?gid=104785359&single=true&output=csv"
+    let url =  CountyName2 == 'Maryland' ? './data/MarylandData_5-5-20.csv' : "./data/CountyData.csv"
     console.log(url)
     let data = await d3.csv(url)
     CountyName2 == 'Maryland' ? '' : data = dimple.filterData(data, "Location", CountyName2)
@@ -23,32 +29,44 @@ import * as dimple from 'dimple';
     //
     // Population and Median Household Income
     //
-    console.log('Population and Median Household Income')
 
     // Filter Data
-    let pop = dimple.filterData(data, "Time", ["2015", "2016", "2017"]);
+    let pop = dimple.filterData(data, "Time", ["2015", "2016", "2017", "2018", "2019"]);
     let mhhi = dimple.filterData(pop, "Indicator", "Median Household Income")
     pop = dimple.filterData(pop, "Indicator", "Total Population")
+    console.log('Population and Median Household Income', pop, mhhi);
+
+  //window.displayIndustryMetricsTable = (wdatax, hiredatax, avgdatax, netdatax, turndatax) => {
+    console.log('Population and Median Household Income', pop, mhhi);
+    let find = (objArr, indx) => {
+      let returnThis =  objArr.filter( obj => { return obj['Time'] == ['2015','2016','2017','2018'][indx]} )[0]
+      returnThis = returnThis == undefined ? '--' : returnThis['Amount']
+      console.log('RETURNING THIS', returnThis)
+      return returnThis
+    }
 
     // Display Table
     document.getElementById('pop_table').innerHTML = `
     <tr class="HeadRow" style="background-color: white;">
-      <th>Baltimore County:</th>
-      <th>2012-2016</th>
-      <th>2013-2017</th>
-      <th>Change</th>
+      <th>${CountyName}:</th>
+      <th>2015</th>
+      <th>2016</th>
+      <th>2017</th>
+      <th>2018</th>
     </tr>
     <tr>
       <th>Population</th>
-      <td>${pop[1]['Amount'] }</td>
-      <td >${pop[0]['Amount']}</td>
-      <td>${pop[0]['Amount'] - pop[1]['Amount']}</td>
+      <td>${find(pop,0)}</td>
+      <td>${find(pop,1)}</td>
+      <td>${find(pop,2)}</td>
+      <td>${find(pop,3)}</td>
     </tr>
     <tr class="FootRow">
       <th>Median Household Income</th>
-      <td>$${mhhi[1]['Amount'] }</td>
-      <td>$${mhhi[0]['Amount'] }</td>
-      <td>${mhhi[0]['Amount'] - mhhi[1]['Amount']}</td>
+      <td>$${find(mhhi,0)}</td>
+      <td>$${find(mhhi,1)}</td>
+      <td>$${find(mhhi,2)}</td>
+      <td>$${find(mhhi,3)}</td>
     </tr>
     `
     
@@ -163,17 +181,19 @@ import * as dimple from 'dimple';
     var empl_edu_gend_chart_print = dimple.newSvg("#empl_edu_gend_chart_print", 750, 400);
 
     // Filter Data 
-    window.EduAttainment = dimple.filterData(data, "Indicator_Status", ["Less than Highschool", "Highschool", "Some College", "Bachelor's or Higher"])
+    let EduAttainment = dimple.filterData(data, "Indicator_Status", ["Less than Highschool", "Highschool", "Some College", "Bachelor's or Higher"])
     EduAttainment = dimple.filterData(EduAttainment, "Employment_Status", ["Unemployed", "NIL", "Employed"])
-    window.EduAttainment1 = dimple.filterData(EduAttainment, "Time", "2017");
-    window.EduAttainment2 = dimple.filterData(EduAttainment, "Time", "2015");
-    EduAttainment = dimple.filterData(EduAttainment, "Time", "2016");
+    window.EduAttainment18 = dimple.filterData(EduAttainment, "Time", "2018");
+    window.EduAttainment17 = dimple.filterData(EduAttainment, "Time", "2017");
+    window.EduAttainment16 = dimple.filterData(EduAttainment, "Time", "2016");
+    window.EduAttainment15 = dimple.filterData(EduAttainment, "Time", "2015");
 
-    window.unempByGender = dimple.filterData(data, "Indicator_Status", ["Male", "Female"])
+    let unempByGender = dimple.filterData(data, "Indicator_Status", ["Male", "Female"])
     unempByGender = dimple.filterData(unempByGender, "Indicator", "Unemployment By Gender")
-    window.unempByGender1 = dimple.filterData(unempByGender, "Time", "2016")
-    window.unempByGender2 = dimple.filterData(unempByGender, "Time", "2015")
-    unempByGender = dimple.filterData(unempByGender, "Time", "2017")
+    window.unempByGender18 = dimple.filterData(unempByGender, "Time", "2018")
+    window.unempByGender17 = dimple.filterData(unempByGender, "Time", "2017")
+    window.unempByGender16 = dimple.filterData(unempByGender, "Time", "2016")
+    window.unempByGender15 = dimple.filterData(unempByGender, "Time", "2015")
 
     // Create Tables
     let mdNoTD = CountyName == 'Maryland' ? '' : `
@@ -185,95 +205,170 @@ import * as dimple from 'dimple';
       <th>Male</th> 
       <th>Female</th> 
     `
-    let mdunempByGender1 = CountyName == 'Maryland' ? '' : `
-      <td>${unempByGender1[0]['Amount']}</td> 
-      <td>${unempByGender1[1]['Amount']}</td> 
+    let mdunempByGender18 = CountyName == 'Maryland' ? '' : `
+      <td>${unempByGender18[0]['Amount']}</td> 
+      <td>${unempByGender18[1]['Amount']}</td> 
     `
-    let mdunempByGender = CountyName == 'Maryland' ? '' : `
-      <td>${unempByGender[0]['Amount']}</td> 
-      <td>${unempByGender[1]['Amount']}</td> 
+    let mdunempByGender17 = CountyName == 'Maryland' ? '' : `
+      <td>${unempByGender17[0]['Amount']}</td> 
+      <td>${unempByGender17[1]['Amount']}</td> 
+    `
+    let mdunempByGender16 = CountyName == 'Maryland' ? '' : `
+      <td>${unempByGender16[0]['Amount']}</td> 
+      <td>${unempByGender16[1]['Amount']}</td> 
+    `
+    let mdunempByGender15 = CountyName == 'Maryland' ? '' : `
+      <td>${unempByGender15[0]['Amount']}</td> 
+      <td>${unempByGender15[1]['Amount']}</td> 
     `
 
 
     document.getElementById('empl_edu_gend_table').innerHTML = `
     <tr class="HeadRow" style="background-color: white;">
-      <th>Baltimore County 2016: </th>
+      <th>${CountyName}: </th>
       <th>Less than High School Graduate</th>
       <th>High School Graduate (Includes Equivalency)</th>
       <th>Some College or Associates</th>
       <th>Bachelor's Degree or Higher</th>
-      <th></th>
+      ${ CountyName == 'Maryland' ? '' : '<th></th>'}
       ${mdunempByGenderlbl}
     </tr>
     <tr class="HeadRow" style="background-color: white;">
-      <th>2013-2017</th>
+      <th>2018</th>
       <th></th>
       <th></th>
       <th></th>
       <th></th>
-      <th></th>
+      ${ CountyName == 'Maryland' ? '' : '<th></th>'}
       ${mdNoTD}
     </tr>
     <tr>
       <th>Employed</th>
-      <td>${EduAttainment1[0]['Amount']}</td>
-      <td>${EduAttainment1[1]['Amount']}</td>
-      <td>${EduAttainment1[2]['Amount']}</td>
-      <td>${EduAttainment1[3]['Amount']}</td>
-      <th rowspan="3" style="border-style: solid;
-        border-color: #5281B7;">Unemployment Rate</th>
+      <td>${EduAttainment18[0]['Amount']}</td>
+      <td>${EduAttainment18[1]['Amount']}</td>
+      <td>${EduAttainment18[2]['Amount']}</td>
+      <td>${EduAttainment18[3]['Amount']}</td>
+      ${ CountyName == 'Maryland' ? '' : `<th rowspan="3" style="border-style: solid; border-color: #5281B7;">Unemployment Rate</th>`}
       ${mdNoTD}
     </tr>
     <tr>
       <th>Unemployed</th>
-      <td>${EduAttainment1[4]['Amount']}</td>
-      <td>${EduAttainment1[5]['Amount']}</td>
-      <td>${EduAttainment1[6]['Amount']}</td>
-      <td>${EduAttainment1[7]['Amount']}</td>
-      ${mdunempByGender}
+      <td>${EduAttainment18[4]['Amount']}</td>
+      <td>${EduAttainment18[5]['Amount']}</td>
+      <td>${EduAttainment18[6]['Amount']}</td>
+      <td>${EduAttainment18[7]['Amount']}</td>
+      ${mdunempByGender18}
     </tr>
     <tr>
       <th>Not In Labor Force (NIL)</th>
-      <td>${EduAttainment1[8]['Amount']}</td>
-      <td>${EduAttainment1[9]['Amount']}</td>
-      <td>${EduAttainment1[10]['Amount']}</td>
-      <td>${EduAttainment1[11]['Amount']}</td>
+      <td>${EduAttainment18[8]['Amount']}</td>
+      <td>${EduAttainment18[9]['Amount']}</td>
+      <td>${EduAttainment18[10]['Amount']}</td>
+      <td>${EduAttainment18[11]['Amount']}</td>
       ${mdNoTD}
     </tr>
     <tr class="HeadRow" style="background-color: white;">
-      <th>2012-2016: </th>
+      <th>2017</th>
       <th></th>
       <th></th>
       <th></th>
       <th></th>
-      <th></th>
+      ${ CountyName == 'Maryland' ? '' : '<th></th>'}
       ${mdNoTD}
     </tr>
     <tr>
       <th>Employed</th>
-      <td>${EduAttainment[0]['Amount']}</td>
-      <td>${EduAttainment[1]['Amount']}</td>
-      <td>${EduAttainment[2]['Amount']}</td>
-      <td>${EduAttainment[3]['Amount']}</td>
-      <th rowspan="3" style="border-style: solid;
-        border-color: #5281B7;">Unemployment Rate</th>
+      <td>${EduAttainment17[0]['Amount']}</td>
+      <td>${EduAttainment17[1]['Amount']}</td>
+      <td>${EduAttainment17[2]['Amount']}</td>
+      <td>${EduAttainment17[3]['Amount']}</td>
+      ${ CountyName == 'Maryland' ? '' : `<th rowspan="3" style="border-style: solid; border-color: #5281B7;">Unemployment Rate</th>`}
       ${mdNoTD}
     </tr>
     <tr>
       <th>Unemployed</th>
-      <td>${EduAttainment[4]['Amount']}</td>
-      <td>${EduAttainment[5]['Amount']}</td>
-      <td>${EduAttainment[6]['Amount']}</td>
-      <td>${EduAttainment[7]['Amount']}</td>
-      ${mdunempByGender1}
+      <td>${EduAttainment17[4]['Amount']}</td>
+      <td>${EduAttainment17[5]['Amount']}</td>
+      <td>${EduAttainment17[6]['Amount']}</td>
+      <td>${EduAttainment17[7]['Amount']}</td>
+      ${mdunempByGender17}
     </tr>
     <tr>
       <th>Not In Labor Force (NIL)</th>
-      <td>${EduAttainment[8]['Amount']}</td>
-      <td>${EduAttainment[9]['Amount']}</td>
-      <td>${EduAttainment[10]['Amount']}</td>
-      <td>${EduAttainment[11]['Amount']}</td>
-      <td></td>
+      <td>${EduAttainment17[8]['Amount']}</td>
+      <td>${EduAttainment17[9]['Amount']}</td>
+      <td>${EduAttainment17[10]['Amount']}</td>
+      <td>${EduAttainment17[11]['Amount']}</td>
+      ${mdNoTD}
+    </tr>
+    <tr class="HeadRow" style="background-color: white;">
+      <th>2016: </th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      ${ CountyName == 'Maryland' ? '' : '<th></th>'}
+      ${mdNoTD}
+    </tr>
+    <tr>
+      <th>Employed</th>
+      <td>${EduAttainment16[0]['Amount']}</td>
+      <td>${EduAttainment16[1]['Amount']}</td>
+      <td>${EduAttainment16[2]['Amount']}</td>
+      <td>${EduAttainment16[3]['Amount']}</td>
+      ${ CountyName == 'Maryland' ? '' : `<th rowspan="3" style="border-style: solid; border-color: #5281B7;">Unemployment Rate</th>`}
+      ${mdNoTD}
+    </tr>
+    <tr>
+      <th>Unemployed</th>
+      <td>${EduAttainment16[4]['Amount']}</td>
+      <td>${EduAttainment16[5]['Amount']}</td>
+      <td>${EduAttainment16[6]['Amount']}</td>
+      <td>${EduAttainment16[7]['Amount']}</td>
+      ${mdunempByGender16}
+    </tr>
+    <tr>
+      <th>Not In Labor Force (NIL)</th>
+      <td>${EduAttainment16[8]['Amount']}</td>
+      <td>${EduAttainment16[9]['Amount']}</td>
+      <td>${EduAttainment16[10]['Amount']}</td>
+      <td>${EduAttainment16[11]['Amount']}</td>
+      ${ CountyName == 'Maryland' ? '' : '<th></th>'}
+      ${mdNoTD}
+    </tr>
+    <tr class="HeadRow" style="background-color: white;">
+      <th>2015: </th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      ${ CountyName == 'Maryland' ? '' : '<th></th>'}
+      ${mdNoTD}
+    </tr>
+    <tr>
+      <th>Employed</th>
+      <td>${EduAttainment15[0]['Amount']}</td>
+      <td>${EduAttainment15[1]['Amount']}</td>
+      <td>${EduAttainment15[2]['Amount']}</td>
+      <td>${EduAttainment15[3]['Amount']}</td>
+      ${ CountyName == 'Maryland' ? '' : `<th rowspan="3" style="border-style: solid; border-color: #5281B7;">Unemployment Rate</th>`}
+      ${mdNoTD}
+    </tr>
+    <tr>
+      <th>Unemployed</th>
+      <td>${EduAttainment15[4]['Amount']}</td>
+      <td>${EduAttainment15[5]['Amount']}</td>
+      <td>${EduAttainment15[6]['Amount']}</td>
+      <td>${EduAttainment15[7]['Amount']}</td>
+      ${mdunempByGender15}
+    </tr>
+    <tr>
+      <th>Not In Labor Force (NIL)</th>
+      <td>${EduAttainment15[8]['Amount']}</td>
+      <td>${EduAttainment15[9]['Amount']}</td>
+      <td>${EduAttainment15[10]['Amount']}</td>
+      <td>${EduAttainment15[11]['Amount']}</td>
+      ${ CountyName == 'Maryland' ? '' : '<th></th>'}
       ${mdNoTD}
     </tr>
     `
@@ -350,15 +445,17 @@ import * as dimple from 'dimple';
     // Filter Data
     window.raceData = dimple.filterData(data, "Indicator", "Unemployment By Race")
     raceData = dimple.filterData(raceData, "Indicator_Status", ["White", "Black", "Asian", "Hispanic"]);
-    window.raceData1 = dimple.filterData(raceData, "Time", "2016")
-    window.raceData2 = dimple.filterData(raceData, "Time", "2015")
-    raceData = dimple.filterData(raceData, "Time", "2017")
+    window.raceData15 = dimple.filterData(raceData, "Time", "2015")
+    window.raceData16 = dimple.filterData(raceData, "Time", "2016")
+    window.raceData17 = dimple.filterData(raceData, "Time", "2017")
+    window.raceData18 = dimple.filterData(raceData, "Time", "2018")
 
     window.ethData = dimple.filterData(data, "Indicator", "Unemployment By Race")
     ethData = dimple.filterData(ethData, "Indicator_Status", ["White", "Hispanic"]);
-    window.ethData1 = dimple.filterData(ethData, "Time", "2016")
-    window.ethData2 = dimple.filterData(ethData, "Time", "2015")
-    ethData = dimple.filterData(ethData, "Time", "2017")
+    window.ethData15 = dimple.filterData(ethData, "Time", "2015")
+    window.ethData16 = dimple.filterData(ethData, "Time", "2016")
+    window.ethData17 = dimple.filterData(ethData, "Time", "2017")
+    window.ethData18 = dimple.filterData(ethData, "Time", "2018")
 
     // Config Chart
     window.empl_race_ethn_chart = new dimple.chart(empl_race_ethn_svg,raceData);
@@ -368,14 +465,14 @@ import * as dimple from 'dimple';
 
     document.getElementById('empl_race_ethn_table').innerHTML = `
         <tr class="HeadRow" style="background-color: white;">
-          <th>Baltimore City:</th>
+          <th>${CountyName}:</th>
           <th>White</th>
           <th>Black</th>
           <th>Asian</th>
           <th>Hispanic or Latino <br> (Any Race)</th>
         </tr>
         <tr class="HeadRow">
-          <th>2013-2017</th>
+          <th>2018</th>
           <th></th>
           <th></th>
           <th></th>
@@ -383,13 +480,27 @@ import * as dimple from 'dimple';
         </tr>
         <tr >
           <th>Unemployment Rate</th>
-          <td>${pcnt2(raceData1[0]['Amount'])}</td>
-          <td>${pcnt2(raceData1[1]['Amount'])}</td>
-          <td>${pcnt2(raceData1[2]['Amount'])}</td>
-          <td>${pcnt2(raceData1[3]['Amount'])}</td>
+          <td>${pcnt2(raceData18[0]['Amount'])}</td>
+          <td>${pcnt2(raceData18[1]['Amount'])}</td>
+          <td>${pcnt2(raceData18[2]['Amount'])}</td>
+          <td>${pcnt2(raceData18[3]['Amount'])}</td>
         </tr>
         <tr class="HeadRow">
-          <th>2012-2016
+          <th>2017</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        <tr >
+          <th>Unemployment Rate</th>
+          <td>${pcnt2(raceData17[0]['Amount'])}</td>
+          <td>${pcnt2(raceData17[1]['Amount'])}</td>
+          <td>${pcnt2(raceData17[2]['Amount'])}</td>
+          <td>${pcnt2(raceData17[3]['Amount'])}</td>
+        </tr>
+        <tr class="HeadRow">
+          <th>2016
           </th>
           <th></th>
           <th></th>
@@ -398,10 +509,25 @@ import * as dimple from 'dimple';
         </tr>
         <tr class="FootRow">
           <th>Unemployment Rate</th>
-          <td>${pcnt2(raceData[0]['Amount'])}</td>
-          <td>${pcnt2(raceData[1]['Amount'])}</td>
-          <td>${pcnt2(raceData[2]['Amount'])}</td>
-          <td>${pcnt2(raceData[3]['Amount'])}</td>
+          <td>${pcnt2(raceData16[0]['Amount'])}</td>
+          <td>${pcnt2(raceData16[1]['Amount'])}</td>
+          <td>${pcnt2(raceData16[2]['Amount'])}</td>
+          <td>${pcnt2(raceData16[3]['Amount'])}</td>
+        </tr>
+        <tr class="HeadRow">
+          <th>2015
+          </th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        <tr class="FootRow">
+          <th>Unemployment Rate</th>
+          <td>${pcnt2(raceData15[0]['Amount'])}</td>
+          <td>${pcnt2(raceData15[1]['Amount'])}</td>
+          <td>${pcnt2(raceData15[2]['Amount'])}</td>
+          <td>${pcnt2(raceData15[3]['Amount'])}</td>
         </tr>
     `
 
@@ -466,10 +592,11 @@ import * as dimple from 'dimple';
     var empl_vet_print_svg = dimple.newSvg("#empl_vet_chart_print", 750, 400);
 
     // Filter Data
-    window.vetData = dimple.filterData(data, "Indicator", "Unemployment By Veteran Status")
-    window.vetData1 = dimple.filterData(vetData, "Time", "2016");
-    window.vetData2 = dimple.filterData(vetData, "Time", "2015");
-    vetData = dimple.filterData(vetData, "Time", "2017");
+    let vetData = dimple.filterData(data, "Indicator", "Unemployment By Veteran Status")
+    window.vetData15 = dimple.filterData(vetData, "Time", "2015");
+    window.vetData16 = dimple.filterData(vetData, "Time", "2016");
+    window.vetData17 = dimple.filterData(vetData, "Time", "2017")
+    window.vetData18 = dimple.filterData(vetData, "Time", "2018");
 
     // Create Chart
     window.empl_vet_chart = new dimple.chart(empl_vet_svg,vetData);
@@ -477,29 +604,49 @@ import * as dimple from 'dimple';
 
     document.getElementById('empl_vet_table').innerHTML = `
         <tr class="HeadRow" style="background-color: white;">
-          <th>Baltimore City:</th>
+          <th>${CountyName}:</th>
           <th>Veteran</th>
           <th>Non Veteran</th>
         </tr>
         <tr class="HeadRow">
-          <th>2013-2017</th>
+          <th>2018</th>
           <th></th>
           <th></th>
         </tr>
         <tr>
           <th>Unemployment Rate</th>
-          <td>${pcnt2(vetData[0]['Amount'])}</td>
-          <td>${pcnt2(vetData[1]['Amount'])}</td>
+          <td>${pcnt2(vetData18[0]['Amount'])}</td>
+          <td>${pcnt2(vetData18[1]['Amount'])}</td>
         </tr>
         <tr class="HeadRow">
-          <th>2012-2016</th>
+          <th>2017</th>
           <th></th>
           <th></th>
         </tr>
         <tr class="FootRow">
           <th>Unemployment Rate</th>
-          <td>${pcnt2(vetData1[0]['Amount'])}</td>
-          <td>${pcnt2(vetData1[1]['Amount'])}</td>
+          <td>${pcnt2(vetData17[0]['Amount'])}</td>
+          <td>${pcnt2(vetData17[1]['Amount'])}</td>
+        </tr>
+        <tr class="HeadRow">
+          <th>2016</th>
+          <th></th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Unemployment Rate</th>
+          <td>${pcnt2(vetData16[0]['Amount'])}</td>
+          <td>${pcnt2(vetData16[1]['Amount'])}</td>
+        </tr>
+        <tr class="HeadRow">
+          <th>2015</th>
+          <th></th>
+          <th></th>
+        </tr>
+        <tr class="FootRow">
+          <th>Unemployment Rate</th>
+          <td>${pcnt2(vetData15[0]['Amount'])}</td>
+          <td>${pcnt2(vetData15[1]['Amount'])}</td>
         </tr>
     `
 
@@ -531,10 +678,9 @@ import * as dimple from 'dimple';
     }]
     createChart(createThese)
     
-    d3.select("#btn3county").on("change", chartChange);
-    d3.select("#btn31county").on("change", chartChange);
-    d3.select("#btn32county").on("change", chartChange);
-
+    d3.select("#year_dd").on("change", chartChange);
+    d3.select("#emplStatus_categ_dd").on("change", chartChange);
+    
     //
     //Chart 6 - QCEW  - Disablity and Povery
     //
@@ -547,33 +693,37 @@ import * as dimple from 'dimple';
     // Filter Data
     let povRate = dimple.filterData(data, "Indicator", "Employment Status By Poverty Status")
     povRate = dimple.filterData(povRate, "Employment_Status", ["Unemployed", "Labor Force", "Employed"])
-    let povRate1 = dimple.filterData(povRate, "Time", "2016");
-    let povRate2 = dimple.filterData(povRate, "Time", "2015");
-    povRate = dimple.filterData(povRate, "Time", "2017");
+    window.povRate18 = dimple.filterData(povRate, "Time", "2018");
+    window.povRate17 = dimple.filterData(povRate, "Time", "2017");
+    window.povRate16 = dimple.filterData(povRate, "Time", "2016");
+    window.povRate15 = dimple.filterData(povRate, "Time", "2015");
 
-    let DisAttainment1 = dimple.filterData(data, "Indicator", "Employment Status By Disability Status")
-    DisAttainment1 = dimple.filterData(DisAttainment1, "Employment_Status", ["Unemployed", "Labor Force", "Employed"])
-    let DisAttainment = dimple.filterData(DisAttainment1, "Time", "2017");
-    let DisAttainment2 = dimple.filterData(DisAttainment1, "Time", "2008-2011");
-    DisAttainment1 = dimple.filterData(DisAttainment1, "Time", "2016");
+    let disAttainment1 = dimple.filterData(data, "Indicator", "Employment Status By Disability Status")
+    disAttainment1 = dimple.filterData(disAttainment1, "Employment_Status", ["Unemployed", "Labor Force", "Employed"])
+    window.disAttainment18 = dimple.filterData(disAttainment1, "Time", "2018");
+    window.disAttainment17 = dimple.filterData(disAttainment1, "Time", "2017");
+    window.disAttainment16 = dimple.filterData(disAttainment1, "Time", "2016");
+    window.disAttainment15 = dimple.filterData(disAttainment1, "Time", "2008-2011");
 
     // Config Chart
     window.pempl_status_chart = new dimple.chart(disabl_pov_chart_print,povRate);
     window.empl_status_chart = new dimple.chart(disabl_pov_svg,povRate);
 
-    window.emp_dis_chart_print = new dimple.chart(disabl_pov_chart_print,DisAttainment);
-    window.emp_dis_chart = new dimple.chart(disabl_pov_svg,DisAttainment);
+    window.emp_dis_chart_print = new dimple.chart(disabl_pov_chart_print,disAttainment18);
+    window.emp_dis_chart = new dimple.chart(disabl_pov_svg,disAttainment18);
+
+    console.log({disAttainment18})
 
     document.getElementById('disabl_pov_table').innerHTML = `
     <tr class="HeadRow" style="background-color: white;">
-      <th>Baltimore County: </th>
+      <th>${CountyName}: </th>
       <th>Disabled Individuals</th>
       <th>Individuals without Disabilities</th>
       <th></th>
       <th>Income in the past 12 months below poverty level</th>
     </tr>
     <tr class="HeadRow" style="background-color: white;">
-      <th>2012-2016</th>
+      <th>2018</th>
       <th></th>
       <th></th>
       <th></th>
@@ -581,27 +731,27 @@ import * as dimple from 'dimple';
     </tr>
     <tr>
       <th>Labor Force</th>
-      <td id="t1">${DisAttainment1[4]['Amount']}</td>
-      <td id="t2">${DisAttainment1[5]['Amount']}</td>
-      <td ></td>
-      <td id="t3">${povRate1[1]['Amount']}</td>
+      <td>${!disAttainment18[4]?'--':disAttainment18[4]['Amount']}</td>
+      <td>${!disAttainment18[5]?'--':disAttainment18[5]['Amount']}</td>
+      <td></td>
+      <td>${povRate18[1]['Amount']}</td>
     </tr>
     <tr>
       <th>Employed</th>
-      <td id="t4">${DisAttainment1[0]['Amount']}</td>
-      <td id="t5">${DisAttainment1[1]['Amount']}</td>
+      <td>${!disAttainment18[0]?'--':disAttainment18[0]['Amount']}</td>
+      <td>${!disAttainment18[1]?'--':disAttainment18[1]['Amount']}</td>
       <td></td>
-      <td id="t6">${povRate1[3]['Amount']}</td>
+      <td>${povRate18[3]['Amount']}</td>
     </tr>
     <tr>
       <th>Unemployed</th>
-      <td>${DisAttainment1[2]['Amount']}</td>
-      <td>${DisAttainment1[3]['Amount']}</td>
+      <td>${disAttainment18[2]['Amount']}</td>
+      <td>${disAttainment18[3]['Amount']}</td>
       <td ></td>
-      <td>${povRate1[5]['Amount']}</td>
+      <td>${povRate18[5]['Amount']}</td>
     </tr>
     <tr class="HeadRow" style="background-color: white;">
-      <th>2013-2017</th>
+      <th>2017</th>
       <th></th>
       <th></th>
       <th></th>
@@ -609,24 +759,80 @@ import * as dimple from 'dimple';
     </tr>
     <tr>
       <th>Labor Force</th>
-      <td id="t13">${DisAttainment[4]['Amount']}</td>
-      <td id="t14">${DisAttainment[5]['Amount']}</td>
+      <td>${disAttainment17[4]['Amount']}</td>
+      <td>${disAttainment17[5]['Amount']}</td>
       <td></td>
-      <td id="t15">${povRate[1]['Amount']}</td>
+      <td>${povRate17[1]['Amount']}</td>
     </tr>
     <tr>
       <th>Employed</th>
-      <td id="t16">${DisAttainment[0]['Amount']}</td>
-      <td id="t17">${DisAttainment[1]['Amount']}</td>
+      <td>${disAttainment17[0]['Amount']}</td>
+      <td>${disAttainment17[1]['Amount']}</td>
       <td></td>
-      <td id="t18">${povRate[3]['Amount']}</td>
+      <td>${povRate17[3]['Amount']}</td>
     </tr>
     <tr class="FootRow">
       <th>Unemployed</th>
-      <td id="t19">${DisAttainment[2]['Amount']}</td>
-      <td id="t20">${DisAttainment[3]['Amount']}</td>
+      <td>${disAttainment17[2]['Amount']}</td>
+      <td>${disAttainment17[3]['Amount']}</td>
       <td></td>
-      <td id="t21">${povRate[5]['Amount']}</td>
+      <td>${povRate17[5]['Amount']}</td>
+    </tr>
+    <tr class="HeadRow" style="background-color: white;">
+      <th>2016</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <th>Labor Force</th>
+      <td>${disAttainment16[4]['Amount']}</td>
+      <td>${disAttainment16[5]['Amount']}</td>
+      <td></td>
+      <td>${povRate16[1]['Amount']}</td>
+    </tr>
+    <tr>
+      <th>Employed</th>
+      <td>${disAttainment16[0]['Amount']}</td>
+      <td>${disAttainment16[1]['Amount']}</td>
+      <td></td>
+      <td>${povRate16[3]['Amount']}</td>
+    </tr>
+    <tr>
+      <th>Unemployed</th>
+      <td>${disAttainment16[2]['Amount']}</td>
+      <td>${disAttainment16[3]['Amount']}</td>
+      <td ></td>
+      <td>${povRate16[5]['Amount']}</td>
+    </tr>
+    <tr class="HeadRow" style="background-color: white;">
+      <th>2015</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <th>Labor Force</th>
+      <td>${!disAttainment15[4]?'--':disAttainment15[4]['Amount']}</td>
+      <td>${!disAttainment15[5]?'--':disAttainment15[5]['Amount']}</td>
+      <td></td>
+      <td>${!povRate15[1]?'--':povRate15[1]['Amount']}</td>
+    </tr>
+    <tr>
+      <th>Employed</th>
+      <td>${!disAttainment15[0]?'--':disAttainment15[0]['Amount']}</td>
+      <td>${!disAttainment15[1]?'--':disAttainment15[1]['Amount']}</td>
+      <td></td>
+      <td>${!povRate15[3]?'--':povRate15[3]['Amount']}</td>
+    </tr>
+    <tr>
+      <th>Unemployed</th>
+      <td>${!disAttainment15[2]?'--':disAttainment15[2]['Amount']}</td>
+      <td>${!disAttainment15[3]?'--':disAttainment15[3]['Amount']}</td>
+      <td ></td>
+      <td>${!povRate15[5]?'--':povRate15[5]['Amount']}</td>
     </tr>
     `
 
@@ -692,102 +898,97 @@ import * as dimple from 'dimple';
     var tanf_svg = dimple.newSvg("#tanf_chart", "100%", 400);
     var tanf_chart_print = dimple.newSvg("#tanf_chart_print", 750, 400);
 
-    let tanfAttainment = dimple.filterData(data, "Indicator", "Number of TANF Recipient Workers")
-    tanfAttainment = dimple.filterData(tanfAttainment, "Employment_Status", "Employed")
-    let tanfAttainment2 = dimple.filterData(tanfAttainment, "Time", ["2015Q3", "2015Q4", "2016Q1", "2016Q2", "2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
-    let tanfAttainment1 = dimple.filterData(tanfAttainment, "Time", ["2015Q3", "2015Q4", "2016Q1", "2015Q2"]);
-    tanfAttainment = dimple.filterData(tanfAttainment, "Time", ["2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
+    let tanfAttainment = dimple.filterData(data, "Indicator", "TANF Workers")
+    window.tanfAttainment15 = dimple.filterData(tanfAttainment, "Time", ["2015Q1", "2015Q2", "2015Q3", "2015Q4"]);
+    window.tanfAttainment16 = dimple.filterData(tanfAttainment, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4"]);
+    window.tanfAttainment17 = dimple.filterData(tanfAttainment, "Time", ["2017Q1", "2017Q2", "2017Q3", "2017Q4"]);
+    window.tanfAttainment18 = dimple.filterData(tanfAttainment, "Time", ["2018Q1", "2018Q2", "2018Q3", "2018Q4"]);
+    window.tanfAttainment19 = dimple.filterData(tanfAttainment, "Time", ["2019Q1", "2019Q2"]);
 
-    let tanfRate = dimple.filterData(data, "Indicator", "Percentage of Workforce Training Program/Service Participants in TANF")
-    tanfRate = dimple.filterData(tanfRate, "Employment_Status", "Employed")
-    let tanfRate2 = dimple.filterData(tanfRate, "Time", ["2015Q3", "2015Q4", "2016Q1", "2016Q2", "2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
-    let tanfRate1 = dimple.filterData(tanfRate, "Time", ["2015Q3", "2015Q4", "2016Q1", "2016Q2"]);
-    tanfRate = dimple.filterData(tanfRate, "Time", ["2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
+    let tanfPerc = dimple.filterData(data, "Indicator", "Percent of Workers in TANF (%)")
+    window.tanfPerc15 = dimple.filterData(tanfPerc, "Time", ["2015Q1", "2015Q2", "2015Q3", "2015Q4"]);
+    window.tanfPerc16 = dimple.filterData(tanfPerc, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4"]);
+    window.tanfPerc17 = dimple.filterData(tanfPerc, "Time", ["2017Q1", "2017Q2", "2017Q3", "2017Q4"]);
+    window.tanfPerc18 = dimple.filterData(tanfPerc, "Time", ["2018Q1", "2018Q2", "2018Q3", "2018Q4"]);
+    window.tanfPerc19 = dimple.filterData(tanfPerc, "Time", ["2019Q1", "2019Q2"]);
 
-    let tanfData = dimple.filterData(data, "Indicator", "Percentage of TANF Recipients among Maryland Workers")
-    let tanfData2 = dimple.filterData(tanfData, "Time", ["2016Q2", "2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
-    let tanfData1 = dimple.filterData(tanfData, "Time", ["2015Q3", "2015Q4", "2016Q1", "2016Q2"]);
-    tanfData = dimple.filterData(tanfData, "Time", ["2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
+    let tanfRate = dimple.filterData(data, "Indicator", "Percent of Workforce Service participants in TANF (%)")
+    window.tanfRate15 = dimple.filterData(tanfRate, "Time", ["2015Q1", "2015Q2", "2015Q3", "2015Q4"]);
+    window.tanfRate16 = dimple.filterData(tanfRate, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4"]);
+    window.tanfRate17 = dimple.filterData(tanfRate, "Time", ["2017Q1", "2017Q2", "2017Q3", "2017Q4"]);
+    window.tanfRate18 = dimple.filterData(tanfRate, "Time", ["2018Q1", "2018Q2", "2018Q3", "2018Q4"]);
+    window.tanfRate19 = dimple.filterData(tanfRate, "Time", ["2019Q1", "2019Q2"]);
 
-    document.getElementById('tanf_table').innerHTML = `
-        <tr class="HeadRow" style="background-color: white;">
-          <th>Baltimore City:</th>
-          <th>TANF Recipient Workers (count)</th>
-          <th>Service participants in TANF (percent)</th>
-          <th>Maryland workers receiving TANF (percent)</th>
-        </tr>
-        <tr class="HeadRow">
-          <th>2015Q3 - 2016Q2</th>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <th>2015 Q3</th>
-          <td id="Tanf1">${tanfAttainment1[0]['Amount']}</td>
-          <td id="Ptanf1">${pcnt(tanfRate1[0]['Amount'])}</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <th>2015 Q4</th>
-          <td id="Tanf2">${tanfAttainment1[1]['Amount']}</td>
-          <td id="Ptanf2">${pcnt(tanfRate1[1]['Amount'])}</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <th>2016 Q1</th>
-          <td id="Tanf3">${tanfAttainment1[2]['Amount']}</td>
-          <td id="Ptanf3">${pcnt(tanfRate1[2]['Amount'])}</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <th>2016 Q2</th>
-          <td id="Tanf4">${tanfAttainment1[3]['Amount']}</td>
-          <td id="Ptanf4">${pcnt(tanfRate2[3]['Amount'])}</td>
-          <td>-</td>
-        </tr>
-        <tr class="HeadRow">
-          <th>2016Q3 - 2017Q2</th>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <th>2016 Q3</th>
-          <td id="Tanf5">${tanfAttainment[0]['Amount']}</td>
-          <td id="Ptanf5">${pcnt(tanfRate[0]['Amount'])}</td>
-          <td id="t28">${pcnt(tanfData[0]['Amount'])}</td>
-        </tr>
-        <tr>
-          <th>2016 Q4</th>
-          <td id="Tanf6">${tanfAttainment[1]['Amount']}</td>
-          <td id="Ptanf6">${pcnt(tanfRate[1]['Amount'])}</td>
-          <td id="t29">${pcnt(tanfData[1]['Amount'])}</td>
-        </tr>
-        <tr>
-          <th>2017 Q1</th>
-          <td id="Tanf7">${tanfAttainment[2]['Amount']}</td>
-          <td id="Ptanf7">${pcnt(tanfRate[2]['Amount'])}</td>
-          <td id="t30">${pcnt(tanfData[2]['Amount'])}</td>
-        </tr>
-        <tr class="FootRow">
-          <th>2017 Q2</th>
-          <td id="Tanf8">${tanfAttainment[3]['Amount']}</td>
-          <td id="Ptanf8">${pcnt(tanfRate[3]['Amount'])}</td>
-          <td id="t31">${pcnt(tanfData[3]['Amount'])}</td>
-        </tr>
-    `
+    let tanfData = dimple.filterData(data, "Indicator", "TANF Participants in Workforce Service ")
+    window.tanfData15 = dimple.filterData(tanfData, "Time", ["2015Q1", "2015Q2", "2015Q3", "2015Q4"]);
+    window.tanfData16 = dimple.filterData(tanfData, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4"]);
+    window.tanfData17 = dimple.filterData(tanfData, "Time", ["2017Q1", "2017Q2", "2017Q3", "2017Q4"]);
+    window.tanfData18 = dimple.filterData(tanfData, "Time", ["2018Q1", "2018Q2", "2018Q3", "2018Q4"]);
+    window.tanfData19 = dimple.filterData(tanfData, "Time", ["2019Q1", "2019Q2"]);
 
-    let ordered = ["2015Q3", "2015Q4", "2016Q1", "2016Q2", "2016Q3", "2016Q4", "2017Q1", "2017Q2"]
+    window.display_tanf_table = ( year, tanfAttainment, tanfPerc, tanfRate, tanfData) => {
+        console.log({'TANF':'Data', year, tanfAttainment, tanfPerc, tanfRate, tanfData});
+        let find = (objArr, indx) => {
+          // Search
+          let returnThis =  objArr.filter( obj => { 
+            // console.log( obj['Time'].search( ['Q1','Q2','Q3','Q4'][indx] ) )
+            return obj['Time'].search( ['Q1','Q2','Q3','Q4'][indx] ) > -1 ? true : false
+          } )
+          // console.log({returnThis})
+          returnThis = returnThis[0]
+          returnThis = returnThis == undefined ? '--' : returnThis['Amount']
+          return returnThis
+        }
+        document.getElementById('tanf_table').innerHTML = `
+            <tr class="HeadRow" style="background-color: white;">
+              <th>${CountyName}:</th>
+              <th>TANF Recipient Workers (count)</th>
+              <th>Percent of Workers in TANF</th>
+              <th>Service participants in TANF (percent)</th>
+              <th>Maryland workers receiving TANF (percent)</th>
+            </tr>
+            <tr>
+              <th>${year}Q1</th>
+              <td>${find(tanfAttainment,0)}</td>
+              <td>${pcnt(find(tanfPerc,0))}</td>
+              <td>${pcnt2(find(tanfRate,0))}</td>
+              <td>${pcnt2(find(tanfData,0) )}</td>
+            </tr>
+            <tr>
+              <th>${year}Q2</th>
+              <td>${find(tanfAttainment,1)}</td>
+              <td>${pcnt(find(tanfPerc,1))}</td>
+              <td>${pcnt2(find(tanfRate,1))}</td>
+              <td>${pcnt2(find(tanfData,1))}</td>
+            </tr>
+            <tr>
+              <th>${year}Q3</th>
+              <td>${find(tanfAttainment,2)}</td>
+              <td>${pcnt(find(tanfPerc,2))}</td>
+              <td>${pcnt2(find(tanfRate,2))}</td>
+              <td>${pcnt2(find(tanfData,2))}</td>
+            </tr>
+            <tr>
+              <th>${year}Q4</th>
+              <td>${find(tanfAttainment,3)}</td>
+              <td>${pcnt(find(tanfPerc,3))}</td>
+              <td>${pcnt2(find(tanfRate,3))}</td>
+              <td>${pcnt2(find(tanfData,3))}</td>
+            </tr>
+        `
+    }
+    display_tanf_table('2018', tanfAttainment18, tanfPerc18, tanfRate18, tanfData18)
 
-    window.ptanf_attainment_chart = new dimple.chart(tanf_chart_print, tanfAttainment2);
-    window.tanf_attainment_chart = new dimple.chart(tanf_svg, tanfAttainment2);
+    let ordered = ["2018Q1", "2018Q2", "2018Q3", "2018Q4"]
 
-    window.ptanf_rate_chart = new dimple.chart(tanf_chart_print, tanfRate2);
-    window.tanf_rate_chart = new dimple.chart(tanf_svg, tanfRate2);
+    window.ptanf_attainment_chart = new dimple.chart(tanf_chart_print, tanfAttainment18);
+    window.tanf_attainment_chart = new dimple.chart(tanf_svg, tanfAttainment18);
 
-    window.tanf_data = new dimple.chart(tanf_svg, tanfData2);
-    window.ptanf_data = new dimple.chart(tanf_chart_print, tanfData2);
+    window.ptanf_rate_chart = new dimple.chart(tanf_chart_print, tanfRate18);
+    window.tanf_rate_chart = new dimple.chart(tanf_svg, tanfRate18);
+
+    window.tanf_data = new dimple.chart(tanf_svg, tanfData18);
+    window.ptanf_data = new dimple.chart(tanf_chart_print, tanfData18);
 
     createThese = [{
         "chart": window.tanf_attainment_chart,
@@ -864,66 +1065,6 @@ import * as dimple from 'dimple';
     } ]
     createChart(createThese)
 
-    d3.select("#btn9county").on("change", function() {
-        var e7 = document.getElementById("btn9county");
-        var strUser7 = e7.options[e7.selectedIndex].text;
-        if (strUser7 == "2016") {
-            emp_dis_chart.data = DisAttainment1;
-            empl_status_chart.data = povRate1;
-            emp_dis_chart_print.data = DisAttainment1;
-            pempl_status_chart.data = povRate1;
-        }
-        if (strUser7 == "2017") {
-            emp_dis_chart.data = DisAttainment;
-            empl_status_chart.data = povRate;
-            emp_dis_chart_print.data = DisAttainment;
-            pempl_status_chart.data = povRate;
-        }
-        if (strUser7 == "2015") {
-            emp_dis_chart.data = DisAttainment2;
-            empl_status_chart.data = povRate2;
-            emp_dis_chart_print.data = DisAttainment2;
-            pempl_status_chart.data = povRate2;
-        }
-        emp_dis_chart.draw(1000);
-        empl_status_chart.draw(1000);
-        emp_dis_chart_print.draw(1000);
-        pempl_status_chart.draw(1000);
-    });
-
-    d3.select("#btn8county").on("change", function() {
-        var e7 = document.getElementById("btn8county");
-        var strUser7 = e7.options[e7.selectedIndex].text;
-        if (strUser7 == "All") {
-            console.log({tanfAttainment2, tanfRate2})
-            tanf_attainment_chart.data = tanfAttainment2;
-            ptanf_attainment_chart.data = tanfAttainment2;
-            tanf_rate_chart.data = tanfRate2;
-            ptanf_rate_chart.data = tanfRate2;
-
-        }
-        if (strUser7 == "2015Q3-2016Q2") {
-            console.log({tanfAttainment1, tanfRate1})
-            tanf_attainment_chart.data = tanfAttainment1;
-            ptanf_attainment_chart.data = tanfAttainment1;
-            tanf_rate_chart.data = tanfRate1;
-            ptanf_rate_chart.data = tanfRate1;
-
-        }
-        if (strUser7 == "2016Q3-2017Q2") {
-            console.log({tanfAttainment, tanfRate})
-            tanf_attainment_chart.data = tanfAttainment;
-            ptanf_attainment_chart.data = tanfAttainment;
-            tanf_rate_chart.data = tanfRate;
-            ptanf_rate_chart.data = tanfRate;
-        }
-            drawAll();
-            tanf_attainment_chart.draw(1000,false);
-            tanf_rate_chart.draw(1000);
-            ptanf_attainment_chart.draw(1000);
-            ptanf_rate_chart.draw(1000);
-    });
-
     if (!emplStatusCounties.includes(CountyName)) {
         console.log('Employment_Status');
         console.log(CountyName)
@@ -944,24 +1085,28 @@ import * as dimple from 'dimple';
 
         var empl_status_svg = dimple.newSvg("#empl_status_chart", "100%", 500);
         var empl_status_chart_print = dimple.newSvg("#empl_status_chart_print", 750, 400);
-        let workerDatag1 = dimple.filterData(data, "Indicator", "Work Experience by Gender")
-        let workerDatag2 = dimple.filterData(workerDatag1, "Time", "2016");
-        let workerDatag3 = dimple.filterData(workerDatag1, "Time", "2017");
+        window.workerDatag1 = dimple.filterData(data, "Indicator", "Work Experience by Gender")
+        window.workerDatag2 = dimple.filterData(workerDatag1, "Time", "2016");
+        window.workerDatag3 = dimple.filterData(workerDatag1, "Time", "2017");
+        window.workerDatag4 = dimple.filterData(workerDatag1, "Time", "2018");
         workerDatag1 = dimple.filterData(workerDatag1, "Time", "2015");
         //education
-        let workerDatae1 = dimple.filterData(data, "Indicator", "Work Experience by Education")
-        let workerDatae2 = dimple.filterData(workerDatae1, "Time", "2016");
-        let workerDatae3 = dimple.filterData(workerDatae1, "Time", "2017");
+        window.workerDatae1 = dimple.filterData(data, "Indicator", "Work Experience by Education")
+        window.workerDatae2 = dimple.filterData(workerDatae1, "Time", "2016");
+        window.workerDatae3 = dimple.filterData(workerDatae1, "Time", "2017");
+        window.workerDatae4 = dimple.filterData(workerDatae1, "Time", "2018");
         workerDatae1 = dimple.filterData(workerDatae1, "Time", "2015");
         //race
-        let workerDatar1 = dimple.filterData(data, "Indicator", "Work Experience by Race")
-        let workerDatar2 = dimple.filterData(workerDatar1, "Time", "2016");
-        let workerDatar3 = dimple.filterData(workerDatar1, "Time", "2017");
+        window.workerDatar1 = dimple.filterData(data, "Indicator", "Work Experience by Race")
+        window.workerDatar2 = dimple.filterData(workerDatar1, "Time", "2016");
+        window.workerDatar3 = dimple.filterData(workerDatar1, "Time", "2017");
+        window.workerDatar3 = dimple.filterData(workerDatar1, "Time", "2018");
         workerDatar1 = dimple.filterData(workerDatar1, "Time", "2015");
         //poverty
-        let workerDatap1 = dimple.filterData(data, "Indicator", "Work Experience by Poverty")
-        let workerDatap2 = dimple.filterData(workerDatap1, "Time", "2016");
-        let workerDatap3 = dimple.filterData(workerDatap1, "Time", "2017");
+        window.workerDatap1 = dimple.filterData(data, "Indicator", "Work Experience by Poverty")
+        window.workerDatap2 = dimple.filterData(workerDatap1, "Time", "2016");
+        window.workerDatap3 = dimple.filterData(workerDatap1, "Time", "2017");
+        window.workerDatap4 = dimple.filterData(workerDatap1, "Time", "2018");
         workerDatap1 = dimple.filterData(workerDatap1, "Time", "2015");
 
         window.work_exp_pov_chart = new dimple.chart(empl_status_svg,workerDatag3);
@@ -996,67 +1141,17 @@ import * as dimple from 'dimple';
             "legend": ["16%", "90%", "50%", "70%", "right"]
         } ]
         createChart(createThese)
-
-        window.WorkerChart = function() {
-            var e7 = document.getElementById("btn10county");
-            var strUser7 = e7.options[e7.selectedIndex].text;
-            var e8 = document.getElementById("btn11county");
-            var strUser8 = e8.options[e8.selectedIndex].text;
-            if (strUser7 == "2015") {
-                if (strUser8 == "Gender") {
-                    work_exp_pov_chart.data = workerDatag1;
-                } else if (strUser8 == "Race") {
-                    work_exp_pov_chart.data = workerDatar1;
-                } else if (strUser8 == "Education") {
-                    work_exp_pov_chart.data = workerDatae1;
-                } else if (strUser8 == "Poverty") {
-                    work_exp_pov_chart.data = workerDatap1;
-                }
-                console.log('fuck', strUser7, strUser8 )
-                pwork_exp_pov_chart.data = work_exp_pov_chart.data;
-            }
-            if (strUser7 == "2016") {
-                if (strUser8 == "Gender") {
-                    work_exp_pov_chart.data = workerDatag2;
-                } else if (strUser8 == "Race") {
-                    work_exp_pov_chart.data = workerDatar2;
-                } else if (strUser8 == "Education") {
-                    work_exp_pov_chart.data = workerDatae2;
-                } else if (strUser8 == "Poverty") {
-                    work_exp_pov_chart.data = workerDatap2;
-                }
-            }
-            if (strUser7 == "2017") {
-                if (strUser8 == "Gender") {
-                    work_exp_pov_chart.data = workerDatag3;
-                } else if (strUser8 == "Race") {
-                    work_exp_pov_chart.data = workerDatar3;
-                } else if (strUser8 == "Education") {
-                    work_exp_pov_chart.data = workerDatae3;
-                } else if (strUser8 == "Poverty") {
-                    work_exp_pov_chart.data = workerDatap3;
-                }
-            }
-            drawAll();
-            work_exp_pov_chart.draw(1000);
-            pwork_exp_pov_chart.draw(1000);
-        }
-        d3.select("#btn10county").on("change", WorkerChart );
-        d3.select("#btn11county").on("change", WorkerChart );
     }
 
     // 
     // Snap
     // 
-    console.log('SNAP')
 
     //Create Tables
     url = "./data/snap/snap_"+CountyName4.replace(/[ ]/g,'')+".csv"
     console.log(url)
     let snap_data = await d3.dsv(",", url)
     snap_data.unshift(["SNAP Recipient Workers","",2016,2017,2018])
-    //snap_data = d3.csv(await url )
-    /// console.log('Snap url', snap_data)
     var container = d3.select("#snap_table")
 	var rows = container.selectAll('tr').data(snap_data).enter().append('tr')
 	var cells = rows.selectAll('td').data( row => { 
@@ -1131,27 +1226,6 @@ import * as dimple from 'dimple';
     }, ]
     createChart(createThese)
 
-    var togNum = 1;
-    var togNum1 = 1;
-    d3.select("#btn5county").on("click", function() {
-        if (togNum == 1) {
-            edLegend.shapes.style("visibility", "hidden");
-            togNum = 0;
-        } else if (togNum == 0) {
-            edLegend.shapes.style("visibility", "visible");
-            togNum = 1;
-        }
-    });
-    d3.select("#btn6county").on("click", function() {
-        if (togNum1 == 1) {
-            togNum1 = 0;
-            qLegend.shapes.style("visibility", "hidden");
-        } else if (togNum1 == 0) {
-            togNum1 = 1;
-            qLegend.shapes.style("visibility", "visible");
-        }
-    })
-
 }
 )()
 
@@ -1197,43 +1271,157 @@ window.chartChange = function() {
     console.log(this)
     var strUser3 = this.options[this.selectedIndex].text;
     console.log(strUser3)
+    if (strUser3 == "2019") {
+        console.log({tanfAttainment19, tanfRate19})
+        tanf_attainment_chart.data = tanfAttainment19;
+        ptanf_attainment_chart.data = tanfAttainment19;
+        tanf_rate_chart.data = tanfRate19;
+        ptanf_rate_chart.data = tanfRate19;
+        display_tanf_table('2019', tanfAttainment19, tanfPerc19, tanfRate19, tanfData19)
+    }
+    if (strUser3 == "2018") {
+        empl_edu_chart.data = EduAttainment18;
+        empl_edu_gend_chart.data = unempByGender18;
+        empl_race_ethn_chart.data = raceData18;
+        chart5.data = ethData18;
+        empl_vet_chart.data = vetData18;
+        pempl_edu_chart.data = EduAttainment18;
+        pempl_edu_gend_chart.data = unempByGender18;
+        pempl_race_ethn_chart.data = raceData18;
+        pchart5.data = ethData18;
+        empl_vet_print_chart.data = vetData18;
+        pempl_status_chart.data = povRate18
+        empl_status_chart.data = povRate18
+        emp_dis_chart_print.data = disAttainment18
+        emp_dis_chart.data = disAttainment18
+
+        tanf_attainment_chart.data = tanfAttainment18;
+        ptanf_attainment_chart.data = tanfAttainment18;
+        tanf_rate_chart.data = tanfRate18;
+        ptanf_rate_chart.data = tanfRate18;
+        display_tanf_table('2018', tanfAttainment18, tanfPerc18, tanfRate18, tanfData18)
+    }
     if (strUser3 == "2017") {
-        empl_edu_chart.data = EduAttainment;
-        empl_edu_gend_chart.data = unempByGender;
-        empl_race_ethn_chart.data = raceData;
-        chart5.data = ethData;
-        empl_vet_chart.data = vetData;
-        pempl_edu_chart.data = EduAttainment;
-        pempl_edu_gend_chart.data = unempByGender;
-        pempl_race_ethn_chart.data = raceData;
-        pchart5.data = ethData;
-        empl_vet_print_chart.data = vetData;
+        empl_edu_chart.data = EduAttainment17;
+        empl_edu_gend_chart.data = unempByGender17;
+        empl_race_ethn_chart.data = raceData17;
+        chart5.data = ethData17;
+        empl_vet_chart.data = vetData17;
+        pempl_edu_chart.data = EduAttainment17;
+        pempl_edu_gend_chart.data = unempByGender17;
+        pempl_race_ethn_chart.data = raceData17;
+        pchart5.data = ethData17;
+        empl_vet_print_chart.data = vetData17;
+        pempl_status_chart.data = povRate17
+        empl_status_chart.data = povRate17
+        emp_dis_chart_print.data = disAttainment17
+        emp_dis_chart.data = disAttainment17
+
+        tanf_attainment_chart.data = tanfAttainment17;
+        ptanf_attainment_chart.data = tanfAttainment17;
+        tanf_rate_chart.data = tanfRate17;
+        ptanf_rate_chart.data = tanfRate17;
+        display_tanf_table('2017', tanfAttainment17, tanfPerc17, tanfRate17, tanfData17)
     }
     if (strUser3 == "2016") {
-        empl_edu_chart.data = EduAttainment1;
-        empl_edu_gend_chart.data = unempByGender1;
-        empl_race_ethn_chart.data = raceData1;
-        chart5.data = ethData1;
-        empl_vet_chart.data = vetData1;
-        pempl_edu_chart.data = EduAttainment1;
-        pempl_edu_gend_chart.data = unempByGender1;
-        pempl_race_ethn_chart.data = raceData1;
-        pchart5.data = ethData1;
-        empl_vet_print_chart.data = vetData1;
+        empl_edu_chart.data = EduAttainment16;
+        empl_edu_gend_chart.data = unempByGender16;
+        empl_race_ethn_chart.data = raceData16;
+        chart5.data = ethData16;
+        empl_vet_chart.data = vetData16;
+        pempl_edu_chart.data = EduAttainment16;
+        pempl_edu_gend_chart.data = unempByGender16;
+        pempl_race_ethn_chart.data = raceData16;
+        pchart5.data = ethData16;
+        empl_vet_print_chart.data = vetData16;
+        pempl_status_chart.data = povRate16
+        empl_status_chart.data = povRate16
+        emp_dis_chart_print.data = disAttainment16
+        emp_dis_chart.data = disAttainment16
+
+        tanf_attainment_chart.data = tanfAttainment16;
+        ptanf_attainment_chart.data = tanfAttainment16;
+        tanf_rate_chart.data = tanfRate16;
+        ptanf_rate_chart.data = tanfRate16;
+        display_tanf_table('2016', tanfAttainment16, tanfPerc16, tanfRate16, tanfData16)
+
     }
     if (strUser3 == "2015") {
-        empl_edu_chart.data = EduAttainment2;
-        empl_edu_gend_chart.data = unempByGender2;
-        empl_race_ethn_chart.data = raceData2;
-        chart5.data = ethData2;
-        empl_vet_chart.data = vetData2;
-        pempl_edu_chart.data = EduAttainment2;
-        pempl_edu_gend_chart.data = unempByGender2;
-        pempl_race_ethn_chart.data = raceData2;
-        pchart5.data = ethData2;
-        empl_vet_print_chart.data = vetData2;
+        empl_edu_chart.data = EduAttainment15;
+        empl_edu_gend_chart.data = unempByGender15;
+        empl_race_ethn_chart.data = raceData15;
+        chart5.data = ethData15;
+        empl_vet_chart.data = vetData15;
+        pempl_edu_chart.data = EduAttainment15;
+        pempl_edu_gend_chart.data = unempByGender15;
+        pempl_race_ethn_chart.data = raceData15;
+        pchart5.data = ethData15;
+        empl_vet_print_chart.data = vetData15;
+        pempl_status_chart.data = povRate15
+        empl_status_chart.data = povRate15
+        emp_dis_chart_print.data = disAttainment15
+        emp_dis_chart.data = disAttainment15
+
+        tanf_attainment_chart.data = tanfAttainment15;
+        ptanf_attainment_chart.data = tanfAttainment15;
+        tanf_rate_chart.data = tanfRate15;
+        ptanf_rate_chart.data = tanfRate15;
+        display_tanf_table('2015', tanfAttainment15, tanfPerc15, tanfRate15, tanfData15)
+
     }
-    //edSeries.lineWeight = 0;
+
+    var e8 = document.getElementById("emplStatus_categ_dd");
+    var strUser8 = e8.options[e8.selectedIndex].text;
+    if (strUser3 == "2015") {
+        if (strUser8 == "Gender") {
+            work_exp_pov_chart.data = workerDatag1;
+        } else if (strUser8 == "Race") {
+            work_exp_pov_chart.data = workerDatar1;
+        } else if (strUser8 == "Education") {
+            work_exp_pov_chart.data = workerDatae1;
+        } else if (strUser8 == "Poverty") {
+            work_exp_pov_chart.data = workerDatap1;
+        }
+        pwork_exp_pov_chart.data = work_exp_pov_chart.data;
+    }
+    if (strUser3 == "2016") {
+        if (strUser8 == "Gender") {
+            work_exp_pov_chart.data = workerDatag2;
+        } else if (strUser8 == "Race") {
+            work_exp_pov_chart.data = workerDatar2;
+        } else if (strUser8 == "Education") {
+            work_exp_pov_chart.data = workerDatae2;
+        } else if (strUser8 == "Poverty") {
+            work_exp_pov_chart.data = workerDatap2;
+        }
+    }
+    if (strUser3 == "2017") {
+        if (strUser8 == "Gender") {
+            work_exp_pov_chart.data = workerDatag3;
+        } else if (strUser8 == "Race") {
+            work_exp_pov_chart.data = workerDatar3;
+        } else if (strUser8 == "Education") {
+            work_exp_pov_chart.data = workerDatae3;
+        } else if (strUser8 == "Poverty") {
+            work_exp_pov_chart.data = workerDatap3;
+        }
+    }
+    if (strUser3 == "2018") {
+        if (strUser8 == "Gender") {
+            work_exp_pov_chart.data = workerDatag4;
+        } else if (strUser8 == "Race") {
+            work_exp_pov_chart.data = workerDatar4;
+        } else if (strUser8 == "Education") {
+            work_exp_pov_chart.data = workerDatae4;
+        } else if (strUser8 == "Poverty") {
+            work_exp_pov_chart.data = workerDatap4;
+        }
+    }
+    drawAll();
+    
+    work_exp_pov_chart.draw(1000);
+    pwork_exp_pov_chart.draw(1000);
+
     empl_edu_chart.draw(1000);
     empl_edu_gend_chart.draw(1000);
     empl_race_ethn_chart.draw(1000);
@@ -1246,6 +1434,18 @@ window.chartChange = function() {
     pchart5.draw(1000);
     empl_vet_print_chart.draw(1000);
 
+
+    pempl_status_chart.draw(1000);
+    empl_status_chart.draw(1000);
+    emp_dis_chart_print.draw(1000);
+    emp_dis_chart.draw(1000);
+
+    tanf_attainment_chart.draw(1000,false);
+    tanf_rate_chart.draw(1000);
+    ptanf_attainment_chart.draw(1000);
+    ptanf_rate_chart.draw(1000);
+
+    drawAll();
 }
 
 
@@ -1268,21 +1468,6 @@ window.showChart = function() {  showall(charts) }
 //
 // BUTTONS
 //
-
-CountyName2 == 'Maryland' ? '' : window.onload = function() {
-    document.querySelectorAll('[data-lbl]').forEach( el => {
-		el.removeAttribute("disabled");
-        el.addEventListener("click", function(){
-            console.log('Clicked', el.dataset.lbl, el);
-            whichChart = el.dataset.lbl;
-            hideall(collapsables)
-            document.getElementById(el.dataset.lbl).style.display = "inline";
-            drawAll();
-            hidePrint();
-        })   
-         
-    })
-}
 
 window.printAll = function() {
     let showThese = collapsables
@@ -1335,4 +1520,61 @@ window.printClick = function() {
     }
     drawAll();
     window.print();
+}
+
+CountyName2 == 'Maryland' ? '' : window.onload = function() {
+    document.getElementById("dropdownMenu").style.display  = "none";
+    document.getElementById("title").style.display  = "none";
+    document.querySelectorAll('[data-lbl]').forEach( el => {
+		el.removeAttribute("disabled");
+        el.addEventListener("click", function(){
+            console.log('Clicked', el.dataset.lbl, el);
+            whichChart = el.dataset.lbl;
+            let dropdownMenu = document.getElementById("dropdownMenu")
+            let elem = document.getElementById("title")
+            elem.style.display  = "inline";
+            switch(whichChart) {
+              case 'pop':
+                elem.innerHTML = 'Population and Median Household Income'
+                dropdownMenu.style.display  = "none";
+                break;
+              case 'empl_edu_gend':
+                elem.innerHTML = 'Demographics - Education and Gender'
+                dropdownMenu.style.display  = "inline";
+                break;
+              case 'empl_race_ethn':
+                elem.innerHTML = 'Demographics - Race and Ethnicity'
+                dropdownMenu.style.display  = "inline";
+                break;
+              case 'empl_vet':
+                elem.innerHTML = 'Demographics - Veterans Status'
+                dropdownMenu.style.display  = "inline";
+                break;
+              case 'disabl_pov':
+                elem.innerHTML = 'Disability and Poverty'
+                dropdownMenu.style.display  = "inline";
+                break;
+              case 'tanf':
+                elem.innerHTML = 'Temporary Aid for Needy Families (TANF) Stats'
+                dropdownMenu.style.display  = "inline";
+                break;
+              case 'empl_status':
+                elem.innerHTML = 'Employment Status amongst Maryland Workers'
+                dropdownMenu.style.display  = "inline";
+                break;
+              case 'snap':
+                elem.innerHTML = 'SNAP Recipient Workers'
+                dropdownMenu.style.display  = "none";
+                break;
+              default:
+                elem.innerHTML = 'Empty'
+                dropdownMenu.style.display  = "none";
+            } 
+            hideall(collapsables)
+            document.getElementById(el.dataset.lbl).style.display = "inline";
+            drawAll();
+            hidePrint();
+        })   
+         
+    })
 }

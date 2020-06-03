@@ -480,3 +480,16 @@ td:nth-child(2){width: 10%};
 }  
 			
 
+
+
+.picDiv {
+	width: 600px;
+	height: 600px;
+	overflow: hidden;
+	margin-left: 20%;
+}
+.picDiv img {
+	width: 325%;
+	height: 325%;
+	margin: -110% 0 0 -108.5%;
+}

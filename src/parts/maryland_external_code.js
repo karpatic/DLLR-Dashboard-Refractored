@@ -32,6 +32,7 @@ import * as dimple from 'dimple';
     console.log('Apprenticeship Completers!', {mAppData}); 
 
     // Create Table
+    console.log(document)
 	document.getElementById('table11').innerHTML = `
 	<tr class="HeadRow" style="background-color: white;">
 	  <th>Apprenticeship Program Completers in Maryland</th>
@@ -417,20 +418,7 @@ window.hidePrint = function() { hideall(prints) }
 window.hideChart = function() { hideall(charts) }
 window.showPrint = function() { showall(prints) }
 window.showChart = function() { showall(charts) }
-/*
-window.printAll = function() {
-    showAll(collapsables);
-    showPrint();
-    drawAll();
-    window.print();
-}
 
-window.onafterprint = function() {
-    hideall(collapsables);
-    showChart();
-    showAll(["Landing"])
-}
-*/
 var whichChart = 1;
 
 window.onload = function () {

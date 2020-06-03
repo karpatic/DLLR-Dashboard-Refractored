@@ -81,6 +81,29 @@ module.exports = env => {
 		],
       },
       {
+        test: /\.s[ac]ss$/i,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              hmr: process.env.NODE_ENV === 'development',
+              reloadAll: true,
+            },
+          },
+          'css-loader',
+          { loader: "postcss-loader",
+            options: {
+              ident: 'postcss',
+              plugins: [
+                require('postcss-preset-env')(),
+                require('cssnano')(),
+              ]
+            }
+          },
+          'sass-loader',
+        ],
+      },
+      {
         test: /\.svg$/,
         loader: 'svg-inline-loader?classPrefix'
       },

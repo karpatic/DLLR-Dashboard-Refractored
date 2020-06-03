@@ -11,7 +11,6 @@ import icon192 from "./images/icon192.png"
 import icon512 from "./images/icon512.png" 
 import image from "./images/image.png"
 
-import manifest from "./manifest.js"
 (async () => {  
 
 let hr = myConfig.default;
@@ -23,51 +22,6 @@ hr.shortName = 'Shortname'
 // imageLocation = imageLocation.replace(/\s/g, "_").replace("index.html", "");
 // Hashtags get commented out. careful for "background_color" "theme_color"
 
-//
-// Any picture needs to be passed through a loader. otherwise the copyWebpackPlugin needs using. Not Optimal.
-//
-/*
-let myDynamicManifest = {
-  "name": hr.longName,
-  "short_name": hr.shortName,
-  "start_url": local,
-  "display": "standalone",
-  "background_color": 'black',
-  "theme_color": 'red',
-  "description": hr.description,
-  "dir":"rtl",
-  "lang":"ar",
-  "icons": [{
-    "src": icon16,
-    "sizes": "16x16",
-    "type": "image/ico"
-  }, {
-    "src": icon24,
-    "sizes": "24x24",
-    "type": "image/ico"
-  }, {
-    "src": icon32,
-    "sizes": "32x32",
-    "type": "image/ico"
-  }, {
-    "src": icon64,
-    "sizes": "64x64",
-    "type": "image/ico"
-  }, {  
-    "src": icon192,  
-    "sizes": "192x192",  
-    "type": "image/png"  
-  }, {  
-    "src": icon512,  
-    "sizes": "512x512",  
-    "type": "image/png"  
-  }]
-}
-        <!--<link rel="manifest" href={'data:application/manifest+json,'+JSON.stringify(myDynamicManifest)} />-->
-        
-        <base target="_blank"           href="./"/>
-        <link rel="canonical"           href={hr.canonical}/>
-*/
 let header = <HelmetProvider>
       <Helmet>    
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>
@@ -147,9 +101,6 @@ let header = <HelmetProvider>
   </HelmetProvider>
   
 let rootElement = document.querySelector("#head")
-if(rootElement){
-	//{renderToStaticMarkup} renderToString
-	ReactDOMServer.renderToString(header)
-}
+if(rootElement){ ReactDOMServer.renderToString(header) }
 
 } )()

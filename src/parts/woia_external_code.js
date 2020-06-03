@@ -34,26 +34,29 @@ import * as dimple from 'dimple';
   var svg71 = dimple.newSvg("#Chart17", "100%", 400);
   var print71 = dimple.newSvg("#Print17", 750, 400);
 
-  window.workData = dimple.filterData(dimple.filterData(data, "Time", ["2016-Q1", "2016-Q2", "2016-Q3", "2016-Q4", "2017-Q1", "2017-Q2", "2017-Q3", "2017-Q4", "2018-Q1"]), "Indicator", ["Maryland Workers by Age", "Maryland Workers by Gender", "Maryland Workers by Industry"])
-  window.workData1 = dimple.filterData(dimple.filterData(workData, "Time", "2016-Q1"), "Indicator", "Maryland Workers by Age");
-  window.workData2 = dimple.filterData(dimple.filterData(workData, "Time", "2016-Q2"), "Indicator", "Maryland Workers by Age");
-  window.workData3 = dimple.filterData(dimple.filterData(workData, "Time", "2016-Q3"), "Indicator", "Maryland Workers by Age");
-  window.workData4 = dimple.filterData(dimple.filterData(workData, "Time", "2016-Q4"), "Indicator", "Maryland Workers by Age");
-  window.workData5 = dimple.filterData(dimple.filterData(workData, "Time", "2017-Q1"), "Indicator", "Maryland Workers by Age");
-  window.workData6 = dimple.filterData(dimple.filterData(workData, "Time", "2017-Q2"), "Indicator", "Maryland Workers by Age");
-  window.workData7 = dimple.filterData(dimple.filterData(workData, "Time", "2017-Q3"), "Indicator", "Maryland Workers by Age");
-  window.workData8 = dimple.filterData(dimple.filterData(workData, "Time", "2017-Q4"), "Indicator", "Maryland Workers by Age");
-  window.workData9 = dimple.filterData(dimple.filterData(workData, "Time", "2018-Q1"), "Indicator", "Maryland Workers by Age");
+  window.workData = dimple.filterData(data, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4", "2017Q1", "2017Q2", "2017Q3", "2017Q4", "2018Q1"])
+  console.log('Chekitout', workData)
+  workData =  dimple.filterData(workData, "Indicator", ["Maryland Workers by Age", "Maryland Workers by Gender", "Maryland Workers by Industry"])
+  console.log('Chekitout', workData)
+  window.workData1 = dimple.filterData(dimple.filterData(workData, "Time", "2016Q1"), "Indicator", "Maryland Workers by Age");
+  window.workData2 = dimple.filterData(dimple.filterData(workData, "Time", "2016Q2"), "Indicator", "Maryland Workers by Age");
+  window.workData3 = dimple.filterData(dimple.filterData(workData, "Time", "2016Q3"), "Indicator", "Maryland Workers by Age");
+  window.workData4 = dimple.filterData(dimple.filterData(workData, "Time", "2016Q4"), "Indicator", "Maryland Workers by Age");
+  window.workData5 = dimple.filterData(dimple.filterData(workData, "Time", "2017Q1"), "Indicator", "Maryland Workers by Age");
+  window.workData6 = dimple.filterData(dimple.filterData(workData, "Time", "2017Q2"), "Indicator", "Maryland Workers by Age");
+  window.workData7 = dimple.filterData(dimple.filterData(workData, "Time", "2017Q3"), "Indicator", "Maryland Workers by Age");
+  window.workData8 = dimple.filterData(dimple.filterData(workData, "Time", "2017Q4"), "Indicator", "Maryland Workers by Age");
+  window.workData9 = dimple.filterData(dimple.filterData(workData, "Time", "2018Q1"), "Indicator", "Maryland Workers by Age");
 
-  window.workData11 = dimple.filterData(dimple.filterData(workData, "Time", "2016-Q1"), "Indicator", "Maryland Workers by Gender");
-  window.workData21 = dimple.filterData(dimple.filterData(workData, "Time", "2016-Q2"), "Indicator", "Maryland Workers by Gender");
-  window.workData31 = dimple.filterData(dimple.filterData(workData, "Time", "2016-Q3"), "Indicator", "Maryland Workers by Gender");
-  window.workData41 = dimple.filterData(dimple.filterData(workData, "Time", "2016-Q4"), "Indicator", "Maryland Workers by Gender");
-  window.workData51 = dimple.filterData(dimple.filterData(workData, "Time", "2017-Q1"), "Indicator", "Maryland Workers by Gender");
-  window.workData61 = dimple.filterData(dimple.filterData(workData, "Time", "2017-Q2"), "Indicator", "Maryland Workers by Gender");
-  window.workData71 = dimple.filterData(dimple.filterData(workData, "Time", "2017-Q3"), "Indicator", "Maryland Workers by Gender");
-  window.workData81 = dimple.filterData(dimple.filterData(workData, "Time", "2017-Q4"), "Indicator", "Maryland Workers by Gender");
-  window.workData82 = dimple.filterData(dimple.filterData(workData, "Time", "2018-Q1"), "Indicator", "Maryland Workers by Gender");
+  window.workData11 = dimple.filterData(dimple.filterData(workData, "Time", "2016Q1"), "Indicator", "Maryland Workers by Gender");
+  window.workData21 = dimple.filterData(dimple.filterData(workData, "Time", "2016Q2"), "Indicator", "Maryland Workers by Gender");
+  window.workData31 = dimple.filterData(dimple.filterData(workData, "Time", "2016Q3"), "Indicator", "Maryland Workers by Gender");
+  window.workData41 = dimple.filterData(dimple.filterData(workData, "Time", "2016Q4"), "Indicator", "Maryland Workers by Gender");
+  window.workData51 = dimple.filterData(dimple.filterData(workData, "Time", "2017Q1"), "Indicator", "Maryland Workers by Gender");
+  window.workData61 = dimple.filterData(dimple.filterData(workData, "Time", "2017Q2"), "Indicator", "Maryland Workers by Gender");
+  window.workData71 = dimple.filterData(dimple.filterData(workData, "Time", "2017Q3"), "Indicator", "Maryland Workers by Gender");
+  window.workData81 = dimple.filterData(dimple.filterData(workData, "Time", "2017Q4"), "Indicator", "Maryland Workers by Gender");
+  window.workData82 = dimple.filterData(dimple.filterData(workData, "Time", "2018Q1"), "Indicator", "Maryland Workers by Gender");
 
 
 
@@ -109,25 +112,25 @@ import * as dimple from 'dimple';
 
   peduY.tickFormat = ',.0f';
 
-  window.averageData =   dimple.filterData( data, "Time", ["2016-Q1", "2016-Q2", "2016-Q3", "2016-Q4", "2017-Q1", "2017-Q2", "2017-Q3", "2017-Q4", "2018-Q1"])
-  window.averageData1 =  dimple.filterData(dimple.filterData(averageData, "Time", "2016-Q1"), "Indicator", "Maryland Average Monthly Earnings by Age");
-  window.averageData2 =  dimple.filterData(dimple.filterData(averageData, "Time", "2016-Q2"), "Indicator", "Maryland Average Monthly Earnings by Age");
-  window.averageData3 =  dimple.filterData(dimple.filterData(averageData, "Time", "2016-Q3"), "Indicator", "Maryland Average Monthly Earnings by Age");
-  window.averageData4 =  dimple.filterData(dimple.filterData(averageData, "Time", "2016-Q4"), "Indicator", "Maryland Average Monthly Earnings by Age");
-  window.averageData5 =  dimple.filterData(dimple.filterData(averageData, "Time", "2017-Q1"), "Indicator", "Maryland Average Monthly Earnings by Age");
-  window.averageData6 =  dimple.filterData(dimple.filterData(averageData, "Time", "2017-Q2"), "Indicator", "Maryland Average Monthly Earnings by Age");
-  window.averageData7 =  dimple.filterData(dimple.filterData(averageData, "Time", "2017-Q3"), "Indicator", "Maryland Average Monthly Earnings by Age");
-  window.averageData8 =  dimple.filterData(dimple.filterData(averageData, "Time", "2017-Q4"), "Indicator", "Maryland Average Monthly Earnings by Age");
-  window.averageData9 =  dimple.filterData(dimple.filterData(averageData, "Time", "2018-Q1"), "Indicator", "Maryland Average Monthly Earnings by Age");
-  window.averageData11 = dimple.filterData(dimple.filterData(averageData, "Time", "2016-Q1"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-  window.averageData21 = dimple.filterData(dimple.filterData(averageData, "Time", "2016-Q2"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-  window.averageData31 = dimple.filterData(dimple.filterData(averageData, "Time", "2016-Q3"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-  window.averageData41 = dimple.filterData(dimple.filterData(averageData, "Time", "2016-Q4"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-  window.averageData51 = dimple.filterData(dimple.filterData(averageData, "Time", "2017-Q1"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-  window.averageData61 = dimple.filterData(dimple.filterData(averageData, "Time", "2017-Q2"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-  window.averageData71 = dimple.filterData(dimple.filterData(averageData, "Time", "2017-Q3"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-  window.averageData81 = dimple.filterData(dimple.filterData(averageData, "Time", "2017-Q4"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-  window.averageData82 = dimple.filterData(dimple.filterData(averageData, "Time", "2018-Q1"), "Indicator", "Maryland Average Monthly Earnings by Gender");
+  window.averageData =   dimple.filterData( data, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4", "2017Q1", "2017Q2", "2017Q3", "2017Q4", "2018Q1"]);
+  window.averageData1 =  dimple.filterData(dimple.filterData(averageData, "Time", "2016Q1"), "Indicator", "Maryland Average Monthly Earnings by Age");
+  window.averageData2 =  dimple.filterData(dimple.filterData(averageData, "Time", "2016Q2"), "Indicator", "Maryland Average Monthly Earnings by Age");
+  window.averageData3 =  dimple.filterData(dimple.filterData(averageData, "Time", "2016Q3"), "Indicator", "Maryland Average Monthly Earnings by Age");
+  window.averageData4 =  dimple.filterData(dimple.filterData(averageData, "Time", "2016Q4"), "Indicator", "Maryland Average Monthly Earnings by Age");
+  window.averageData5 =  dimple.filterData(dimple.filterData(averageData, "Time", "2017Q1"), "Indicator", "Maryland Average Monthly Earnings by Age");
+  window.averageData6 =  dimple.filterData(dimple.filterData(averageData, "Time", "2017Q2"), "Indicator", "Maryland Average Monthly Earnings by Age");
+  window.averageData7 =  dimple.filterData(dimple.filterData(averageData, "Time", "2017Q3"), "Indicator", "Maryland Average Monthly Earnings by Age");
+  window.averageData8 =  dimple.filterData(dimple.filterData(averageData, "Time", "2017Q4"), "Indicator", "Maryland Average Monthly Earnings by Age");
+  window.averageData9 =  dimple.filterData(dimple.filterData(averageData, "Time", "2018Q1"), "Indicator", "Maryland Average Monthly Earnings by Age");
+  window.averageData11 = dimple.filterData(dimple.filterData(averageData, "Time", "2016Q1"), "Indicator", "Maryland Average Monthly Earnings by Gender");
+  window.averageData21 = dimple.filterData(dimple.filterData(averageData, "Time", "2016Q2"), "Indicator", "Maryland Average Monthly Earnings by Gender");
+  window.averageData31 = dimple.filterData(dimple.filterData(averageData, "Time", "2016Q3"), "Indicator", "Maryland Average Monthly Earnings by Gender");
+  window.averageData41 = dimple.filterData(dimple.filterData(averageData, "Time", "2016Q4"), "Indicator", "Maryland Average Monthly Earnings by Gender");
+  window.averageData51 = dimple.filterData(dimple.filterData(averageData, "Time", "2017Q1"), "Indicator", "Maryland Average Monthly Earnings by Gender");
+  window.averageData61 = dimple.filterData(dimple.filterData(averageData, "Time", "2017Q2"), "Indicator", "Maryland Average Monthly Earnings by Gender");
+  window.averageData71 = dimple.filterData(dimple.filterData(averageData, "Time", "2017Q3"), "Indicator", "Maryland Average Monthly Earnings by Gender");
+  window.averageData81 = dimple.filterData(dimple.filterData(averageData, "Time", "2017Q4"), "Indicator", "Maryland Average Monthly Earnings by Gender");
+  window.averageData82 = dimple.filterData(dimple.filterData(averageData, "Time", "2018Q1"), "Indicator", "Maryland Average Monthly Earnings by Gender");
   console.log('Num Workers, Average Earnings', {workData8, workData81, averageData8, averageData81})
   document.getElementById('table3').innerHTML = `
                <tr class="HeadRow" style="background-color: white;">
@@ -232,25 +235,25 @@ import * as dimple from 'dimple';
   //chart 4
 
 
-  window.jobData = dimple.filterData(dimple.filterData(data, "Time", ["2016-Q1", "2016-Q2", "2016-Q3", "2016-Q4", "2017-Q1", "2017-Q2", "2017-Q3", "2017-Q4", "2018-Q1"]), "Indicator", ["Maryland Job Net Change by Education", "Maryland Job Net Change by Gender", "Maryland Job Net Change by Industry"])
-  window.jobData1 = dimple.filterData(dimple.filterData(jobData, "Time", "2016-Q1"), "Indicator", "Maryland Job Net Change by Education");
-  window.jobData2 = dimple.filterData(dimple.filterData(jobData, "Time", "2016-Q2"), "Indicator", "Maryland Job Net Change by Education");
-  window.jobData3 = dimple.filterData(dimple.filterData(jobData, "Time", "2016-Q3"), "Indicator", "Maryland Job Net Change by Education");
-  window.jobData4 = dimple.filterData(dimple.filterData(jobData, "Time", "2016-Q4"), "Indicator", "Maryland Job Net Change by Education");
-  window.jobData5 = dimple.filterData(dimple.filterData(jobData, "Time", "2017-Q1"), "Indicator", "Maryland Job Net Change by Education");
-  window.jobData6 = dimple.filterData(dimple.filterData(jobData, "Time", "2017-Q2"), "Indicator", "Maryland Job Net Change by Education");
-  window.jobData7 = dimple.filterData(dimple.filterData(jobData, "Time", "2017-Q3"), "Indicator", "Maryland Job Net Change by Education");
-  window.jobData8 = dimple.filterData(dimple.filterData(jobData, "Time", "2017-Q4"), "Indicator", "Maryland Job Net Change by Education");
-  window.jobData9 = dimple.filterData(dimple.filterData(jobData, "Time", "2018-Q1"), "Indicator", "Maryland Job Net Change by Education");
-  window.jobData11 = dimple.filterData(dimple.filterData(jobData, "Time", "2016-Q1"), "Indicator", "Maryland Job Net Change by Gender");
-  window.jobData21 = dimple.filterData(dimple.filterData(jobData, "Time", "2016-Q2"), "Indicator", "Maryland Job Net Change by Gender");
-  window.jobData31 = dimple.filterData(dimple.filterData(jobData, "Time", "2016-Q3"), "Indicator", "Maryland Job Net Change by Gender");
-  window.jobData41 = dimple.filterData(dimple.filterData(jobData, "Time", "2016-Q4"), "Indicator", "Maryland Job Net Change by Gender");
-  window.jobData51 = dimple.filterData(dimple.filterData(jobData, "Time", "2017-Q1"), "Indicator", "Maryland Job Net Change by Gender");
-  window.jobData61 = dimple.filterData(dimple.filterData(jobData, "Time", "2017-Q2"), "Indicator", "Maryland Job Net Change by Gender");
-  window.jobData71 = dimple.filterData(dimple.filterData(jobData, "Time", "2017-Q3"), "Indicator", "Maryland Job Net Change by Gender");
-  window.jobData81 = dimple.filterData(dimple.filterData(jobData, "Time", "2017-Q4"), "Indicator", "Maryland Job Net Change by Gender");
-  window.jobData82 = dimple.filterData(dimple.filterData(jobData, "Time", "2018-Q1"), "Indicator", "Maryland Job Net Change by Gender");
+  window.jobData = dimple.filterData(dimple.filterData(data, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4", "2017Q1", "2017Q2", "2017Q3", "2017Q4", "2018Q1"]), "Indicator", ["Maryland Job Net Change by Education", "Maryland Job Net Change by Gender", "Maryland Job Net Change by Industry"])
+  window.jobData1 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q1"), "Indicator", "Maryland Job Net Change by Education");
+  window.jobData2 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q2"), "Indicator", "Maryland Job Net Change by Education");
+  window.jobData3 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q3"), "Indicator", "Maryland Job Net Change by Education");
+  window.jobData4 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q4"), "Indicator", "Maryland Job Net Change by Education");
+  window.jobData5 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q1"), "Indicator", "Maryland Job Net Change by Education");
+  window.jobData6 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q2"), "Indicator", "Maryland Job Net Change by Education");
+  window.jobData7 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q3"), "Indicator", "Maryland Job Net Change by Education");
+  window.jobData8 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q4"), "Indicator", "Maryland Job Net Change by Education");
+  window.jobData9 = dimple.filterData(dimple.filterData(jobData, "Time", "2018Q1"), "Indicator", "Maryland Job Net Change by Education");
+  window.jobData11 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q1"), "Indicator", "Maryland Job Net Change by Gender");
+  window.jobData21 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q2"), "Indicator", "Maryland Job Net Change by Gender");
+  window.jobData31 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q3"), "Indicator", "Maryland Job Net Change by Gender");
+  window.jobData41 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q4"), "Indicator", "Maryland Job Net Change by Gender");
+  window.jobData51 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q1"), "Indicator", "Maryland Job Net Change by Gender");
+  window.jobData61 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q2"), "Indicator", "Maryland Job Net Change by Gender");
+  window.jobData71 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q3"), "Indicator", "Maryland Job Net Change by Gender");
+  window.jobData81 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q4"), "Indicator", "Maryland Job Net Change by Gender");
+  window.jobData82 = dimple.filterData(dimple.filterData(jobData, "Time", "2018Q1"), "Indicator", "Maryland Job Net Change by Gender");
 
   window.jc = new dimple.chart(svg4, jobData8);
   jc.setBounds("56%", "8%", "35%", "45%")
@@ -298,26 +301,26 @@ import * as dimple from 'dimple';
   praceY.tickFormat = ',.0f';
   praceX.addOrderRule(["Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A", "Female", "Male"]);
 
-  window.newHireData = dimple.filterData(dimple.filterData(data, "Time", ["2016-Q1", "2016-Q2", "2016-Q3", "2016-Q4", "2017-Q1", "2017-Q2", "2017-Q3", "2017-Q4", "2018-Q1", "2016Q4", "2017Q1", "2017Q2"]), "Indicator", ["Maryland New Hires by Education", "Maryland New Hires by Gender", "Maryland Workers by Industry"])
-  window.newHireData1 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016-Q1"), "Indicator", "Maryland New Hires by Education");
-  window.newHireData2 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016-Q2"), "Indicator", "Maryland New Hires by Education");
-  window.newHireData3 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016-Q3"), "Indicator", "Maryland New Hires by Education");
-  window.newHireData4 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016-Q4"), "Indicator", "Maryland New Hires by Education");
-  window.newHireData5 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017-Q1"), "Indicator", "Maryland New Hires by Education");
-  window.newHireData6 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017-Q2"), "Indicator", "Maryland New Hires by Education");
-  window.newHireData7 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017-Q3"), "Indicator", "Maryland New Hires by Education");
-  window.newHireData8 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017-Q4"), "Indicator", "Maryland New Hires by Education");
-  window.newHireData9 = dimple.filterData(dimple.filterData(newHireData, "Time", "2018-Q1"), "Indicator", "Maryland New Hires by Education");
+  window.newHireData = dimple.filterData(dimple.filterData(data, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4", "2017Q1", "2017Q2", "2017Q3", "2017Q4", "2018Q1", "2016Q4", "2017Q1", "2017Q2"]), "Indicator", ["Maryland New Hires by Education", "Maryland New Hires by Gender", "Maryland Workers by Industry"])
+  window.newHireData1 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q1"), "Indicator", "Maryland New Hires by Education");
+  window.newHireData2 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q2"), "Indicator", "Maryland New Hires by Education");
+  window.newHireData3 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q3"), "Indicator", "Maryland New Hires by Education");
+  window.newHireData4 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q4"), "Indicator", "Maryland New Hires by Education");
+  window.newHireData5 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q1"), "Indicator", "Maryland New Hires by Education");
+  window.newHireData6 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q2"), "Indicator", "Maryland New Hires by Education");
+  window.newHireData7 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q3"), "Indicator", "Maryland New Hires by Education");
+  window.newHireData8 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q4"), "Indicator", "Maryland New Hires by Education");
+  window.newHireData9 = dimple.filterData(dimple.filterData(newHireData, "Time", "2018Q1"), "Indicator", "Maryland New Hires by Education");
 
-  window.newHireData11 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016-Q1"), "Indicator", "Maryland New Hires by Gender");
-  window.newHireData21 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016-Q2"), "Indicator", "Maryland New Hires by Gender");
-  window.newHireData31 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016-Q3"), "Indicator", "Maryland New Hires by Gender");
-  window.newHireData41 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016-Q4"), "Indicator", "Maryland New Hires by Gender");
-  window.newHireData51 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017-Q1"), "Indicator", "Maryland New Hires by Gender");
-  window.newHireData61 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017-Q2"), "Indicator", "Maryland New Hires by Gender");
-  window.newHireData71 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017-Q3"), "Indicator", "Maryland New Hires by Gender");
-  window.newHireData81 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017-Q4"), "Indicator", "Maryland New Hires by Gender");
-  window.newHireData82 = dimple.filterData(dimple.filterData(newHireData, "Time", "2018-Q1"), "Indicator", "Maryland New Hires by Gender");
+  window.newHireData11 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q1"), "Indicator", "Maryland New Hires by Gender");
+  window.newHireData21 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q2"), "Indicator", "Maryland New Hires by Gender");
+  window.newHireData31 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q3"), "Indicator", "Maryland New Hires by Gender");
+  window.newHireData41 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q4"), "Indicator", "Maryland New Hires by Gender");
+  window.newHireData51 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q1"), "Indicator", "Maryland New Hires by Gender");
+  window.newHireData61 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q2"), "Indicator", "Maryland New Hires by Gender");
+  window.newHireData71 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q3"), "Indicator", "Maryland New Hires by Gender");
+  window.newHireData81 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q4"), "Indicator", "Maryland New Hires by Gender");
+  window.newHireData82 = dimple.filterData(dimple.filterData(newHireData, "Time", "2018Q1"), "Indicator", "Maryland New Hires by Gender");
   console.log('New Hires, Job Net Changes', {jobData8, jobData81, newHireData8, newHireData81})
 
   document.getElementById('table4').innerHTML = `
@@ -410,26 +413,26 @@ import * as dimple from 'dimple';
   //chart 5
 
 
-  window.turnOverData = dimple.filterData(dimple.filterData(data, "Time", ["2016-Q1", "2016-Q2", "2016-Q3", "2016-Q4", "2017-Q1", "2017-Q2", "2017-Q3", "2017-Q4", "2018-Q1", "2016Q4"]), "Indicator", ["Maryland Turnover Rate by Education", "Maryland Turnover Rate by Gender", "Maryland Workers by Industry"])
-  window.turnOverData1 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016-Q1"), "Indicator", "Maryland Turnover Rate by Education");
-  window.turnOverData2 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016-Q2"), "Indicator", "Maryland Turnover Rate by Education");
-  window.turnOverData3 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016-Q3"), "Indicator", "Maryland Turnover Rate by Education");
-  window.turnOverData4 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016-Q4"), "Indicator", "Maryland Turnover Rate by Education");
-  window.turnOverData5 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017-Q1"), "Indicator", "Maryland Turnover Rate by Education");
-  window.turnOverData6 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017-Q2"), "Indicator", "Maryland Turnover Rate by Education");
-  window.turnOverData7 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017-Q3"), "Indicator", "Maryland Turnover Rate by Education");
-  window.turnOverData8 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017-Q4"), "Indicator", "Maryland Turnover Rate by Education");
-  window.turnOverData9 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2018-Q1"), "Indicator", "Maryland Turnover Rate by Education");
+  window.turnOverData = dimple.filterData(dimple.filterData(data, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4", "2017Q1", "2017Q2", "2017Q3", "2017Q4", "2018Q1", "2016Q4"]), "Indicator", ["Maryland Turnover Rate by Education", "Maryland Turnover Rate by Gender", "Maryland Workers by Industry"])
+  window.turnOverData1 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016Q1"), "Indicator", "Maryland Turnover Rate by Education");
+  window.turnOverData2 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016Q2"), "Indicator", "Maryland Turnover Rate by Education");
+  window.turnOverData3 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016Q3"), "Indicator", "Maryland Turnover Rate by Education");
+  window.turnOverData4 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016Q4"), "Indicator", "Maryland Turnover Rate by Education");
+  window.turnOverData5 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017Q1"), "Indicator", "Maryland Turnover Rate by Education");
+  window.turnOverData6 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017Q2"), "Indicator", "Maryland Turnover Rate by Education");
+  window.turnOverData7 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017Q3"), "Indicator", "Maryland Turnover Rate by Education");
+  window.turnOverData8 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017Q4"), "Indicator", "Maryland Turnover Rate by Education");
+  window.turnOverData9 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2018Q1"), "Indicator", "Maryland Turnover Rate by Education");
   window.turnOverData10 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016Q4"), "Indicator", "Maryland Turnover Rate by Education");
-  window.turnOverData11 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016-Q1"), "Indicator", "Maryland Turnover Rate by Gender");
-  window.turnOverData21 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016-Q2"), "Indicator", "Maryland Turnover Rate by Gender");
-  window.turnOverData31 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016-Q3"), "Indicator", "Maryland Turnover Rate by Gender");
-  window.turnOverData41 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016-Q4"), "Indicator", "Maryland Turnover Rate by Gender");
-  window.turnOverData51 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017-Q1"), "Indicator", "Maryland Turnover Rate by Gender");
-  window.turnOverData61 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017-Q2"), "Indicator", "Maryland Turnover Rate by Gender");
-  window.turnOverData71 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017-Q3"), "Indicator", "Maryland Turnover Rate by Gender");
-  window.turnOverData81 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017-Q4"), "Indicator", "Maryland Turnover Rate by Gender");
-  window.turnOverData82 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2018-Q1"), "Indicator", "Maryland Turnover Rate by Gender");
+  window.turnOverData11 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016Q1"), "Indicator", "Maryland Turnover Rate by Gender");
+  window.turnOverData21 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016Q2"), "Indicator", "Maryland Turnover Rate by Gender");
+  window.turnOverData31 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016Q3"), "Indicator", "Maryland Turnover Rate by Gender");
+  window.turnOverData41 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016Q4"), "Indicator", "Maryland Turnover Rate by Gender");
+  window.turnOverData51 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017Q1"), "Indicator", "Maryland Turnover Rate by Gender");
+  window.turnOverData61 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017Q2"), "Indicator", "Maryland Turnover Rate by Gender");
+  window.turnOverData71 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017Q3"), "Indicator", "Maryland Turnover Rate by Gender");
+  window.turnOverData81 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2017Q4"), "Indicator", "Maryland Turnover Rate by Gender");
+  window.turnOverData82 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2018Q1"), "Indicator", "Maryland Turnover Rate by Gender");
   window.turnOverData83 = dimple.filterData(dimple.filterData(turnOverData, "Time", "2016Q4"), "Indicator", "Maryland Turnover Rate by Gender");
   console.log('Turnover Rate',{turnOverData7,turnOverData71})
   document.getElementById('table5').innerHTML = `
@@ -512,80 +515,80 @@ import * as dimple from 'dimple';
   //chart 5 end
 
   //Chart 6 - QCEW
-  window.wdata1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q1");
-  window.wdata2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q2");
-  window.wdata3 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q3");
-  window.wdata4 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q4");
-  window.wdata5 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q1");
-  window.wdata6 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q2");
-  window.wdata7 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q3");
-  window.wdata8 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q4");
-  window.wdata9 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2018-Q1");
+  window.wdata1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q1");
+  window.wdata2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q2");
+  window.wdata3 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q3");
+  window.wdata4 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q4");
+  window.wdata5 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q1");
+  window.wdata6 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q2");
+  window.wdata7 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q3");
+  window.wdata8 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q4");
+  window.wdata9 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Workers by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2018Q1");
   console.log( dimple.filterData(data, "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]  ) )
-  window.avgdata1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q1");
-  window.avgdata2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q2");
-  window.avgdata3 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q3");
-  window.avgdata4 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q4");
-  window.avgdata5 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q1");
-  window.avgdata6 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q2");
-  window.avgdata7 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q3");
-  window.avgdata8 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q4");
-  window.avgdata9 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2018-Q1");
-  window.netdata1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q1");
-  window.netdata2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q2");
-  window.netdata3 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q3");
-  window.netdata4 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q4");
-  window.netdata5 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q1");
-  window.netdata6 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q2");
-  window.netdata7 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q3");
-  window.netdata8 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q4");
-  window.netdata9 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2018-Q1");
-  window.turndata1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q1");
-  window.turndata2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q2");
-  window.turndata3 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q3");
-  window.turndata4 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q4");
-  window.turndata5 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q1");
-  window.turndata6 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q2");
-  window.turndata7 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q3");
-  window.turndata8 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q4");
-  window.turndata9 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2018-Q1");
-  window.hiredata1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q1");
-  window.hiredata2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q2");
-  window.hiredata3 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q3");
-  window.hiredata4 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q4");
-  window.hiredata5 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q1");
-  window.hiredata6 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q2");
-  window.hiredata7 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q3");
-  window.hiredata8 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q4");
-  window.hiredata9 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2018-Q1");
+  window.avgdata1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q1");
+  window.avgdata2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q2");
+  window.avgdata3 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q3");
+  window.avgdata4 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q4");
+  window.avgdata5 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q1");
+  window.avgdata6 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q2");
+  window.avgdata7 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q3");
+  window.avgdata8 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q4");
+  window.avgdata9 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Average Earnings by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2018Q1");
+  window.netdata1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q1");
+  window.netdata2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q2");
+  window.netdata3 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q3");
+  window.netdata4 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q4");
+  window.netdata5 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q1");
+  window.netdata6 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q2");
+  window.netdata7 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q3");
+  window.netdata8 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q4");
+  window.netdata9 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Job Net Change by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2018Q1");
+  window.turndata1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q1");
+  window.turndata2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q2");
+  window.turndata3 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q3");
+  window.turndata4 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q4");
+  window.turndata5 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q1");
+  window.turndata6 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q2");
+  window.turndata7 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q3");
+  window.turndata8 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q4");
+  window.turndata9 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Turnover Rate by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2018Q1");
+  window.hiredata1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q1");
+  window.hiredata2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q2");
+  window.hiredata3 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q3");
+  window.hiredata4 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016Q4");
+  window.hiredata5 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q1");
+  window.hiredata6 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q2");
+  window.hiredata7 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q3");
+  window.hiredata8 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017Q4");
+  window.hiredata9 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland New Hires by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2018Q1");
 
   window.displayIndustryMetricsTable = (wdatax, hiredatax, avgdatax, netdatax, turndatax) => {
     console.log("LWDA By Industry", {wdatax, hiredatax, avgdatax, netdatax, turndatax})
 
-let tableOrder = ['Agriculture, Forestry, Fishing and Hunting',
-'Mining, Quarrying, and Oil and Gas Extraction',
-'Utilities',
-'Construction',
-'Manufacturing',
-'Wholesale Trade',
-'Retail Trade',
-'Transportation and Warehousing',
-'Information',
-'Finance and Insurance',
-'Real Estate and Rental and Leasing',
-'Professional, Scientific, and Technical Services',
-'Management of Companies and Enterprises',
-'Administrative and Support and Waste Management and Remediation Services',
-'Educational Services',
-'Health Care and Social Assistance',
-'Arts, Entertainment, and Recreation',
-'Accommodation and Food Services',
-'Other Services (except Public Administration)',
-'Public Administration'
-]
-let filterForData = (objArr, indx) => {
-  return objArr.filter( obj => { return obj['Indicator_Value'] == tableOrder[indx]} )[0]
-}
+    let tableOrder = ['Agriculture, Forestry, Fishing and Hunting',
+    'Mining, Quarrying, and Oil and Gas Extraction',
+    'Utilities',
+    'Construction',
+    'Manufacturing',
+    'Wholesale Trade',
+    'Retail Trade',
+    'Transportation and Warehousing',
+    'Information',
+    'Finance and Insurance',
+    'Real Estate and Rental and Leasing',
+    'Professional, Scientific, and Technical Services',
+    'Management of Companies and Enterprises',
+    'Administrative and Support and Waste Management and Remediation Services',
+    'Educational Services',
+    'Health Care and Social Assistance',
+    'Arts, Entertainment, and Recreation',
+    'Accommodation and Food Services',
+    'Other Services (except Public Administration)',
+    'Public Administration'
+    ]
+    let filterForData = (objArr, indx) => {
+      return objArr.filter( obj => { return obj['Indicator_Value'] == tableOrder[indx]} )[0]
+    }
 
     document.getElementById('table6').innerHTML = `
       <thead>
@@ -858,38 +861,53 @@ let filterForData = (objArr, indx) => {
   //chart 8 button
 
   //seperation
-  window.isepdata1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q1")
-  window.window.isepdata2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q2")
-  window.isepdata3 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q3")
-  window.isepdata4 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2016-Q4")
-  window.isepdata5 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q1")
-  window.isepdata6 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q2")
-  window.isepdata7 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q3")
-  window.isepdata8 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Industry"), "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Time", "2017-Q4")
-  window.asepdata1 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Age"), "Time", "2016-Q1")
-  window.asepdata2 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Age"), "Time", "2016-Q2")
-  window.asepdata3 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Age"), "Time", "2016-Q3")
-  window.asepdata4 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Age"), "Time", "2016-Q4")
-  window.asepdata5 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Age"), "Time", "2017-Q1")
-  window.asepdata6 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Age"), "Time", "2017-Q2")
-  window.asepdata7 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Age"), "Time", "2017-Q3")
-  window.asepdata8 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Age"), "Time", "2017-Q4")
-  window.gsepdata1 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Gender"), "Time", "2016-Q1")
-  window.gsepdata2 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Gender"), "Time", "2016-Q2")
-  window.gsepdata3 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Gender"), "Time", "2016-Q3")
-  window.gsepdata4 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Gender"), "Time", "2016-Q4")
-  window.gsepdata5 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Gender"), "Time", "2017-Q1")
-  window.gsepdata6 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Gender"), "Time", "2017-Q2")
-  window.gsepdata7 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Gender"), "Time", "2017-Q3")
-  window.gsepdata8 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Gender"), "Time", "2017-Q4")
-  window.esepdata1 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Education"), "Time", "2016-Q1")
-  window.esepdata2 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Education"), "Time", "2016-Q2")
-  window.esepdata3 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Education"), "Time", "2016-Q3")
-  window.esepdata4 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Education"), "Time", "2016-Q4")
-  window.esepdata5 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Education"), "Time", "2017-Q1")
-  window.esepdata6 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Education"), "Time", "2017-Q2")
-  window.esepdata7 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Education"), "Time", "2017-Q3")
-  window.esepdata8 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Separations by Education"), "Time", "2017-Q4")
+  let indusep = dimple.filterData(data, "Indicator", "Maryland Separations by Industry")
+  indusep = dimple.filterData(indusep, "Indicator_Value", 
+    ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", 
+    "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", 
+    "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", 
+    "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", 
+    "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", 
+    "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", 
+    "Utilities", "Wholesale Trade"])
+  window.isepdata1 = dimple.filterData(indusep, "Time", "2016Q1")
+  window.isepdata2 = dimple.filterData(indusep, "Time", "2016Q2")
+  window.isepdata3 = dimple.filterData(indusep, "Time", "2016Q3")
+  window.isepdata4 = dimple.filterData(indusep, "Time", "2016Q4")
+  window.isepdata5 = dimple.filterData(indusep, "Time", "2017Q1")
+  window.isepdata6 = dimple.filterData(indusep, "Time", "2017Q2")
+  window.isepdata7 = dimple.filterData(indusep, "Time", "2017Q3")
+  window.isepdata8 = dimple.filterData(indusep, "Time", "2017Q4")
+  console.log('Separations', {isepdata8, isepdata7, isepdata6, isepdata1})
+  let agesep = dimple.filterData(data, "Indicator", "Maryland Separations by Age")
+  window.asepdata1 = dimple.filterData(agesep, "Time", "2016Q1")
+  window.asepdata2 = dimple.filterData(agesep, "Time", "2016Q2")
+  window.asepdata3 = dimple.filterData(agesep, "Time", "2016Q3")
+  window.asepdata4 = dimple.filterData(agesep, "Time", "2016Q4")
+  window.asepdata5 = dimple.filterData(agesep, "Time", "2017Q1")
+  window.asepdata6 = dimple.filterData(agesep, "Time", "2017Q2")
+  window.asepdata7 = dimple.filterData(agesep, "Time", "2017Q3")
+  window.asepdata8 = dimple.filterData(agesep, "Time", "2017Q4")
+  
+  let gensep = dimple.filterData(data, "Indicator", "Maryland Separations by Gender")
+  window.gsepdata1 = dimple.filterData(gensep, "Time", "2016Q1")
+  window.gsepdata2 = dimple.filterData(gensep, "Time", "2016Q1")
+  window.gsepdata3 = dimple.filterData(gensep, "Time", "2016Q1")
+  window.gsepdata4 = dimple.filterData(gensep, "Time", "2016Q1")
+  window.gsepdata5 = dimple.filterData(gensep, "Time", "2016Q1")
+  window.gsepdata6 = dimple.filterData(gensep, "Time", "2016Q1")
+  window.gsepdata7 = dimple.filterData(gensep, "Time", "2016Q1")
+  window.gsepdata8 = dimple.filterData(gensep, "Time", "2016Q1")
+
+  let edusep = dimple.filterData(data, "Indicator", "Maryland Separations by Education")
+  window.esepdata1 = dimple.filterData(edusep, "Time", "2016Q1")
+  window.esepdata2 = dimple.filterData(edusep, "Time", "2016Q2")
+  window.esepdata3 = dimple.filterData(edusep, "Time", "2016Q3")
+  window.esepdata4 = dimple.filterData(edusep, "Time", "2016Q4")
+  window.esepdata5 = dimple.filterData(edusep, "Time", "2017Q1")
+  window.esepdata6 = dimple.filterData(edusep, "Time", "2017Q2")
+  window.esepdata7 = dimple.filterData(edusep, "Time", "2017Q3")
+  window.esepdata8 = dimple.filterData(edusep, "Time", "2017Q4")
   console.log('Separations', {isepdata8, asepdata8, gsepdata8, esepdata8})
 
   window.chart61 = new dimple.chart(svg71, isepdata8);
@@ -1218,8 +1236,8 @@ let filterForData = (objArr, indx) => {
     var strUser7 = e7.options[e7.selectedIndex].text;
     var strUser10 = e10.options[e10.selectedIndex].text;
     y2.title = strUser10;
-    if (strUser7 == "2016-Q1") {
-      console.log('2016-Q1');
+    if (strUser7 == "2016Q1") {
+      console.log('2016Q1');
       window.displayIndustryMetricsTable(wdata1, hiredata1, avgdata1, netdata1, turndata1)
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
@@ -1234,8 +1252,8 @@ let filterForData = (objArr, indx) => {
       if (strUser10 == "Workers") { chart8.data = wdata1; }
     }
 
-    if (strUser7 == "2016-Q2") {
-      console.log('2016-Q2');
+    if (strUser7 == "2016Q2") {
+      console.log('2016Q2');
       window.displayIndustryMetricsTable(wdata2, hiredata2, avgdata2, netdata2, turndata2)
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
@@ -1251,8 +1269,8 @@ let filterForData = (objArr, indx) => {
 
     }
 
-    if (strUser7 == "2016-Q3") {
-      console.log('2016-Q3');
+    if (strUser7 == "2016Q3") {
+      console.log('2016Q3');
       window.displayIndustryMetricsTable(wdata3, hiredata3, avgdata3, netdata3, turndata3)
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
@@ -1267,9 +1285,9 @@ let filterForData = (objArr, indx) => {
       if (strUser10 == "Workers") { chart8.data = wdata3;}
     }
 
-    if (strUser7 == "2016-Q4") {
+    if (strUser7 == "2016Q4") {
       window.displayIndustryMetricsTable(wdata4, hiredata4, avgdata4, netdata4, turndata4)
-      console.log('2016-Q4');
+      console.log('2016Q4');
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
         chart8.data = avgdata4;
@@ -1283,9 +1301,9 @@ let filterForData = (objArr, indx) => {
       if (strUser10 == "Workers") { chart8.data = wdata4; }
     }
 
-    if (strUser7 == "2017-Q1") {
+    if (strUser7 == "2017Q1") {
       window.displayIndustryMetricsTable(wdata5, hiredata5, avgdata5, netdata5, turndata5)
-      console.log('2017-Q1');
+      console.log('2017Q1');
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
         chart8.data = avgdata5;
@@ -1300,8 +1318,8 @@ let filterForData = (objArr, indx) => {
 
     }
 
-    if (strUser7 == "2017-Q2") {
-      console.log('2017-Q2');
+    if (strUser7 == "2017Q2") {
+      console.log('2017Q2');
       window.displayIndustryMetricsTable(wdata6, hiredata6, avgdata6, netdata6, turndata6)
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
@@ -1317,9 +1335,9 @@ let filterForData = (objArr, indx) => {
 
     }
 
-    if (strUser7 == "2017-Q3") {
+    if (strUser7 == "2017Q3") {
       window.displayIndustryMetricsTable(wdata7, hiredata7, avgdata7, netdata7, turndata7)
-      console.log('2017-Q3');
+      console.log('2017Q3');
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
         chart8.data = avgdata7;
@@ -1333,8 +1351,8 @@ let filterForData = (objArr, indx) => {
       if (strUser10 == "Workers") { chart8.data = wdata7; }
     }
 
-    if (strUser7 == "2017-Q4") {
-      console.log('2017-Q4');
+    if (strUser7 == "2017Q4") {
+      console.log('2017Q4');
       window.displayIndustryMetricsTable(wdata8, hiredata8, avgdata8, netdata8, turndata8)
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
@@ -1350,8 +1368,8 @@ let filterForData = (objArr, indx) => {
 
     }
 
-    if (strUser7 == "2018-Q1") {
-      console.log('2017-Q1');
+    if (strUser7 == "2018Q1") {
+      console.log('2017Q1');
       window.displayIndustryMetricsTable(wdata9, hiredata9, avgdata9, netdata9, turndata9)
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
@@ -1412,7 +1430,7 @@ let filterForData = (objArr, indx) => {
     var strUser10 = e10.options[e10.selectedIndex].text;
     y2.title = strUser10;
     console.log('btn10wda ----- strUser7', strUser7, '---- strUser10', strUser10)
-    if (strUser7 == "2016-Q1") {
+    if (strUser7 == "2016Q1") {
       window.displayIndustryMetricsTable(wdata1, hiredata1, avgdata1, netdata1, turndata1)
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
@@ -1428,7 +1446,7 @@ let filterForData = (objArr, indx) => {
 
     }
 
-    if (strUser7 == "2016-Q2") {
+    if (strUser7 == "2016Q2") {
       window.displayIndustryMetricsTable(wdata2, hiredata2, avgdata2, netdata2, turndata2)
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
@@ -1448,7 +1466,7 @@ let filterForData = (objArr, indx) => {
 
     }
 
-    if (strUser7 == "2016-Q3") {
+    if (strUser7 == "2016Q3") {
       window.displayIndustryMetricsTable(wdata3, hiredata3, avgdata3, netdata3, turndata3)
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
@@ -1464,7 +1482,7 @@ let filterForData = (objArr, indx) => {
 
     }
 
-    if (strUser7 == "2016-Q4") {
+    if (strUser7 == "2016Q4") {
       window.displayIndustryMetricsTable(wdata4, hiredata4, avgdata4, netdata4, turndat4)
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
@@ -1480,7 +1498,7 @@ let filterForData = (objArr, indx) => {
 
     }
 
-    if (strUser7 == "2017-Q1") {
+    if (strUser7 == "2017Q1") {
       window.displayIndustryMetricsTable(wdata5, hiredata5, avgdata5, netdata5, turndata5)
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
@@ -1496,7 +1514,7 @@ let filterForData = (objArr, indx) => {
 
     }
 
-    if (strUser7 == "2017-Q2") {
+    if (strUser7 == "2017Q2") {
       window.displayIndustryMetricsTable(wdata6, hiredata6, avgdata6, netdata6, turndata6)
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
@@ -1512,7 +1530,7 @@ let filterForData = (objArr, indx) => {
 
     }
 
-    if (strUser7 == "2017-Q3") {
+    if (strUser7 == "2017Q3") {
       window.displayIndustryMetricsTable(wdata7, hiredata7, avgdata7, netdata7, turndata7)
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
@@ -1527,7 +1545,7 @@ let filterForData = (objArr, indx) => {
       if (strUser10 == "Workers") { chart8.data = wdata7; }
     }
 
-    if (strUser7 == "2017-Q4") {
+    if (strUser7 == "2017Q4") {
       window.displayIndustryMetricsTable(wdata8, hiredata8, avgdata8, netdata8, turndata8)
       if (strUser10 == "Average Monthly Earnings" && avgdata8.length != 0) {
         console.log('Average Monthly Earnings', avgdata8); 
@@ -1553,7 +1571,7 @@ let filterForData = (objArr, indx) => {
       }
     }
 
-    if (strUser7 == "2018-Q1") {
+    if (strUser7 == "2018Q1") {
       window.displayIndustryMetricsTable(wdata9, hiredata9, avgdata9, netdata9, turndata9)
       if (strUser10 == "Average Monthly Earnings") {
         y2.tickFormat = '$,.0f';
@@ -1618,56 +1636,56 @@ let filterForData = (objArr, indx) => {
     var strUser7 = e7.options[e7.selectedIndex].text;
     var strUser10 = e10.options[e10.selectedIndex].text;
     sepy2.title = strUser10;
-    if (strUser7 == "2016-Q1") {
+    if (strUser7 == "2016Q1") {
       if (strUser10 == "Industry") { chart61.data = isepdata1; }
       if (strUser10 == "Gender") { chart61.data = gsepdata1; }
       if (strUser10 == "Education") { chart61.data = esepdata1; }
       if (strUser10 == "Age") { chart61.data = asepdata1; }
     }
 
-    if (strUser7 == "2016-Q2") {
+    if (strUser7 == "2016Q2") {
       if (strUser10 == "Industry") { chart61.data = isepdata2; }
       if (strUser10 == "Gender") { chart61.data = gsepdata2; }
       if (strUser10 == "Education") { chart61.data = esepdata2; }
       if (strUser10 == "Age") { chart61.data = asepdata2; }
     }
 
-    if (strUser7 == "2016-Q3") {
+    if (strUser7 == "2016Q3") {
       if (strUser10 == "Industry") { chart61.data = isepdata3; }
       if (strUser10 == "Gender") { chart61.data = gsepdata3; }
       if (strUser10 == "Education") { chart61.data = esepdata3; }
       if (strUser10 == "Age") { chart61.data = asepdata3; }
     }
 
-    if (strUser7 == "2016-Q4") {
+    if (strUser7 == "2016Q4") {
       if (strUser10 == "Industry") { chart61.data = isepdata4; }
       if (strUser10 == "Gender") { chart61.data = gsepdata4; }
       if (strUser10 == "Education") { chart61.data = esepdata4; }
       if (strUser10 == "Age") { chart61.data = asepdata4; }
     }
 
-    if (strUser7 == "2017-Q1") {
+    if (strUser7 == "2017Q1") {
       if (strUser10 == "Industry") { chart61.data = isepdata5; }
       if (strUser10 == "Gender") { chart61.data = gsepdata5; }
       if (strUser10 == "Education") { chart61.data = esepdata5; }
       if (strUser10 == "Age") { chart61.data = asepdata5; }
     }
 
-    if (strUser7 == "2017-Q2") {
+    if (strUser7 == "2017Q2") {
       if (strUser10 == "Industry") { chart61.data = isepdata6; }
       if (strUser10 == "Gender") { chart61.data = gsepdata6; }
       if (strUser10 == "Education") { chart61.data = esepdata6; }
       if (strUser10 == "Age") { chart61.data = asepdata6; }
     }
 
-    if (strUser7 == "2017-Q3") {
+    if (strUser7 == "2017Q3") {
       if (strUser10 == "Industry") { chart61.data = isepdata7; }
       if (strUser10 == "Gender") { chart61.data = gsepdata7; }
       if (strUser10 == "Education") { chart61.data = esepdata7; }
       if (strUser10 == "Age") { chart61.data = asepdata7; }
     }
 
-    if (strUser7 == "2017-Q4") {
+    if (strUser7 == "2017Q4") {
       if (strUser10 == "Industry") { chart61.data = isepdata8; }
       if (strUser10 == "Gender") { chart61.data = gsepdata8; }
       if (strUser10 == "Education") { chart61.data = esepdata8; }
@@ -1698,7 +1716,7 @@ let filterForData = (objArr, indx) => {
     var strUser3 = e3.options[e3.selectedIndex].text;
     var e31 = document.getElementById("btn31wda");
     var strUser31 = e31.options[e31.selectedIndex].text;
-    if (strUser3 == "2016-Q1") {
+    if (strUser3 == "2016Q1") {
       if (strUser31 == "By Education") {
         wChart.data = workData1;
         avgChart.data = averageData1;
@@ -1721,7 +1739,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData11;
       }
     }
-    if (strUser3 == "2016-Q2") {
+    if (strUser3 == "2016Q2") {
       if (strUser31 == "By Education") {
         wChart.data = workData2;
         avgChart.data = averageData2;
@@ -1744,7 +1762,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData21;
       }
     }
-    if (strUser3 == "2016-Q3") {
+    if (strUser3 == "2016Q3") {
       if (strUser31 == "By Education") {
         wChart.data = workData3;
         avgChart.data = averageData3;
@@ -1767,7 +1785,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData31;
       }
     }
-    if (strUser3 == "2016-Q4") {
+    if (strUser3 == "2016Q4") {
       if (strUser31 == "By Education") {
         wChart.data = workData4;
         avgChart.data = averageData4;
@@ -1790,7 +1808,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData41;
       }
     }
-    if (strUser3 == "2017-Q1") {
+    if (strUser3 == "2017Q1") {
       if (strUser31 == "By Education") {
         wChart.data = workData5;
         avgChart.data = averageData5;
@@ -1813,7 +1831,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData51;
       }
     }
-    if (strUser3 == "2017-Q2") {
+    if (strUser3 == "2017Q2") {
       if (strUser31 == "By Education") {
         wChart.data = workData6;
         avgChart.data = averageData6;
@@ -1836,7 +1854,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData61;
       }
     }
-    if (strUser3 == "2017-Q3") {
+    if (strUser3 == "2017Q3") {
       if (strUser31 == "By Education") {
         wChart.data = workData7;
         avgChart.data = averageData7;
@@ -1860,7 +1878,7 @@ let filterForData = (objArr, indx) => {
       }
     }
 
-    if (strUser3 == "2017-Q4") {
+    if (strUser3 == "2017Q4") {
       if (strUser31 == "By Education") {
         wChart.data = workData8;
         avgChart.data = averageData8;
@@ -1885,7 +1903,7 @@ let filterForData = (objArr, indx) => {
       }
     }
 
-    if (strUser3 == "2018-Q1") {
+    if (strUser3 == "2018Q1") {
       if (strUser31 == "By Education") {
         wChart.data = workData9;
         avgChart.data = averageData9;
@@ -2001,7 +2019,7 @@ let filterForData = (objArr, indx) => {
     var strUser3 = e3.options[e3.selectedIndex].text;
     var e31 = document.getElementById("btn41wda");
     var strUser31 = e31.options[e31.selectedIndex].text;
-    if (strUser3 == "2016-Q1") {
+    if (strUser3 == "2016Q1") {
       if (strUser31 == "By Education") {
         wChart.data = workData1;
         avgChart.data = averageData1;
@@ -2024,7 +2042,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData11;
       }
     }
-    if (strUser3 == "2016-Q2") {
+    if (strUser3 == "2016Q2") {
       if (strUser31 == "By Education") {
         wChart.data = workData2;
         avgChart.data = averageData2;
@@ -2047,7 +2065,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData21;
       }
     }
-    if (strUser3 == "2016-Q3") {
+    if (strUser3 == "2016Q3") {
       if (strUser31 == "By Education") {
         wChart.data = workData3;
         avgChart.data = averageData3;
@@ -2070,7 +2088,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData31;
       }
     }
-    if (strUser3 == "2016-Q4") {
+    if (strUser3 == "2016Q4") {
       if (strUser31 == "By Education") {
         wChart.data = workData4;
         avgChart.data = averageData4;
@@ -2093,7 +2111,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData41;
       }
     }
-    if (strUser3 == "2017-Q1") {
+    if (strUser3 == "2017Q1") {
       if (strUser31 == "By Education") {
         wChart.data = workData5;
         avgChart.data = averageData5;
@@ -2116,7 +2134,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData51;
       }
     }
-    if (strUser3 == "2017-Q2") {
+    if (strUser3 == "2017Q2") {
       if (strUser31 == "By Education") {
         wChart.data = workData6;
         avgChart.data = averageData6;
@@ -2139,7 +2157,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData61;
       }
     }
-    if (strUser3 == "2017-Q3") {
+    if (strUser3 == "2017Q3") {
       if (strUser31 == "By Education") {
         wChart.data = workData7;
         avgChart.data = averageData7;
@@ -2162,7 +2180,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData71;
       }
     }
-    if (strUser3 == "2017-Q4") {
+    if (strUser3 == "2017Q4") {
       if (strUser31 == "By Education") {
         wChart.data = workData8;
         avgChart.data = averageData8;
@@ -2186,7 +2204,7 @@ let filterForData = (objArr, indx) => {
       }
     }
 
-    if (strUser3 == "2018-Q1") {
+    if (strUser3 == "2018Q1") {
       if (strUser31 == "By Education") {
         wChart.data = workData9;
         avgChart.data = averageData9;
@@ -2298,7 +2316,7 @@ let filterForData = (objArr, indx) => {
     var strUser3 = e3.options[e3.selectedIndex].text;
     var e31 = document.getElementById("btn51wda");
     var strUser31 = e31.options[e31.selectedIndex].text;
-    if (strUser3 == "2016-Q1") {
+    if (strUser3 == "2016Q1") {
       if (strUser31 == "By Education") {
         wChart.data = workData1;
         avgChart.data = averageData1;
@@ -2321,7 +2339,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData11;
       }
     }
-    if (strUser3 == "2016-Q2") {
+    if (strUser3 == "2016Q2") {
       if (strUser31 == "By Education") {
         wChart.data = workData2;
         avgChart.data = averageData2;
@@ -2344,7 +2362,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData21;
       }
     }
-    if (strUser3 == "2016-Q3") {
+    if (strUser3 == "2016Q3") {
       if (strUser31 == "By Education") {
         wChart.data = workData3;
         avgChart.data = averageData3;
@@ -2367,7 +2385,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData31;
       }
     }
-    if (strUser3 == "2016-Q4") {
+    if (strUser3 == "2016Q4") {
       if (strUser31 == "By Education") {
         wChart.data = workData4;
         avgChart.data = averageData4;
@@ -2390,7 +2408,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData41;
       }
     }
-    if (strUser3 == "2017-Q1") {
+    if (strUser3 == "2017Q1") {
       if (strUser31 == "By Education") {
         wChart.data = workData5;
         avgChart.data = averageData5;
@@ -2413,7 +2431,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData51;
       }
     }
-    if (strUser3 == "2017-Q2") {
+    if (strUser3 == "2017Q2") {
       if (strUser31 == "By Education") {
         wChart.data = workData6;
         avgChart.data = averageData6;
@@ -2436,7 +2454,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData61;
       }
     }
-    if (strUser3 == "2017-Q3") {
+    if (strUser3 == "2017Q3") {
       if (strUser31 == "By Education") {
         wChart.data = workData7;
         avgChart.data = averageData7;
@@ -2460,7 +2478,7 @@ let filterForData = (objArr, indx) => {
       }
     }
 
-    if (strUser3 == "2017-Q4") {
+    if (strUser3 == "2017Q4") {
       if (strUser31 == "By Education") {
         wChart.data = workData8;
         avgChart.data = averageData8;
@@ -2484,7 +2502,7 @@ let filterForData = (objArr, indx) => {
       }
     }
 
-    if (strUser3 == "2018-Q1") {
+    if (strUser3 == "2018Q1") {
       if (strUser31 == "By Education") {
         wChart.data = workData9;
         avgChart.data = averageData9;
@@ -2596,7 +2614,7 @@ let filterForData = (objArr, indx) => {
     var e31 = document.getElementById("btn31wda");
     var strUser31 = e31.options[e31.selectedIndex].text;
     console.log('dataSwap2 Indicator Number of Workers and Average Monthly Earnings by Age and Gender')
-    if (strUser3 == "2016-Q1") {
+    if (strUser3 == "2016Q1") {
       console.log('dataSwap2 strUser3', strUser3)
       if (strUser31 == "By Education") {
         wChart.data = workData1;
@@ -2620,7 +2638,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData11;
       }
     }
-    if (strUser3 == "2016-Q2") {
+    if (strUser3 == "2016Q2") {
       console.log('dataSwap2 strUser3', strUser3)
       if (strUser31 == "By Education") {
         wChart.data = workData2;
@@ -2644,7 +2662,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData21;
       }
     }
-    if (strUser3 == "2016-Q3") {
+    if (strUser3 == "2016Q3") {
       console.log('dataSwap2 strUser3', strUser3)
       if (strUser31 == "By Education") {
         wChart.data = workData3;
@@ -2668,7 +2686,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData31;
       }
     }
-    if (strUser3 == "2016-Q4") {
+    if (strUser3 == "2016Q4") {
       console.log('dataSwap2 strUser3', strUser3)
       if (strUser31 == "By Education") {
         wChart.data = workData4;
@@ -2692,7 +2710,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData41;
       }
     }
-    if (strUser3 == "2017-Q1") {
+    if (strUser3 == "2017Q1") {
       console.log('dataSwap2 strUser3', strUser3)
       if (strUser31 == "By Education") {
         wChart.data = workData5;
@@ -2716,7 +2734,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData51;
       }
     }
-    if (strUser3 == "2017-Q2") {
+    if (strUser3 == "2017Q2") {
       console.log('dataSwap2 strUser3', strUser3)
       if (strUser31 == "By Education") {
         wChart.data = workData6;
@@ -2740,7 +2758,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData61;
       }
     }
-    if (strUser3 == "2017-Q3") {
+    if (strUser3 == "2017Q3") {
       console.log('dataSwap2 strUser3', strUser3)
       if (strUser31 == "By Education") {
         wChart.data = workData7;
@@ -2764,7 +2782,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData71;
       }
     }
-    if (strUser3 == "2017-Q4") {
+    if (strUser3 == "2017Q4") {
       console.log('dataSwap2 strUser3', strUser3)
       if (strUser31 == "By Education") {
         console.log('By Education');
@@ -2791,7 +2809,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData71;
       }
     }
-    if (strUser3 == "2018-Q1") {
+    if (strUser3 == "2018Q1") {
       console.log('dataSwap2 strUser3', strUser3)
       if (strUser31 == "By Education") {
         wChart.data = workData9;
@@ -2915,7 +2933,7 @@ let filterForData = (objArr, indx) => {
     var e31 = document.getElementById("btn41wda");
     var strUser31 = e31.options[e31.selectedIndex].text;
 
-    if (strUser3 == "2016-Q1") {
+    if (strUser3 == "2016Q1") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData1;
         avgChart.data = averageData1;
@@ -2931,7 +2949,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData11;
       }
     }
-    if (strUser3 == "2016-Q2") {
+    if (strUser3 == "2016Q2") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData2;
         avgChart.data = averageData2;
@@ -2947,7 +2965,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData21;
       }
     }
-    if (strUser3 == "2016-Q3") {
+    if (strUser3 == "2016Q3") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData3;
         avgChart.data = averageData3;
@@ -2963,7 +2981,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData31;
       }
     }
-    if (strUser3 == "2016-Q4") {
+    if (strUser3 == "2016Q4") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData4;
         avgChart.data = averageData4;
@@ -2979,7 +2997,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData41;
       }
     }
-    if (strUser3 == "2017-Q1") {
+    if (strUser3 == "2017Q1") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData5;
         avgChart.data = averageData5;
@@ -2995,7 +3013,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData51;
       }
     }
-    if (strUser3 == "2017-Q2") {
+    if (strUser3 == "2017Q2") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData6;
         avgChart.data = averageData6;
@@ -3011,7 +3029,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData61;
       }
     }
-    if (strUser3 == "2017-Q3") {
+    if (strUser3 == "2017Q3") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData7;
         avgChart.data = averageData7;
@@ -3029,7 +3047,7 @@ let filterForData = (objArr, indx) => {
 
     }
 
-    if (strUser3 == "2017-Q4") {
+    if (strUser3 == "2017Q4") {
       console.log('dataSwap2 strUser3', strUser3)
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData8;
@@ -3049,7 +3067,7 @@ let filterForData = (objArr, indx) => {
 
     }
 
-    if (strUser3 == "2018-Q1") {
+    if (strUser3 == "2018Q1") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData9;
         avgChart.data = averageData9;
@@ -3142,7 +3160,7 @@ let filterForData = (objArr, indx) => {
     var e31 = document.getElementById("btn51wda");
     var strUser31 = e31.options[e31.selectedIndex].text;
 
-    if (strUser3 == "2016-Q1") {
+    if (strUser3 == "2016Q1") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData1;
         avgChart.data = averageData1;
@@ -3158,7 +3176,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData11;
       }
     }
-    if (strUser3 == "2016-Q2") {
+    if (strUser3 == "2016Q2") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData2;
         avgChart.data = averageData2;
@@ -3174,7 +3192,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData21;
       }
     }
-    if (strUser3 == "2016-Q3") {
+    if (strUser3 == "2016Q3") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData3;
         avgChart.data = averageData3;
@@ -3190,7 +3208,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData31;
       }
     }
-    if (strUser3 == "2016-Q4") {
+    if (strUser3 == "2016Q4") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData4;
         avgChart.data = averageData4;
@@ -3206,7 +3224,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData41;
       }
     }
-    if (strUser3 == "2017-Q1") {
+    if (strUser3 == "2017Q1") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData5;
         avgChart.data = averageData5;
@@ -3222,7 +3240,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData51;
       }
     }
-    if (strUser3 == "2017-Q2") {
+    if (strUser3 == "2017Q2") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData6;
         avgChart.data = averageData6;
@@ -3238,7 +3256,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData61;
       }
     }
-    if (strUser3 == "2017-Q3") {
+    if (strUser3 == "2017Q3") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData7;
         avgChart.data = averageData7;
@@ -3254,7 +3272,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData71;
       }
     }
-    if (strUser3 == "2017-Q4") {
+    if (strUser3 == "2017Q4") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData8;
         avgChart.data = averageData8;
@@ -3270,7 +3288,7 @@ let filterForData = (objArr, indx) => {
         turnChart.data = turnOverData71;
       }
     }
-    if (strUser3 == "2018-Q1") {
+    if (strUser3 == "2018Q1") {
       if (strUser31 == "By Education" || strUser31 == "By Age") {
         wChart.data = workData9;
         avgChart.data = averageData9;
