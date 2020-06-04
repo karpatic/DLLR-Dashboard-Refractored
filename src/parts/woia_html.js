@@ -25,30 +25,16 @@ export let wdaDropdowns = `<div>
 
 export let wdaCollapse1 = `
 <div id="collapse1" style="display: none;">
-  <div class="ChartTitle">
+  <div class="ChartTitle" style="display:inline; float:right; margin-right:90px;">
 	<div class="buttons">
 	  <p>
-		Time: 
-		<select id="btn3wda">
-		  <option>2016-Q1</option>
-		  <option>2016-Q2</option>
-		  <option>2016-Q3</option>
-		  <option>2016-Q4</option>
-		  <option>2017-Q1</option>
-		  <option>2017-Q2</option>
-		  <option>2017-Q3</option>
-		  <option selected="selected">2017-Q4</option>
-		</select>
-	  </p>
-	  <p>
 		Indicator: 
-		<select id="btn31wda">
+		<select id="wda_dd_1">
 		  <option>By Age</option>
 		  <option>By Gender</option>
 		</select>
 	  </p>
 	</div>
-	<p>Number of Workers and Average Monthly Earnings by Age and Gender</p>
   </div>
   <div class="ChartDiv">
 	<div id="Chart3">
@@ -64,30 +50,16 @@ export let wdaCollapse1 = `
 `
 
 export let wdaCollapse2 = `<div id="collapse2" style="display: none;">
-  <div class="ChartTitle">
+  <div class="ChartTitle" style="display:inline; float:right; margin-right:90px;">
 	<div class="buttons">
 	  <p>
-		Time: 
-		<select id="btn4wda">
-		  <option>2016-Q1</option>
-		  <option>2016-Q2</option>
-		  <option>2016-Q3</option>
-		  <option>2016-Q4</option>
-		  <option>2017-Q1</option>
-		  <option>2017-Q2</option>
-		  <option>2017-Q3</option>
-		  <option selected="selected">2017-Q4</option>
-		</select>
-	  </p>
-	  <p>
 		Indicator: 
-		<select id="btn41wda">
+		<select id="wda_dd_2">
 		  <option>By Education</option>
 		  <option>By Gender</option>
 		</select>
 	  </p>
 	</div>
-	<p>New Hires and Job Net Changes by Education and Gender</p>
   </div>
   <div class="ChartDiv">
 	<div id="Chart4">
@@ -108,29 +80,16 @@ export let wdaCollapse2 = `<div id="collapse2" style="display: none;">
 
 export let wdaCollapse3 = `
 <div id="collapse3" style="display: none;">
-  <div class="ChartTitle">
+  <div class="ChartTitle" style="display:inline; float:right; margin-right:90px;">
 	<div class="buttons">
 	  <p>
-		Time: 
-		<select id="btn5wda">
-		  <option>2016-Q1</option>
-		  <option>2016-Q2</option>
-		  <option>2016-Q3</option>
-		  <option>2016-Q4</option>
-		  <option>2017-Q1</option>
-		  <option>2017-Q2</option>
-		  <option selected="selected">2017-Q3</option>
-		</select>
-	  </p>
-	  <p>
 		Indicator: 
-		<select id="btn51wda">
+		<select id="wda_dd_3">
 		  <option>By Education</option>
 		  <option>By Gender</option>
 		</select>
 	  </p>
 	</div>
-	<p>Turnover Rate by Gender and Education</p>
   </div>
   <div class="ChartDiv">
 	<div id="ChartFive">
@@ -150,25 +109,11 @@ export let wdaCollapse3 = `
 
 export function wdaCollapse4(CountyName){ return `
 <div id="collapse4" style="display: none;">
-  <div class="ChartTitle">
+  <div class="ChartTitle" style="display:inline; float:right; margin-right:90px;">
 	<div class="buttons">
-	  <button type="button" id="btn6wda">Toggle Labels</button>
-	  <p>
-		Time Period:
-		<select id="btn7wda">
-		  <option>2016-Q1</option>
-		  <option>2016-Q2</option>
-		  <option>2016-Q3</option>
-		  <option>2016-Q4</option>
-		  <option>2017-Q1</option>
-		  <option>2017-Q2</option>
-		  <option>2017-Q3</option>
-		  <option selected="selected">2017-Q4</option>
-		</select>
-	  </p>
 	  <p>
 		Indicator:
-		<select id="btn10wda">
+		<select id="wda_dd_4">
 		  ${CountyName == 'Maryland' ? '' : '<option>Average Monthly Earnings</option>'}
 		  <option>Job Net Changes</option>
 		  <option>New Hires</option>
@@ -176,8 +121,8 @@ export function wdaCollapse4(CountyName){ return `
 		  <option selected="selected">Workers</option>
 		</select>
 	  </p>
+	  <button type="button" id="btn6wda">Toggle Labels</button>
 	</div>
-	<p>Data by Industry</p>
   </div>
   <div class="ChartDiv">
 	<div id="Chart6"></div>
@@ -202,24 +147,11 @@ export function wdaCollapse4(CountyName){ return `
 
 export let wdaCollapse15 = `
 <div id="collapse15" style="display:none;">
-  <div class="ChartTitle">
+  <div class="ChartTitle" style="display:inline; float:right; margin-right:90px;">
 	<div class="buttons">
 	  <p>
-		Time Period:
-		<select id="btn18wda">
-		  <option>2016-Q1</option>
-		  <option>2016-Q2</option>
-		  <option>2016-Q3</option>
-		  <option>2016-Q4</option>
-		  <option>2017-Q1</option>
-		  <option>2017-Q2</option>
-		  <option>2017-Q3</option>
-		  <option selected="selected">2017-Q4</option>
-		</select>
-	  </p>
-	  <p>
 		Indicator:
-		<select id="btn102wda">
+		<select id="wda_dd_5">
 		  <option selected="selected">Industry</option>
 		  <option>Gender</option>
 		  <option>Education</option>
@@ -227,7 +159,6 @@ export let wdaCollapse15 = `
 		</select>
 	  </p>
 	</div>
-	<p>Separations</p>
   </div>
   <div class="ChartDiv">
 	<div id="Chart17">

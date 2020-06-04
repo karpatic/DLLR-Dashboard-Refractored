@@ -17,7 +17,59 @@ import * as dimple from 'dimple';
     }
     let pcnt2 = (d) => { 
       if(d==undefined | d=='--'){ return '--'}
+      d = d+''
       return d.slice( d.length -1 ) != '%' ? (d3.format(".1%")(d*.01) ) : (d3.format(".1%")(Number(d.slice(0, -1)*.01 ) ) ) 
+    }
+    let find = (objArr, indx) => {
+      let returnThis =  objArr.filter( obj => { return obj['Time'] == ['2015','2016','2017','2018'][indx]} )[0]
+      returnThis = returnThis == undefined ? '--' : returnThis['Amount']
+      return returnThis
+    }
+    let findGender = (objArr, indx) => {
+      let returnThis =  objArr.filter( obj => { return obj['Indicator_Status'] == ["Male", "Female"][indx]} )[0]
+      returnThis = returnThis == undefined ? '--' : returnThis['Amount']
+      return returnThis
+    }
+    // https://github.com/PMSI-AlignAlytics/dimple/issues/265
+    let createChart = (objarr)=>{
+        objarr.map(obj=>{
+            // console.log(Object.keys(obj))
+            // Configure Chart
+            let chart = obj.chart
+            chart.setBounds(...obj.bounds)
+            // Configure X Axis
+            let xaxis = chart.addCategoryAxis(...obj.categoryAxis);
+            if (obj.xtitle) {
+                xaxis.title = obj.xtitle
+            }
+            if(obj.order){
+              xaxis.addOrderRule([...obj.order]);  
+            }
+            // configure Y Axis
+            let yaxis = chart.addMeasureAxis(...obj.measureAxis)
+            yaxis.title = obj.ytitle
+            yaxis.tickFormat = d3.format( obj.tickFormat )
+            // Draw
+            let arr = ["Workers receiving TANF benefits", "Workforce/Service in TANF", "Recipients amongst MD Workers" ]
+            var series = ''
+            if( arr.includes(obj.ytitle) ){  series = chart.addSeries(obj.series, dimple.plot.line);  }
+            else{ series = chart.addSeries(obj.series, dimple.plot.bar); }
+            series.lineMarkers = true;
+            if (obj.colors) {
+                if (Array.isArray( obj.colors[0] ) ) {
+                    // console.log(obj.colors, obj.colors[0])
+                    obj.colors.map(colors=>chart.assignColor(...colors))
+                }
+                else if (obj.colors) {
+                    chart.assignColor(...obj.colors)
+                }
+            } 
+            if (obj.legend){
+                chart.addLegend(...obj.legend)
+            }
+            chart.draw()
+        }
+        )
     }
     
     // Retrieve Data
@@ -35,15 +87,6 @@ import * as dimple from 'dimple';
     let mhhi = dimple.filterData(pop, "Indicator", "Median Household Income")
     pop = dimple.filterData(pop, "Indicator", "Total Population")
     console.log('Population and Median Household Income', pop, mhhi);
-
-  //window.displayIndustryMetricsTable = (wdatax, hiredatax, avgdatax, netdatax, turndatax) => {
-    console.log('Population and Median Household Income', pop, mhhi);
-    let find = (objArr, indx) => {
-      let returnThis =  objArr.filter( obj => { return obj['Time'] == ['2015','2016','2017','2018'][indx]} )[0]
-      returnThis = returnThis == undefined ? '--' : returnThis['Amount']
-      console.log('RETURNING THIS', returnThis)
-      return returnThis
-    }
 
     // Display Table
     document.getElementById('pop_table').innerHTML = `
@@ -126,55 +169,11 @@ import * as dimple from 'dimple';
         "series": "Indicator",
         "lineMarkers": true
     }, ]
-
-    
-    // https://github.com/PMSI-AlignAlytics/dimple/issues/265
-    let createChart = (objarr)=>{
-        objarr.map(obj=>{
-            // console.log(Object.keys(obj))
-            // Configure Chart
-            let chart = obj.chart
-            chart.setBounds(...obj.bounds)
-            // Configure X Axis
-            let xaxis = chart.addCategoryAxis(...obj.categoryAxis);
-            if (obj.xtitle) {
-                xaxis.title = obj.xtitle
-            }
-            if(obj.order){
-              xaxis.addOrderRule([...obj.order]);  
-            }
-            // configure Y Axis
-            let yaxis = chart.addMeasureAxis(...obj.measureAxis)
-            yaxis.title = obj.ytitle
-            yaxis.tickFormat = d3.format( obj.tickFormat )
-            // Draw
-            let arr = ["Workers receiving TANF benefits", "Workforce/Service in TANF", "Recipients amongst MD Workers" ]
-            var series = ''
-            if( arr.includes(obj.ytitle) ){  series = chart.addSeries(obj.series, dimple.plot.line);  }
-            else{ series = chart.addSeries(obj.series, dimple.plot.bar); }
-            series.lineMarkers = true;
-            if (obj.colors) {
-                if (Array.isArray( obj.colors[0] ) ) {
-                    // console.log(obj.colors, obj.colors[0])
-                    obj.colors.map(colors=>chart.assignColor(...colors))
-                }
-                else if (obj.colors) {
-                    chart.assignColor(...obj.colors)
-                }
-            } 
-            if (obj.legend){
-                chart.addLegend(...obj.legend)
-            }
-            chart.draw()
-        }
-        )
-    }
     createChart(createThese)
 
     //
     // empl edu gend
     //
-    console.log('Employment (by Educational Attainment and Gender)')
 
     // Retrieve Elements
     var empl_edu_gend_svg = dimple.newSvg("#empl_edu_gend_chart", "100%", 400);
@@ -195,6 +194,21 @@ import * as dimple from 'dimple';
     window.unempByGender16 = dimple.filterData(unempByGender, "Time", "2016")
     window.unempByGender15 = dimple.filterData(unempByGender, "Time", "2015")
 
+    console.log('Employment (by Educational Attainment and Gender)', {EduAttainment18, unempByGender18} )
+    
+    let findEmpEdu = (objArr, indx1, indx2) => {
+      let x1 = ["Less than Highschool", "Highschool", "Some College", "Bachelor's or Higher"][indx1] 
+      let x2 = ["Employed", "Unemployed", "NIL"][indx2]
+      let returnThis =  objArr.filter( obj => { 
+        let status1 = obj['Indicator_Status'] == x1 
+        let status2 = obj['Employment_Status'] == x2
+        // console.log(indx1, indx2, obj, x1, x2, status1 & status2 )
+        return status1 & status2 
+      } )[0]
+      returnThis = returnThis == undefined ? '--' : returnThis['Amount']
+      return returnThis
+    }
+    
     // Create Tables
     let mdNoTD = CountyName == 'Maryland' ? '' : `
       <td></td>
@@ -206,22 +220,21 @@ import * as dimple from 'dimple';
       <th>Female</th> 
     `
     let mdunempByGender18 = CountyName == 'Maryland' ? '' : `
-      <td>${unempByGender18[0]['Amount']}</td> 
-      <td>${unempByGender18[1]['Amount']}</td> 
+      <td>${findGender(unempByGender18,0)}</td> 
+      <td>${findGender(unempByGender18,1)}</td> 
     `
     let mdunempByGender17 = CountyName == 'Maryland' ? '' : `
-      <td>${unempByGender17[0]['Amount']}</td> 
-      <td>${unempByGender17[1]['Amount']}</td> 
+      <td>${findGender(unempByGender17,0)}</td> 
+      <td>${findGender(unempByGender17,1)}</td> 
     `
     let mdunempByGender16 = CountyName == 'Maryland' ? '' : `
-      <td>${unempByGender16[0]['Amount']}</td> 
-      <td>${unempByGender16[1]['Amount']}</td> 
+      <td>${findGender(unempByGender16,0)}</td> 
+      <td>${findGender(unempByGender16,1)}</td> 
     `
     let mdunempByGender15 = CountyName == 'Maryland' ? '' : `
-      <td>${unempByGender15[0]['Amount']}</td> 
-      <td>${unempByGender15[1]['Amount']}</td> 
+      <td>${findGender(unempByGender15,0)}</td> 
+      <td>${findGender(unempByGender15,1)}</td> 
     `
-
 
     document.getElementById('empl_edu_gend_table').innerHTML = `
     <tr class="HeadRow" style="background-color: white;">
@@ -244,27 +257,27 @@ import * as dimple from 'dimple';
     </tr>
     <tr>
       <th>Employed</th>
-      <td>${EduAttainment18[0]['Amount']}</td>
-      <td>${EduAttainment18[1]['Amount']}</td>
-      <td>${EduAttainment18[2]['Amount']}</td>
-      <td>${EduAttainment18[3]['Amount']}</td>
+      <td>${findEmpEdu(EduAttainment18,0,0)}</td>
+      <td>${findEmpEdu(EduAttainment18,1,0)}</td>
+      <td>${findEmpEdu(EduAttainment18,2,0)}</td>
+      <td>${findEmpEdu(EduAttainment18,3,0)}</td>
       ${ CountyName == 'Maryland' ? '' : `<th rowspan="3" style="border-style: solid; border-color: #5281B7;">Unemployment Rate</th>`}
       ${mdNoTD}
     </tr>
     <tr>
       <th>Unemployed</th>
-      <td>${EduAttainment18[4]['Amount']}</td>
-      <td>${EduAttainment18[5]['Amount']}</td>
-      <td>${EduAttainment18[6]['Amount']}</td>
-      <td>${EduAttainment18[7]['Amount']}</td>
+      <td>${findEmpEdu(EduAttainment18,0,1)}</td>
+      <td>${findEmpEdu(EduAttainment18,1,1)}</td>
+      <td>${findEmpEdu(EduAttainment18,2,1)}</td>
+      <td>${findEmpEdu(EduAttainment18,3,1)}</td>
       ${mdunempByGender18}
     </tr>
     <tr>
       <th>Not In Labor Force (NIL)</th>
-      <td>${EduAttainment18[8]['Amount']}</td>
-      <td>${EduAttainment18[9]['Amount']}</td>
-      <td>${EduAttainment18[10]['Amount']}</td>
-      <td>${EduAttainment18[11]['Amount']}</td>
+      <td>${findEmpEdu(EduAttainment18,0,2)}</td>
+      <td>${findEmpEdu(EduAttainment18,1,2)}</td>
+      <td>${findEmpEdu(EduAttainment18,2,2)}</td>
+      <td>${findEmpEdu(EduAttainment18,3,2)}</td>
       ${mdNoTD}
     </tr>
     <tr class="HeadRow" style="background-color: white;">
@@ -278,27 +291,27 @@ import * as dimple from 'dimple';
     </tr>
     <tr>
       <th>Employed</th>
-      <td>${EduAttainment17[0]['Amount']}</td>
-      <td>${EduAttainment17[1]['Amount']}</td>
-      <td>${EduAttainment17[2]['Amount']}</td>
-      <td>${EduAttainment17[3]['Amount']}</td>
+      <td>${findEmpEdu(EduAttainment17,0,0)}</td>
+      <td>${findEmpEdu(EduAttainment17,1,0)}</td>
+      <td>${findEmpEdu(EduAttainment17,2,0)}</td>
+      <td>${findEmpEdu(EduAttainment17,3,0)}</td>
       ${ CountyName == 'Maryland' ? '' : `<th rowspan="3" style="border-style: solid; border-color: #5281B7;">Unemployment Rate</th>`}
       ${mdNoTD}
     </tr>
     <tr>
       <th>Unemployed</th>
-      <td>${EduAttainment17[4]['Amount']}</td>
-      <td>${EduAttainment17[5]['Amount']}</td>
-      <td>${EduAttainment17[6]['Amount']}</td>
-      <td>${EduAttainment17[7]['Amount']}</td>
+      <td>${findEmpEdu(EduAttainment17,0,1)}</td>
+      <td>${findEmpEdu(EduAttainment17,1,1)}</td>
+      <td>${findEmpEdu(EduAttainment17,2,1)}</td>
+      <td>${findEmpEdu(EduAttainment17,3,1)}</td>
       ${mdunempByGender17}
     </tr>
     <tr>
       <th>Not In Labor Force (NIL)</th>
-      <td>${EduAttainment17[8]['Amount']}</td>
-      <td>${EduAttainment17[9]['Amount']}</td>
-      <td>${EduAttainment17[10]['Amount']}</td>
-      <td>${EduAttainment17[11]['Amount']}</td>
+      <td>${findEmpEdu(EduAttainment17,0,2)}</td>
+      <td>${findEmpEdu(EduAttainment17,1,2)}</td>
+      <td>${findEmpEdu(EduAttainment17,2,2)}</td>
+      <td>${findEmpEdu(EduAttainment17,3,2)}</td>
       ${mdNoTD}
     </tr>
     <tr class="HeadRow" style="background-color: white;">
@@ -312,27 +325,27 @@ import * as dimple from 'dimple';
     </tr>
     <tr>
       <th>Employed</th>
-      <td>${EduAttainment16[0]['Amount']}</td>
-      <td>${EduAttainment16[1]['Amount']}</td>
-      <td>${EduAttainment16[2]['Amount']}</td>
-      <td>${EduAttainment16[3]['Amount']}</td>
+      <td>${findEmpEdu(EduAttainment16,0,0)}</td>
+      <td>${findEmpEdu(EduAttainment16,1,0)}</td>
+      <td>${findEmpEdu(EduAttainment16,2,0)}</td>
+      <td>${findEmpEdu(EduAttainment16,3,0)}</td>
       ${ CountyName == 'Maryland' ? '' : `<th rowspan="3" style="border-style: solid; border-color: #5281B7;">Unemployment Rate</th>`}
       ${mdNoTD}
     </tr>
     <tr>
       <th>Unemployed</th>
-      <td>${EduAttainment16[4]['Amount']}</td>
-      <td>${EduAttainment16[5]['Amount']}</td>
-      <td>${EduAttainment16[6]['Amount']}</td>
-      <td>${EduAttainment16[7]['Amount']}</td>
+      <td>${findEmpEdu(EduAttainment16,0,1)}</td>
+      <td>${findEmpEdu(EduAttainment16,1,1)}</td>
+      <td>${findEmpEdu(EduAttainment16,2,1)}</td>
+      <td>${findEmpEdu(EduAttainment16,3,1)}</td>
       ${mdunempByGender16}
     </tr>
     <tr>
       <th>Not In Labor Force (NIL)</th>
-      <td>${EduAttainment16[8]['Amount']}</td>
-      <td>${EduAttainment16[9]['Amount']}</td>
-      <td>${EduAttainment16[10]['Amount']}</td>
-      <td>${EduAttainment16[11]['Amount']}</td>
+      <td>${findEmpEdu(EduAttainment16,0,2)}</td>
+      <td>${findEmpEdu(EduAttainment16,1,2)}</td>
+      <td>${findEmpEdu(EduAttainment16,2,2)}</td>
+      <td>${findEmpEdu(EduAttainment16,3,2)}</td>
       ${ CountyName == 'Maryland' ? '' : '<th></th>'}
       ${mdNoTD}
     </tr>
@@ -347,27 +360,27 @@ import * as dimple from 'dimple';
     </tr>
     <tr>
       <th>Employed</th>
-      <td>${EduAttainment15[0]['Amount']}</td>
-      <td>${EduAttainment15[1]['Amount']}</td>
-      <td>${EduAttainment15[2]['Amount']}</td>
-      <td>${EduAttainment15[3]['Amount']}</td>
+      <td>${findEmpEdu(EduAttainment15,0,0)}</td>
+      <td>${findEmpEdu(EduAttainment15,1,0)}</td>
+      <td>${findEmpEdu(EduAttainment15,2,0)}</td>
+      <td>${findEmpEdu(EduAttainment15,3,0)}</td>
       ${ CountyName == 'Maryland' ? '' : `<th rowspan="3" style="border-style: solid; border-color: #5281B7;">Unemployment Rate</th>`}
       ${mdNoTD}
     </tr>
     <tr>
       <th>Unemployed</th>
-      <td>${EduAttainment15[4]['Amount']}</td>
-      <td>${EduAttainment15[5]['Amount']}</td>
-      <td>${EduAttainment15[6]['Amount']}</td>
-      <td>${EduAttainment15[7]['Amount']}</td>
+      <td>${findEmpEdu(EduAttainment15,0,1)}</td>
+      <td>${findEmpEdu(EduAttainment15,1,1)}</td>
+      <td>${findEmpEdu(EduAttainment15,2,1)}</td>
+      <td>${findEmpEdu(EduAttainment15,3,1)}</td>
       ${mdunempByGender15}
     </tr>
     <tr>
       <th>Not In Labor Force (NIL)</th>
-      <td>${EduAttainment15[8]['Amount']}</td>
-      <td>${EduAttainment15[9]['Amount']}</td>
-      <td>${EduAttainment15[10]['Amount']}</td>
-      <td>${EduAttainment15[11]['Amount']}</td>
+      <td>${findEmpEdu(EduAttainment15,0,2)}</td>
+      <td>${findEmpEdu(EduAttainment15,1,2)}</td>
+      <td>${findEmpEdu(EduAttainment15,2,2)}</td>
+      <td>${findEmpEdu(EduAttainment15,3,2)}</td>
       ${ CountyName == 'Maryland' ? '' : '<th></th>'}
       ${mdNoTD}
     </tr>
@@ -436,7 +449,6 @@ import * as dimple from 'dimple';
     //
     // empl_race_ethn
     //
-    console.log('Employment (by Race and Ethnicity)')
 
     // Retrieve Elements
     var empl_race_ethn_svg = dimple.newSvg("#empl_race_ethn_chart", "100%", 400);
@@ -457,11 +469,19 @@ import * as dimple from 'dimple';
     window.ethData17 = dimple.filterData(ethData, "Time", "2017")
     window.ethData18 = dimple.filterData(ethData, "Time", "2018")
 
+    console.log('Employment (by Race and Ethnicity)', raceData18, ethData18)
+    
     // Config Chart
     window.empl_race_ethn_chart = new dimple.chart(empl_race_ethn_svg,raceData);
     window.chart5 = new dimple.chart(empl_race_ethn_svg,ethData);
     window.pchart5 = new dimple.chart(empl_race_ethn_chart_print,ethData);
     window.pempl_race_ethn_chart = new dimple.chart(empl_race_ethn_chart_print,raceData);
+
+    let findRace = (objArr, indx) => {
+      let returnThis =  objArr.filter( obj => { return obj['Indicator_Status'] == ["White", "Black", "Asian", "Hispanic"][indx]} )[0]
+      returnThis = returnThis == undefined ? '--' : returnThis['Amount']
+      return returnThis
+    }
 
     document.getElementById('empl_race_ethn_table').innerHTML = `
         <tr class="HeadRow" style="background-color: white;">
@@ -480,10 +500,10 @@ import * as dimple from 'dimple';
         </tr>
         <tr >
           <th>Unemployment Rate</th>
-          <td>${pcnt2(raceData18[0]['Amount'])}</td>
-          <td>${pcnt2(raceData18[1]['Amount'])}</td>
-          <td>${pcnt2(raceData18[2]['Amount'])}</td>
-          <td>${pcnt2(raceData18[3]['Amount'])}</td>
+          <td>${pcnt2(findRace(raceData18,0))}</td>
+          <td>${pcnt2(findRace(raceData18,1))}</td>
+          <td>${pcnt2(findRace(raceData18,2))}</td>
+          <td>${pcnt2(findRace(raceData18,3))}</td>
         </tr>
         <tr class="HeadRow">
           <th>2017</th>
@@ -494,10 +514,10 @@ import * as dimple from 'dimple';
         </tr>
         <tr >
           <th>Unemployment Rate</th>
-          <td>${pcnt2(raceData17[0]['Amount'])}</td>
-          <td>${pcnt2(raceData17[1]['Amount'])}</td>
-          <td>${pcnt2(raceData17[2]['Amount'])}</td>
-          <td>${pcnt2(raceData17[3]['Amount'])}</td>
+          <td>${pcnt2(findRace(raceData17,0))}</td>
+          <td>${pcnt2(findRace(raceData17,1))}</td>
+          <td>${pcnt2(findRace(raceData17,2))}</td>
+          <td>${pcnt2(findRace(raceData17,3))}</td>
         </tr>
         <tr class="HeadRow">
           <th>2016
@@ -509,10 +529,10 @@ import * as dimple from 'dimple';
         </tr>
         <tr class="FootRow">
           <th>Unemployment Rate</th>
-          <td>${pcnt2(raceData16[0]['Amount'])}</td>
-          <td>${pcnt2(raceData16[1]['Amount'])}</td>
-          <td>${pcnt2(raceData16[2]['Amount'])}</td>
-          <td>${pcnt2(raceData16[3]['Amount'])}</td>
+          <td>${pcnt2(findRace(raceData16,0))}</td>
+          <td>${pcnt2(findRace(raceData16,1))}</td>
+          <td>${pcnt2(findRace(raceData16,2))}</td>
+          <td>${pcnt2(findRace(raceData16,3))}</td>
         </tr>
         <tr class="HeadRow">
           <th>2015
@@ -524,10 +544,10 @@ import * as dimple from 'dimple';
         </tr>
         <tr class="FootRow">
           <th>Unemployment Rate</th>
-          <td>${pcnt2(raceData15[0]['Amount'])}</td>
-          <td>${pcnt2(raceData15[1]['Amount'])}</td>
-          <td>${pcnt2(raceData15[2]['Amount'])}</td>
-          <td>${pcnt2(raceData15[3]['Amount'])}</td>
+          <td>${pcnt2(findRace(raceData15,0))}</td>
+          <td>${pcnt2(findRace(raceData15,1))}</td>
+          <td>${pcnt2(findRace(raceData15,2))}</td>
+          <td>${pcnt2(findRace(raceData15,3))}</td>
         </tr>
     `
 
@@ -585,7 +605,6 @@ import * as dimple from 'dimple';
     //
     // empl_vet
     //
-    console.log('Employment (by Veteran Status)')
 
     // Retrieve Elements
     var empl_vet_svg = dimple.newSvg("#empl_vet_chart", "100%", 400);
@@ -597,10 +616,18 @@ import * as dimple from 'dimple';
     window.vetData16 = dimple.filterData(vetData, "Time", "2016");
     window.vetData17 = dimple.filterData(vetData, "Time", "2017")
     window.vetData18 = dimple.filterData(vetData, "Time", "2018");
-
+    console.log('Employment (by Veteran Status)', {vetData18})
+    
     // Create Chart
     window.empl_vet_chart = new dimple.chart(empl_vet_svg,vetData);
     window.empl_vet_print_chart = new dimple.chart(empl_vet_print_svg,vetData);
+
+    let findVet = (objArr, indx) => {
+      let returnThis =  objArr.filter( obj => { return obj['Indicator_Status'] == ["Veteran", "Non Veteran"][indx]} )[0]
+      returnThis = returnThis == undefined ? '--' : returnThis['Amount']
+      return returnThis
+    }
+    
 
     document.getElementById('empl_vet_table').innerHTML = `
         <tr class="HeadRow" style="background-color: white;">
@@ -615,8 +642,8 @@ import * as dimple from 'dimple';
         </tr>
         <tr>
           <th>Unemployment Rate</th>
-          <td>${pcnt2(vetData18[0]['Amount'])}</td>
-          <td>${pcnt2(vetData18[1]['Amount'])}</td>
+          <td>${pcnt2(findVet(vetData18,0))}</td>
+          <td>${pcnt2(findVet(vetData18,1))}</td>
         </tr>
         <tr class="HeadRow">
           <th>2017</th>
@@ -625,8 +652,8 @@ import * as dimple from 'dimple';
         </tr>
         <tr class="FootRow">
           <th>Unemployment Rate</th>
-          <td>${pcnt2(vetData17[0]['Amount'])}</td>
-          <td>${pcnt2(vetData17[1]['Amount'])}</td>
+          <td>${pcnt2(findVet(vetData17,0))}</td>
+          <td>${pcnt2(findVet(vetData17,1))}</td>
         </tr>
         <tr class="HeadRow">
           <th>2016</th>
@@ -635,8 +662,8 @@ import * as dimple from 'dimple';
         </tr>
         <tr>
           <th>Unemployment Rate</th>
-          <td>${pcnt2(vetData16[0]['Amount'])}</td>
-          <td>${pcnt2(vetData16[1]['Amount'])}</td>
+          <td>${pcnt2(findVet(vetData16,0))}</td>
+          <td>${pcnt2(findVet(vetData16,1))}</td>
         </tr>
         <tr class="HeadRow">
           <th>2015</th>
@@ -645,8 +672,8 @@ import * as dimple from 'dimple';
         </tr>
         <tr class="FootRow">
           <th>Unemployment Rate</th>
-          <td>${pcnt2(vetData15[0]['Amount'])}</td>
-          <td>${pcnt2(vetData15[1]['Amount'])}</td>
+          <td>${pcnt2(findVet(vetData15,0))}</td>
+          <td>${pcnt2(findVet(vetData15,1))}</td>
         </tr>
     `
 
@@ -678,13 +705,10 @@ import * as dimple from 'dimple';
     }]
     createChart(createThese)
     
-    d3.select("#year_dd").on("change", chartChange);
-    d3.select("#emplStatus_categ_dd").on("change", chartChange);
     
     //
     //Chart 6 - QCEW  - Disablity and Povery
     //
-    console.log("Emploment by Poverty, Disablity")
     
     // Retrieve Elements
     var disabl_pov_svg = dimple.newSvg("#disabl_pov_chart", "100%", 400);
@@ -693,6 +717,7 @@ import * as dimple from 'dimple';
     // Filter Data
     let povRate = dimple.filterData(data, "Indicator", "Employment Status By Poverty Status")
     povRate = dimple.filterData(povRate, "Employment_Status", ["Unemployed", "Labor Force", "Employed"])
+    povRate = dimple.filterData(povRate, "Indicator_Status", ["Below Poverty"])
     window.povRate18 = dimple.filterData(povRate, "Time", "2018");
     window.povRate17 = dimple.filterData(povRate, "Time", "2017");
     window.povRate16 = dimple.filterData(povRate, "Time", "2016");
@@ -704,6 +729,7 @@ import * as dimple from 'dimple';
     window.disAttainment17 = dimple.filterData(disAttainment1, "Time", "2017");
     window.disAttainment16 = dimple.filterData(disAttainment1, "Time", "2016");
     window.disAttainment15 = dimple.filterData(disAttainment1, "Time", "2008-2011");
+    console.log("Emploment by Poverty, Disablity", {disAttainment18, povRate18})
 
     // Config Chart
     window.pempl_status_chart = new dimple.chart(disabl_pov_chart_print,povRate);
@@ -712,7 +738,38 @@ import * as dimple from 'dimple';
     window.emp_dis_chart_print = new dimple.chart(disabl_pov_chart_print,disAttainment18);
     window.emp_dis_chart = new dimple.chart(disabl_pov_svg,disAttainment18);
 
-    console.log({disAttainment18})
+ 
+
+    window.findEmp = (objArr, indx) => {
+      let returnThis =  objArr.filter( obj => { 
+        return obj['Employment_Status'] == ["Unemployed", "Labor Force", "Employed"][indx]
+      } )
+      // returnThis[0] == undefined || returnThis[0]["Time"]!='2018'?'--':console.log(returnThis, returnThis[0]["Time"], ["Unemployed", "Labor Force", "Employed"][indx], objArr)
+      returnThis = returnThis[0]
+      returnThis = returnThis == undefined ? '--' : returnThis['Amount']
+      return returnThis
+    }
+
+    window.findDisEmp = (objArr, indx1, indx2) => {
+      let returnThis =  objArr.filter( obj => { 
+        return obj['Employment_Status'] == ["Unemployed", "Labor Force", "Employed"][indx1] && 
+          obj['Indicator_Status'] == ["Disabled", "Non Disabled"][indx2]
+      } )
+      
+      /*returnThis[0] == undefined || returnThis[0]["Time"]!='2018'?console.log(          ["Unemployed", "Labor Force", "Employed"][indx1], 
+          ["Disabled", "Non Disabled"][indx2], 
+          objArr): 
+        console.log(
+          returnThis, 
+          returnThis[0]["Time"], 
+          ["Unemployed", "Labor Force", "Employed"][indx1], 
+          ["Disabled", "Non Disabled"][indx2], 
+          objArr
+        )*/
+      returnThis = returnThis[0]
+      returnThis = returnThis == undefined ? '--' : returnThis['Amount']
+      return returnThis
+    }
 
     document.getElementById('disabl_pov_table').innerHTML = `
     <tr class="HeadRow" style="background-color: white;">
@@ -731,24 +788,24 @@ import * as dimple from 'dimple';
     </tr>
     <tr>
       <th>Labor Force</th>
-      <td>${!disAttainment18[4]?'--':disAttainment18[4]['Amount']}</td>
-      <td>${!disAttainment18[5]?'--':disAttainment18[5]['Amount']}</td>
+      <td>${findDisEmp(disAttainment18, 1, 0) }</td>
+      <td>${findDisEmp(disAttainment18, 1, 1) }</td>
       <td></td>
-      <td>${povRate18[1]['Amount']}</td>
+      <td>${findEmp(povRate18,0)}</td>
     </tr>
     <tr>
       <th>Employed</th>
-      <td>${!disAttainment18[0]?'--':disAttainment18[0]['Amount']}</td>
-      <td>${!disAttainment18[1]?'--':disAttainment18[1]['Amount']}</td>
+      <td>${findDisEmp(disAttainment18, 2, 0) }</td>
+      <td>${findDisEmp(disAttainment18, 2, 1) }</td>
       <td></td>
-      <td>${povRate18[3]['Amount']}</td>
+      <td>${findEmp(povRate18,1)}</td>
     </tr>
     <tr>
       <th>Unemployed</th>
-      <td>${disAttainment18[2]['Amount']}</td>
-      <td>${disAttainment18[3]['Amount']}</td>
+      <td>${findDisEmp(disAttainment18, 0, 0) }</td>
+      <td>${findDisEmp(disAttainment18, 0, 1) }</td>
       <td ></td>
-      <td>${povRate18[5]['Amount']}</td>
+      <td>${findEmp(povRate18,2)}</td>
     </tr>
     <tr class="HeadRow" style="background-color: white;">
       <th>2017</th>
@@ -759,24 +816,24 @@ import * as dimple from 'dimple';
     </tr>
     <tr>
       <th>Labor Force</th>
-      <td>${disAttainment17[4]['Amount']}</td>
-      <td>${disAttainment17[5]['Amount']}</td>
+      <td>${findDisEmp(disAttainment17, 1, 0) }</td>
+      <td>${findDisEmp(disAttainment17, 1, 1) }</td>
       <td></td>
-      <td>${povRate17[1]['Amount']}</td>
+      <td>${findEmp(povRate17,0)}</td>
     </tr>
     <tr>
       <th>Employed</th>
-      <td>${disAttainment17[0]['Amount']}</td>
-      <td>${disAttainment17[1]['Amount']}</td>
+      <td>${findDisEmp(disAttainment17, 2, 0) }</td>
+      <td>${findDisEmp(disAttainment17, 2, 1) }</td>
       <td></td>
-      <td>${povRate17[3]['Amount']}</td>
+      <td>${findEmp(povRate17,1)}</td>
     </tr>
     <tr class="FootRow">
       <th>Unemployed</th>
-      <td>${disAttainment17[2]['Amount']}</td>
-      <td>${disAttainment17[3]['Amount']}</td>
+      <td>${findDisEmp(disAttainment17, 0, 0 ) }</td>
+      <td>${findDisEmp(disAttainment17, 0, 1) }</td>
       <td></td>
-      <td>${povRate17[5]['Amount']}</td>
+      <td>${findEmp(povRate17,2)}</td>
     </tr>
     <tr class="HeadRow" style="background-color: white;">
       <th>2016</th>
@@ -787,24 +844,24 @@ import * as dimple from 'dimple';
     </tr>
     <tr>
       <th>Labor Force</th>
-      <td>${disAttainment16[4]['Amount']}</td>
-      <td>${disAttainment16[5]['Amount']}</td>
+      <td>${findDisEmp(disAttainment16, 1, 0 )}</td>
+      <td>${findDisEmp(disAttainment16, 1, 1)}</td>
       <td></td>
-      <td>${povRate16[1]['Amount']}</td>
+      <td>${findEmp(povRate16,0)}</td>
     </tr>
     <tr>
       <th>Employed</th>
-      <td>${disAttainment16[0]['Amount']}</td>
-      <td>${disAttainment16[1]['Amount']}</td>
+      <td>${findDisEmp(disAttainment16, 2, 0) }</td>
+      <td>${findDisEmp(disAttainment16, 2, 1) }</td>
       <td></td>
-      <td>${povRate16[3]['Amount']}</td>
+      <td>${findEmp(povRate16,1)}</td>
     </tr>
     <tr>
       <th>Unemployed</th>
-      <td>${disAttainment16[2]['Amount']}</td>
-      <td>${disAttainment16[3]['Amount']}</td>
+      <td>${findDisEmp(disAttainment16, 0, 0 ) }</td>
+      <td>${findDisEmp(disAttainment16, 0, 1) }</td>
       <td ></td>
-      <td>${povRate16[5]['Amount']}</td>
+      <td>${findEmp(povRate16,2)}</td>
     </tr>
     <tr class="HeadRow" style="background-color: white;">
       <th>2015</th>
@@ -815,24 +872,24 @@ import * as dimple from 'dimple';
     </tr>
     <tr>
       <th>Labor Force</th>
-      <td>${!disAttainment15[4]?'--':disAttainment15[4]['Amount']}</td>
-      <td>${!disAttainment15[5]?'--':disAttainment15[5]['Amount']}</td>
+      <td>${findDisEmp(disAttainment15, 1, 0 ) }</td>
+      <td>${findDisEmp(disAttainment15, 1, 1 ) }</td>
       <td></td>
-      <td>${!povRate15[1]?'--':povRate15[1]['Amount']}</td>
+      <td>${findEmp(povRate15,0)}</td>
     </tr>
     <tr>
       <th>Employed</th>
-      <td>${!disAttainment15[0]?'--':disAttainment15[0]['Amount']}</td>
-      <td>${!disAttainment15[1]?'--':disAttainment15[1]['Amount']}</td>
+      <td>${findDisEmp(disAttainment15, 2, 0 ) }</td>
+      <td>${findDisEmp(disAttainment15, 2, 1 ) }</td>
       <td></td>
-      <td>${!povRate15[3]?'--':povRate15[3]['Amount']}</td>
+      <td>${findEmp(povRate15,1)}</td>
     </tr>
     <tr>
       <th>Unemployed</th>
-      <td>${!disAttainment15[2]?'--':disAttainment15[2]['Amount']}</td>
-      <td>${!disAttainment15[3]?'--':disAttainment15[3]['Amount']}</td>
+      <td>${findDisEmp(disAttainment15, 0, 0 ) }</td>
+      <td>${findDisEmp(disAttainment15, 0, 1 ) }</td>
       <td ></td>
-      <td>${!povRate15[5]?'--':povRate15[5]['Amount']}</td>
+      <td>${findEmp(povRate15,2)}</td>
     </tr>
     `
 
@@ -892,7 +949,6 @@ import * as dimple from 'dimple';
     //
     // TANF
     //
-    console.log("TANF")
     
     // Retrieve Elements
     var tanf_svg = dimple.newSvg("#tanf_chart", "100%", 400);
@@ -1223,49 +1279,10 @@ import * as dimple from 'dimple';
         "series": "Indicator",
         "lineMarkers": false,
         "colors": false
-    }, ]
+    } ]
     createChart(createThese)
 
-}
-)()
 
-
-CountyName2 == 'Maryland' ? '' : window.drawAll = function() {
-    pop_chart.draw(0, true);
-    mhhi_chart.draw(0, true);
-    empl_edu_chart.draw(0, true);
-    empl_edu_gend_chart.draw(0, true);
-    empl_race_ethn_chart.draw(0, true);
-    chart5.draw(0, true);
-    window.empl_vet_chart.draw(0, true);
-    emp_dis_chart.draw(0, true);
-    empl_status_chart.draw(0, true);
-    tanf_attainment_chart.draw(0, true);
-    tanf_rate_chart.draw(0, true);
-    tanf_data.draw(0, true);
-    if(!emplStatusCounties.includes(CountyName) ){
-      window.work_exp_pov_chart.draw(0, true)  
-      pwork_exp_pov_chart.draw(0, true) 
-    }
-    snap_chart.draw(0, true);
-    snap_chart2.draw(0, true);
-    ppop_chart.draw(0, true);
-    mhhi_chart_print.draw(0, true);
-    pempl_edu_chart.draw(0, true);
-    pempl_edu_gend_chart.draw(0, true);
-    pempl_race_ethn_chart.draw(0, true);
-    pchart5.draw(0, true);
-    empl_vet_print_chart.draw(0, true);
-    emp_dis_chart_print.draw(0, true);
-    pempl_status_chart.draw(0, true);
-    ptanf_attainment_chart.draw(0, true);
-    ptanf_rate_chart.draw(0, true);
-    ptanf_data.draw(0, true);
-    psnap_chart.draw(0, true);
-    psnap_chart2.draw(0, true);
-}
-
-// Education and Gender
 
 window.chartChange = function() {
     console.log(this)
@@ -1370,57 +1387,59 @@ window.chartChange = function() {
 
     }
 
-    var e8 = document.getElementById("emplStatus_categ_dd");
-    var strUser8 = e8.options[e8.selectedIndex].text;
-    if (strUser3 == "2015") {
-        if (strUser8 == "Gender") {
-            work_exp_pov_chart.data = workerDatag1;
-        } else if (strUser8 == "Race") {
-            work_exp_pov_chart.data = workerDatar1;
-        } else if (strUser8 == "Education") {
-            work_exp_pov_chart.data = workerDatae1;
-        } else if (strUser8 == "Poverty") {
-            work_exp_pov_chart.data = workerDatap1;
+    if (!emplStatusCounties.includes(CountyName)) {
+        var e8 = document.getElementById("emplStatus_categ_dd");
+        var strUser8 = e8.options[e8.selectedIndex].text;
+        if (strUser3 == "2015") {
+            if (strUser8 == "Gender") {
+                work_exp_pov_chart.data = workerDatag1;
+            } else if (strUser8 == "Race") {
+                work_exp_pov_chart.data = workerDatar1;
+            } else if (strUser8 == "Education") {
+                work_exp_pov_chart.data = workerDatae1;
+            } else if (strUser8 == "Poverty") {
+                work_exp_pov_chart.data = workerDatap1;
+            }
+            pwork_exp_pov_chart.data = work_exp_pov_chart.data;
         }
-        pwork_exp_pov_chart.data = work_exp_pov_chart.data;
-    }
-    if (strUser3 == "2016") {
-        if (strUser8 == "Gender") {
-            work_exp_pov_chart.data = workerDatag2;
-        } else if (strUser8 == "Race") {
-            work_exp_pov_chart.data = workerDatar2;
-        } else if (strUser8 == "Education") {
-            work_exp_pov_chart.data = workerDatae2;
-        } else if (strUser8 == "Poverty") {
-            work_exp_pov_chart.data = workerDatap2;
+        if (strUser3 == "2016") {
+            if (strUser8 == "Gender") {
+                work_exp_pov_chart.data = workerDatag2;
+            } else if (strUser8 == "Race") {
+                work_exp_pov_chart.data = workerDatar2;
+            } else if (strUser8 == "Education") {
+                work_exp_pov_chart.data = workerDatae2;
+            } else if (strUser8 == "Poverty") {
+                work_exp_pov_chart.data = workerDatap2;
+            }
         }
-    }
-    if (strUser3 == "2017") {
-        if (strUser8 == "Gender") {
-            work_exp_pov_chart.data = workerDatag3;
-        } else if (strUser8 == "Race") {
-            work_exp_pov_chart.data = workerDatar3;
-        } else if (strUser8 == "Education") {
-            work_exp_pov_chart.data = workerDatae3;
-        } else if (strUser8 == "Poverty") {
-            work_exp_pov_chart.data = workerDatap3;
+        if (strUser3 == "2017") {
+            if (strUser8 == "Gender") {
+                work_exp_pov_chart.data = workerDatag3;
+            } else if (strUser8 == "Race") {
+                work_exp_pov_chart.data = workerDatar3;
+            } else if (strUser8 == "Education") {
+                work_exp_pov_chart.data = workerDatae3;
+            } else if (strUser8 == "Poverty") {
+                work_exp_pov_chart.data = workerDatap3;
+            }
         }
-    }
-    if (strUser3 == "2018") {
-        if (strUser8 == "Gender") {
-            work_exp_pov_chart.data = workerDatag4;
-        } else if (strUser8 == "Race") {
-            work_exp_pov_chart.data = workerDatar4;
-        } else if (strUser8 == "Education") {
-            work_exp_pov_chart.data = workerDatae4;
-        } else if (strUser8 == "Poverty") {
-            work_exp_pov_chart.data = workerDatap4;
+        if (strUser3 == "2018") {
+            if (strUser8 == "Gender") {
+                work_exp_pov_chart.data = workerDatag4;
+            } else if (strUser8 == "Race") {
+                work_exp_pov_chart.data = workerDatar4;
+            } else if (strUser8 == "Education") {
+                work_exp_pov_chart.data = workerDatae4;
+            } else if (strUser8 == "Poverty") {
+                work_exp_pov_chart.data = workerDatap4;
+            }
         }
+        drawAll();
+
+        work_exp_pov_chart.draw(1000);
+        pwork_exp_pov_chart.draw(1000);
     }
-    drawAll();
-    
-    work_exp_pov_chart.draw(1000);
-    pwork_exp_pov_chart.draw(1000);
 
     empl_edu_chart.draw(1000);
     empl_edu_gend_chart.draw(1000);
@@ -1448,6 +1467,49 @@ window.chartChange = function() {
     drawAll();
 }
 
+    d3.select("#dropdownMenuY").on("change", chartChange);
+    d3.select("#emplStatus_categ_dd").on("change", chartChange);
+
+}
+)()
+
+
+CountyName2 == 'Maryland' ? '' : window.drawAll = function() {
+    pop_chart.draw(0, true);
+    mhhi_chart.draw(0, true);
+    empl_edu_chart.draw(0, true);
+    empl_edu_gend_chart.draw(0, true);
+    empl_race_ethn_chart.draw(0, true);
+    chart5.draw(0, true);
+    window.empl_vet_chart.draw(0, true);
+    emp_dis_chart.draw(0, true);
+    empl_status_chart.draw(0, true);
+    tanf_attainment_chart.draw(0, true);
+    tanf_rate_chart.draw(0, true);
+    tanf_data.draw(0, true);
+    if(!emplStatusCounties.includes(CountyName) ){
+      window.work_exp_pov_chart.draw(0, true)  
+      pwork_exp_pov_chart.draw(0, true) 
+    }
+    snap_chart.draw(0, true);
+    snap_chart2.draw(0, true);
+    ppop_chart.draw(0, true);
+    mhhi_chart_print.draw(0, true);
+    pempl_edu_chart.draw(0, true);
+    pempl_edu_gend_chart.draw(0, true);
+    pempl_race_ethn_chart.draw(0, true);
+    pchart5.draw(0, true);
+    empl_vet_print_chart.draw(0, true);
+    emp_dis_chart_print.draw(0, true);
+    pempl_status_chart.draw(0, true);
+    ptanf_attainment_chart.draw(0, true);
+    ptanf_rate_chart.draw(0, true);
+    ptanf_data.draw(0, true);
+    psnap_chart.draw(0, true);
+    psnap_chart2.draw(0, true);
+}
+
+// Education and Gender
 
 var whichChart = 'pop';
 let prints = ["pop_chart_print", "empl_edu_gend_chart_print", "empl_race_ethn_chart_print", "empl_vet_chart_print", "disabl_pov_chart_print", "tanf_chart_print", "empl_status_chart_print", "snap_chart_print", "Landing"]
@@ -1523,53 +1585,142 @@ window.printClick = function() {
 }
 
 CountyName2 == 'Maryland' ? '' : window.onload = function() {
-    document.getElementById("dropdownMenu").style.display  = "none";
-    document.getElementById("title").style.display  = "none";
+	document.getElementById("dropdownMenu").style.display = "none";
+    document.getElementById("dropdownMenuY").style.display = "none";
+    document.getElementById("dropdownMenuQ").style.display = "none";
+    document.getElementById("title").style.display = "none";
+
     document.querySelectorAll('[data-lbl]').forEach( el => {
+
 		el.removeAttribute("disabled");
+
         el.addEventListener("click", function(){
-            console.log('Clicked', el.dataset.lbl, el);
-            whichChart = el.dataset.lbl;
+
+            console.log('Clicked', el.dataset.lbl, el)
+
             let dropdownMenu = document.getElementById("dropdownMenu")
+            let dropdownMenuY = document.getElementById("dropdownMenuY")
+            let dropdownMenuQ = document.getElementById("dropdownMenuQ")
             let elem = document.getElementById("title")
             elem.style.display  = "inline";
-            switch(whichChart) {
-              case 'pop':
+            window.currentClick = whichChart
+            whichChart = el.dataset.lbl;
+            switch (whichChart) {
+            case 'pop':
                 elem.innerHTML = 'Population and Median Household Income'
-                dropdownMenu.style.display  = "none";
+                dropdownMenu.style.display = "none";
+                dropdownMenuY.style.display = "none";
+                dropdownMenuQ.style.display =  "none";
                 break;
-              case 'empl_edu_gend':
+            case 'empl_edu_gend':
                 elem.innerHTML = 'Demographics - Education and Gender'
-                dropdownMenu.style.display  = "inline";
+                dropdownMenu.style.display = "inline";
+                dropdownMenuY.style.display = "inline";
+                dropdownMenuQ.style.display =  "none";
                 break;
-              case 'empl_race_ethn':
+            case 'empl_race_ethn':
                 elem.innerHTML = 'Demographics - Race and Ethnicity'
-                dropdownMenu.style.display  = "inline";
+                dropdownMenu.style.display = "inline";
+                dropdownMenuY.style.display = "inline";
+                dropdownMenuQ.style.display =  "none";
                 break;
-              case 'empl_vet':
+            case 'empl_vet':
                 elem.innerHTML = 'Demographics - Veterans Status'
-                dropdownMenu.style.display  = "inline";
+                dropdownMenu.style.display = "inline";
+                dropdownMenuY.style.display = "inline";
+                dropdownMenuQ.style.display =  "none";
                 break;
-              case 'disabl_pov':
+            case 'disabl_pov':
                 elem.innerHTML = 'Disability and Poverty'
-                dropdownMenu.style.display  = "inline";
+                dropdownMenu.style.display = "inline";
+                dropdownMenuY.style.display = "inline";
+                dropdownMenuQ.style.display =  "none";
                 break;
-              case 'tanf':
+            case 'tanf':
                 elem.innerHTML = 'Temporary Aid for Needy Families (TANF) Stats'
-                dropdownMenu.style.display  = "inline";
+                dropdownMenu.style.display = "inline";
+                dropdownMenuY.style.display = "inline";
+                dropdownMenuQ.style.display =  "none";
                 break;
-              case 'empl_status':
+            case 'empl_status':
                 elem.innerHTML = 'Employment Status amongst Maryland Workers'
-                dropdownMenu.style.display  = "inline";
+                dropdownMenu.style.display = "inline";
+                dropdownMenuY.style.display = "inline";
+                dropdownMenuQ.style.display =  "none";
                 break;
-              case 'snap':
+            case 'snap':
                 elem.innerHTML = 'SNAP Recipient Workers'
-                dropdownMenu.style.display  = "none";
+                dropdownMenu.style.display = "none";
+                dropdownMenuY.style.display = "none";
+                dropdownMenuQ.style.display = "none";
                 break;
-              default:
+            case 'collapse9':
+                elem.innerHTML = 'Apprenticeship Completers'
+                dropdownMenu.style.display = "inline";
+                dropdownMenuY.style.display = "none";
+                dropdownMenuQ.style.display = "inline";
+                break;
+            case 'collapse1':
+                elem.innerHTML = 'Number of Workers and Average Monthly Earnings by Age and Gender'
+                dropdownMenu.style.display = "inline";
+                dropdownMenuY.style.display = "none";
+                dropdownMenuQ.style.display = "inline";
+                break;
+            case 'collapse2':
+                elem.innerHTML = 'New Hires and Job Net Changes by Education and Gender'
+                dropdownMenu.style.display = "inline";
+                dropdownMenuY.style.display = "none";
+                dropdownMenuQ.style.display = "inline";
+                break;
+            case 'collapse3':
+                elem.innerHTML = 'Turnover Rate by Gender and Education'
+                dropdownMenu.style.display = "inline";
+                dropdownMenuY.style.display = "none";
+                dropdownMenuQ.style.display = "inline";
+                break;
+            case 'collapse4':
+                elem.innerHTML = 'Data by Industry'
+                dropdownMenu.style.display = "inline";
+                dropdownMenuY.style.display = "none";
+                dropdownMenuQ.style.display = "inline";
+                break;
+            case 'collapse15':
+                elem.innerHTML = 'Separations'
+                dropdownMenu.style.display = "inline";
+                dropdownMenuY.style.display = "none";
+                dropdownMenuQ.style.display = "inline";
+                break;
+            case 'collapse16':
+                elem.innerHTML = 'New Apprentice Programs'
+                dropdownMenu.style.display = "none";
+                dropdownMenuY.style.display = "none";
+                dropdownMenuQ.style.display = "none";
+                break;
+            case 'collapse17':
+                elem.innerHTML = 'New/Active Apprentice Programs'
+                dropdownMenu.style.display = "none";
+                dropdownMenuY.style.display = "none";
+                dropdownMenuQ.style.display = "none";
+                break;
+            case 'collapse20':
+                elem.innerHTML = 'Long Term Unemployed'
+                dropdownMenu.style.display = "none";
+                dropdownMenuY.style.display = "none";
+                dropdownMenuQ.style.display = "none";
+
+                break;
+            case 'collapse19':
+                elem.innerHTML = 'Service Participants in SNAP'
+                dropdownMenu.style.display = "none";
+                dropdownMenuY.style.display = "none";
+                dropdownMenuQ.style.display = "none";
+                break;
+            default:
                 elem.innerHTML = 'Empty'
-                dropdownMenu.style.display  = "none";
-            } 
+                dropdownMenu.style.display = "none";
+                dropdownMenuY.style.display = "none";
+                dropdownMenuQ.style.display =  "none";
+            }
             hideall(collapsables)
             document.getElementById(el.dataset.lbl).style.display = "inline";
             drawAll();

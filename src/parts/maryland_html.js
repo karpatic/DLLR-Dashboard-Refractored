@@ -1,7 +1,7 @@
 export let mdDrodowns = `
     <div class="dropdown"> <button class="button" disabled data-lbl="pop">Population and Median Household Income</button> </div>
     <div class="dropdown">
-      <button class="button" disabled style="padding-left: 16%; padding-right: 16%">Demographics and Employment</button>
+      <button class="button" style="padding-left: 16%; padding-right: 16%">Demographics and Employment</button>
       <div class="dropdown-content">
         <button class="button" disabled data-lbl="empl_edu_gend">Gender</button>
         <button class="button" disabled data-lbl="empl_race_ethn">Race and Ethnicity</button>
@@ -35,9 +35,6 @@ export let mdDrodowns = `
 
 export let mdApprenticeshipCompleters = `
 <div id="collapse9" style="display: none;">
-  <div class="ChartTitle">
-	  <p>Apprenticeship Completers</p>
-  </div>
   <div class="ChartDiv">
     <div id="Chart11"></div>
     <div id="Print11" class="print"></div>
@@ -56,9 +53,6 @@ export let mdApprenticeshipCompleters = `
 
 export let mdNewApprenticeShipPrograms = `
 <div id="collapse16" style="display:none;">
-  <div class="ChartTitle">
-    <p>New Apprentice Programs</p>
-  </div>
   <div class="ChartDiv">
     <div id="Chart18"> </div>
     <div id="Print18" class="print"></div>
@@ -76,9 +70,6 @@ export let mdNewApprenticeShipPrograms = `
 
 export let mdNewAndACtivePrograms = `
 <div id="collapse17" style="display:none;">
-  <div class="ChartTitle">
-    <p>New/Active Apprentice Programs</p>
-  </div>
   <div class="ChartDiv">
     <div id="Chart19"></div>
     <div id="Print19" class="print"></div>
@@ -94,9 +85,6 @@ export let mdNewAndACtivePrograms = `
 
 export let mdLongTermUnemployment = `
 <div id="collapse20" style="display: none;">
-  <div class="ChartTitle">
-    <p>Long Term Unemployed</p>
-  </div>
   <div id="Chart20">
     <p></p>
   </div>
@@ -114,9 +102,6 @@ export let mdLongTermUnemployment = `
 
 export let mdServiceParticipantsInSnap = `
 <div id="collapse19" style="display: none">
-  <div class="ChartTitle">
-    <p>Service Participants in SNAP</p>
-  </div>
   <div class="ChartDiv">
     <div id="Chart21" class="show"></div>
     <div class="print">

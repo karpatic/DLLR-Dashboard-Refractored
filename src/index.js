@@ -68,6 +68,32 @@ import 'chardin.ts/chardinjs.scss';
         let md = CountyName == 'Maryland'
         let wd = CountyName.includes('L W D A')
         let {wdaDropdowns, wdaCollapse1, wdaCollapse2, wdaCollapse3, wdaCollapse4, wdaCollapse15, wdaFooter, countyDropdowns, counties_pop, counties_empl_edu_gend, counties_empl_race_ethn, counties_empl_vet, counties_disabl_pov, counties_empl_status, counties_snap} = false
+		let dropdown = `<div class="ChartTitle">
+		  <p id='title' style="display:inline" >innertext</p>
+		  <p></p>
+		  <div id='dropdownMenu' style="display:inline; float:right">
+			<p style="display:inline;">Select Time Period:</p>
+				<select id='dropdownMenuY' style="display:inline; id="year_dd" style="display:inline; float:right">
+				  <option>Pick a Time Period</option>
+				  <option>2015</option>
+				  <option>2016</option>
+				  <option>2017</option>
+				  <option>2018</option>
+				  <option>2019</option>
+				</select>
+				<select  id='dropdownMenuQ' style="display:inline; id="quar_dd">
+				  <option>2016-Q1</option>
+				  <option>2016-Q2</option>
+				  <option>2016-Q3</option>
+				  <option>2016-Q4</option>
+				  <option>2017-Q1</option>
+				  <option>2017-Q2</option>
+				  <option>2017-Q3</option>
+				  <option selected="selected">2017-Q4</option>
+				</select>
+			</div>
+		</div>
+		`
 
         if (wd) {
             //
@@ -80,7 +106,7 @@ import 'chardin.ts/chardinjs.scss';
             window.CountyName5 = tmp + "LWDA"
             let {wdaDropdowns, wdaCollapse1, wdaCollapse2, wdaCollapse3, wdaCollapse4, wdaCollapse15, wdaFooter} = await import ('./parts/woia_html')
             buttonMenu = wdaDropdowns
-            countyCode = `${wdaCollapse1} ${wdaCollapse2} ${wdaCollapse3} ${wdaCollapse4(CountyName)} ${wdaCollapse15} ${wdaFooter}`
+            countyCode = `${dropdown} ${wdaCollapse1} ${wdaCollapse2} ${wdaCollapse3} ${wdaCollapse4(CountyName)} ${wdaCollapse15} ${wdaFooter}`
         } else if (md) {
             //
             // MD
@@ -90,29 +116,13 @@ import 'chardin.ts/chardinjs.scss';
             let {countyDropdowns, counties_pop, counties_empl_edu_gend, counties_empl_race_ethn, counties_empl_vet, counties_disabl_pov, counties_tanf, counties_empl_status, counties_snap} = await import ('./parts/county_html')
             let {mdDrodowns, mdApprenticeshipCompleters, mdNewApprenticeShipPrograms, mdNewAndACtivePrograms, mdLongTermUnemployment, mdServiceParticipantsInSnap} = await import ('./parts/maryland_html')
             buttonMenu = mdDrodowns
-            countyCode = ` ${wdaCollapse1} ${wdaCollapse2} ${wdaCollapse3} ${wdaCollapse4(CountyName)} ${wdaCollapse15} ${wdaFooter} ${counties_pop} ${counties_empl_edu_gend} ${counties_empl_race_ethn} ${counties_empl_vet} ${counties_disabl_pov} ${counties_tanf} ${counties_empl_status} ${counties_snap}  ${mdApprenticeshipCompleters} ${mdNewApprenticeShipPrograms} ${mdNewAndACtivePrograms} ${mdLongTermUnemployment} ${mdServiceParticipantsInSnap}
-                 `
+            countyCode = `${dropdown} ${wdaCollapse1} ${wdaCollapse2} ${wdaCollapse3} ${wdaCollapse4(CountyName)} ${wdaCollapse15} ${wdaFooter} ${counties_pop} ${counties_empl_edu_gend} ${counties_empl_race_ethn} ${counties_empl_vet} ${counties_disabl_pov} ${counties_tanf} ${counties_empl_status} ${counties_snap}  ${mdApprenticeshipCompleters} ${mdNewApprenticeShipPrograms} ${mdNewAndACtivePrograms} ${mdLongTermUnemployment} ${mdServiceParticipantsInSnap}
+            `
         } else {
             //
             // County
             //
             let {countyDropdowns, counties_pop, counties_empl_edu_gend, counties_empl_race_ethn, counties_empl_vet, counties_disabl_pov, counties_tanf, counties_empl_status, counties_snap} = await import ('./parts/county_html')
-            let dropdown = `<div class="ChartTitle">
-              <p id='title' style="display:inline" >innertext</p>
-              <p></p>
-			  <div id='dropdownMenu' style="display:inline; float:right">
-			    <p style="display:inline;">Select Time Period:</p>
-				<select id="year_dd" style="display:inline; float:right">
-					<option>Pick a Time Period</option>
-					<option>2015</option>
-					<option>2016</option>
-					<option>2017</option>
-					<option>2018</option>
-					<option>2019</option>
-				  </select>
-				</div>
-			</div>
-			`
             countyCode = `${dropdown} ${counties_pop} ${counties_empl_edu_gend} ${counties_empl_race_ethn} ${counties_empl_vet} ${counties_disabl_pov} ${counties_tanf} ${counties_empl_status} ${counties_snap} 
             `
             window.CountyName1 = CountyName + ", MD";
@@ -182,6 +192,7 @@ import 'chardin.ts/chardinjs.scss';
             './parts/counties_external_code.js')
         }
     }
+    localStorage.setItem('Clicked', 'placeholder');
     document.body.innerHTML += ''
     // localStorage.setItem('displayChardin', 'test')
     if (location_search && localStorage.getItem('displayChardin') != 'false') {
