@@ -67,7 +67,7 @@ import 'chardin.ts/chardinjs.scss';
         var {countyCode, buttonMenu} = ''
         let md = CountyName == 'Maryland'
         let wd = CountyName.includes('L W D A')
-        let {wdaDropdowns, wdaCollapse1, wdaCollapse2, wdaCollapse3, wdaCollapse4, wdaCollapse15, wdaFooter, countyDropdowns, counties_pop, counties_empl_edu_gend, counties_empl_race_ethn, counties_empl_vet, counties_disabl_pov, counties_empl_status, counties_snap} = false
+        let {wdaDropdowns, wdaCollapse1, wdaCollapse2, wdaCollapse3, wdaCollapse4, wdaCollapse15, countyDropdowns, counties_pop, counties_empl_edu_gend, counties_empl_race_ethn, counties_empl_vet, counties_disabl_pov, counties_empl_status, counties_snap} = false
 		let dropdown = `<div class="ChartTitle">
 		  <p id='title' style="display:inline" >innertext</p>
 		  <p></p>
@@ -89,7 +89,14 @@ import 'chardin.ts/chardinjs.scss';
 				  <option>2017-Q1</option>
 				  <option>2017-Q2</option>
 				  <option>2017-Q3</option>
-				  <option selected="selected">2017-Q4</option>
+				  <option>2017-Q4</option>
+				  <option>2018-Q1</option>
+				  <option>2018-Q2</option>
+				  <option>2018-Q3</option>
+				  <option>2018-Q4</option>
+				  <option>2019-Q1</option>
+				  <option>2019-Q2</option>
+				  <option selected="selected">2019-Q4</option>
 				</select>
 			</div>
 		</div>
@@ -104,19 +111,19 @@ import 'chardin.ts/chardinjs.scss';
             window.CountyName2 = tmp + "WIA"
             window.CountyName4 = tmp + " Local Workforce Development Area"
             window.CountyName5 = tmp + "LWDA"
-            let {wdaDropdowns, wdaCollapse1, wdaCollapse2, wdaCollapse3, wdaCollapse4, wdaCollapse15, wdaFooter} = await import ('./parts/woia_html')
+            let {wdaDropdowns, wdaCollapse1, wdaCollapse2, wdaCollapse3, wdaCollapse4, wdaCollapse15} = await import ('./parts/woia_html')
             buttonMenu = wdaDropdowns
-            countyCode = `${dropdown} ${wdaCollapse1} ${wdaCollapse2} ${wdaCollapse3} ${wdaCollapse4(CountyName)} ${wdaCollapse15} ${wdaFooter}`
+            countyCode = `${dropdown} ${wdaCollapse1} ${wdaCollapse2} ${wdaCollapse3} ${wdaCollapse4(CountyName)} ${wdaCollapse15}`
         } else if (md) {
             //
             // MD
             //
             window.CountyName = window.CountyName1 = window.CountyName2 = window.CountyName4 = 'Maryland'
-            let {wdaDropdowns, wdaCollapse1, wdaCollapse2, wdaCollapse3, wdaCollapse4, wdaCollapse15, wdaFooter} = await import ('./parts/woia_html')
+            let {wdaDropdowns, wdaCollapse1, wdaCollapse2, wdaCollapse3, wdaCollapse4, wdaCollapse15} = await import ('./parts/woia_html')
             let {countyDropdowns, counties_pop, counties_empl_edu_gend, counties_empl_race_ethn, counties_empl_vet, counties_disabl_pov, counties_tanf, counties_empl_status, counties_snap} = await import ('./parts/county_html')
             let {mdDrodowns, mdApprenticeshipCompleters, mdNewApprenticeShipPrograms, mdNewAndACtivePrograms, mdLongTermUnemployment, mdServiceParticipantsInSnap} = await import ('./parts/maryland_html')
             buttonMenu = mdDrodowns
-            countyCode = `${dropdown} ${wdaCollapse1} ${wdaCollapse2} ${wdaCollapse3} ${wdaCollapse4(CountyName)} ${wdaCollapse15} ${wdaFooter} ${counties_pop} ${counties_empl_edu_gend} ${counties_empl_race_ethn} ${counties_empl_vet} ${counties_disabl_pov} ${counties_tanf} ${counties_empl_status} ${counties_snap}  ${mdApprenticeshipCompleters} ${mdNewApprenticeShipPrograms} ${mdNewAndACtivePrograms} ${mdLongTermUnemployment} ${mdServiceParticipantsInSnap}
+            countyCode = `${dropdown} ${wdaCollapse1} ${wdaCollapse2} ${wdaCollapse3} ${wdaCollapse4(CountyName)} ${wdaCollapse15} ${counties_pop} ${counties_empl_edu_gend} ${counties_empl_race_ethn} ${counties_empl_vet} ${counties_disabl_pov} ${counties_tanf} ${counties_empl_status} ${counties_snap}  ${mdApprenticeshipCompleters} ${mdNewApprenticeShipPrograms} ${mdNewAndACtivePrograms} ${mdLongTermUnemployment} ${mdServiceParticipantsInSnap}
             `
         } else {
             //
@@ -195,7 +202,8 @@ import 'chardin.ts/chardinjs.scss';
     localStorage.setItem('Clicked', 'placeholder');
     document.body.innerHTML += ''
     // localStorage.setItem('displayChardin', 'test')
-    if (location_search && localStorage.getItem('displayChardin') != 'false') {
+    if( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) &
+        location_search && localStorage.getItem('displayChardin') != 'false') {
         localStorage.setItem('displayChardin', 'false')
         let chardin = new Chardin(document.querySelector('body'));
         chardin.start();

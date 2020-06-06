@@ -84,10 +84,18 @@ import * as dimple from 'dimple';
     var svg71 = dimple.newSvg("#Chart17", "100%", 400);
     var print71 = dimple.newSvg("#Print17", 750, 400);
 
-    let workData = dimple.filterData(data, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4", "2017Q1", "2017Q2", "2017Q3", "2017Q4", "2018Q1"])
-    workData = dimple.filterData(workData, "Indicator", ["Maryland Workers by Age", "Maryland Workers by Gender", "Maryland Workers by Industry"])
+    let workData = dimple.filterData(data, "Time", [
+      "2016Q1", "2016Q2", "2016Q3", "2016Q4", 
+      "2017Q1", "2017Q2", "2017Q3", "2017Q4", 
+      "2018Q1", "2018Q2", "2018Q3", "2018Q4",
+      "2019Q1", "2019Q2", "2019Q3", "2019Q4",])
+    workData = dimple.filterData(workData, "Indicator", [
+      "Maryland Workers by Age", 
+      "Maryland Workers by Gender", 
+      "Maryland Workers by Industry"])
 
     let workDataA = dimple.filterData(workData, "Indicator", "Maryland Workers by Age");
+    console.log('workDataA', workDataA)
     window.workData2016Q1 = dimple.filterData(workDataA, "Time", "2016Q1")
     window.workData2016Q2 = dimple.filterData(workDataA, "Time", "2016Q2")
     window.workData2016Q3 = dimple.filterData(workDataA, "Time", "2016Q3")
@@ -97,7 +105,14 @@ import * as dimple from 'dimple';
     window.workData2017Q3 = dimple.filterData(workDataA, "Time", "2017Q3")
     window.workData2017Q4 = dimple.filterData(workDataA, "Time", "2017Q4")
     window.workData2018Q1 = dimple.filterData(workDataA, "Time", "2018Q1")
-
+    window.workData2018Q2 = dimple.filterData(workDataA, "Time", "2018Q2")
+    window.workData2018Q3 = dimple.filterData(workDataA, "Time", "2018Q3")
+    window.workData2018Q4 = dimple.filterData(workDataA, "Time", "2019Q4")
+    window.workData2019Q1 = dimple.filterData(workDataA, "Time", "2019Q1")
+    window.workData2019Q2 = dimple.filterData(workDataA, "Time", "2019Q2")
+    window.workData2019Q3 = dimple.filterData(workDataA, "Time", "2019Q3")
+    window.workData2019Q4 = dimple.filterData(workDataA, "Time", "2019Q4")
+ 
     let workDataB = dimple.filterData(workData, "Indicator", "Maryland Workers by Gender");
     window.workDatg2016Q1 = dimple.filterData(workDataB, "Time", "2016Q1")
     window.workDatg2016Q2 = dimple.filterData(workDataB, "Time", "2016Q2")
@@ -108,6 +123,13 @@ import * as dimple from 'dimple';
     window.workDatg2017Q3 = dimple.filterData(workDataB, "Time", "2017Q3")
     window.workDatg2017Q4 = dimple.filterData(workDataB, "Time", "2017Q4")
     window.workDatg2018Q1 = dimple.filterData(workDataB, "Time", "2018Q1")
+    window.workDatg2018Q2 = dimple.filterData(workDataB, "Time", "2018Q2")
+    window.workDatg2018Q3 = dimple.filterData(workDataB, "Time", "2018Q3")
+    window.workDatg2018Q4 = dimple.filterData(workDataB, "Time", "2019Q4")
+    window.workDatg2019Q1 = dimple.filterData(workDataB, "Time", "2019Q1")
+    window.workDatg2019Q2 = dimple.filterData(workDataB, "Time", "2019Q2")
+    window.workDatg2019Q3 = dimple.filterData(workDataB, "Time", "2019Q3")
+    window.workDatg2019Q4 = dimple.filterData(workDataB, "Time", "2019Q4")
 
     window.wChart = new dimple.chart(svg3,workData2018Q1);
     wChart.setBounds("11%", "12%", "35%", "65%")
@@ -161,39 +183,91 @@ import * as dimple from 'dimple';
 
     //
     // Tab 1 Chart 2
-    //
-
-    let averageData = dimple.filterData(data, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4", "2017Q1", "2017Q2", "2017Q3", "2017Q4", "2018Q1"]);
-
-    window.averageData2016Q1 = dimple.filterData(dimple.filterData(averageData, "Time", "2016Q1"), "Indicator", "Maryland Average Monthly Earnings by Age");
-    window.averageData2016Q2 = dimple.filterData(dimple.filterData(averageData, "Time", "2016Q2"), "Indicator", "Maryland Average Monthly Earnings by Age");
-    window.averageData2016Q3 = dimple.filterData(dimple.filterData(averageData, "Time", "2016Q3"), "Indicator", "Maryland Average Monthly Earnings by Age");
-    window.averageData2016Q4 = dimple.filterData(dimple.filterData(averageData, "Time", "2016Q4"), "Indicator", "Maryland Average Monthly Earnings by Age");
-    window.averageData2017Q1 = dimple.filterData(dimple.filterData(averageData, "Time", "2017Q1"), "Indicator", "Maryland Average Monthly Earnings by Age");
-    window.averageData2017Q2 = dimple.filterData(dimple.filterData(averageData, "Time", "2017Q2"), "Indicator", "Maryland Average Monthly Earnings by Age");
-    window.averageData2017Q3 = dimple.filterData(dimple.filterData(averageData, "Time", "2017Q3"), "Indicator", "Maryland Average Monthly Earnings by Age");
-    window.averageData2017Q4 = dimple.filterData(dimple.filterData(averageData, "Time", "2017Q4"), "Indicator", "Maryland Average Monthly Earnings by Age");
-    window.averageData2018Q1 = dimple.filterData(dimple.filterData(averageData, "Time", "2018Q1"), "Indicator", "Maryland Average Monthly Earnings by Age");
-
-    window.averageDatg2016Q1 = dimple.filterData(dimple.filterData(averageData, "Time", "2016Q1"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-    window.averageDatg2016Q2 = dimple.filterData(dimple.filterData(averageData, "Time", "2016Q2"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-    window.averageDatg2016Q3 = dimple.filterData(dimple.filterData(averageData, "Time", "2016Q3"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-    window.averageDatg2016Q4 = dimple.filterData(dimple.filterData(averageData, "Time", "2016Q4"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-    window.averageDatg2017Q1 = dimple.filterData(dimple.filterData(averageData, "Time", "2017Q1"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-    window.averageDatg2017Q2 = dimple.filterData(dimple.filterData(averageData, "Time", "2017Q2"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-    window.averageDatg2017Q3 = dimple.filterData(dimple.filterData(averageData, "Time", "2017Q3"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-    window.averageDatg2017Q4 = dimple.filterData(dimple.filterData(averageData, "Time", "2017Q4"), "Indicator", "Maryland Average Monthly Earnings by Gender");
-    window.averageDatg2018Q1 = dimple.filterData(dimple.filterData(averageData, "Time", "2018Q1"), "Indicator", "Maryland Average Monthly Earnings by Gender");
     
+    // data = age, datg = gender
+
+    let averageData = dimple.filterData(data, "Time", [
+      "2016Q1", "2016Q2", "2016Q3", "2016Q4", 
+      "2017Q1", "2017Q2", "2017Q3", "2017Q4", 
+      "2018Q1", "2018Q2", "2018Q3", "2018Q4",
+      "2019Q1", "2019Q2", "2019Q3", "2019Q4"]);
+    let averageData2 = dimple.filterData(averageData, "Indicator", "Maryland Average Monthly Earnings by Age");
+    window.averageData2016Q1 = dimple.filterData(averageData2, "Time", "2016Q1")
+    window.averageData2016Q2 = dimple.filterData(averageData2, "Time", "2016Q2")
+    window.averageData2016Q3 = dimple.filterData(averageData2, "Time", "2016Q3")
+    window.averageData2016Q4 = dimple.filterData(averageData2, "Time", "2016Q4")
+    window.averageData2017Q1 = dimple.filterData(averageData2, "Time", "2017Q1")
+    window.averageData2017Q2 = dimple.filterData(averageData2, "Time", "2017Q2")
+    window.averageData2017Q3 = dimple.filterData(averageData2, "Time", "2017Q3")
+    window.averageData2017Q4 = dimple.filterData(averageData2, "Time", "2017Q4")
+    window.averageData2018Q1 = dimple.filterData(averageData2, "Time", "2018Q1")
+    window.averageData2018Q2 = dimple.filterData(averageData2, "Time", "2018Q2")
+    window.averageData2018Q3 = dimple.filterData(averageData2, "Time", "2018Q3")
+    window.averageData2018Q4 = dimple.filterData(averageData2, "Time", "2019Q4")
+    window.averageData2019Q1 = dimple.filterData(averageData2, "Time", "2019Q1")
+    window.averageData2019Q2 = dimple.filterData(averageData2, "Time", "2019Q2")
+    window.averageData2019Q3 = dimple.filterData(averageData2, "Time", "2019Q3")
+    window.averageData2019Q4 = dimple.filterData(averageData2, "Time", "2019Q4")
+
+
+    let averageData1 = dimple.filterData(averageData, "Indicator", "Maryland Average Monthly Earnings by Gender" );
+    
+    console.log('averageData1', averageData1)
+
+    window.averageDatg2016Q1 = dimple.filterData(averageData1, "Time", "2016Q1")
+    window.averageDatg2016Q2 = dimple.filterData(averageData1, "Time", "2016Q2")
+    window.averageDatg2016Q3 = dimple.filterData(averageData1, "Time", "2016Q3")
+    window.averageDatg2016Q4 = dimple.filterData(averageData1, "Time", "2016Q4")
+    window.averageDatg2017Q1 = dimple.filterData(averageData1, "Time", "2017Q1")
+    window.averageDatg2017Q2 = dimple.filterData(averageData1, "Time", "2017Q2")
+    window.averageDatg2017Q3 = dimple.filterData(averageData1, "Time", "2017Q3")
+    window.averageDatg2017Q4 = dimple.filterData(averageData1, "Time", "2017Q4")
+    window.averageDatg2018Q1 = dimple.filterData(averageData1, "Time", "2018Q1")
+    window.averageDatg2018Q2 = dimple.filterData(averageData2, "Time", "2018Q2")
+    window.averageDatg2018Q3 = dimple.filterData(averageData2, "Time", "2018Q3")
+    window.averageDatg2018Q4 = dimple.filterData(averageData2, "Time", "2019Q4")
+    window.averageDatg2019Q1 = dimple.filterData(averageData2, "Time", "2019Q1")
+    window.averageDatg2019Q2 = dimple.filterData(averageData2, "Time", "2019Q2")
+    window.averageDatg2019Q3 = dimple.filterData(averageData2, "Time", "2019Q3")
+    window.averageDatg2019Q4 = dimple.filterData(averageData2, "Time", "2019Q4")
+
     console.log('Num Workers, Average Earnings', {
         workData2018Q1,
         workDatg2018Q1,
         averageData2018Q1,
-        averageDatg2018Q1
+        averageDatg2018Q1,
+        workData2018Q2,
+        workDatg2018Q2,
+        averageData2018Q2,
+        averageDatg2018Q2,
+        workData2018Q3,
+        workDatg2018Q3,
+        averageData2018Q3,
+        averageDatg2018Q3,
+        workData2018Q4,
+        workDatg2018Q4,
+        averageData2018Q4,
+        averageDatg2018Q4,
+        workData2019Q1,
+        workDatg2019Q1,
+        averageData2019Q1,
+        averageDatg2019Q1,
+        workData2019Q2,
+        workDatg2019Q2,
+        averageData2019Q2,
+        averageDatg2019Q2,
+        workData2019Q3,
+        workDatg2019Q3,
+        averageData2019Q3,
+        averageDatg2019Q3,
+        workData2019Q4,
+        workDatg2019Q4,
+        averageData2019Q4,
+        averageDatg2019Q4,
     })
 
     let displayAvgQuarterTab1 = (quarter,agec,gendc,agea,genda)=>{
-        console.log('HEELLLLLO', quarter,agec,gendc,agea,genda)
+        console.log('displayAvgQuarterTab1', quarter,agec,gendc,agea,genda)
         return `
 		<tr class="HeadRow">
 		  <th>${quarter}</th>
@@ -250,6 +324,13 @@ import * as dimple from 'dimple';
                ${displayAvgQuarterTab1('2017Q3', workData2017Q3, workDatg2017Q3, averageData2017Q3, averageDatg2017Q3)}
                ${displayAvgQuarterTab1('2017Q4', workData2017Q4, workDatg2017Q4, averageData2017Q4, averageDatg2017Q4)}
                ${displayAvgQuarterTab1('2018Q1', workData2018Q1, workDatg2018Q1, averageData2018Q1, averageDatg2018Q1)}
+               ${!workData2018Q2[0]?'':displayAvgQuarterTab1('2018Q2', workData2018Q2, workDatg2018Q2, averageData2018Q2, averageDatg2018Q2)}
+               ${!workData2018Q3[0]?'':displayAvgQuarterTab1('2018Q3', workData2018Q3, workDatg2018Q3, averageData2018Q3, averageDatg2018Q3)}
+               ${!workData2018Q4[0]?'':displayAvgQuarterTab1('2018Q4', workData2018Q4, workDatg2018Q4, averageData2018Q4, averageDatg2018Q4)}
+               ${!workData2019Q1[0]?'':displayAvgQuarterTab1('2019Q1', workData2019Q1, workDatg2019Q1, averageData2019Q1, averageDatg2019Q1)}
+               ${!workData2019Q2[0]?'':displayAvgQuarterTab1('2019Q2', workData2019Q2, workDatg2019Q2, averageData2019Q2, averageDatg2019Q2)}
+               ${!workData2019Q3[0]?'':displayAvgQuarterTab1('2019Q3', workData2019Q3, workDatg2019Q3, averageData2019Q3, averageDatg2019Q3)}
+               ${!workData2019Q4[0]?'':displayAvgQuarterTab1('2019Q4', workData2019Q4, workDatg2019Q4, averageData2019Q4, averageDatg2019Q4)}
   `
     window.avgChart = new dimple.chart(svg3,averageData2017Q4);
     avgChart.setBounds("56%", "12%", "35%", "65%")
@@ -270,7 +351,11 @@ import * as dimple from 'dimple';
     avgChart.assignColor("Female", "pink", "black", 0.7);
 
     avgChart.draw();
-    genX.addOrderRule(["14-18", "19-21", "22-24", "25-34", "35-44", "45-54", "55-64", "65-99", "Female", "Male"]);
+    genX.addOrderRule([
+      "14-18", "19-21", "22-24", "25-34", 
+      "35-44", "45-54", "55-64", "65-99", 
+      "Female", "Male"
+    ]);
 
     genX.title = " ";
     genY.tickFormat = '$,.0f';
@@ -297,34 +382,64 @@ import * as dimple from 'dimple';
     pgenX.title = " ";
     pgenY.tickFormat = '$,.0f';
     pgenY.title = "Average Monthly Earnings";
-    pgenX.addOrderRule(["14-18", "19-21", "22-24", "25-34", "35-44", "45-54", "55-64", "65-99", "Female", "Male"]);
+    pgenX.addOrderRule([
+      "14-18", "19-21", "22-24", "25-34", 
+      "35-44", "45-54", "55-64", "65-99", 
+      "Female", "Male"
+    ]);
 
     //
     // Tab 2 Chart 1
     //
 
-    let jobData = dimple.filterData(data, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4", "2017Q1", "2017Q2", "2017Q3", "2017Q4", "2018Q1"])
-    jobData = dimple.filterData(jobData, "Indicator", ["Maryland Job Net Change by Education", "Maryland Job Net Change by Gender", "Maryland Job Net Change by Industry"])
+    let jobData = dimple.filterData( data, "Time", [
+      "2016Q1", "2016Q2", "2016Q3", "2016Q4", 
+      "2017Q1", "2017Q2", "2017Q3", "2017Q4", 
+      "2018Q1", "2018Q2", "2018Q3", "2018Q4",
+      "2019Q1", "2019Q2", "2019Q3", "2019Q4"
+    ] )
 
-    window.jobDatc2016Q1 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q1"), "Indicator", "Maryland Job Net Change by Education");
-    window.jobDatc2016Q2 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q2"), "Indicator", "Maryland Job Net Change by Education");
-    window.jobDatc2016Q3 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q3"), "Indicator", "Maryland Job Net Change by Education");
-    window.jobDatc2016Q4 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q4"), "Indicator", "Maryland Job Net Change by Education");
-    window.jobDatc2017Q1 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q1"), "Indicator", "Maryland Job Net Change by Education");
-    window.jobDatc2017Q2 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q2"), "Indicator", "Maryland Job Net Change by Education");
-    window.jobDatc2017Q3 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q3"), "Indicator", "Maryland Job Net Change by Education");
-    window.jobDatc2017Q4 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q4"), "Indicator", "Maryland Job Net Change by Education");
-    window.jobDatc2018Q1 = dimple.filterData(dimple.filterData(jobData, "Time", "2018Q1"), "Indicator", "Maryland Job Net Change by Education");
+    jobData = dimple.filterData( jobData, "Indicator", [
+      "Maryland Job Net Change by Education", 
+      "Maryland Job Net Change by Gender", 
+      "Maryland Job Net Change by Industry"
+    ])
 
-    window.jobDatg2016Q1 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q1"), "Indicator", "Maryland Job Net Change by Gender");
-    window.jobDatg2016Q2 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q2"), "Indicator", "Maryland Job Net Change by Gender");
-    window.jobDatg2016Q3 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q3"), "Indicator", "Maryland Job Net Change by Gender");
-    window.jobDatg2016Q4 = dimple.filterData(dimple.filterData(jobData, "Time", "2016Q4"), "Indicator", "Maryland Job Net Change by Gender");
-    window.jobDatg2017Q1 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q1"), "Indicator", "Maryland Job Net Change by Gender");
-    window.jobDatg2017Q2 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q2"), "Indicator", "Maryland Job Net Change by Gender");
-    window.jobDatg2017Q3 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q3"), "Indicator", "Maryland Job Net Change by Gender");
-    window.jobDatg2017Q4 = dimple.filterData(dimple.filterData(jobData, "Time", "2017Q4"), "Indicator", "Maryland Job Net Change by Gender");
-    window.jobDatg2018Q1 = dimple.filterData(dimple.filterData(jobData, "Time", "2018Q1"), "Indicator", "Maryland Job Net Change by Gender");
+    let jobData1 = dimple.filterData(jobData, "Indicator", "Maryland Job Net Change by Education");
+    window.jobDatc2016Q1 = dimple.filterData(jobData1, "Time", "2016Q1")
+    window.jobDatc2016Q2 = dimple.filterData(jobData1, "Time", "2016Q2")
+    window.jobDatc2016Q3 = dimple.filterData(jobData1, "Time", "2016Q3")
+    window.jobDatc2016Q4 = dimple.filterData(jobData1, "Time", "2016Q4")
+    window.jobDatc2017Q1 = dimple.filterData(jobData1, "Time", "2017Q1")
+    window.jobDatc2017Q2 = dimple.filterData(jobData1, "Time", "2017Q2")
+    window.jobDatc2017Q3 = dimple.filterData(jobData1, "Time", "2017Q3")
+    window.jobDatc2017Q4 = dimple.filterData(jobData1, "Time", "2017Q4")
+    window.jobDatc2018Q1 = dimple.filterData(jobData1, "Time", "2018Q1")
+    window.jobDatc2018Q2 = dimple.filterData(jobData1, "Time", "2018Q2")
+    window.jobDatc2018Q3 = dimple.filterData(jobData1, "Time", "2018Q3")
+    window.jobDatc2018Q4 = dimple.filterData(jobData1, "Time", "2018Q4")
+    window.jobDatc2019Q1 = dimple.filterData(jobData1, "Time", "2019Q1")
+    window.jobDatc2019Q2 = dimple.filterData(jobData1, "Time", "2019Q2")
+    window.jobDatc2019Q3 = dimple.filterData(jobData1, "Time", "2019Q3")
+    window.jobDatc2019Q4 = dimple.filterData(jobData1, "Time", "2019Q4")
+
+    let jobData2 = dimple.filterData(jobData, "Indicator", "Maryland Job Net Change by Gender");
+    window.jobDatg2016Q1 = dimple.filterData(jobData2, "Time", "2016Q1")
+    window.jobDatg2016Q2 = dimple.filterData(jobData2, "Time", "2016Q2")
+    window.jobDatg2016Q3 = dimple.filterData(jobData2, "Time", "2016Q3")
+    window.jobDatg2016Q4 = dimple.filterData(jobData2, "Time", "2016Q4")
+    window.jobDatg2017Q1 = dimple.filterData(jobData2, "Time", "2017Q1")
+    window.jobDatg2017Q2 = dimple.filterData(jobData2, "Time", "2017Q2")
+    window.jobDatg2017Q3 = dimple.filterData(jobData2, "Time", "2017Q3")
+    window.jobDatg2017Q4 = dimple.filterData(jobData2, "Time", "2017Q4")
+    window.jobDatg2018Q1 = dimple.filterData(jobData2, "Time", "2018Q1")
+    window.jobDatg2018Q2 = dimple.filterData(jobData2, "Time", "2018Q2")
+    window.jobDatg2018Q3 = dimple.filterData(jobData2, "Time", "2018Q3")
+    window.jobDatg2018Q4 = dimple.filterData(jobData2, "Time", "2018Q4")
+    window.jobDatg2019Q1 = dimple.filterData(jobData2, "Time", "2019Q1")
+    window.jobDatg2019Q2 = dimple.filterData(jobData2, "Time", "2019Q2")
+    window.jobDatg2019Q3 = dimple.filterData(jobData2, "Time", "2019Q3")
+    window.jobDatg2019Q4 = dimple.filterData(jobData2, "Time", "2019Q4")
 
     window.jc = new dimple.chart(svg4,jobDatc2017Q1);
     jc.setBounds("56%", "8%", "35%", "45%")
@@ -370,33 +485,69 @@ import * as dimple from 'dimple';
     praceX.title = " ";
 
     praceY.tickFormat = ',.0f';
-    praceX.addOrderRule(["Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A", "Female", "Male"]);
+    praceX.addOrderRule([
+      "Less than High school", 
+      "High school", 
+      "Some college", 
+      "Bachelor's or Higher", 
+      "N/A", 
+      "Female", "Male"]);
 
     //
     // Tab 2 Chart 2
     //
 
-    let newHireData = dimple.filterData(dimple.filterData(data, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4", "2017Q1", "2017Q2", "2017Q3", "2017Q4", "2018Q1", "2016Q4", "2017Q1", "2017Q2"]), "Indicator", ["Maryland New Hires by Education", "Maryland New Hires by Gender", "Maryland Workers by Industry"])
-    window.newHireDatc2016Q1 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q1"), "Indicator", "Maryland New Hires by Education");
-    window.newHireDatc2016Q2 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q2"), "Indicator", "Maryland New Hires by Education");
-    window.newHireDatc2016Q3 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q3"), "Indicator", "Maryland New Hires by Education");
-    window.newHireDatc2016Q4 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q4"), "Indicator", "Maryland New Hires by Education");
-    window.newHireDatc2017Q1 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q1"), "Indicator", "Maryland New Hires by Education");
-    window.newHireDatc2017Q2 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q2"), "Indicator", "Maryland New Hires by Education");
-    window.newHireDatc2017Q3 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q3"), "Indicator", "Maryland New Hires by Education");
-    window.newHireDatc2017Q4 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q4"), "Indicator", "Maryland New Hires by Education");
-    window.newHireDatc2018Q1 = dimple.filterData(dimple.filterData(newHireData, "Time", "2018Q1"), "Indicator", "Maryland New Hires by Education");
+    let newHireData = dimple.filterData(data, "Time", [
+      "2016Q1", "2016Q2", "2016Q3", "2016Q4", 
+      "2017Q1", "2017Q2", "2017Q3", "2017Q4", 
+      "2018Q1", "2018Q2", "2018Q3", "2018Q4",
+      "2019Q1", "2019Q2", "2019Q3", "2019Q4"
+    ])
+    console.log('NewHireFilterTime', {newHireData} )
 
-    let newHireDatg2016Q1 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q1"), "Indicator", "Maryland New Hires by Gender");
-    window.newHireDatg2016Q2 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q2"), "Indicator", "Maryland New Hires by Gender");
-    window.newHireDatg2016Q3 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q3"), "Indicator", "Maryland New Hires by Gender");
-    window.newHireDatg2016Q4 = dimple.filterData(dimple.filterData(newHireData, "Time", "2016Q4"), "Indicator", "Maryland New Hires by Gender");
-    window.newHireDatg2017Q1 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q1"), "Indicator", "Maryland New Hires by Gender");
-    window.newHireDatg2017Q2 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q2"), "Indicator", "Maryland New Hires by Gender");
-    window.newHireDatg2017Q3 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q3"), "Indicator", "Maryland New Hires by Gender");
-    window.newHireDatg2017Q4 = dimple.filterData(dimple.filterData(newHireData, "Time", "2017Q4"), "Indicator", "Maryland New Hires by Gender");
-    window.newHireDatg2018Q1 = dimple.filterData(dimple.filterData(newHireData, "Time", "2018Q1"), "Indicator", "Maryland New Hires by Gender");
+    newHireData = dimple.filterData(newHireData, "Indicator", [
+      "Maryland New Hires by Education", 
+      "Maryland New Hires by Gender", 
+      "Maryland Workers by Industry"
+    ])
+    console.log("NewHireFilterTimeAndIndicator", {newHireData})
     
+    let newHireData1 = dimple.filterData(newHireData, "Indicator", "Maryland New Hires by Education");
+    window.newHireDatc2016Q1 = dimple.filterData(newHireData1, "Time", "2016Q1")
+    window.newHireDatc2016Q2 = dimple.filterData(newHireData1, "Time", "2016Q2")
+    window.newHireDatc2016Q3 = dimple.filterData(newHireData1, "Time", "2016Q3")
+    window.newHireDatc2016Q4 = dimple.filterData(newHireData1, "Time", "2016Q4")
+    window.newHireDatc2017Q1 = dimple.filterData(newHireData1, "Time", "2017Q1")
+    window.newHireDatc2017Q2 = dimple.filterData(newHireData1, "Time", "2017Q2")
+    window.newHireDatc2017Q3 = dimple.filterData(newHireData1, "Time", "2017Q3")
+    window.newHireDatc2017Q4 = dimple.filterData(newHireData1, "Time", "2017Q4")
+    window.newHireDatc2018Q1 = dimple.filterData(newHireData1, "Time", "2018Q1")
+    window.newHireDatc2018Q2 = dimple.filterData(newHireData1, "Time", "2018Q2")
+    window.newHireDatc2018Q3 = dimple.filterData(newHireData1, "Time", "2018Q3")
+    window.newHireDatc2018Q4 = dimple.filterData(newHireData1, "Time", "2018Q4")
+    window.newHireDatc2019Q1 = dimple.filterData(newHireData1, "Time", "2019Q1")
+    window.newHireDatc2019Q2 = dimple.filterData(newHireData1, "Time", "2019Q2")
+    window.newHireDatc2019Q3 = dimple.filterData(newHireData1, "Time", "2019Q3")
+    window.newHireDatc2019Q4 = dimple.filterData(newHireData1, "Time", "2019Q4")
+
+    let newHireData2 = dimple.filterData(newHireData, "Indicator", "Maryland New Hires by Gender");
+    window.newHireDatg2016Q1 = dimple.filterData(newHireData2, "Time", "2016Q1")
+    window.newHireDatg2016Q2 = dimple.filterData(newHireData2, "Time", "2016Q2")
+    window.newHireDatg2016Q3 = dimple.filterData(newHireData2, "Time", "2016Q3")
+    window.newHireDatg2016Q4 = dimple.filterData(newHireData2, "Time", "2016Q4")
+    window.newHireDatg2017Q1 = dimple.filterData(newHireData2, "Time", "2017Q1")
+    window.newHireDatg2017Q2 = dimple.filterData(newHireData2, "Time", "2017Q2")
+    window.newHireDatg2017Q3 = dimple.filterData(newHireData2, "Time", "2017Q3")
+    window.newHireDatg2017Q4 = dimple.filterData(newHireData2, "Time", "2017Q4")
+    window.newHireDatg2018Q1 = dimple.filterData(newHireData2, "Time", "2018Q1")
+    window.newHireDatg2018Q2 = dimple.filterData(newHireData2, "Time", "2018Q2")
+    window.newHireDatg2018Q3 = dimple.filterData(newHireData2, "Time", "2018Q3")
+    window.newHireDatg2018Q4 = dimple.filterData(newHireData2, "Time", "2018Q4")
+    window.newHireDatg2019Q1 = dimple.filterData(newHireData2, "Time", "2019Q1")
+    window.newHireDatg2019Q2 = dimple.filterData(newHireData2, "Time", "2019Q2")
+    window.newHireDatg2019Q3 = dimple.filterData(newHireData2, "Time", "2019Q3")
+    window.newHireDatg2019Q4 = dimple.filterData(newHireData2, "Time", "2019Q4")
+
     console.log('New Hires, Job Net Changes', {
         jobDatc2018Q1,
         jobDatg2018Q1,
@@ -431,6 +582,8 @@ import * as dimple from 'dimple';
                   <td>${cma(findGender(genda, 1))}</td>
                </tr>`
     }
+    console.log('filter', jobDatc2018Q2, jobDatg2018Q2, newHireDatc2018Q2, newHireDatg2018Q2)
+    console.log('filter', !jobDatg2018Q2[0]?'NO EXECUTE':'CODE EXECUTES')
     document.getElementById('table4').innerHTML = `
                  <tr class="HeadRow" style="background-color: white;">
                   <th style="border-right-style: solid;">${CountyName.replace("L W D A", "LWDA")}</th>
@@ -452,6 +605,13 @@ import * as dimple from 'dimple';
                ${displayAvgQuarterTab2('2017Q3', jobDatc2017Q3, jobDatg2017Q3, newHireDatc2017Q3, newHireDatg2017Q3)}
                ${displayAvgQuarterTab2('2017Q4', jobDatc2017Q4, jobDatg2017Q4, newHireDatc2017Q4, newHireDatg2017Q4)}
                ${displayAvgQuarterTab2('2018Q1', jobDatc2018Q1, jobDatg2018Q1, newHireDatc2018Q1, newHireDatg2018Q1)}
+               ${!jobDatg2018Q2[0]?'':displayAvgQuarterTab2('2018Q2', jobDatc2018Q2, jobDatg2018Q2, newHireDatc2018Q2, newHireDatg2018Q2)}
+               ${!jobDatg2018Q3[0]?'':displayAvgQuarterTab2('2018Q3', jobDatc2018Q3, jobDatg2018Q3, newHireDatc2018Q3, newHireDatg2018Q3)}
+               ${!jobDatg2018Q4[0]?'':displayAvgQuarterTab2('2018Q4', jobDatc2018Q4, jobDatg2018Q4, newHireDatc2018Q4, newHireDatg2018Q4)}
+               ${!jobDatg2019Q1[0]?'':displayAvgQuarterTab2('2019Q1', jobDatc2019Q1, jobDatg2019Q1, newHireDatc2019Q1, newHireDatg2019Q1)}
+               ${!jobDatg2019Q2[0]?'':displayAvgQuarterTab2('2019Q2', jobDatc2019Q2, jobDatg2019Q2, newHireDatc2019Q2, newHireDatg2019Q2)}
+               ${!jobDatg2019Q3[0]?'':displayAvgQuarterTab2('2019Q3', jobDatc2019Q3, jobDatg2019Q3, newHireDatc2019Q3, newHireDatg2019Q3)}
+               ${!jobDatg2019Q4[0]?'':displayAvgQuarterTab2('2019Q4', jobDatc2019Q4, jobDatg2019Q4, newHireDatc2019Q4, newHireDatg2019Q4)}
   `
     window.newHireChart = new dimple.chart(svg4,newHireDatc2017Q4);
     newHireChart.setBounds("11%", "8%", "35%", "45%")
@@ -500,7 +660,12 @@ import * as dimple from 'dimple';
     // Tab 3 Chart 1   Turnover Rate
     //
 
-    let turnOverData = dimple.filterData(data, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4", "2017Q1", "2017Q2", "2017Q3", "2017Q4", "2018Q1", "2016Q4"])
+    let turnOverData = dimple.filterData(data, "Time", [
+      "2016Q1", "2016Q2", "2016Q3", "2016Q4", 
+      "2017Q1", "2017Q2", "2017Q3", "2017Q4", 
+      "2018Q1", "2018Q2", "2018Q3", "2018Q4", 
+      "2019Q1", "2019Q2", "2019Q3", "2019Q4", 
+    ])
     turnOverData = dimple.filterData(turnOverData, "Indicator", ["Maryland Turnover Rate by Education", "Maryland Turnover Rate by Gender", "Maryland Workers by Industry"])
     let turnOverData1 = dimple.filterData(turnOverData, "Indicator", "Maryland Turnover Rate by Education");
     window.turnOverData2016Q1 = dimple.filterData(turnOverData1, "Time", "2016Q1")
@@ -512,6 +677,13 @@ import * as dimple from 'dimple';
     window.turnOverData2017Q3 = dimple.filterData(turnOverData1, "Time", "2017Q3")
     window.turnOverData2017Q4 = dimple.filterData(turnOverData1, "Time", "2017Q4")
     window.turnOverData2018Q1 = dimple.filterData(turnOverData1, "Time", "2018Q1")
+    window.turnOverData2018Q2 = dimple.filterData(turnOverData1, "Time", "2018Q2")
+    window.turnOverData2018Q3 = dimple.filterData(turnOverData1, "Time", "2018Q3")
+    window.turnOverData2018Q4 = dimple.filterData(turnOverData1, "Time", "2018Q4")
+    window.turnOverData2019Q1 = dimple.filterData(turnOverData1, "Time", "2019Q1")
+    window.turnOverData2019Q2 = dimple.filterData(turnOverData1, "Time", "2019Q2")
+    window.turnOverData2019Q3 = dimple.filterData(turnOverData1, "Time", "2019Q3")
+    window.turnOverData2019Q4 = dimple.filterData(turnOverData1, "Time", "2019Q4")
 
     let turnOverData2 = dimple.filterData(turnOverData, "Indicator", "Maryland Turnover Rate by Gender")
     window.turnOverDatg2016Q1 = dimple.filterData(turnOverData2, "Time", "2016Q1")
@@ -523,6 +695,13 @@ import * as dimple from 'dimple';
     window.turnOverDatg2017Q3 = dimple.filterData(turnOverData2, "Time", "2017Q3")
     window.turnOverDatg2017Q4 = dimple.filterData(turnOverData2, "Time", "2017Q4")
     window.turnOverDatg2018Q1 = dimple.filterData(turnOverData2, "Time", "2018Q1")
+    window.turnOverDatg2018Q2 = dimple.filterData(turnOverData2, "Time", "2018Q2")
+    window.turnOverDatg2018Q3 = dimple.filterData(turnOverData2, "Time", "2018Q3")
+    window.turnOverDatg2018Q4 = dimple.filterData(turnOverData2, "Time", "2018Q4")
+    window.turnOverDatg2019Q1 = dimple.filterData(turnOverData2, "Time", "2019Q1")
+    window.turnOverDatg2019Q2 = dimple.filterData(turnOverData2, "Time", "2019Q2")
+    window.turnOverDatg2019Q3 = dimple.filterData(turnOverData2, "Time", "2019Q3")
+    window.turnOverDatg2019Q4 = dimple.filterData(turnOverData2, "Time", "2019Q4")
     
     console.log('Turnover Rate', {
         turnOverData2,
@@ -570,6 +749,13 @@ import * as dimple from 'dimple';
                ${displayAvgQuarterTab3('2017Q3', turnOverData2017Q3, turnOverDatg2017Q3)}
                ${displayAvgQuarterTab3('2017Q4', turnOverData2017Q4, turnOverDatg2017Q4)}
                ${displayAvgQuarterTab3('2018Q1', turnOverData2018Q1, turnOverDatg2018Q1)}
+               ${!turnOverData2018Q2[0]?'':displayAvgQuarterTab3('2018Q2', turnOverData2018Q2, turnOverDatg2018Q2)}
+               ${!turnOverData2018Q3[0]?'':displayAvgQuarterTab3('2018Q3', turnOverData2018Q3, turnOverDatg2018Q3)}
+               ${!turnOverData2018Q4[0]?'':displayAvgQuarterTab3('2018Q4', turnOverData2018Q4, turnOverDatg2018Q4)}
+               ${!turnOverData2019Q1[0]?'':displayAvgQuarterTab3('2019Q1', turnOverData2019Q1, turnOverDatg2019Q1)}
+               ${!turnOverData2019Q2[0]?'':displayAvgQuarterTab3('2019Q2', turnOverData2019Q2, turnOverDatg2019Q2)}
+               ${!turnOverData2019Q3[0]?'':displayAvgQuarterTab3('2019Q3', turnOverData2019Q3, turnOverDatg2019Q3)}
+               ${!turnOverData2019Q4[0]?'':displayAvgQuarterTab3('2019Q4', turnOverData2019Q4, turnOverDatg2019Q4)}
   `
     window.turnChart = new dimple.chart(svg5,turnOverDatg2017Q4);
     turnChart.setBounds("12%", "12%", "80%", "45%")
@@ -628,7 +814,20 @@ import * as dimple from 'dimple';
     // Tab 4 Chart 1 Industry Metrics
     //
 
-    let wdata = dimple.filterData(data, "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"])
+    let wdata = dimple.filterData(data, "Indicator_Value", [
+      "Accommodation and Food Services", 
+      "Administrative and Support and Waste Management and Remediation Services", 
+      "Agriculture, Forestry, Fishing and Hunting", 
+      "Arts, Entertainment, and Recreation", "Construction", "Educational Services", 
+      "Finance and Insurance", "Health Care and Social Assistance", "Information", 
+      "Management of Companies and Enterprises", "Manufacturing", 
+      "Mining, Quarrying, and Oil and Gas Extraction", 
+      "Other Services (except Public Administration)", 
+      "Professional, Scientific, and Technical Services", "Public Administration", 
+      "Real Estate and Rental and Leasing", "Retail Trade", 
+      "Transportation and Warehousing", "Utilities", "Wholesale Trade"
+    ])
+    console.log('FIRST', {wdata})
 
     let iwdata0 = dimple.filterData(wdata, "Indicator", "Maryland Workers by Industry")
     window.iwdata1 = dimple.filterData(iwdata0, "Time", "2016Q1");
@@ -640,6 +839,13 @@ import * as dimple from 'dimple';
     window.iwdata7 = dimple.filterData(iwdata0, "Time", "2017Q3");
     window.iwdata8 = dimple.filterData(iwdata0, "Time", "2017Q4");
     window.iwdata9 = dimple.filterData(iwdata0, "Time", "2018Q1");
+    window.iwdata10 = dimple.filterData(iwdata0, "Time", "2018Q2");
+    window.iwdata11 = dimple.filterData(iwdata0, "Time", "2018Q3");
+    window.iwdata12 = dimple.filterData(iwdata0, "Time", "2018Q4");
+    window.iwdata13 = dimple.filterData(iwdata0, "Time", "2019Q1");
+    window.iwdata14 = dimple.filterData(iwdata0, "Time", "2019Q2");
+    window.iwdata15 = dimple.filterData(iwdata0, "Time", "2019Q3");
+    window.iwdata16 = dimple.filterData(iwdata0, "Time", "2019Q4");
 
     let iwData2 = dimple.filterData(wdata, "Indicator", "Maryland Average Earnings by Industry")
     window.avgdata1 = dimple.filterData(iwData2, "Time", "2016Q1");
@@ -651,7 +857,14 @@ import * as dimple from 'dimple';
     window.avgdata7 = dimple.filterData(iwData2, "Time", "2017Q3");
     window.avgdata8 = dimple.filterData(iwData2, "Time", "2017Q4");
     window.avgdata9 = dimple.filterData(iwData2, "Time", "2018Q1");
-
+    window.avgdata10 = dimple.filterData(iwData2, "Time", "2018Q2");
+    window.avgdata11 = dimple.filterData(iwData2, "Time", "2018Q3");
+    window.avgdata12 = dimple.filterData(iwData2, "Time", "2018Q4");
+    window.avgdata13 = dimple.filterData(iwData2, "Time", "2019Q1");
+    window.avgdata14 = dimple.filterData(iwData2, "Time", "2019Q2");
+    window.avgdata15 = dimple.filterData(iwData2, "Time", "2019Q3");
+    window.avgdata16 = dimple.filterData(iwData2, "Time", "2019Q4");
+    
     let iwData3 = dimple.filterData(wdata, "Indicator", "Maryland Job Net Change by Industry")
     window.netdata1 = dimple.filterData(iwData3, "Time", "2016Q1");
     window.netdata2 = dimple.filterData(iwData3, "Time", "2016Q2");
@@ -662,6 +875,13 @@ import * as dimple from 'dimple';
     window.netdata7 = dimple.filterData(iwData3, "Time", "2017Q3");
     window.netdata8 = dimple.filterData(iwData3, "Time", "2017Q4");
     window.netdata9 = dimple.filterData(iwData3, "Time", "2018Q1");
+    window.netdata10 = dimple.filterData(iwData3, "Time", "2018Q2");
+    window.netdata11 = dimple.filterData(iwData3, "Time", "2018Q3");
+    window.netdata12 = dimple.filterData(iwData3, "Time", "2018Q4");
+    window.netdata13 = dimple.filterData(iwData3, "Time", "2019Q1");
+    window.netdata14 = dimple.filterData(iwData3, "Time", "2019Q2");
+    window.netdata15 = dimple.filterData(iwData3, "Time", "2019Q3");
+    window.netdata16 = dimple.filterData(iwData3, "Time", "2019Q4");
 
     let iwData4 = dimple.filterData(wdata, "Indicator", "Maryland Turnover Rate by Industry")
     window.turndata1 = dimple.filterData(iwData4, "Time", "2016Q1");
@@ -673,6 +893,13 @@ import * as dimple from 'dimple';
     window.turndata7 = dimple.filterData(iwData4, "Time", "2017Q3");
     window.turndata8 = dimple.filterData(iwData4, "Time", "2017Q4");
     window.turndata9 = dimple.filterData(iwData4, "Time", "2018Q1");
+    window.turndata10 = dimple.filterData(iwData4, "Time", "2018Q2");
+    window.turndata11 = dimple.filterData(iwData4, "Time", "2018Q3");
+    window.turndata12 = dimple.filterData(iwData4, "Time", "2018Q4");
+    window.turndata13 = dimple.filterData(iwData4, "Time", "2019Q1");
+    window.turndata14 = dimple.filterData(iwData4, "Time", "2019Q2");
+    window.turndata15 = dimple.filterData(iwData4, "Time", "2019Q3");
+    window.turndata16 = dimple.filterData(iwData4, "Time", "2019Q4");
 
     let iwData5 = dimple.filterData(wdata, "Indicator", "Maryland New Hires by Industry")
     window.hiredata1 = dimple.filterData(iwData5, "Time", "2016Q1");
@@ -684,6 +911,13 @@ import * as dimple from 'dimple';
     window.hiredata7 = dimple.filterData(iwData5, "Time", "2017Q3");
     window.hiredata8 = dimple.filterData(iwData5, "Time", "2017Q4");
     window.hiredata9 = dimple.filterData(iwData5, "Time", "2018Q1");
+    window.hiredata10 = dimple.filterData(iwData5, "Time", "2018Q1");
+    window.hiredata11 = dimple.filterData(iwData5, "Time", "2018Q1");
+    window.hiredata12 = dimple.filterData(iwData5, "Time", "2018Q1");
+    window.hiredata13 = dimple.filterData(iwData5, "Time", "2019Q1");
+    window.hiredata14 = dimple.filterData(iwData5, "Time", "2019Q2");
+    window.hiredata15 = dimple.filterData(iwData5, "Time", "2019Q3");
+    window.hiredata16 = dimple.filterData(iwData5, "Time", "2019Q4");
 
     console.log("LWDA By Industry", {
         iwdata8,
@@ -695,6 +929,7 @@ import * as dimple from 'dimple';
 
     window.displayIndustryMetricsTable = (wdatax,hiredatax,avgdatax,netdatax,turndatax)=>{
 
+        console.log('displayIndustryMetricsTable', {wdatax,hiredatax,avgdatax,netdatax,turndatax} )
         let tableOrder = ['Agriculture, Forestry, Fishing and Hunting', 'Mining, Quarrying, and Oil and Gas Extraction', 'Utilities', 'Construction', 'Manufacturing', 'Wholesale Trade', 'Retail Trade', 'Transportation and Warehousing', 'Information', 'Finance and Insurance', 'Real Estate and Rental and Leasing', 'Professional, Scientific, and Technical Services', 'Management of Companies and Enterprises', 'Administrative and Support and Waste Management and Remediation Services', 'Educational Services', 'Health Care and Social Assistance', 'Arts, Entertainment, and Recreation', 'Accommodation and Food Services', 'Other Services (except Public Administration)', 'Public Administration']
         let filterForData = (objArr,indx)=>{
             return objArr.filter(obj=>{
@@ -709,7 +944,7 @@ import * as dimple from 'dimple';
             <th></th>
             <th ></th>
             <th></th>
-            <th>${wdatax[0]['Time']}</th>
+            <th>${!wdatax[0]?"":wdatax[0]['Time']}</th>
             <th></th>
          </tr>
          <tr>
@@ -888,6 +1123,13 @@ import * as dimple from 'dimple';
          </tr>
       </thead>
       <tbody>
+        ${!iwdata16[0]?'':displayIndustryMetricsTable(iwdata16, hiredata16, avgdata16, netdata16, turndata16)} 
+        ${!iwdata15[0]?'':displayIndustryMetricsTable(iwdata15, hiredata15, avgdata15, netdata15, turndata15)} 
+        ${!iwdata14[0]?'':displayIndustryMetricsTable(iwdata14, hiredata14, avgdata14, netdata14, turndata14)} 
+        ${!iwdata13[0]?'':displayIndustryMetricsTable(iwdata13, hiredata13, avgdata13, netdata13, turndata13)} 
+        ${!iwdata12[0]?'':displayIndustryMetricsTable(iwdata12, hiredata12, avgdata12, netdata12, turndata12)} 
+        ${!iwdata11[0]?'':displayIndustryMetricsTable(iwdata11, hiredata11, avgdata11, netdata11, turndata11)} 
+        ${!iwdata10[0]?'':displayIndustryMetricsTable(iwdata10, hiredata10, avgdata10, netdata10, turndata10)}        
         ${displayIndustryMetricsTable(iwdata9, hiredata9, avgdata9, netdata9, turndata9)} 
         ${displayIndustryMetricsTable(iwdata8, hiredata8, avgdata8, netdata8, turndata8)} 
         ${displayIndustryMetricsTable(iwdata7, hiredata7, avgdata7, netdata7, turndata7)} 
@@ -991,6 +1233,13 @@ import * as dimple from 'dimple';
     window.isepdata7 = dimple.filterData(indusep, "Time", "2017Q3")
     window.isepdata8 = dimple.filterData(indusep, "Time", "2017Q4")
     window.isepdata9 = dimple.filterData(indusep, "Time", "2018Q1")
+    window.isepdata10 = dimple.filterData(indusep, "Time", "2018Q2")
+    window.isepdata11 = dimple.filterData(indusep, "Time", "2018Q3")
+    window.isepdata12 = dimple.filterData(indusep, "Time", "2018Q4")
+    window.isepdata13 = dimple.filterData(indusep, "Time", "2019Q1")
+    window.isepdata14 = dimple.filterData(indusep, "Time", "2019Q2")
+    window.isepdata15 = dimple.filterData(indusep, "Time", "2019Q3")
+    window.isepdata16 = dimple.filterData(indusep, "Time", "2019Q4")
 
     console.log('Separations', {
         isepdata8,
@@ -1008,6 +1257,13 @@ import * as dimple from 'dimple';
     window.asepdata7 = dimple.filterData(agesep, "Time", "2017Q3")
     window.asepdata8 = dimple.filterData(agesep, "Time", "2017Q4")
     window.asepdata9 = dimple.filterData(agesep, "Time", "2018Q1")
+    window.asepdata10 = dimple.filterData(agesep, "Time", "2018Q2")
+    window.asepdata11 = dimple.filterData(agesep, "Time", "2018Q3")
+    window.asepdata12 = dimple.filterData(agesep, "Time", "2018Q4")
+    window.asepdata13 = dimple.filterData(agesep, "Time", "2019Q1")
+    window.asepdata14 = dimple.filterData(agesep, "Time", "2019Q2")
+    window.asepdata15 = dimple.filterData(agesep, "Time", "2019Q3")
+    window.asepdata16 = dimple.filterData(agesep, "Time", "2019Q4")
 
     let gensep = dimple.filterData(data, "Indicator", "Maryland Separations by Gender")
     window.gsepdata1 = dimple.filterData(gensep, "Time", "2016Q1")
@@ -1019,6 +1275,13 @@ import * as dimple from 'dimple';
     window.gsepdata7 = dimple.filterData(gensep, "Time", "2017Q3")
     window.gsepdata8 = dimple.filterData(gensep, "Time", "2017Q4")
     window.gsepdata9 = dimple.filterData(gensep, "Time", "2018Q1")
+    window.gsepdata10 = dimple.filterData(agesep, "Time", "2018Q2")
+    window.gsepdata11 = dimple.filterData(agesep, "Time", "2018Q3")
+    window.gsepdata12 = dimple.filterData(agesep, "Time", "2018Q4")
+    window.gsepdata13 = dimple.filterData(agesep, "Time", "2019Q1")
+    window.gsepdata14 = dimple.filterData(agesep, "Time", "2019Q2")
+    window.gsepdata15 = dimple.filterData(agesep, "Time", "2019Q3")
+    window.gsepdata16 = dimple.filterData(agesep, "Time", "2019Q4")
 
     let edusep = dimple.filterData(data, "Indicator", "Maryland Separations by Education")
     window.esepdata1 = dimple.filterData(edusep, "Time", "2016Q1")
@@ -1030,6 +1293,13 @@ import * as dimple from 'dimple';
     window.esepdata7 = dimple.filterData(edusep, "Time", "2017Q3")
     window.esepdata8 = dimple.filterData(edusep, "Time", "2017Q4")
     window.esepdata9 = dimple.filterData(edusep, "Time", "2018Q1")
+    window.esepdata10 = dimple.filterData(agesep, "Time", "2018Q2")
+    window.esepdata11 = dimple.filterData(agesep, "Time", "2018Q3")
+    window.esepdata12 = dimple.filterData(agesep, "Time", "2018Q4")
+    window.esepdata13 = dimple.filterData(agesep, "Time", "2019Q1")
+    window.esepdata14 = dimple.filterData(agesep, "Time", "2019Q2")
+    window.esepdata15 = dimple.filterData(agesep, "Time", "2019Q3")
+    window.esepdata16 = dimple.filterData(agesep, "Time", "2019Q4")
 
     window.chart61 = new dimple.chart(svg71,isepdata8);
     chart61.setBounds("9%", "12%", "55%", "55%")
@@ -1143,7 +1413,7 @@ import * as dimple from 'dimple';
 
     //chart 8 button
 
-    let showRecord = (y1,y2,y3,y4,y5,y6,y7,y8,pos)=>{
+    let showRecord = (y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16,pos)=>{
         return `<tr>
 	    <td>${y1[pos]["Indicator_Value"]}
 	    <td>${cma(y1[pos]["Amount"])}</td> 
@@ -1154,9 +1424,17 @@ import * as dimple from 'dimple';
 	    <td>${cma(y6[pos]["Amount"])}</td> 
 	    <td>${cma(y7[pos]["Amount"])}</td> 
 	    <td>${cma(y8[pos]["Amount"])}</td> 
+	    <td>${cma(!y9[0]?'':y9[pos]["Amount"])}</td> 
+	    <td>${cma(!y10[0]?'':y10[pos]["Amount"])}</td> 
+	    <td>${cma(!y11[0]?'':y11[pos]["Amount"])}</td> 
+	    <td>${cma(!y12[0]?'':y12[pos]["Amount"])}</td> 
+	    <td>${cma(!y13[0]?'':y13[pos]["Amount"])}</td> 
+	    <td>${cma(!y14[0]?'':y14[pos]["Amount"])}</td> 
+	    <td>${cma(!y15[0]?'':y15[pos]["Amount"])}</td> 
+	    <td>${cma(!y16[0]?'':y16[pos]["Amount"])}</td> 
   </tr>`
     }
-    let showLbldRecord = (lbl,y1,y2,y3,y4,y5,y6,y7,y8,pos)=>{
+    let showLbldRecord = (lbl,y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16,pos)=>{
         return `
 	    <tr> <td>${lbl}</td> 
 	    <td>${cma(!y1[pos] ? '--' : y1[pos]["Amount"])}</td> 
@@ -1167,13 +1445,21 @@ import * as dimple from 'dimple';
 	    <td>${cma(!y6[pos] ? '--' : y6[pos]["Amount"])}</td> 
 	    <td>${cma(!y7[pos] ? '--' : y7[pos]["Amount"])}</td> 
 	    <td>${cma(!y8[pos] ? '--' : y8[pos]["Amount"])}</td> 
+	    <td>${cma(!y9[pos] ? '--' : y1[pos]["Amount"])}</td> 
+	    <td>${cma(!y10[pos] ? '--' : y10[pos]["Amount"])}</td> 
+	    <td>${cma(!y11[pos] ? '--' : y11[pos]["Amount"])}</td> 
+	    <td>${cma(!y12[pos] ? '--' : y12[pos]["Amount"])}</td> 
+	    <td>${cma(!y13[pos] ? '--' : y13[pos]["Amount"])}</td> 
+	    <td>${cma(!y14[pos] ? '--' : y14[pos]["Amount"])}</td> 
+	    <td>${cma(!y15[pos] ? '--' : y15[pos]["Amount"])}</td> 
+	    <td>${cma(!y16[pos] ? '--' : y16[pos]["Amount"])}</td> 
 	    </tr>
   `
     }
-    let notMdisepdata = CountyName == 'Maryland' ? (y1,y2,y3,y4,y5,y6,y7,y8)=>{
+    let notMdisepdata = CountyName == 'Maryland' ? (y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16)=>{
         return ''
     }
-    : (y1,y2,y3,y4,y5,y6,y7,y8)=>{
+    : (y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16)=>{
         return `
                <thead>
                 <tr> <th class="HeadRow">Separations by Industry</th> 
@@ -1185,34 +1471,47 @@ import * as dimple from 'dimple';
                   <th class="HeadRow">2017Q2</th>
                   <th class="HeadRow">2017Q3</th>
                   <th class="HeadRow">2017Q4</th> 
+                  <th class="HeadRow">2018Q1</th>
+                  <th class="HeadRow">2018Q2</th>
+                  <th class="HeadRow">2018Q3</th>
+                  <th class="HeadRow">2018Q4</th>
+                  <th class="HeadRow">2019Q1</th>
+                  <th class="HeadRow">2019Q2</th>
+                  <th class="HeadRow">2019Q3</th>
+                  <th class="HeadRow">2019Q4</th> 
                 </tr>
                </thead>
                <tbody>
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 13)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 18)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 19)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 5)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 11)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 10)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 2)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 0)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 12)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 14)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 15)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 7)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 17)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 3)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 6)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 4)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 8)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 1)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 9)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, 16)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 13)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 18)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 19)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 5)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 11)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 10)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 2)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 0)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 12)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 14)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 15)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 7)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 17)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 3)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 6)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 4)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 8)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 1)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 9)}
+                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 16)}
                </tbody>
   `
     }
     document.getElementById('table15').innerHTML = `
-       ${notMdisepdata(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8)}
+       ${notMdisepdata(
+         isepdata1, isepdata2, isepdata3, isepdata4, 
+         isepdata5, isepdata6, isepdata7, isepdata8,
+         isepdata9, isepdata10, isepdata11, isepdata12, 
+         isepdata13, isepdata14, isepdata15, isepdata16
+         )}
        <thead>
         <tr> <th class="HeadRow">Separations by Gender</th> 
           <th class="HeadRow">2016Q1</th>
@@ -1223,11 +1522,27 @@ import * as dimple from 'dimple';
           <th class="HeadRow">2017Q2</th>
           <th class="HeadRow">2017Q3</th>
           <th class="HeadRow">2017Q4</th> 
+          <th class="HeadRow">2018Q1</th>
+          <th class="HeadRow">2018Q2</th>
+          <th class="HeadRow">2018Q3</th>
+          <th class="HeadRow">2018Q4</th>
+          <th class="HeadRow">2019Q1</th>
+          <th class="HeadRow">2019Q2</th>
+          <th class="HeadRow">2019Q3</th>
+          <th class="HeadRow">2019Q4</th> 
         </tr>
        </thead>
        <tbody>
-          ${showLbldRecord('Male', gsepdata1, gsepdata2, gsepdata3, gsepdata4, gsepdata5, gsepdata6, gsepdata7, gsepdata8, 0)}
-          ${showLbldRecord('Female', gsepdata1, gsepdata2, gsepdata3, gsepdata4, gsepdata5, gsepdata6, gsepdata7, gsepdata8, 1)}
+          ${showLbldRecord('Male', 
+            gsepdata1, gsepdata2, gsepdata3, gsepdata4, 
+            gsepdata5, gsepdata6, gsepdata7, gsepdata8, 
+            gsepdata9, gsepdata10, gsepdata11, gsepdata12, 
+            gsepdata13, gsepdata14, gsepdata15, gsepdata16, 0)}
+          ${showLbldRecord('Female', 
+            gsepdata1, gsepdata2, gsepdata3, gsepdata4, 
+            gsepdata5, gsepdata6, gsepdata7, gsepdata8, 
+            gsepdata9, gsepdata10, gsepdata11, gsepdata12, 
+            gsepdata13, gsepdata14, gsepdata15, gsepdata16, 1)}
        </tbody>
        <thead>
         <tr> <th class="HeadRow">Separations by Education</th> 
@@ -1239,14 +1554,42 @@ import * as dimple from 'dimple';
           <th class="HeadRow">2017Q2</th>
           <th class="HeadRow">2017Q3</th>
           <th class="HeadRow">2017Q4</th> 
+          <th class="HeadRow">2018Q1</th>
+          <th class="HeadRow">2018Q2</th>
+          <th class="HeadRow">2018Q3</th>
+          <th class="HeadRow">2018Q4</th>
+          <th class="HeadRow">2019Q1</th>
+          <th class="HeadRow">2019Q2</th>
+          <th class="HeadRow">2019Q3</th>
+          <th class="HeadRow">2019Q4</th> 
         </tr>
        </thead>
        <tbody>
-          ${showLbldRecord('Less than High school', esepdata1, esepdata2, esepdata3, esepdata4, esepdata5, esepdata6, esepdata7, esepdata8, 0)}
-          ${showLbldRecord('High school', esepdata1, esepdata2, esepdata3, esepdata4, esepdata5, esepdata6, esepdata7, esepdata8, 1)}
-          ${showLbldRecord('Some College', esepdata1, esepdata2, esepdata3, esepdata4, esepdata5, esepdata6, esepdata7, esepdata8, 2)}
-          ${showLbldRecord("Bachelor's or Higher", esepdata2, esepdata3, esepdata4, esepdata5, esepdata6, esepdata7, esepdata8, 3)}
-          ${showLbldRecord('NR', esepdata1, esepdata2, esepdata3, esepdata4, esepdata5, esepdata6, esepdata7, esepdata8, 4)}
+          ${showLbldRecord('Less than High school', 
+            esepdata1, esepdata2, esepdata3, esepdata4, 
+            esepdata5, esepdata6, esepdata7, esepdata8,
+            esepdata9, esepdata10, esepdata11, esepdata12, 
+            esepdata13, esepdata14, esepdata15, esepdata16, 0)}
+          ${showLbldRecord('High school', 
+            esepdata1, esepdata2, esepdata3, esepdata4, 
+            esepdata5, esepdata6, esepdata7, esepdata8,
+            esepdata9, esepdata10, esepdata11, esepdata12, 
+            esepdata13, esepdata14, esepdata15, esepdata16, 1)}
+          ${showLbldRecord('Some College', 
+            esepdata1, esepdata2, esepdata3, esepdata4, 
+            esepdata5, esepdata6, esepdata7, esepdata8,
+            esepdata9, esepdata10, esepdata11, esepdata12, 
+            esepdata13, esepdata14, esepdata15, esepdata16, 2)}
+          ${showLbldRecord("Bachelor's or Higher", 
+            esepdata1, esepdata2, esepdata3, esepdata4, 
+            esepdata5, esepdata6, esepdata7, esepdata8,
+            esepdata9, esepdata10, esepdata11, esepdata12, 
+            esepdata13, esepdata14, esepdata15, esepdata16, 3)}
+          ${showLbldRecord('NR', 
+            esepdata1, esepdata2, esepdata3, esepdata4, 
+            esepdata5, esepdata6, esepdata7, esepdata8,
+            esepdata9, esepdata10, esepdata11, esepdata12, 
+            esepdata13, esepdata14, esepdata15, esepdata16, 4)}
        </tbody>
        <thead>
         <tr> <th class="HeadRow">Separations by Age</th> 
@@ -1258,17 +1601,57 @@ import * as dimple from 'dimple';
           <th class="HeadRow">2017Q2</th>
           <th class="HeadRow">2017Q3</th>
           <th class="HeadRow">2017Q4</th> 
+          <th class="HeadRow">2018Q1</th>
+          <th class="HeadRow">2018Q2</th>
+          <th class="HeadRow">2018Q3</th>
+          <th class="HeadRow">2018Q4</th>
+          <th class="HeadRow">2019Q1</th>
+          <th class="HeadRow">2019Q2</th>
+          <th class="HeadRow">2019Q3</th>
+          <th class="HeadRow">2019Q4</th> 
         </tr>
        </thead>
        <tbody>
-          ${showLbldRecord('Age 14-18', asepdata1, asepdata2, asepdata3, asepdata4, asepdata5, asepdata6, asepdata7, asepdata8, 0)}
-          ${showLbldRecord('Age 19-21', asepdata1, asepdata2, asepdata3, asepdata4, asepdata5, asepdata6, asepdata7, asepdata8, 1)}
-          ${showLbldRecord('Age 22-24', asepdata1, asepdata2, asepdata3, asepdata4, asepdata5, asepdata6, asepdata7, asepdata8, 2)}
-          ${showLbldRecord('Age 25-34', asepdata1, asepdata2, asepdata3, asepdata4, asepdata5, asepdata6, asepdata7, asepdata8, 3)}
-          ${showLbldRecord('Age 35-44', asepdata1, asepdata2, asepdata3, asepdata4, asepdata5, asepdata6, asepdata7, asepdata8, 4)}
-          ${showLbldRecord('Age 45-54', asepdata1, asepdata2, asepdata3, asepdata4, asepdata5, asepdata6, asepdata7, asepdata8, 5)}
-          ${showLbldRecord('Age 55-64', asepdata1, asepdata2, asepdata3, asepdata4, asepdata5, asepdata6, asepdata7, asepdata8, 6)}
-          ${showLbldRecord('Age 65-99', asepdata1, asepdata2, asepdata3, asepdata4, asepdata5, asepdata6, asepdata7, asepdata8, 7)}
+          ${showLbldRecord('Age 14-18', 
+            asepdata1, asepdata2, asepdata3, asepdata4, 
+            asepdata5, asepdata6, asepdata7, asepdata8,
+            asepdata9, asepdata10, asepdata11, asepdata12, 
+            asepdata13, asepdata14, asepdata15, asepdata16, 0)}
+          ${showLbldRecord('Age 19-21', 
+            asepdata1, asepdata2, asepdata3, asepdata4, 
+            asepdata5, asepdata6, asepdata7, asepdata8,
+            asepdata9, asepdata10, asepdata11, asepdata12, 
+            asepdata13, asepdata14, asepdata15, asepdata16, 1)}
+          ${showLbldRecord('Age 22-24', 
+            asepdata1, asepdata2, asepdata3, asepdata4, 
+            asepdata5, asepdata6, asepdata7, asepdata8,
+            asepdata9, asepdata10, asepdata11, asepdata12, 
+            asepdata13, asepdata14, asepdata15, asepdata16, 2)}
+          ${showLbldRecord('Age 25-34', 
+            asepdata1, asepdata2, asepdata3, asepdata4, 
+            asepdata5, asepdata6, asepdata7, asepdata8,
+            asepdata9, asepdata10, asepdata11, asepdata12, 
+            asepdata13, asepdata14, asepdata15, asepdata16, 3)}
+          ${showLbldRecord('Age 35-44', 
+            asepdata1, asepdata2, asepdata3, asepdata4, 
+            asepdata5, asepdata6, asepdata7, asepdata8,
+            asepdata9, asepdata10, asepdata11, asepdata12, 
+            asepdata13, asepdata14, asepdata15, asepdata16, 4)}
+          ${showLbldRecord('Age 45-54', 
+            asepdata1, asepdata2, asepdata3, asepdata4, 
+            asepdata5, asepdata6, asepdata7, asepdata8,
+            asepdata9, asepdata10, asepdata11, asepdata12, 
+            asepdata13, asepdata14, asepdata15, asepdata16, 5)}
+          ${showLbldRecord('Age 55-64', 
+            asepdata1, asepdata2, asepdata3, asepdata4, 
+            asepdata5, asepdata6, asepdata7, asepdata8,
+            asepdata9, asepdata10, asepdata11, asepdata12, 
+            asepdata13, asepdata14, asepdata15, asepdata16, 6)}
+          ${showLbldRecord('Age 65-99', 
+            asepdata1, asepdata2, asepdata3, asepdata4, 
+            asepdata5, asepdata6, asepdata7, asepdata8,
+            asepdata9, asepdata10, asepdata11, asepdata12, 
+            asepdata13, asepdata14, asepdata15, asepdata16, 7)}
        </tbody>
     `
 
@@ -1413,32 +1796,94 @@ import * as dimple from 'dimple';
              isepdata9, gsepdata9, esepdata9, asepdata9,
              workData2018Q1, averageData2018Q1, jobDatc2018Q1, 
              newHireDatc2018Q1, turnOverData2018Q1,
-             workDatg2016Q1, averageDatg2018Q1, jobDatg2018Q1, 
+             workDatg2018Q1, averageDatg2018Q1, jobDatg2018Q1, 
              newHireDatg2018Q1, turnOverDatg2018Q1
           )
         }
+        if (strUser7 == "2018-Q2") { handleQuarter('2018-Q2', 
+             iwdata10, hiredata10, avgdata10, netdata10, turndata10, 
+             isepdata10, gsepdata10, esepdata10, asepdata10,
+             workData2018Q2, averageData2018Q2, jobDatc2018Q2, 
+             newHireDatc2018Q2, turnOverData2018Q2,
+             workDatg2018Q2, averageDatg2018Q2, jobDatg2018Q2, 
+             newHireDatg2018Q2, turnOverDatg2018Q2
+          )
+        }
+        if (strUser7 == "2018-Q3") { handleQuarter('2018-Q3', 
+             iwdata11, hiredata11, avgdata11, netdata11, turndata11, 
+             isepdata11, gsepdata11, esepdata11, asepdata11,
+             workData2018Q3, averageData2018Q3, jobDatc2018Q3, 
+             newHireDatc2018Q3, turnOverData2018Q3,
+             workDatg2018Q3, averageDatg2018Q3, jobDatg2018Q3, 
+             newHireDatg2018Q3, turnOverDatg2018Q3
+          )
+        }
+        if (strUser7 == "2018-Q4") { handleQuarter('2018-Q4', 
+             iwdata12, hiredata12, avgdata12, netdata12, turndata12, 
+             isepdata12, gsepdata12, esepdata12, asepdata12,
+             workData2018Q4, averageData2018Q4, jobDatc2018Q4, 
+             newHireDatc2018Q4, turnOverData2018Q4,
+             workDatg2018Q4, averageDatg2018Q4, jobDatg2018Q4, 
+             newHireDatg2018Q4, turnOverDatg2018Q4
+          )
+        }
+        if (strUser7 == "2019-Q1") { handleQuarter('2019-Q1', 
+             iwdata13, hiredata13, avgdata13, netdata13, turndata13, 
+             isepdata13, gsepdata13, esepdata13, asepdata13,
+             workData2019Q1, averageData2019Q1, jobDatc2019Q1, 
+             newHireDatc2019Q1, turnOverData2019Q1,
+             workDatg2019Q1, averageDatg2019Q1, jobDatg2019Q1, 
+             newHireDatg2019Q1, turnOverDatg2019Q1
+          )
+        }
+        if (strUser7 == "2019-Q2") { handleQuarter('2019-Q2', 
+             iwdata14, hiredata14, avgdata14, netdata14, turndata14, 
+             isepdata14, gsepdata14, esepdata14, asepdata14,
+             workData2019Q2, averageData2019Q2, jobDatc2019Q2, 
+             newHireDatc2019Q2, turnOverData2019Q2,
+             workDatg2019Q2, averageDatg2019Q2, jobDatg2019Q2, 
+             newHireDatg2019Q2, turnOverDatg2019Q2
+          )
+        }
+        if (strUser7 == "2019-Q3") { handleQuarter('2019-Q3', 
+             iwdata15, hiredata15, avgdata15, netdata15, turndata15, 
+             isepdata15, gsepdata15, esepdata15, asepdata15,
+             workData2019Q3, averageData2019Q3, jobDatc2019Q3, 
+             newHireDatc2019Q3, turnOverData2019Q3,
+             workDatg2019Q3, averageDatg2019Q3, jobDatg2019Q3, 
+             newHireDatg2019Q3, turnOverDatg2019Q3
+          )
+        }
+        if (strUser7 == "2019-Q4") { handleQuarter('2019-Q4', 
+             iwdata16, hiredata16, avgdata16, netdata16, turndata16, 
+             isepdata16, gsepdata16, esepdata16, asepdata16,
+             workData2019Q4, averageData2019Q4, jobDatc2019Q4, 
+             newHireDatc2019Q4, turnOverData2019Q4,
+             workDatg2019Q4, averageDatg2019Q4, jobDatg2019Q4, 
+             newHireDatg2019Q4, turnOverDatg2019Q4
+          )
+        }
 
+        pwChart.draw();
+        wChart.draw();
 
-        pwChart.draw(1000, false);
-        wChart.draw(1000, false);
-
-        avgChart.draw(1000, false);
-        pavgChart.draw(1000, false);
+        avgChart.draw();
+        pavgChart.draw();
         
-        jc.draw(1000, false);
-        pjc.draw(1000, false);
+        jc.draw();
+        pjc.draw();
 
-        pturnChart.draw(1000, true);
-        turnChart.draw(1000, false);
+        pturnChart.draw();
+        turnChart.draw();
 
-        chart8.draw(1000, false);
-        pchart8.draw(1000, false);
+        chart8.draw();
+        pchart8.draw();
 
-        pnewHireChart.draw(1000, false);
-        newHireChart.draw(1000, false);
+        pnewHireChart.draw();
+        newHireChart.draw();
 
-        chart61.draw(1000, false)
-        pchart61.draw(1000, false);
+        chart61.draw()
+        pchart61.draw();
 
         hidePrint();
     }
@@ -1624,7 +2069,6 @@ window.hideall = ()=>{
     document.getElementById("collapse2").style.display = "none";
     document.getElementById("collapse3").style.display = "none";
     document.getElementById("collapse4").style.display = "none";
-    document.getElementById("collapse5").style.display = "none";
     document.getElementById("collapse15").style.display = "none";
     drawAll();
 }

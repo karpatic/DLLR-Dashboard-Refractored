@@ -30,6 +30,12 @@ import * as dimple from 'dimple';
       returnThis = returnThis == undefined ? '--' : returnThis['Amount']
       return returnThis
     }
+    let cma = (d)=>{
+        if (d == undefined | d == '--') {
+            return '--'
+        }
+        return d3.format(',.0f')(d * 1)
+    }
     // https://github.com/PMSI-AlignAlytics/dimple/issues/265
     let createChart = (objarr)=>{
         objarr.map(obj=>{
@@ -183,6 +189,7 @@ import * as dimple from 'dimple';
     let EduAttainment = dimple.filterData(data, "Indicator_Status", ["Less than Highschool", "Highschool", "Some College", "Bachelor's or Higher"])
     EduAttainment = dimple.filterData(EduAttainment, "Employment_Status", ["Unemployed", "NIL", "Employed"])
     window.EduAttainment18 = dimple.filterData(EduAttainment, "Time", "2018");
+    console.log({EduAttainment18})
     window.EduAttainment17 = dimple.filterData(EduAttainment, "Time", "2017");
     window.EduAttainment16 = dimple.filterData(EduAttainment, "Time", "2016");
     window.EduAttainment15 = dimple.filterData(EduAttainment, "Time", "2015");
@@ -722,6 +729,7 @@ import * as dimple from 'dimple';
     window.povRate17 = dimple.filterData(povRate, "Time", "2017");
     window.povRate16 = dimple.filterData(povRate, "Time", "2016");
     window.povRate15 = dimple.filterData(povRate, "Time", "2015");
+    console.log('povRate', {povRate18, povRate17, povRate16, povRate15})
 
     let disAttainment1 = dimple.filterData(data, "Indicator", "Employment Status By Disability Status")
     disAttainment1 = dimple.filterData(disAttainment1, "Employment_Status", ["Unemployed", "Labor Force", "Employed"])
@@ -961,12 +969,12 @@ import * as dimple from 'dimple';
     window.tanfAttainment18 = dimple.filterData(tanfAttainment, "Time", ["2018Q1", "2018Q2", "2018Q3", "2018Q4"]);
     window.tanfAttainment19 = dimple.filterData(tanfAttainment, "Time", ["2019Q1", "2019Q2"]);
 
-    let tanfPerc = dimple.filterData(data, "Indicator", "Percent of Workers in TANF (%)")
-    window.tanfPerc15 = dimple.filterData(tanfPerc, "Time", ["2015Q1", "2015Q2", "2015Q3", "2015Q4"]);
-    window.tanfPerc16 = dimple.filterData(tanfPerc, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4"]);
-    window.tanfPerc17 = dimple.filterData(tanfPerc, "Time", ["2017Q1", "2017Q2", "2017Q3", "2017Q4"]);
-    window.tanfPerc18 = dimple.filterData(tanfPerc, "Time", ["2018Q1", "2018Q2", "2018Q3", "2018Q4"]);
-    window.tanfPerc19 = dimple.filterData(tanfPerc, "Time", ["2019Q1", "2019Q2"]);
+    let tanfData = dimple.filterData(data, "Indicator", "TANF Participants in Workforce Service ")
+    window.tanfData15 = dimple.filterData(tanfData, "Time", ["2015Q1", "2015Q2", "2015Q3", "2015Q4"]);
+    window.tanfData16 = dimple.filterData(tanfData, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4"]);
+    window.tanfData17 = dimple.filterData(tanfData, "Time", ["2017Q1", "2017Q2", "2017Q3", "2017Q4"]);
+    window.tanfData18 = dimple.filterData(tanfData, "Time", ["2018Q1", "2018Q2", "2018Q3", "2018Q4"]);
+    window.tanfData19 = dimple.filterData(tanfData, "Time", ["2019Q1", "2019Q2"]);
 
     let tanfRate = dimple.filterData(data, "Indicator", "Percent of Workforce Service participants in TANF (%)")
     window.tanfRate15 = dimple.filterData(tanfRate, "Time", ["2015Q1", "2015Q2", "2015Q3", "2015Q4"]);
@@ -975,12 +983,12 @@ import * as dimple from 'dimple';
     window.tanfRate18 = dimple.filterData(tanfRate, "Time", ["2018Q1", "2018Q2", "2018Q3", "2018Q4"]);
     window.tanfRate19 = dimple.filterData(tanfRate, "Time", ["2019Q1", "2019Q2"]);
 
-    let tanfData = dimple.filterData(data, "Indicator", "TANF Participants in Workforce Service ")
-    window.tanfData15 = dimple.filterData(tanfData, "Time", ["2015Q1", "2015Q2", "2015Q3", "2015Q4"]);
-    window.tanfData16 = dimple.filterData(tanfData, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4"]);
-    window.tanfData17 = dimple.filterData(tanfData, "Time", ["2017Q1", "2017Q2", "2017Q3", "2017Q4"]);
-    window.tanfData18 = dimple.filterData(tanfData, "Time", ["2018Q1", "2018Q2", "2018Q3", "2018Q4"]);
-    window.tanfData19 = dimple.filterData(tanfData, "Time", ["2019Q1", "2019Q2"]);
+    let tanfPerc = dimple.filterData(data, "Indicator", "Percent of Workers in TANF (%)")
+    window.tanfPerc15 = dimple.filterData(tanfPerc, "Time", ["2015Q1", "2015Q2", "2015Q3", "2015Q4"]);
+    window.tanfPerc16 = dimple.filterData(tanfPerc, "Time", ["2016Q1", "2016Q2", "2016Q3", "2016Q4"]);
+    window.tanfPerc17 = dimple.filterData(tanfPerc, "Time", ["2017Q1", "2017Q2", "2017Q3", "2017Q4"]);
+    window.tanfPerc18 = dimple.filterData(tanfPerc, "Time", ["2018Q1", "2018Q2", "2018Q3", "2018Q4"]);
+    window.tanfPerc19 = dimple.filterData(tanfPerc, "Time", ["2019Q1", "2019Q2"]);
 
     window.display_tanf_table = ( year, tanfAttainment, tanfPerc, tanfRate, tanfData) => {
         console.log({'TANF':'Data', year, tanfAttainment, tanfPerc, tanfRate, tanfData});
@@ -999,37 +1007,37 @@ import * as dimple from 'dimple';
             <tr class="HeadRow" style="background-color: white;">
               <th>${CountyName}:</th>
               <th>TANF Recipient Workers (count)</th>
-              <th>Percent of Workers in TANF</th>
+              <th>TANF Participants in Workforce Service (count)</th>
               <th>Service participants in TANF (percent)</th>
-              <th>Maryland workers receiving TANF (percent)</th>
+              <th>Percent of Workers in TANF (percent)</th>
             </tr>
             <tr>
               <th>${year}Q1</th>
               <td>${find(tanfAttainment,0)}</td>
-              <td>${pcnt(find(tanfPerc,0))}</td>
+              <td>${find(tanfData,0)}</td>
               <td>${pcnt2(find(tanfRate,0))}</td>
-              <td>${pcnt2(find(tanfData,0) )}</td>
+              <td>${pcnt2(find(tanfPerc,0) )}</td>
             </tr>
             <tr>
               <th>${year}Q2</th>
               <td>${find(tanfAttainment,1)}</td>
-              <td>${pcnt(find(tanfPerc,1))}</td>
+              <td>${find(tanfData,1)}</td>
               <td>${pcnt2(find(tanfRate,1))}</td>
-              <td>${pcnt2(find(tanfData,1))}</td>
+              <td>${pcnt2(find(tanfPerc,1))}</td>
             </tr>
             <tr>
               <th>${year}Q3</th>
               <td>${find(tanfAttainment,2)}</td>
-              <td>${pcnt(find(tanfPerc,2))}</td>
+              <td>${find(tanfData,2)}</td>
               <td>${pcnt2(find(tanfRate,2))}</td>
-              <td>${pcnt2(find(tanfData,2))}</td>
+              <td>${pcnt2(find(tanfPerc,2))}</td>
             </tr>
             <tr>
               <th>${year}Q4</th>
               <td>${find(tanfAttainment,3)}</td>
-              <td>${pcnt(find(tanfPerc,3))}</td>
+              <td>${find(tanfData,3)}</td>
               <td>${pcnt2(find(tanfRate,3))}</td>
-              <td>${pcnt2(find(tanfData,3))}</td>
+              <td>${pcnt2(find(tanfPerc,3))}</td>
             </tr>
         `
     }
@@ -1037,18 +1045,25 @@ import * as dimple from 'dimple';
 
     let ordered = ["2018Q1", "2018Q2", "2018Q3", "2018Q4"]
 
-    window.ptanf_attainment_chart = new dimple.chart(tanf_chart_print, tanfAttainment18);
     window.tanf_attainment_chart = new dimple.chart(tanf_svg, tanfAttainment18);
-
-    window.ptanf_rate_chart = new dimple.chart(tanf_chart_print, tanfRate18);
-    window.tanf_rate_chart = new dimple.chart(tanf_svg, tanfRate18);
+    window.ptanf_attainment_chart = new dimple.chart(tanf_chart_print, tanfAttainment18);
 
     window.tanf_data = new dimple.chart(tanf_svg, tanfData18);
     window.ptanf_data = new dimple.chart(tanf_chart_print, tanfData18);
 
+    window.tanf_rate_chart = new dimple.chart(tanf_svg, tanfRate18);
+    window.ptanf_rate_chart = new dimple.chart(tanf_chart_print, tanfRate18);
+
+    tanfPerc18
+    window.tanf_perc_chart = new dimple.chart(tanf_svg, tanfPerc18);
+    window.ptanf_perc_chart = new dimple.chart(tanf_chart_print, tanfPerc18);
+
+    // (visuals share the width)
+    // Bounds: [startPosLeft, PadFromTop,
+    //          chartWidth, chartHeight] 
     createThese = [{
-        "chart": window.tanf_attainment_chart,
-        "bounds": ["9%", "12%", "24%", "65%"],
+        "chart": tanf_attainment_chart,
+        "bounds": ["8%", "12%", "20%", "65%"],
         "categoryAxis": ["x", "Time"],
         "xtitle": " ",
         "order": ordered,
@@ -1059,49 +1074,37 @@ import * as dimple from 'dimple';
         "lineMarkers": true,
         "colors": false
     }, {
-        "chart": ptanf_attainment_chart,
-        "bounds": ["7%", "12%", "22%", "60%"],
-        "categoryAxis": ["x", "Time"],
-        "xtitle": " ",
-        "order": ordered,
-        "measureAxis": ["y", "Amount"],
-        "ytitle": "Workers receiving TANF benefits",
-        "tickFormat": ",.0f",
-        "series": "Indicator",
-        "lineMarkers": true,
-        "colors": false
-    }, {
-        "chart": ptanf_rate_chart,
-        "bounds": ["41%", "12%", "22%", "60%"],
-        "categoryAxis": ["x", "Time"],
-        "xtitle": " ",
-        "order": ordered,
-        "measureAxis": ["y", "Amount"],
-        "ytitle": "Workforce/Service in TANF",
-        "tickFormat": '.1%',
-        "series": "Indicator",
-        "lineMarkers": true,
-        "colors": false
-    }, {
-        "chart": tanf_rate_chart,
-        "bounds": ["41%", "12%", "24%", "65%"],
-        "categoryAxis": ["x", "Time"],
-        "xtitle": " ",
-        "order": ordered,
-        "measureAxis": ["y", "Amount"],
-        "ytitle": "Workforce/Service in TANF",
-        "tickFormat": '.1%',
-        "series": "Indicator",
-        "lineMarkers": true,
-        "colors": false
-    }, {
         "chart": tanf_data,
-        "bounds": ["72%", "12%", "24%", "65%"],
+        "bounds": ["30%", "12%", "20%", "65%"],
         "categoryAxis": ["x", "Time"],
         "xtitle": " ",
         "order": ordered,
         "measureAxis": ["y", "Amount"],
         "ytitle": "Recipients amongst MD Workers",
+        "tickFormat": ',.0f',
+        "series": "Indicator",
+        "lineMarkers": true,
+        "colors": false
+    }, {
+        "chart": tanf_rate_chart,
+        "bounds": ["52%", "12%", "20%", "65%"],
+        "categoryAxis": ["x", "Time"],
+        "xtitle": " ",
+        "order": ordered,
+        "measureAxis": ["y", "Amount"],
+        "ytitle": "Workforce/Service in TANF (%)",
+        "tickFormat": ',.0f',
+        "series": "Indicator",
+        "lineMarkers": true,
+        "colors": false
+    },{
+        "chart": tanf_perc_chart,
+        "bounds": ["78%", "12%", "20%", "65%"],
+        "categoryAxis": ["x", "Time"],
+        "xtitle": " ",
+        "order": ordered,
+        "measureAxis": ["y", "Amount"],
+        "ytitle": "Percent of Workers in TANF (%)",
         "tickFormat": '.1%',
         "series": "Indicator",
         "lineMarkers": true,
@@ -1118,7 +1121,45 @@ import * as dimple from 'dimple';
         "series": "Indicator",
         "lineMarkers": true,
         "colors": false
-    } ]
+    }, {
+        "chart": ptanf_rate_chart,
+        "bounds": ["51%", "12%", "22%", "60%"],
+        "categoryAxis": ["x", "Time"],
+        "xtitle": " ",
+        "order": ordered,
+        "measureAxis": ["y", "Amount"],
+        "ytitle": "Workforce/Service in TANF (%)",
+        "tickFormat": ',.0f',
+        "series": "Indicator",
+        "lineMarkers": true,
+        "colors": false
+    }, {
+        "chart": ptanf_perc_chart,
+        "bounds": ["30%", "12%", "22%", "60%"],
+        "categoryAxis": ["x", "Time"],
+        "xtitle": " ",
+        "order": ordered,
+        "measureAxis": ["y", "Amount"],
+        "ytitle": "Percent of Workers in TANF (%)",
+        "tickFormat": '.1%',
+        "series": "Indicator",
+        "lineMarkers": true,
+        "colors": false
+    }, {
+        "chart": ptanf_attainment_chart,
+        "bounds": ["7%", "12%", "22%", "60%"],
+        "categoryAxis": ["x", "Time"],
+        "xtitle": " ",
+        "order": ordered,
+        "measureAxis": ["y", "Amount"],
+        "ytitle": "Workers receiving TANF benefits",
+        "tickFormat": ",.0f",
+        "series": "Indicator",
+        "lineMarkers": true,
+        "colors": false
+    }
+
+    ]
     createChart(createThese)
 
     if (!emplStatusCounties.includes(CountyName)) {
@@ -1128,8 +1169,6 @@ import * as dimple from 'dimple';
         let empl_data = CountyName == 'Maryland' ? data : await d3.dsv(",", "./data/emp18/emp_"+CountyName4.replace(/[ ]/g,'')+".csv")
         empl_data.unshift(["Employment Status Amongst Maryland Workers","","",2016,2017,2018])
         console.log('EMP',  empl_data)
-        //snap_data = d3.csv(await url )
-        /// console.log('Snap url', snap_data)
         var container = d3.select("#empl_status_table")
         console.log(container)
         var rows = container.selectAll('tr').data(empl_data).enter().append('tr')
@@ -1202,7 +1241,7 @@ import * as dimple from 'dimple';
     // 
     // Snap
     // 
-
+/*
     //Create Tables
     url = "./data/snap/snap_"+CountyName4.replace(/[ ]/g,'')+".csv"
     console.log(url)
@@ -1215,22 +1254,51 @@ import * as dimple from 'dimple';
 	    return { column: column, value: row[column] }
 	  })
     }).enter().append('td').text( d => { return d.value })
-
+*/
     
     // Retrieve Elements
     var snap_chart_svg = dimple.newSvg("#snap_chart", "100%", 400);
-    var tanf_attainment_svg = dimple.newSvg("#snap_chart_print", 750, 400);
+    var psnap_chart_svg = dimple.newSvg("#snap_chart_print", 750, 400);
 
     // Filter Data
     let snap_Data1 = dimple.filterData(data, "Indicator", "SNAP Recipient Workers")
-    let snap_Datap1 = dimple.filterData(data, "Indicator", "SNAP Recipient Workers by Percentage")
- 
+    let snap_Data2 = dimple.filterData(data, "Indicator", "SNAP Recipient Workers by Percentage")
+    console.log({snap_Data1, snap_Data2})
     // Config Chart
     window.snap_chart = new dimple.chart(snap_chart_svg,snap_Data1);
-    window.snap_chart2 = new dimple.chart(snap_chart_svg,snap_Datap1);
-    window.psnap_chart = new dimple.chart(tanf_attainment_svg,snap_Data1);
-    window.psnap_chart2 = new dimple.chart(tanf_attainment_svg,snap_Datap1);
+    window.snap_chart2 = new dimple.chart(snap_chart_svg,snap_Data2);
+    window.psnap_chart = new dimple.chart(psnap_chart_svg,snap_Data1);
+    window.psnap_chart2 = new dimple.chart(psnap_chart_svg,snap_Data2);
 
+
+    find = (objArr, indx) => {
+      let returnThis =  objArr.filter( obj => { return obj['Time'] == ['2016','2017','2018'][indx]} )[0]
+      returnThis = returnThis == undefined ? '--' : returnThis['Amount']
+      return returnThis
+    }
+    console.log('SNAP', {snap_Data1,snap_Data2})
+
+    var container = document.getElementById("snap_table")
+    container.innerHTML = `
+            <tr class="HeadRow">
+              <th>SNAP Recipient Workers</th> <th></th>
+              <th>2016</th>
+              <th>2017</th>
+              <th>2018</th>
+              </tr>
+            <tr>
+              <th>Snap Recipient Workers</th> <th></th>
+              <td>${cma(find(snap_Data1,0))}</td>
+              <td>${cma(find(snap_Data1,1))}</td>
+              <td>${cma(find(snap_Data1,2))}</td>
+            </tr>
+            <tr>
+              <th>Snap Recipient Workers by Percentage</th> <th></th>
+              <td>${pcnt(find(snap_Data2,0))}</td>
+              <td>${pcnt(find(snap_Data2,1))}</td>
+              <td>${pcnt(find(snap_Data2,2))}</td>
+            </tr>
+    `
     createThese = [{
         "chart": snap_chart,
         "bounds": ["11%", "12%", "35%", "65%"],
@@ -1246,11 +1314,11 @@ import * as dimple from 'dimple';
     }, {
         "chart": snap_chart2,
         "bounds": ["58%", "12%", "35%", "65%"],
-        "categoryAxis": ["x", "Year"],
+        "categoryAxis": ["x", "Time"],
         "xtitle": "Year",
         "order": false,
         "measureAxis": ["y", "Amount"],
-        "ytitle": "Amount",
+        "ytitle": "Percent",
         "tickFormat": '.2%',
         "series": "Indicator",
         "lineMarkers": false,
@@ -1274,7 +1342,7 @@ import * as dimple from 'dimple';
         "xtitle": "Year",
         "order": false,
         "measureAxis": ["y", "Amount"],
-        "ytitle": "Amount",
+        "ytitle": "Percent",
         "tickFormat": '.2%',
         "series": "Indicator",
         "lineMarkers": false,
@@ -1292,6 +1360,8 @@ window.chartChange = function() {
         console.log({tanfAttainment19, tanfRate19})
         tanf_attainment_chart.data = tanfAttainment19;
         ptanf_attainment_chart.data = tanfAttainment19;
+        tanf_perc_chart.data = tanfPerc19;
+        ptanf_perc_chart.data = tanfPerc19;
         tanf_rate_chart.data = tanfRate19;
         ptanf_rate_chart.data = tanfRate19;
         display_tanf_table('2019', tanfAttainment19, tanfPerc19, tanfRate19, tanfData19)
@@ -1311,11 +1381,17 @@ window.chartChange = function() {
         empl_status_chart.data = povRate18
         emp_dis_chart_print.data = disAttainment18
         emp_dis_chart.data = disAttainment18
+        
+        tanf_attainment_chart.data = tanfAttainment18;  
+        tanf_rate_chart.data  = tanfRate18;
+        tanf_data.data = tanfData18
+        tanf_perc_chart.data = tanfPerc18;
 
-        tanf_attainment_chart.data = tanfAttainment18;
-        ptanf_attainment_chart.data = tanfAttainment18;
-        tanf_rate_chart.data = tanfRate18;
-        ptanf_rate_chart.data = tanfRate18;
+        ptanf_attainment_chart.data = tanfAttainment18;  
+        ptanf_rate_chart.data  = tanfRate18;
+        ptanf_data.data = tanfData18
+        ptanf_perc_chart.data = tanfPerc18;
+
         display_tanf_table('2018', tanfAttainment18, tanfPerc18, tanfRate18, tanfData18)
     }
     if (strUser3 == "2017") {
@@ -1334,11 +1410,16 @@ window.chartChange = function() {
         emp_dis_chart_print.data = disAttainment17
         emp_dis_chart.data = disAttainment17
 
-        tanf_attainment_chart.data = tanfAttainment17;
-        ptanf_attainment_chart.data = tanfAttainment17;
-        tanf_rate_chart.data = tanfRate17;
-        ptanf_rate_chart.data = tanfRate17;
+        tanf_attainment_chart.data = tanfAttainment17;  
+        tanf_rate_chart.data  = tanfRate17;
+        tanf_data.data = tanfData17;
+        tanf_perc_chart.data = tanfPerc17;
+
+        ptanf_attainment_chart.data = tanfAttainment17;  
+        ptanf_rate_chart.data  = tanfRate17;
+        ptanf_data.data = tanfData17;
         display_tanf_table('2017', tanfAttainment17, tanfPerc17, tanfRate17, tanfData17)
+        tanf_perc_chart.data = tanfPerc17; 
     }
     if (strUser3 == "2016") {
         empl_edu_chart.data = EduAttainment16;
@@ -1356,10 +1437,15 @@ window.chartChange = function() {
         emp_dis_chart_print.data = disAttainment16
         emp_dis_chart.data = disAttainment16
 
-        tanf_attainment_chart.data = tanfAttainment16;
-        ptanf_attainment_chart.data = tanfAttainment16;
-        tanf_rate_chart.data = tanfRate16;
-        ptanf_rate_chart.data = tanfRate16;
+        tanf_attainment_chart.data = tanfAttainment16;  
+        tanf_rate_chart.data  = tanfRate16;
+        tanf_data.data = tanfData16;
+        tanf_perc_chart.data = tanfPerc16;
+
+        ptanf_attainment_chart.data = tanfAttainment16;  
+        ptanf_rate_chart.data  = tanfRate16;
+        ptanf_data.data = tanfData16
+        ptanf_perc_chart.data = tanfPerc16;
         display_tanf_table('2016', tanfAttainment16, tanfPerc16, tanfRate16, tanfData16)
 
     }
@@ -1379,10 +1465,13 @@ window.chartChange = function() {
         emp_dis_chart_print.data = disAttainment15
         emp_dis_chart.data = disAttainment15
 
-        tanf_attainment_chart.data = tanfAttainment15;
-        ptanf_attainment_chart.data = tanfAttainment15;
-        tanf_rate_chart.data = tanfRate15;
-        ptanf_rate_chart.data = tanfRate15;
+        tanf_attainment_chart.data = tanfAttainment15;  
+        tanf_rate_chart.data  = tanfRate15;
+        tanf_data.data = tanfData15
+
+        ptanf_attainment_chart.data = tanfAttainment15;  
+        ptanf_rate_chart.data  = tanfRate15;
+        ptanf_data.data = tanfData15;
         display_tanf_table('2015', tanfAttainment15, tanfPerc15, tanfRate15, tanfData15)
 
     }
@@ -1437,38 +1526,49 @@ window.chartChange = function() {
         }
         drawAll();
 
-        work_exp_pov_chart.draw(1000);
-        pwork_exp_pov_chart.draw(1000);
+        work_exp_pov_chart.draw();
+        pwork_exp_pov_chart.draw();
     }
 
-    empl_edu_chart.draw(1000);
-    empl_edu_gend_chart.draw(1000);
-    empl_race_ethn_chart.draw(1000);
-    chart5.draw(1000);
-    empl_vet_chart.draw(1000);
+    empl_edu_chart.draw();
+    empl_edu_gend_chart.draw();
+    empl_race_ethn_chart.draw();
+    chart5.draw();
+    empl_vet_chart.draw();
 
-    pempl_edu_chart.draw(1000);
-    pempl_edu_gend_chart.draw(1000);
-    pempl_race_ethn_chart.draw(1000);
-    pchart5.draw(1000);
-    empl_vet_print_chart.draw(1000);
+    pempl_edu_chart.draw();
+    pempl_edu_gend_chart.draw();
+    pempl_race_ethn_chart.draw();
+    pchart5.draw();
+    empl_vet_print_chart.draw();
 
 
-    pempl_status_chart.draw(1000);
-    empl_status_chart.draw(1000);
-    emp_dis_chart_print.draw(1000);
-    emp_dis_chart.draw(1000);
+    pempl_status_chart.draw();
+    empl_status_chart.draw();
+    emp_dis_chart_print.draw();
+    emp_dis_chart.draw();
 
-    tanf_attainment_chart.draw(1000,false);
-    tanf_rate_chart.draw(1000);
-    ptanf_attainment_chart.draw(1000);
-    ptanf_rate_chart.draw(1000);
+    tanf_attainment_chart.draw();
+    tanf_rate_chart.draw();
+    tanf_data.draw();
+    tanf_perc_chart.draw();
 
-    drawAll();
+    ptanf_attainment_chart.draw(); 
+    ptanf_rate_chart.draw();
+    ptanf_data.draw();
+    ptanf_perc_chart.draw();
+
 }
 
     d3.select("#dropdownMenuY").on("change", chartChange);
     d3.select("#emplStatus_categ_dd").on("change", chartChange);
+
+
+
+    document.querySelectorAll('[data-lbl]').forEach( el => {
+		el.removeAttribute("disabled");
+    } )
+
 
 }
 )()
@@ -1486,6 +1586,9 @@ CountyName2 == 'Maryland' ? '' : window.drawAll = function() {
     empl_status_chart.draw(0, true);
     tanf_attainment_chart.draw(0, true);
     tanf_rate_chart.draw(0, true);
+    tanf_attainment_chart.draw(0, true);
+    tanf_data.draw(0, true);
+    tanf_perc_chart.draw(0, true);
     tanf_data.draw(0, true);
     if(!emplStatusCounties.includes(CountyName) ){
       window.work_exp_pov_chart.draw(0, true)  
@@ -1505,6 +1608,8 @@ CountyName2 == 'Maryland' ? '' : window.drawAll = function() {
     ptanf_attainment_chart.draw(0, true);
     ptanf_rate_chart.draw(0, true);
     ptanf_data.draw(0, true);
+    ptanf_perc_chart.draw(0, true);
+
     psnap_chart.draw(0, true);
     psnap_chart2.draw(0, true);
 }
@@ -1592,8 +1697,6 @@ CountyName2 == 'Maryland' ? '' : window.onload = function() {
 
     document.querySelectorAll('[data-lbl]').forEach( el => {
 
-		el.removeAttribute("disabled");
-
         el.addEventListener("click", function(){
 
             console.log('Clicked', el.dataset.lbl, el)
@@ -1637,7 +1740,7 @@ CountyName2 == 'Maryland' ? '' : window.onload = function() {
                 dropdownMenuQ.style.display =  "none";
                 break;
             case 'tanf':
-                elem.innerHTML = 'Temporary Aid for Needy Families (TANF) Stats'
+                elem.innerHTML = 'Temporary Assistance for Needy Families (TANF) Stats'
                 dropdownMenu.style.display = "inline";
                 dropdownMenuY.style.display = "inline";
                 dropdownMenuQ.style.display =  "none";

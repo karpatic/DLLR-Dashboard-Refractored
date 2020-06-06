@@ -413,7 +413,7 @@ window.onresize = function() {
 }
 
 window.hideall = function(idArr) {
-    idArr.forEach(el=>document.getElementById(el).style.display = "none")
+    idArr.forEach(el=>{ document.getElementById(el).style.display = "none" } )
 }
 window.showall = function(idArr) {
     idArr.forEach(el=>document.getElementById(el).style.display = "inline")
@@ -575,7 +575,7 @@ window.onload = function() {
 
  
             window.collapsables = ["pop", "empl_edu_gend", "empl_race_ethn", "empl_vet", "disabl_pov", "tanf", 
-				"snap", "empl_status", "collapse1", "collapse2", "collapse3", "collapse4", "collapse5", "collapse15", 
+				"snap", "empl_status", "collapse1", "collapse2", "collapse3", "collapse4", "collapse15", 
 				"collapse9", "collapse16", "collapse17", "collapse20", "collapse19"]
 
             hideall(collapsables)

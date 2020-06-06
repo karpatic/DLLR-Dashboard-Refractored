@@ -64,7 +64,7 @@ export let counties_pop = `
       <div class="FootRight">
       </div>
       <div class="FootLeft">
-        <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: Today)</p>
+        <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: May 01, 2020)</p>
       </div>
     </div>
   </div>
@@ -86,7 +86,7 @@ export let counties_empl_edu_gend = `
     </div>
     <div class="Footer">
       <p>Note: NIL are individuals who are not in the labor force; this includes retirees and others who are not looking for work </p>
-      <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: Today)</p>
+      <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: May 01, 2020)</p>
     </div>
   </div>
   `
@@ -105,7 +105,7 @@ export let counties_empl_race_ethn = `
       </table>
     </div>
     <div class="Footer">
-      <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: Today)</p>
+      <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: May 01, 2020)</p>
     </div>
   </div>
   `
@@ -124,7 +124,7 @@ export let counties_empl_vet = `
       </table>
     </div>
     <div class="Footer">
-      <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: Today)</p>
+      <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: May 01, 2020)</p>
     </div>
   </div>
   `
@@ -144,7 +144,7 @@ export let counties_disabl_pov = `
     </div>
     <div class="Footer">
       <div class="FootLeft">
-        <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: Today)</p>
+        <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: May 01, 2020)</p>
       </div>
     </div>
   </div>
@@ -170,7 +170,7 @@ export let counties_tanf = `
     </div>
     <div class="Footer">
       <div class="FootLeft">
-        <p>Source: Administrative Data from Temporary Assistance to Needy Families (TANF) and MD Wage Records (Date Last Accessed: 2/28/18)</p>
+        <p>Source: Administrative Data from Temporary Assistance to Needy Families (TANF) and MD Wage Records (Date Last Accessed: May 01, 2020)</p>
       </div>
     </div>
   </div>
@@ -221,12 +221,6 @@ export let counties_snap = `
     </div>
     <div class="Table">
       <table id="snap_table">
-        <tr class="HeadRow">
-	    <th>SNAP Recipient Workers</th>
-	    <th></th>
-	    <th>2016</th>
-	    <th>2017</th>
-	    <th>2018</th>
       </table>
       <div class="Footer">
         <div class="FootLeft">

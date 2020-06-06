@@ -44,8 +44,7 @@ export let mdApprenticeshipCompleters = `
   </div>
   <div class="Footer">
     <div class="FootLeft">
-      <p>Source: United States Department of Labor (Date Last Accessed: Today)</p>
-      <p>Note: FY is the U.S. government’s fiscal year, which ends on September 20 of the indicated year.  For example, FY19 is the fiscal year running from October 1, 2018 to September 30, 2019.</p>
+      <p>Source: United States Department of Labor (Date Last Accessed: May 01, 2020)</p>
     </div>
   </div>
 </div>
@@ -62,7 +61,10 @@ export let mdNewApprenticeShipPrograms = `
   </div>
   <div id="scrollTable">
     <div class="Footer">
-      <p class="FootLeft">Service participants means individuals who received SNAP benefits</p>
+      <p class="FootLeft">
+            Source: United States Department of Labor (Date Last Accessed: May 01, 2020) </p>
+      <p class="FootLeft">
+            Service participants means individuals who received SNAP benefits</p>
     </div>
   </div>
 </div>
@@ -77,9 +79,11 @@ export let mdNewAndACtivePrograms = `
   <div class="Table">
     <table id="table19"></table>
   </div>
-</div>
-<div class="Footer" id="collapse14" style="display: none;">
-  <p style="text-align:center; margin-left: 5%">Source: U.S.Census Bureau, Center for Economic Studies, LEHD. </p>
+  <div class="Footer">
+    <div class="FootLeft">
+      <p>Source: United States Department of Labor (Date Last Accessed: May 01, 2020)</p>
+    </div>
+  </div>
 </div>
 `
 

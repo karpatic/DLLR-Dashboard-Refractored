@@ -23,6 +23,12 @@ export let wdaDropdowns = `<div>
   <div class="dropdown"> <button class="button" disabled data-lbl="collapse15" style="padding-left: 20%; padding-right: 20%">Separations</button> </div>
 </div>`
 
+let wdaFooter = `
+<div class="Footer">
+  <p class="FootLeft" style="text-align: center;">Data source: Longitudinal Employer-Household Dynamics (LEHD), last accessed on May 01, 2020</p>
+</div>
+`
+
 export let wdaCollapse1 = `
 <div id="collapse1" style="display: none;">
   <div class="ChartTitle" style="display:inline; float:right; margin-right:90px;">
@@ -46,6 +52,7 @@ export let wdaCollapse1 = `
 	<table id ="table3" style="font-size: 80%">
 	</table>
   </div>
+  ${wdaFooter}
 </div>
 `
 
@@ -75,6 +82,7 @@ export let wdaCollapse2 = `<div id="collapse2" style="display: none;">
 	<p class="FootLeft" style="text-align: center;">New Hires: Estimated number of workers who started a new job.  More specifically, total hires that, while they worked for an employer in the specified quarter, were not employed by that employer in any of the previous four quarters. </p>
 	<p class="FootLeft" style="text-align: center;">Job Net Change: Difference between firm job gain and firm job loss.</p>
   </div>
+  ${wdaFooter}
 </div>
 `
 
@@ -104,6 +112,7 @@ export let wdaCollapse3 = `
 	  <p class="FootLeft" style="text-align: center;">Turnover Rate: The rate at which stable jobs begin and end. It is calculated by summing the number of stable hires in the reference quarter and stable separations in the next quarter, and dividing by the average full-quarter employment.</p>
 	</div>
   </div>
+  ${wdaFooter}
 </div>
 `
 
@@ -141,6 +150,7 @@ export function wdaCollapse4(CountyName){ return `
 	  <p class="FootLeft" style="text-align: center;">Turnover Rate: The rate at which stable jobs begin and end. It is calculated by summing the number of stable hires in the reference quarter and stable separations in the next quarter, and dividing by the average full-quarter employment.</p>
 	</div>
   </div>
+  ${wdaFooter}
 </div>
 `
 }
@@ -172,12 +182,6 @@ export let wdaCollapse15 = `
   <div class="Footer">
 	<p class="FootLeft" style="text-align: center;">Estimated number of workers whose job with a given employer ended in the specified quarter.</p>
   </div>
-</div>
-`
-
-export let wdaFooter = `
-<div class="Footer" id="collapse5" style="display: none;">
-  <p class="FootLeft" style="text-align: center;">Source: U.S.Census Bureau, Center for Economic Studies, LEHD. </p>
-  <p class="FootLeft" style="text-align: center;">The table shows the latest data available for the indicator as of Today.</p>
+  ${wdaFooter}
 </div>
 `
