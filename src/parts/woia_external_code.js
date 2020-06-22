@@ -36,7 +36,13 @@ import * as dimple from 'dimple';
 
     window.findEdu = (objArr,indx)=>{
         let returnThis = objArr.filter(obj=>{
-            return obj['Indicator_Value'] == ["NR", "Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A"][indx]
+            if( indx == 0 ){
+                let flag = obj['Indicator_Value'] == ["NR", "Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A"][indx] 
+                return flag || obj['Indicator_Value'] == ["NR", "Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A"][5]
+            }
+            else{
+              return obj['Indicator_Value'] == ["NR", "Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A"][indx]   
+            }
         }
         )[0]
         returnThis = returnThis == undefined ? '--' : returnThis['Amount']
@@ -83,16 +89,19 @@ import * as dimple from 'dimple';
 
     var svg71 = dimple.newSvg("#Chart17", "100%", 400);
     var print71 = dimple.newSvg("#Print17", 750, 400);
-
+    
     let workData = dimple.filterData(data, "Time", [
       "2016Q1", "2016Q2", "2016Q3", "2016Q4", 
       "2017Q1", "2017Q2", "2017Q3", "2017Q4", 
       "2018Q1", "2018Q2", "2018Q3", "2018Q4",
       "2019Q1", "2019Q2", "2019Q3", "2019Q4",])
+
+    
     workData = dimple.filterData(workData, "Indicator", [
       "Maryland Workers by Age", 
       "Maryland Workers by Gender", 
       "Maryland Workers by Industry"])
+
 
     let workDataA = dimple.filterData(workData, "Indicator", "Maryland Workers by Age");
     console.log('workDataA', workDataA)
@@ -107,7 +116,7 @@ import * as dimple from 'dimple';
     window.workData2018Q1 = dimple.filterData(workDataA, "Time", "2018Q1")
     window.workData2018Q2 = dimple.filterData(workDataA, "Time", "2018Q2")
     window.workData2018Q3 = dimple.filterData(workDataA, "Time", "2018Q3")
-    window.workData2018Q4 = dimple.filterData(workDataA, "Time", "2019Q4")
+    window.workData2018Q4 = dimple.filterData(workDataA, "Time", "2018Q4")
     window.workData2019Q1 = dimple.filterData(workDataA, "Time", "2019Q1")
     window.workData2019Q2 = dimple.filterData(workDataA, "Time", "2019Q2")
     window.workData2019Q3 = dimple.filterData(workDataA, "Time", "2019Q3")
@@ -125,7 +134,7 @@ import * as dimple from 'dimple';
     window.workDatg2018Q1 = dimple.filterData(workDataB, "Time", "2018Q1")
     window.workDatg2018Q2 = dimple.filterData(workDataB, "Time", "2018Q2")
     window.workDatg2018Q3 = dimple.filterData(workDataB, "Time", "2018Q3")
-    window.workDatg2018Q4 = dimple.filterData(workDataB, "Time", "2019Q4")
+    window.workDatg2018Q4 = dimple.filterData(workDataB, "Time", "2018Q4")
     window.workDatg2019Q1 = dimple.filterData(workDataB, "Time", "2019Q1")
     window.workDatg2019Q2 = dimple.filterData(workDataB, "Time", "2019Q2")
     window.workDatg2019Q3 = dimple.filterData(workDataB, "Time", "2019Q3")
@@ -203,7 +212,7 @@ import * as dimple from 'dimple';
     window.averageData2018Q1 = dimple.filterData(averageData2, "Time", "2018Q1")
     window.averageData2018Q2 = dimple.filterData(averageData2, "Time", "2018Q2")
     window.averageData2018Q3 = dimple.filterData(averageData2, "Time", "2018Q3")
-    window.averageData2018Q4 = dimple.filterData(averageData2, "Time", "2019Q4")
+    window.averageData2018Q4 = dimple.filterData(averageData2, "Time", "2018Q4")
     window.averageData2019Q1 = dimple.filterData(averageData2, "Time", "2019Q1")
     window.averageData2019Q2 = dimple.filterData(averageData2, "Time", "2019Q2")
     window.averageData2019Q3 = dimple.filterData(averageData2, "Time", "2019Q3")
@@ -223,14 +232,16 @@ import * as dimple from 'dimple';
     window.averageDatg2017Q3 = dimple.filterData(averageData1, "Time", "2017Q3")
     window.averageDatg2017Q4 = dimple.filterData(averageData1, "Time", "2017Q4")
     window.averageDatg2018Q1 = dimple.filterData(averageData1, "Time", "2018Q1")
-    window.averageDatg2018Q2 = dimple.filterData(averageData2, "Time", "2018Q2")
-    window.averageDatg2018Q3 = dimple.filterData(averageData2, "Time", "2018Q3")
-    window.averageDatg2018Q4 = dimple.filterData(averageData2, "Time", "2019Q4")
-    window.averageDatg2019Q1 = dimple.filterData(averageData2, "Time", "2019Q1")
-    window.averageDatg2019Q2 = dimple.filterData(averageData2, "Time", "2019Q2")
-    window.averageDatg2019Q3 = dimple.filterData(averageData2, "Time", "2019Q3")
-    window.averageDatg2019Q4 = dimple.filterData(averageData2, "Time", "2019Q4")
+    window.averageDatg2018Q2 = dimple.filterData(averageData1, "Time", "2018Q2")
+    window.averageDatg2018Q3 = dimple.filterData(averageData1, "Time", "2018Q3")
+    window.averageDatg2018Q4 = dimple.filterData(averageData1, "Time", "2018Q4")
+    window.averageDatg2019Q1 = dimple.filterData(averageData1, "Time", "2019Q1")
+    window.averageDatg2019Q2 = dimple.filterData(averageData1, "Time", "2019Q2")
+    window.averageDatg2019Q3 = dimple.filterData(averageData1, "Time", "2019Q3")
+    window.averageDatg2019Q4 = dimple.filterData(averageData1, "Time", "2019Q4")
 
+    console.log('WOHOOO',{averageDatg2017Q4, averageDatg2018Q1, averageDatg2018Q2, averageDatg2018Q3, averageDatg2018Q4, averageDatg2019Q1, averageDatg2019Q2, averageDatg2019Q3, averageDatg2019Q4})
+    /*
     console.log('Num Workers, Average Earnings', {
         workData2018Q1,
         workDatg2018Q1,
@@ -265,6 +276,7 @@ import * as dimple from 'dimple';
         averageData2019Q4,
         averageDatg2019Q4,
     })
+    */
 
     let displayAvgQuarterTab1 = (quarter,agec,gendc,agea,genda)=>{
         console.log('displayAvgQuarterTab1', quarter,agec,gendc,agea,genda)
@@ -332,6 +344,7 @@ import * as dimple from 'dimple';
                ${!workData2019Q3[0]?'':displayAvgQuarterTab1('2019Q3', workData2019Q3, workDatg2019Q3, averageData2019Q3, averageDatg2019Q3)}
                ${!workData2019Q4[0]?'':displayAvgQuarterTab1('2019Q4', workData2019Q4, workDatg2019Q4, averageData2019Q4, averageDatg2019Q4)}
   `
+  console.log("CHECK THIS OUT", {'2019Q4':'2019Q4', workData2019Q4, workDatg2019Q4, averageData2019Q4, averageDatg2019Q4} )
     window.avgChart = new dimple.chart(svg3,averageData2017Q4);
     avgChart.setBounds("56%", "12%", "35%", "65%")
     window.genX = avgChart.addCategoryAxis("x", "Indicator_Value");
@@ -556,6 +569,7 @@ import * as dimple from 'dimple';
     })
 
     let displayAvgQuarterTab2 = (quarter,agec,gendc,agea,genda)=>{
+        console.log('lookatdis', agea)
         return `
                <tr class="HeadRow">
                   <th>${quarter}</th>
@@ -582,8 +596,8 @@ import * as dimple from 'dimple';
                   <td>${cma(findGender(genda, 1))}</td>
                </tr>`
     }
-    console.log('filter', jobDatc2018Q2, jobDatg2018Q2, newHireDatc2018Q2, newHireDatg2018Q2)
-    console.log('filter', !jobDatg2018Q2[0]?'NO EXECUTE':'CODE EXECUTES')
+    // console.log('filter', jobDatc2018Q2, jobDatg2018Q2, newHireDatc2018Q2, newHireDatg2018Q2)
+    // console.log('filter', !jobDatg2018Q2[0]?'NO EXECUTE':'CODE EXECUTES')
     document.getElementById('table4').innerHTML = `
                  <tr class="HeadRow" style="background-color: white;">
                   <th style="border-right-style: solid;">${CountyName.replace("L W D A", "LWDA")}</th>

@@ -1008,36 +1008,36 @@ import * as dimple from 'dimple';
               <th>${CountyName}:</th>
               <th>TANF Recipient Workers (count)</th>
               <th>TANF Participants in Workforce Service (count)</th>
-              <th>Service participants in TANF (percent)</th>
               <th>Percent of Workers in TANF (percent)</th>
+              <th>Service participants in TANF (percent)</th>
             </tr>
             <tr>
               <th>${year}Q1</th>
               <td>${find(tanfAttainment,0)}</td>
               <td>${find(tanfData,0)}</td>
-              <td>${pcnt2(find(tanfRate,0))}</td>
               <td>${pcnt2(find(tanfPerc,0) )}</td>
+              <td>${pcnt2(find(tanfRate,0))}</td>
             </tr>
             <tr>
               <th>${year}Q2</th>
               <td>${find(tanfAttainment,1)}</td>
               <td>${find(tanfData,1)}</td>
-              <td>${pcnt2(find(tanfRate,1))}</td>
               <td>${pcnt2(find(tanfPerc,1))}</td>
+              <td>${pcnt2(find(tanfRate,1))}</td>
             </tr>
             <tr>
               <th>${year}Q3</th>
               <td>${find(tanfAttainment,2)}</td>
               <td>${find(tanfData,2)}</td>
-              <td>${pcnt2(find(tanfRate,2))}</td>
               <td>${pcnt2(find(tanfPerc,2))}</td>
+              <td>${pcnt2(find(tanfRate,2))}</td>
             </tr>
             <tr>
               <th>${year}Q4</th>
               <td>${find(tanfAttainment,3)}</td>
               <td>${find(tanfData,3)}</td>
-              <td>${pcnt2(find(tanfRate,3))}</td>
               <td>${pcnt2(find(tanfPerc,3))}</td>
+              <td>${pcnt2(find(tanfRate,3))}</td>
             </tr>
         `
     }
@@ -1054,7 +1054,7 @@ import * as dimple from 'dimple';
     window.tanf_rate_chart = new dimple.chart(tanf_svg, tanfRate18);
     window.ptanf_rate_chart = new dimple.chart(tanf_chart_print, tanfRate18);
 
-    tanfPerc18
+    // tanfPerc18
     window.tanf_perc_chart = new dimple.chart(tanf_svg, tanfPerc18);
     window.ptanf_perc_chart = new dimple.chart(tanf_chart_print, tanfPerc18);
 
