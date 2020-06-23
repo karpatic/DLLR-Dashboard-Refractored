@@ -79,10 +79,13 @@ import * as dimple from 'dimple';
     }
     
     // Retrieve Data
-    let url =  CountyName2 == 'Maryland' ? './data/MarylandData_5-5-20.csv' : "./data/CountyData.csv"
+    let url =  CountyName2 == 'Maryland' ? './data/MarylandData_6-22-20.csv' : "./data/CountyData.csv"
     console.log(url)
     let data = await d3.csv(url)
+    console.log({data})
     CountyName2 == 'Maryland' ? '' : data = dimple.filterData(data, "Location", CountyName2)
+
+    console.log({data}, CountyName2)
 
     //
     // Population and Median Household Income
@@ -97,7 +100,7 @@ import * as dimple from 'dimple';
     // Display Table
     document.getElementById('pop_table').innerHTML = `
     <tr class="HeadRow" style="background-color: white;">
-      <th>${CountyName}:</th>
+      <th>${CountyName4}:</th>
       <th>2015</th>
       <th>2016</th>
       <th>2017</th>
@@ -245,7 +248,7 @@ import * as dimple from 'dimple';
 
     document.getElementById('empl_edu_gend_table').innerHTML = `
     <tr class="HeadRow" style="background-color: white;">
-      <th>${CountyName}: </th>
+      <th>${CountyName4}: </th>
       <th>Less than High School Graduate</th>
       <th>High School Graduate (Includes Equivalency)</th>
       <th>Some College or Associates</th>
@@ -492,7 +495,7 @@ import * as dimple from 'dimple';
 
     document.getElementById('empl_race_ethn_table').innerHTML = `
         <tr class="HeadRow" style="background-color: white;">
-          <th>${CountyName}:</th>
+          <th>${CountyName4}:</th>
           <th>White</th>
           <th>Black</th>
           <th>Asian</th>
@@ -638,7 +641,7 @@ import * as dimple from 'dimple';
 
     document.getElementById('empl_vet_table').innerHTML = `
         <tr class="HeadRow" style="background-color: white;">
-          <th>${CountyName}:</th>
+          <th>${CountyName4}:</th>
           <th>Veteran</th>
           <th>Non Veteran</th>
         </tr>
@@ -736,8 +739,8 @@ import * as dimple from 'dimple';
     window.disAttainment18 = dimple.filterData(disAttainment1, "Time", "2018");
     window.disAttainment17 = dimple.filterData(disAttainment1, "Time", "2017");
     window.disAttainment16 = dimple.filterData(disAttainment1, "Time", "2016");
-    window.disAttainment15 = dimple.filterData(disAttainment1, "Time", "2008-2011");
-    console.log("Emploment by Poverty, Disablity", {disAttainment18, povRate18})
+    window.disAttainment15 = dimple.filterData(disAttainment1, "Time", ["2008-2011","2015"]);
+    console.log("Emploment by Poverty, Disablity", {disAttainment18, povRate18, disAttainment15})
 
     // Config Chart
     window.pempl_status_chart = new dimple.chart(disabl_pov_chart_print,povRate);
@@ -781,7 +784,7 @@ import * as dimple from 'dimple';
 
     document.getElementById('disabl_pov_table').innerHTML = `
     <tr class="HeadRow" style="background-color: white;">
-      <th>${CountyName}: </th>
+      <th>${CountyName4}: </th>
       <th>Disabled Individuals</th>
       <th>Individuals without Disabilities</th>
       <th></th>
@@ -799,21 +802,21 @@ import * as dimple from 'dimple';
       <td>${findDisEmp(disAttainment18, 1, 0) }</td>
       <td>${findDisEmp(disAttainment18, 1, 1) }</td>
       <td></td>
-      <td>${findEmp(povRate18,0)}</td>
+      <td>${findEmp(povRate18,1)}</td>
     </tr>
     <tr>
       <th>Employed</th>
       <td>${findDisEmp(disAttainment18, 2, 0) }</td>
       <td>${findDisEmp(disAttainment18, 2, 1) }</td>
       <td></td>
-      <td>${findEmp(povRate18,1)}</td>
+      <td>${findEmp(povRate18,2)}</td>
     </tr>
     <tr>
       <th>Unemployed</th>
       <td>${findDisEmp(disAttainment18, 0, 0) }</td>
       <td>${findDisEmp(disAttainment18, 0, 1) }</td>
       <td ></td>
-      <td>${findEmp(povRate18,2)}</td>
+      <td>${findEmp(povRate18,0)}</td>
     </tr>
     <tr class="HeadRow" style="background-color: white;">
       <th>2017</th>
@@ -827,21 +830,21 @@ import * as dimple from 'dimple';
       <td>${findDisEmp(disAttainment17, 1, 0) }</td>
       <td>${findDisEmp(disAttainment17, 1, 1) }</td>
       <td></td>
-      <td>${findEmp(povRate17,0)}</td>
+      <td>${findEmp(povRate17,1)}</td>
     </tr>
     <tr>
       <th>Employed</th>
       <td>${findDisEmp(disAttainment17, 2, 0) }</td>
       <td>${findDisEmp(disAttainment17, 2, 1) }</td>
       <td></td>
-      <td>${findEmp(povRate17,1)}</td>
+      <td>${findEmp(povRate17,2)}</td>
     </tr>
     <tr class="FootRow">
       <th>Unemployed</th>
       <td>${findDisEmp(disAttainment17, 0, 0 ) }</td>
       <td>${findDisEmp(disAttainment17, 0, 1) }</td>
       <td></td>
-      <td>${findEmp(povRate17,2)}</td>
+      <td>${findEmp(povRate17,0)}</td>
     </tr>
     <tr class="HeadRow" style="background-color: white;">
       <th>2016</th>
@@ -855,21 +858,21 @@ import * as dimple from 'dimple';
       <td>${findDisEmp(disAttainment16, 1, 0 )}</td>
       <td>${findDisEmp(disAttainment16, 1, 1)}</td>
       <td></td>
-      <td>${findEmp(povRate16,0)}</td>
+      <td>${findEmp(povRate16,1)}</td>
     </tr>
     <tr>
       <th>Employed</th>
       <td>${findDisEmp(disAttainment16, 2, 0) }</td>
       <td>${findDisEmp(disAttainment16, 2, 1) }</td>
       <td></td>
-      <td>${findEmp(povRate16,1)}</td>
+      <td>${findEmp(povRate16,2)}</td>
     </tr>
     <tr>
       <th>Unemployed</th>
       <td>${findDisEmp(disAttainment16, 0, 0 ) }</td>
       <td>${findDisEmp(disAttainment16, 0, 1) }</td>
       <td ></td>
-      <td>${findEmp(povRate16,2)}</td>
+      <td>${findEmp(povRate16,0)}</td>
     </tr>
     <tr class="HeadRow" style="background-color: white;">
       <th>2015</th>
@@ -883,21 +886,21 @@ import * as dimple from 'dimple';
       <td>${findDisEmp(disAttainment15, 1, 0 ) }</td>
       <td>${findDisEmp(disAttainment15, 1, 1 ) }</td>
       <td></td>
-      <td>${findEmp(povRate15,0)}</td>
+      <td>${findEmp(povRate15,1)}</td>
     </tr>
     <tr>
       <th>Employed</th>
       <td>${findDisEmp(disAttainment15, 2, 0 ) }</td>
       <td>${findDisEmp(disAttainment15, 2, 1 ) }</td>
       <td></td>
-      <td>${findEmp(povRate15,1)}</td>
+      <td>${findEmp(povRate15,2)}</td>
     </tr>
     <tr>
       <th>Unemployed</th>
       <td>${findDisEmp(disAttainment15, 0, 0 ) }</td>
       <td>${findDisEmp(disAttainment15, 0, 1 ) }</td>
       <td ></td>
-      <td>${findEmp(povRate15,2)}</td>
+      <td>${findEmp(povRate15,0)}</td>
     </tr>
     `
 
@@ -1005,7 +1008,7 @@ import * as dimple from 'dimple';
         }
         document.getElementById('tanf_table').innerHTML = `
             <tr class="HeadRow" style="background-color: white;">
-              <th>${CountyName}:</th>
+              <th>${CountyName4}:</th>
               <th>TANF Recipient Workers (count)</th>
               <th>TANF Participants in Workforce Service (count)</th>
               <th>Percent of Workers in TANF (percent)</th>

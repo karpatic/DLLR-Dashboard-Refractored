@@ -32,7 +32,7 @@ import * as dimple from 'dimple';
         return d3.format('$,.0f')(d * 1)
     }
 
-    let url = CountyName2 == 'Maryland' ? './data/MarylandData_5-5-20.csv' : "./data/wda/" + CountyName.replace(/[ ]/g, '') + ".csv"
+    let url = CountyName2 == 'Maryland' ? './data/MarylandData_6-22-20.csv' : "./data/wda/" + CountyName.replace(/[ ]/g, '') + ".csv"
 
     window.findEdu = (objArr,indx)=>{
         let returnThis = objArr.filter(obj=>{
@@ -194,12 +194,20 @@ import * as dimple from 'dimple';
     // Tab 1 Chart 2
     
     // data = age, datg = gender
-
+    console.log( "FLAG" )
     let averageData = dimple.filterData(data, "Time", [
       "2016Q1", "2016Q2", "2016Q3", "2016Q4", 
       "2017Q1", "2017Q2", "2017Q3", "2017Q4", 
       "2018Q1", "2018Q2", "2018Q3", "2018Q4",
-      "2019Q1", "2019Q2", "2019Q3", "2019Q4"]);
+      "2019Q1", "2019Q2", "2019Q3", "2019Q4"]
+      );
+
+    console.log( "FLAG" )
+        console.log( "FLAG" )
+            console.log( "FLAG" )
+                console.log( "FLAG" )
+
+    console.log( "averageData - filtered for Time", {averageData} )
     let averageData2 = dimple.filterData(averageData, "Indicator", "Maryland Average Monthly Earnings by Age");
     window.averageData2016Q1 = dimple.filterData(averageData2, "Time", "2016Q1")
     window.averageData2016Q2 = dimple.filterData(averageData2, "Time", "2016Q2")
@@ -295,8 +303,8 @@ import * as dimple from 'dimple';
 		  <td>${cma(findAge(agec, 5))}</td>
 		  <td>${cma(findAge(agec, 6))}</td>
 		  <td>${cma(findAge(agec, 7))}</td>
-		  <td>${cma(findGender(gendc, 0))}</td>
 		  <td>${cma(findGender(gendc, 1))}</td>
+		  <td>${cma(findGender(gendc, 0))}</td>
 	   </tr>
 	   <tr class="FootRow">
 		  <th>Average Monthly Earnings</th>
@@ -308,8 +316,8 @@ import * as dimple from 'dimple';
 		  <td>${cma(findAge(agea, 5))}</td>
 		  <td>${cma(findAge(agea, 6))}</td>
 		  <td>${cma(findAge(agea, 7))}</td>
-		  <td>${cma(findGender(genda, 0))}</td>
 		  <td>${cma(findGender(genda, 1))}</td>
+		  <td>${cma(findGender(genda, 0))}</td>
 	   </tr>`
     }
     document.getElementById('table3').innerHTML = `
@@ -344,7 +352,7 @@ import * as dimple from 'dimple';
                ${!workData2019Q3[0]?'':displayAvgQuarterTab1('2019Q3', workData2019Q3, workDatg2019Q3, averageData2019Q3, averageDatg2019Q3)}
                ${!workData2019Q4[0]?'':displayAvgQuarterTab1('2019Q4', workData2019Q4, workDatg2019Q4, averageData2019Q4, averageDatg2019Q4)}
   `
-  console.log("CHECK THIS OUT", {'2019Q4':'2019Q4', workData2019Q4, workDatg2019Q4, averageData2019Q4, averageDatg2019Q4} )
+  console.log("CHECK THIS OUT", {'2018Q1':'2018Q1', workData2018Q1, workDatg2018Q1, averageData2018Q1, averageDatg2018Q1} )
     window.avgChart = new dimple.chart(svg3,averageData2017Q4);
     avgChart.setBounds("56%", "12%", "35%", "65%")
     window.genX = avgChart.addCategoryAxis("x", "Indicator_Value");

@@ -62,7 +62,7 @@ import 'chardin.ts/chardinjs.scss';
         //
 
         window.CountyName = location_search.replace("?county=", "").replace(".html", "").replace(/([A-Z])/g, ' $1').trim()
-        window.emplStatusCounties = ["Maryland", "Worcester County", "Wicomico County", "Talbot County", "St. Mary's County", "Queen Anne's County", "Kent County", "Garrett County", "Dorchester County", "Allegany County", "Caroline County", "Calvert County"]
+        window.emplStatusCounties = ["Maryland", "Worcester County", "Wicomico County", "Talbot County", "St Marys County", "Queen Annes County", "Kent County", "Garrett County", "Dorchester County", "Allegany County", "Caroline County", "Calvert County", "Somerset County", "Prince Georges County"]
 
         var {countyCode, buttonMenu} = ''
         let md = CountyName == 'Maryland'
@@ -132,9 +132,22 @@ import 'chardin.ts/chardinjs.scss';
             let {countyDropdowns, counties_pop, counties_empl_edu_gend, counties_empl_race_ethn, counties_empl_vet, counties_disabl_pov, counties_tanf, counties_empl_status, counties_snap} = await import ('./parts/county_html')
             countyCode = `${dropdown} ${counties_pop} ${counties_empl_edu_gend} ${counties_empl_race_ethn} ${counties_empl_vet} ${counties_disabl_pov} ${counties_tanf} ${counties_empl_status} ${counties_snap} 
             `
+
             window.CountyName1 = CountyName + ", MD";
             window.CountyName2 = CountyName + ", Maryland";
             window.CountyName4 = CountyName;
+
+            console.log("Countyname", CountyName )
+            if(CountyName == "St Marys County"){
+            	window.CountyName4 = "St Mary's County"
+            }
+            if(CountyName == "Queen Annes County"){
+            	window.CountyName4 = "Queen Anne's County"
+            }
+            if(CountyName == "Prince Georges County"){
+            	window.CountyName4 = "Prince George's County"
+            }
+            
             buttonMenu = countyDropdowns(CountyName)
         }
         console.log({
