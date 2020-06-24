@@ -8,43 +8,54 @@ import * as dimple from 'dimple';
 
 (async()=>{
     let pcnt = (d)=>{
+        if( d == 'N/A'){ return d }
         if (d == undefined | d == '--') {
             return '--'
         }
         return d.slice(d.length - 1) != '%' ? (d3.format(".1%")(d * 1)) : (d3.format(".1%")(Number(d.slice(0, -1) * .01)))
     }
     let pcnt2 = (d)=>{
+        if( d == 'N/A'){ return d }
         if (d == undefined | d == '--') {
             return '--'
         }
         return d.slice(d.length - 1) != '%' ? (d3.format(".1%")(d * .01)) : (d3.format(".1%")(Number(d.slice(0, -1) * .01)))
     }
     let cma = (d)=>{
+        if( d == 'N/A'){ return d }
         if (d == undefined | d == '--') {
             return '--'
         }
         return d3.format(',.0f')(d * 1)
     }
     let dlr = (d)=>{
+        if( d == 'N/A'){ return d }
         if (d == undefined | d == '--') {
             return '--'
         }
         return d3.format('$,.0f')(d * 1)
     }
 
-    let url = CountyName2 == 'Maryland' ? './data/MarylandData_6-22-20.csv' : "./data/wda/" + CountyName.replace(/[ ]/g, '') + ".csv"
+    let url = CountyName2 == 'Maryland' ? './data/MarylandData_6-24-20.csv' : "./data/wda/" + CountyName.replace(/[ ]/g, '') + ".csv"
 
     window.findEdu = (objArr,indx)=>{
+        let filtray = ["NR", "Less than High school", "High school", "Some college", "Bachelor's or Higher"]
+        let flag = false
         let returnThis = objArr.filter(obj=>{
+            let val = obj['Indicator_Value']
             if( indx == 0 ){
-                let flag = obj['Indicator_Value'] == ["NR", "Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A"][indx] 
-                return flag || obj['Indicator_Value'] == ["NR", "Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A"][5]
+                if(["NR", "N/A", "NA"].includes(val)){
+                    console.log('CHECK THIS OUT', val )
+                    flag == true
+                }
+                return ["NR", "N/A", "NA"].includes(val)
             }
             else{
-              return obj['Indicator_Value'] == ["NR", "Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A"][indx]   
+              return val == filtray[indx]   
             }
-        }
-        )[0]
+        } )
+        flag && console.log('CHECK THIS OUT', '2')
+        returnThis = returnThis[0]
         returnThis = returnThis == undefined ? '--' : returnThis['Amount']
         //console.log('findage:', objArr, indx, returnThis)
         return returnThis
@@ -352,7 +363,7 @@ import * as dimple from 'dimple';
                ${!workData2019Q3[0]?'':displayAvgQuarterTab1('2019Q3', workData2019Q3, workDatg2019Q3, averageData2019Q3, averageDatg2019Q3)}
                ${!workData2019Q4[0]?'':displayAvgQuarterTab1('2019Q4', workData2019Q4, workDatg2019Q4, averageData2019Q4, averageDatg2019Q4)}
   `
-  console.log("CHECK THIS OUT", {'2018Q1':'2018Q1', workData2018Q1, workDatg2018Q1, averageData2018Q1, averageDatg2018Q1} )
+  console.log("CHECK THIS OUT", {'2019Q3':'2019Q3', workData2019Q3, workDatg2019Q3, averageData2019Q3, averageDatg2019Q3} )
     window.avgChart = new dimple.chart(svg3,averageData2017Q4);
     avgChart.setBounds("56%", "12%", "35%", "65%")
     window.genX = avgChart.addCategoryAxis("x", "Indicator_Value");
@@ -626,7 +637,7 @@ import * as dimple from 'dimple';
                ${displayAvgQuarterTab2('2017Q2', jobDatc2017Q2, jobDatg2017Q2, newHireDatc2017Q2, newHireDatg2017Q2)}
                ${displayAvgQuarterTab2('2017Q3', jobDatc2017Q3, jobDatg2017Q3, newHireDatc2017Q3, newHireDatg2017Q3)}
                ${displayAvgQuarterTab2('2017Q4', jobDatc2017Q4, jobDatg2017Q4, newHireDatc2017Q4, newHireDatg2017Q4)}
-               ${displayAvgQuarterTab2('2018Q1', jobDatc2018Q1, jobDatg2018Q1, newHireDatc2018Q1, newHireDatg2018Q1)}
+               ${!jobDatg2018Q1[0]?'':displayAvgQuarterTab2('2018Q1', jobDatc2018Q1, jobDatg2018Q1, newHireDatc2018Q1, newHireDatg2018Q1)}
                ${!jobDatg2018Q2[0]?'':displayAvgQuarterTab2('2018Q2', jobDatc2018Q2, jobDatg2018Q2, newHireDatc2018Q2, newHireDatg2018Q2)}
                ${!jobDatg2018Q3[0]?'':displayAvgQuarterTab2('2018Q3', jobDatc2018Q3, jobDatg2018Q3, newHireDatc2018Q3, newHireDatg2018Q3)}
                ${!jobDatg2018Q4[0]?'':displayAvgQuarterTab2('2018Q4', jobDatc2018Q4, jobDatg2018Q4, newHireDatc2018Q4, newHireDatg2018Q4)}
@@ -634,7 +645,7 @@ import * as dimple from 'dimple';
                ${!jobDatg2019Q2[0]?'':displayAvgQuarterTab2('2019Q2', jobDatc2019Q2, jobDatg2019Q2, newHireDatc2019Q2, newHireDatg2019Q2)}
                ${!jobDatg2019Q3[0]?'':displayAvgQuarterTab2('2019Q3', jobDatc2019Q3, jobDatg2019Q3, newHireDatc2019Q3, newHireDatg2019Q3)}
                ${!jobDatg2019Q4[0]?'':displayAvgQuarterTab2('2019Q4', jobDatc2019Q4, jobDatg2019Q4, newHireDatc2019Q4, newHireDatg2019Q4)}
-  `
+    `
     window.newHireChart = new dimple.chart(svg4,newHireDatc2017Q4);
     newHireChart.setBounds("11%", "8%", "35%", "45%")
     var ethX = newHireChart.addCategoryAxis("x", "Indicator_Value");

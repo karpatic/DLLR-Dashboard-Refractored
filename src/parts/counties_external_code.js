@@ -79,7 +79,7 @@ import * as dimple from 'dimple';
     }
     
     // Retrieve Data
-    let url =  CountyName2 == 'Maryland' ? './data/MarylandData_6-22-20.csv' : "./data/CountyData.csv"
+    let url =  CountyName2 == 'Maryland' ? './data/MarylandData_6-24-20.csv' : "./data/CountyData.csv"
     console.log(url)
     let data = await d3.csv(url)
     console.log({data})

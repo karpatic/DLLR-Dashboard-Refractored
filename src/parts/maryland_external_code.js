@@ -18,7 +18,7 @@ import * as dimple from 'dimple';
     }
     // Retrieve Data
     console.log('RETRIEVING MARYLAND DATA')
-    let url = './data/MarylandData_6-22-20.csv'
+    let url = './data/MarylandData_6-24-20.csv'
     let data = await d3.csv(url)
     document.getElementById('acsyearagg').innerHTML = '1'
     console.log('Maryland', {

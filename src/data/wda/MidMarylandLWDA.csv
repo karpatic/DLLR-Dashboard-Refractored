@@ -275,15 +275,15 @@ Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q2,A05,35
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q2,A06,45-54,6607
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q2,A07,55-64,6418
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q2,A08,65-99,4615
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A00,All ,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A01,14-18,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A02,19-21,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A03,22-24,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A04,25-34,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A05,35-44,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A06,45-54,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A07,55-64,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A08,65-99,NA
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",0
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E1,Less than High school,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E2,Bachelor's or Higher,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E2,High school,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E2,NR,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E2,Some college,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education All,2019Q2,E1,All,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2019Q2,1,Male,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2019Q2,2,Female,N/A
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age All,2016Q1,A00,All,4920
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age All,2016Q2,A00,All,4946
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age All,2016Q3,A00,All,5237
@@ -322,8 +322,8 @@ Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender,2019Q1,1,M
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender,2019Q1,2,Female,4279
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender,2019Q2,1,Male,6505
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender,2019Q2,2,Female,4237
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender,2019Q3,1,Male,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender,2019Q3,2,Female,NA
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender All,2019Q2,0,All Sexes,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",N/A
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender All,2016Q1,0,All,4920
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender All,2016Q2,0,All,4946
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender All,2016Q3,0,All,5237
@@ -338,147 +338,147 @@ Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender All,2018Q3
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender All,2018Q4,0,All,5584
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender All,2019Q1,0,All,5611
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender All,2019Q2,0,All,5409
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender All,2019Q3,0,All,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",3208
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",4752
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,22,Utilities,8736
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,23,Construction,5370
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,31-33,Manufacturing,6471
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,42,Wholesale Trade,6986
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,44-45,Retail Trade,2954
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,48-49,Transportation and Warehousing,3887
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,51,Information,8715
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,52,Finance and Insurance,9082
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,53,Real Estate and Rental and Leasing,6476
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,54,"Professional, Scientific, and Technical Services",9391
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,55,Management of Companies and Enterprises,8645
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,56,Administrative and Support and Waste Management and Remediation Services,4654
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,61,Educational Services,3635
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,62,Health Care and Social Assistance,4033
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,71,"Arts, Entertainment, and Recreation",2299
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,72,Accommodation and Food Services,1698
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,81,Other Services (except Public Administration),3330
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q1,92,Public Administration,5339
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,11,"Agriculture, Forestry, Fishing and Hunting",4001
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",5410
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,22,Utilities,7088
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,23,Construction,5370
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,31-33,Manufacturing,6327
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,42,Wholesale Trade,6881
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,44-45,Retail Trade,2882
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,48-49,Transportation and Warehousing,4002
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,51,Information,7805
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,52,Finance and Insurance,7244
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,53,Real Estate and Rental and Leasing,5323
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,54,"Professional, Scientific, and Technical Services",8890
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,55,Management of Companies and Enterprises,7481
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,56,Administrative and Support and Waste Management and Remediation Services,4454
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,61,Educational Services,4154
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,62,Health Care and Social Assistance,4141
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,71,"Arts, Entertainment, and Recreation",2251
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,72,Accommodation and Food Services,1781
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,81,Other Services (except Public Administration),3394
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q2,92,Public Administration,5003
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,11,"Agriculture, Forestry, Fishing and Hunting",3215
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",4955
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,22,Utilities,7059
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,23,Construction,5490
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,31-33,Manufacturing,5743
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,42,Wholesale Trade,7041
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,44-45,Retail Trade,2945
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,48-49,Transportation and Warehousing,3901
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,51,Information,7730
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,52,Finance and Insurance,7421
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,53,Real Estate and Rental and Leasing,5631
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,54,"Professional, Scientific, and Technical Services",9346
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,55,Management of Companies and Enterprises,7231
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,56,Administrative and Support and Waste Management and Remediation Services,4190
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,61,Educational Services,3663
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,62,Health Care and Social Assistance,4211
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,71,"Arts, Entertainment, and Recreation",2067
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,72,Accommodation and Food Services,1810
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,81,Other Services (except Public Administration),3416
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q3,92,Public Administration,5536
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,11,"Agriculture, Forestry, Fishing and Hunting",3541
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",4474
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,22,Utilities,6967
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,23,Construction,6187
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,31-33,Manufacturing,6766
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,42,Wholesale Trade,7371
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,44-45,Retail Trade,3001
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,48-49,Transportation and Warehousing,4144
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,51,Information,8270
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,52,Finance and Insurance,7645
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,53,Real Estate and Rental and Leasing,5479
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,54,"Professional, Scientific, and Technical Services",9521
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,55,Management of Companies and Enterprises,8939
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,56,Administrative and Support and Waste Management and Remediation Services,4722
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,61,Educational Services,4204
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,62,Health Care and Social Assistance,4432
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,71,"Arts, Entertainment, and Recreation",2301
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,72,Accommodation and Food Services,1825
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,81,Other Services (except Public Administration),3526
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2018Q4,92,Public Administration,5055
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,11,"Agriculture, Forestry, Fishing and Hunting",3161
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",5084
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,22,Utilities,8846
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,23,Construction,5468
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,31-33,Manufacturing,6705
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,42,Wholesale Trade,7259
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,44-45,Retail Trade,2940
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,48-49,Transportation and Warehousing,4019
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,51,Information,10339
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,52,Finance and Insurance,9353
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,53,Real Estate and Rental and Leasing,6551
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,54,"Professional, Scientific, and Technical Services",9750
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,55,Management of Companies and Enterprises,9778
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,56,Administrative and Support and Waste Management and Remediation Services,4479
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,61,Educational Services,3647
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,62,Health Care and Social Assistance,4274
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,71,"Arts, Entertainment, and Recreation",2294
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,72,Accommodation and Food Services,1729
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,81,Other Services (except Public Administration),3385
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q1,92,Public Administration,5568
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",3511
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",5311
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,22,Utilities,6967
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,23,Construction,5583
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,31-33,Manufacturing,6468
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,42,Wholesale Trade,6888
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,44-45,Retail Trade,2964
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,48-49,Transportation and Warehousing,4130
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,51,Information,8650
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,52,Finance and Insurance,7474
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,53,Real Estate and Rental and Leasing,5159
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,54,"Professional, Scientific, and Technical Services",9255
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,55,Management of Companies and Enterprises,7277
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,56,Administrative and Support and Waste Management and Remediation Services,4354
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,61,Educational Services,4157
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,62,Health Care and Social Assistance,4363
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,71,"Arts, Entertainment, and Recreation",2410
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,72,Accommodation and Food Services,1845
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,81,Other Services (except Public Administration),3427
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q2,92,Public Administration,5153
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,22,Utilities,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,23,Construction,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,31-33,Manufacturing,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,42,Wholesale Trade,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,44-45,Retail Trade,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,48-49,Transportation and Warehousing,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,51,Information,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,52,Finance and Insurance,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,53,Real Estate and Rental and Leasing,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,55,Management of Companies and Enterprises,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,61,Educational Services,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,62,Health Care and Social Assistance,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,72,Accommodation and Food Services,NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,81,Other Services (except Public Administration),NA
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Industry,2019Q3,92,Public Administration,NA
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",3208
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",4752
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,22,Utilities,8736
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,23,Construction,5370
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,31-33,Manufacturing,6471
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,42,Wholesale Trade,6986
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,44-45,Retail Trade,2954
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,48-49,Transportation and Warehousing,3887
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,51,Information,8715
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,52,Finance and Insurance,9082
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,53,Real Estate and Rental and Leasing,6476
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,54,"Professional, Scientific, and Technical Services",9391
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,55,Management of Companies and Enterprises,8645
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,56,Administrative and Support and Waste Management and Remediation Services,4654
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,61,Educational Services,3635
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,62,Health Care and Social Assistance,4033
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,71,"Arts, Entertainment, and Recreation",2299
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,72,Accommodation and Food Services,1698
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,81,Other Services (except Public Administration),3330
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q1,92,Public Administration,5339
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,11,"Agriculture, Forestry, Fishing and Hunting",4001
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",5410
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,22,Utilities,7088
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,23,Construction,5370
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,31-33,Manufacturing,6327
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,42,Wholesale Trade,6881
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,44-45,Retail Trade,2882
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,48-49,Transportation and Warehousing,4002
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,51,Information,7805
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,52,Finance and Insurance,7244
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,53,Real Estate and Rental and Leasing,5323
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,54,"Professional, Scientific, and Technical Services",8890
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,55,Management of Companies and Enterprises,7481
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,56,Administrative and Support and Waste Management and Remediation Services,4454
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,61,Educational Services,4154
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,62,Health Care and Social Assistance,4141
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,71,"Arts, Entertainment, and Recreation",2251
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,72,Accommodation and Food Services,1781
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,81,Other Services (except Public Administration),3394
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q2,92,Public Administration,5003
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,11,"Agriculture, Forestry, Fishing and Hunting",3215
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",4955
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,22,Utilities,7059
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,23,Construction,5490
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,31-33,Manufacturing,5743
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,42,Wholesale Trade,7041
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,44-45,Retail Trade,2945
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,48-49,Transportation and Warehousing,3901
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,51,Information,7730
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,52,Finance and Insurance,7421
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,53,Real Estate and Rental and Leasing,5631
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,54,"Professional, Scientific, and Technical Services",9346
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,55,Management of Companies and Enterprises,7231
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,56,Administrative and Support and Waste Management and Remediation Services,4190
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,61,Educational Services,3663
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,62,Health Care and Social Assistance,4211
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,71,"Arts, Entertainment, and Recreation",2067
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,72,Accommodation and Food Services,1810
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,81,Other Services (except Public Administration),3416
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q3,92,Public Administration,5536
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,11,"Agriculture, Forestry, Fishing and Hunting",3541
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",4474
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,22,Utilities,6967
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,23,Construction,6187
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,31-33,Manufacturing,6766
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,42,Wholesale Trade,7371
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,44-45,Retail Trade,3001
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,48-49,Transportation and Warehousing,4144
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,51,Information,8270
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,52,Finance and Insurance,7645
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,53,Real Estate and Rental and Leasing,5479
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,54,"Professional, Scientific, and Technical Services",9521
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,55,Management of Companies and Enterprises,8939
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,56,Administrative and Support and Waste Management and Remediation Services,4722
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,61,Educational Services,4204
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,62,Health Care and Social Assistance,4432
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,71,"Arts, Entertainment, and Recreation",2301
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,72,Accommodation and Food Services,1825
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,81,Other Services (except Public Administration),3526
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2018Q4,92,Public Administration,5055
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,11,"Agriculture, Forestry, Fishing and Hunting",3161
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",5084
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,22,Utilities,8846
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,23,Construction,5468
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,31-33,Manufacturing,6705
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,42,Wholesale Trade,7259
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,44-45,Retail Trade,2940
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,48-49,Transportation and Warehousing,4019
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,51,Information,10339
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,52,Finance and Insurance,9353
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,53,Real Estate and Rental and Leasing,6551
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,54,"Professional, Scientific, and Technical Services",9750
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,55,Management of Companies and Enterprises,9778
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,56,Administrative and Support and Waste Management and Remediation Services,4479
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,61,Educational Services,3647
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,62,Health Care and Social Assistance,4274
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,71,"Arts, Entertainment, and Recreation",2294
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,72,Accommodation and Food Services,1729
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,81,Other Services (except Public Administration),3385
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q1,92,Public Administration,5568
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",3511
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",5311
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,22,Utilities,6967
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,23,Construction,5583
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,31-33,Manufacturing,6468
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,42,Wholesale Trade,6888
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,44-45,Retail Trade,2964
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,48-49,Transportation and Warehousing,4130
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,51,Information,8650
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,52,Finance and Insurance,7474
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,53,Real Estate and Rental and Leasing,5159
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,54,"Professional, Scientific, and Technical Services",9255
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,55,Management of Companies and Enterprises,7277
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,56,Administrative and Support and Waste Management and Remediation Services,4354
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,61,Educational Services,4157
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,62,Health Care and Social Assistance,4363
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,71,"Arts, Entertainment, and Recreation",2410
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,72,Accommodation and Food Services,1845
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,81,Other Services (except Public Administration),3427
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,92,Public Administration,5153
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,22,Utilities,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,23,Construction,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,42,Wholesale Trade,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,51,Information,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,52,Finance and Insurance,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,53,Real Estate and Rental and Leasing,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,54,"Professional, Scientific, and Technical Services",N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,55,Management of Companies and Enterprises,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,56,Administrative and Support and Waste Management and Remediation Services,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,61,Educational Services,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,62,Health Care and Social Assistance,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,71,"Arts, Entertainment, and Recreation",N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,72,Accommodation and Food Services,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,81,Other Services (except Public Administration),N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,92,Public Administration,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,31-33,Manufacturing,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,44-45,Retail Trade,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,48-49,Transportation and Warehousing,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A00,All ,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A01,14-18,N/A
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Education,2016Q1,E1,Less than High school,233
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Education,2016Q1,E2,High school,143
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Education,2016Q1,E3,Some college,198
@@ -555,8 +555,8 @@ Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender,2019Q1,1,Male,1244
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender,2019Q1,2,Female,665
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender,2019Q2,1,Male,4551
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender,2019Q2,2,Female,2920
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender,2019Q3,1,Male,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender,2019Q3,2,Female,NA
+Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A02,19-21,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A03,22-24,N/A
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender All,2016Q1,0,All,2297
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender All,2016Q2,0,All,7440
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender All,2016Q3,0,All,-3262
@@ -571,7 +571,7 @@ Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender All,2018Q3,0,All,-
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender All,2018Q4,0,All,1203
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender All,2019Q1,0,All,1905
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender All,2019Q2,0,All,7465
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender All,2019Q3,0,All,NA
+Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A04,25-34,N/A
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",44
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",-1
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2016Q1,22,Utilities,-1
@@ -732,7 +732,7 @@ Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2017Q4,92,Public
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2017Q4,31-33,Manufacturing,-97
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2017Q4,44-45,Retail Trade,1152
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2017Q4,48-49,Transportation and Warehousing,54
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",NA
+Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A05,35-44,N/A
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",96
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",3208
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",11
@@ -973,45 +973,45 @@ Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q2,44-45,Ret
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q2,48-49,Transportation and Warehousing,2964
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q2,48-49,Transportation and Warehousing,25
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",5153
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,22,Utilities,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,22,Utilities,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,23,Construction,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,23,Construction,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,42,Wholesale Trade,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,42,Wholesale Trade,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,51,Information,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,51,Information,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,52,Finance and Insurance,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,52,Finance and Insurance,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,53,Real Estate and Rental and Leasing,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,53,Real Estate and Rental and Leasing,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,55,Management of Companies and Enterprises,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,55,Management of Companies and Enterprises,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,61,Educational Services,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,61,Educational Services,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,62,Health Care and Social Assistance,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,62,Health Care and Social Assistance,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,72,Accommodation and Food Services,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,72,Accommodation and Food Services,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,81,Other Services (except Public Administration),NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,81,Other Services (except Public Administration),NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,92,Public Administration,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,92,Public Administration,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,31-33,Manufacturing,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,31-33,Manufacturing,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,44-45,Retail Trade,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,44-45,Retail Trade,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,48-49,Transportation and Warehousing,NA
-Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,48-49,Transportation and Warehousing,NA
+Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A06,45-54,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A07,55-64,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2019Q3,A08,65-99,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender,2019Q3,1,Male,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender,2019Q3,2,Female,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Gender All,2019Q3,0,All,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,22,Utilities,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,23,Construction,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,31-33,Manufacturing,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,42,Wholesale Trade,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,44-45,Retail Trade,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,48-49,Transportation and Warehousing,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,51,Information,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,52,Finance and Insurance,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,53,Real Estate and Rental and Leasing,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,55,Management of Companies and Enterprises,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,61,Educational Services,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,62,Health Care and Social Assistance,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,72,Accommodation and Food Services,N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,81,Other Services (except Public Administration),N/A
+Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q3,92,Public Administration,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender,2019Q3,1,Male,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender,2019Q3,2,Female,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Gender All,2019Q3,0,All,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,22,Utilities,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,22,Utilities,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,23,Construction,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,23,Construction,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,42,Wholesale Trade,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,42,Wholesale Trade,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,51,Information,N/A
 New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2016Q1,E1,Less than High school,3547
 New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2016Q1,E2,High school,5705
 New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2016Q1,E3,Some college,6221
@@ -1052,81 +1052,6 @@ New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2017Q4,E2,High school
 New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2017Q4,E3,Some college,7419
 New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2017Q4,E4,Bachelor's or Higher,6968
 New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2017Q4,E5,NR,9670
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E1,Bachelor's or Higher,176
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E1,NR,1080
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E4,Bachelor's or Higher,6162
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E5,NR,8726
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E0,High school,-118
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E0,Less than High school,-24
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E0,Some college,-83
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E1,Less than High school,3678
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E2,High school,5916
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E3,Some college,6421
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E1,All,6365
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E1,Less than High school,272
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E1,Less than High school,4583
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E2,Bachelor's or Higher,-389
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E2,High school,112
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E2,High school,7317
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E2,NR,6441
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E2,Some college,-23
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E3,Some college,7751
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E4,Bachelor's or Higher,6796
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E5,NR,15243
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E1,Less than High school,4327
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E2,High school,6862
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E3,All,-2995
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E3,High school,-128
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E3,Less than High school,54
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E3,Some college,-119
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E3,Some college,7391
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E4,Bachelor's or Higher,-21
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E4,Bachelor's or Higher,6734
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E4,NR,-2795
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E5,NR,12970
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,4447
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E2,High school,7383
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E3,Some college,8059
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E4,All,1203
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's or Higher,7399
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E4,Less than High school,25
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E5,Bachelor's or Higher,39
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E5,High school,89
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E5,NR,892
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E5,NR,9618
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E5,Some college,163
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E1,Bachelor's or Higher,508
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E1,NR,1114
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E4,Bachelor's or Higher,6217
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E5,NR,8638
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E0,High school,17
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E0,Less than High school,108
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E0,Some college,164
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E1,Less than High school,3744
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E2,High school,6025
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E3,Some college,6633
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E1,All,7465
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E1,Less than High school,350
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E1,Less than High school,4618
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E2,Bachelor's or Higher,-55
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E2,High school,333
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E2,High school,7407
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E2,NR,6696
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E2,Some college,173
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E3,Some college,7904
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E4,Bachelor's or Higher,7139
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E5,NR,15457
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E1,Less than High school,4630
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E2,High school,7488
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E3,All,NA
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E3,High school,NA
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E3,Less than High school,NA
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E3,Some college,NA
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E3,Some college,8049
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E4,Bachelor's or Higher,NA
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E4,Bachelor's or Higher,7064
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E4,NR,NA
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E5,NR,12959
 New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2016Q1,E0,All,29900
 New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2016Q2,E0,All,41608
 New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2016Q3,E0,All,39692
@@ -1135,15 +1060,6 @@ New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2017Q1,E0,All,308
 New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2017Q2,E0,All,40496
 New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2017Q3,E0,All,37117
 New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2017Q4,E0,All,35202
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2018Q1,E0,All,1023
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2018Q1,E0,All,30904
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2018Q2,E0,All,41689
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2018Q3,E0,All,38284
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2018Q4,E0,All,36905
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2019Q1,E0,All,1905
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2019Q1,E0,All,31256
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2019Q2,E0,All,42525
-New Hires,Mid-Maryland WIA,Maryland New Hires by Education All,2019Q3,E0,All,40191
 New Hires,Mid-Maryland WIA,Maryland New Hires by Gender,2016Q1,1,Male,15864
 New Hires,Mid-Maryland WIA,Maryland New Hires by Gender,2016Q1,2,Female,14037
 New Hires,Mid-Maryland WIA,Maryland New Hires by Gender,2016Q2,1,Male,22674
@@ -1601,21 +1517,21 @@ Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q2,A05,35-44,6042
 Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q2,A06,45-54,4989
 Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q2,A07,55-64,3840
 Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q2,A08,65-99,2216
-Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A01,14-18,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A02,19-21,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A03,22-24,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A04,25-34,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A05,35-44,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A06,45-54,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A07,55-64,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A08,65-99,NA
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,51,Information,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,52,Finance and Insurance,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,52,Finance and Insurance,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,53,Real Estate and Rental and Leasing,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,53,Real Estate and Rental and Leasing,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,55,Management of Companies and Enterprises,N/A
 Separations,Mid-Maryland WIA,Maryland Separations by Age All,2018Q1,A00,All ,29845
 Separations,Mid-Maryland WIA,Maryland Separations by Age All,2018Q2,A00,All ,35277
 Separations,Mid-Maryland WIA,Maryland Separations by Age All,2018Q3,A00,All ,41239
 Separations,Mid-Maryland WIA,Maryland Separations by Age All,2018Q4,A00,All ,35830
 Separations,Mid-Maryland WIA,Maryland Separations by Age All,2019Q1,A00,All ,29305
 Separations,Mid-Maryland WIA,Maryland Separations by Age All,2019Q2,A00,All ,34977
-Separations,Mid-Maryland WIA,Maryland Separations by Age All,2019Q3,A00,All ,NA
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,55,Management of Companies and Enterprises,N/A
 Separations,Mid-Maryland WIA,Maryland Separations by Age All,2016Q1,A00,All,27467
 Separations,Mid-Maryland WIA,Maryland Separations by Age All,2016Q2,A00,All,33928
 Separations,Mid-Maryland WIA,Maryland Separations by Age All,2016Q3,A00,All,42865
@@ -1654,11 +1570,11 @@ Separations,Mid-Maryland WIA,Maryland Separations by Education,2019Q2,E2,High sc
 Separations,Mid-Maryland WIA,Maryland Separations by Education,2019Q2,E3,Some college,7704
 Separations,Mid-Maryland WIA,Maryland Separations by Education,2019Q2,E4,Bachelor's or Higher,7140
 Separations,Mid-Maryland WIA,Maryland Separations by Education,2019Q2,E5,NR,8807
-Separations,Mid-Maryland WIA,Maryland Separations by Education,2019Q3,E1,Less than High school,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Education,2019Q3,E2,High school,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Education,2019Q3,E3,Some college,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Education,2019Q3,E4,Bachelor's or Higher,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Education,2019Q3,E5,NR,NA
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,61,Educational Services,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,61,Educational Services,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,62,Health Care and Social Assistance,N/A
 Separations,Mid-Maryland WIA,Maryland Separations by Education,2016Q1,E1,Less than High school,3302
 Separations,Mid-Maryland WIA,Maryland Separations by Education,2016Q1,E2,High school,5529
 Separations,Mid-Maryland WIA,Maryland Separations by Education,2016Q1,E3,Some college,6006
@@ -1705,7 +1621,7 @@ Separations,Mid-Maryland WIA,Maryland Separations by Education All,2018Q3,E0,All
 Separations,Mid-Maryland WIA,Maryland Separations by Education All,2018Q4,E0,All,35830
 Separations,Mid-Maryland WIA,Maryland Separations by Education All,2019Q1,E0,All,29305
 Separations,Mid-Maryland WIA,Maryland Separations by Education All,2019Q2,E0,All,34977
-Separations,Mid-Maryland WIA,Maryland Separations by Education All,2019Q3,E0,All,NA
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,62,Health Care and Social Assistance,N/A
 Separations,Mid-Maryland WIA,Maryland Separations by Education All,2016Q1,E0,All,27467
 Separations,Mid-Maryland WIA,Maryland Separations by Education All,2016Q2,E0,All,33928
 Separations,Mid-Maryland WIA,Maryland Separations by Education All,2016Q3,E0,All,42865
@@ -1726,8 +1642,8 @@ Separations,Mid-Maryland WIA,Maryland Separations by Gender,2019Q1,1,Male,15148
 Separations,Mid-Maryland WIA,Maryland Separations by Gender,2019Q1,2,Female,14158
 Separations,Mid-Maryland WIA,Maryland Separations by Gender,2019Q2,1,Male,17901
 Separations,Mid-Maryland WIA,Maryland Separations by Gender,2019Q2,2,Female,17076
-Separations,Mid-Maryland WIA,Maryland Separations by Gender,2019Q3,1,Male,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Gender,2019Q3,2,Female,NA
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",N/A
 Separations,Mid-Maryland WIA,Maryland Separations by Gender,2016Q1,1,Male,14255
 Separations,Mid-Maryland WIA,Maryland Separations by Gender,2016Q1,2,Female,13212
 Separations,Mid-Maryland WIA,Maryland Separations by Gender,2016Q2,1,Male,17642
@@ -1750,7 +1666,7 @@ Separations,Mid-Maryland WIA,Maryland Separations by Gender All,2018Q3,0,All,412
 Separations,Mid-Maryland WIA,Maryland Separations by Gender All,2018Q4,0,All,35830
 Separations,Mid-Maryland WIA,Maryland Separations by Gender All,2019Q1,0,All,29305
 Separations,Mid-Maryland WIA,Maryland Separations by Gender All,2019Q2,0,All,34977
-Separations,Mid-Maryland WIA,Maryland Separations by Gender All,2019Q3,0,All,NA
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,72,Accommodation and Food Services,N/A
 Separations,Mid-Maryland WIA,Maryland Separations by Gender All,2016Q1,0,All,27467
 Separations,Mid-Maryland WIA,Maryland Separations by Gender All,2016Q2,0,All,33928
 Separations,Mid-Maryland WIA,Maryland Separations by Gender All,2016Q3,0,All,42865
@@ -1879,26 +1795,26 @@ Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q2,92,Public A
 Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q2,31-33,Manufacturing,1133
 Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q2,44-45,Retail Trade,4414
 Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q2,48-49,Transportation and Warehousing,784
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,22,Utilities,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,23,Construction,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,42,Wholesale Trade,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,51,Information,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,52,Finance and Insurance,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,53,Real Estate and Rental and Leasing,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,55,Management of Companies and Enterprises,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,61,Educational Services,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,62,Health Care and Social Assistance,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,72,Accommodation and Food Services,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,81,Other Services (except Public Administration),NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,92,Public Administration,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,31-33,Manufacturing,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,44-45,Retail Trade,NA
-Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,48-49,Transportation and Warehousing,NA
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,72,Accommodation and Food Services,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,81,Other Services (except Public Administration),N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,81,Other Services (except Public Administration),N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,92,Public Administration,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,92,Public Administration,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,31-33,Manufacturing,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,31-33,Manufacturing,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,44-45,Retail Trade,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,44-45,Retail Trade,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,48-49,Transportation and Warehousing,N/A
+Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q3,48-49,Transportation and Warehousing,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A01,14-18,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A02,19-21,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A03,22-24,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A04,25-34,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A05,35-44,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A06,45-54,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A07,55-64,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Age,2019Q3,A08,65-99,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Age All,2019Q3,A00,All ,N/A
 Separations,Mid-Maryland WIA,Maryland Separations by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",61
 Separations,Mid-Maryland WIA,Maryland Separations by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",7
 Separations,Mid-Maryland WIA,Maryland Separations by Industry,2016Q1,22,Utilities,11
@@ -2078,16 +1994,16 @@ Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2018Q4,E5,NR,0.199
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2018Q4,E5,Some college,0.07
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q1,E1,Bachelor's or Higher,0.067
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q1,E1,NR,0.185
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E1,Less than High school,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E2,Bachelor's or Higher,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E2,High school,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E2,NR,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E2,Some college,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E3,High school,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E3,Less than High school,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E3,Some college,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E4,Bachelor's or Higher,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E4,NR,NA
+Separations,Mid-Maryland WIA,Maryland Separations by Education,2019Q3,E1,Less than High school,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Education,2019Q3,E2,High school,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Education,2019Q3,E3,Some college,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Education,2019Q3,E4,Bachelor's or Higher,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Education,2019Q3,E5,NR,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Education All,2019Q3,E0,All,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Gender,2019Q3,1,Male,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Gender,2019Q3,2,Female,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Gender All,2019Q3,0,All,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",N/A
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2016Q1,E1,Less than High school,0.093
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2016Q1,E2,High school,0.079
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2016Q1,E3,Some college,0.075
@@ -2139,8 +2055,8 @@ Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education All,2019Q1,E0,All,
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education All,2019Q1,E0,High school,0.079
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education All,2019Q1,E0,Less than High school,0.092
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education All,2019Q1,E0,Some college,0.077
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education All,2019Q2,E1,All,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education All,2019Q3,E3,All,NA
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,22,Utilities,N/A
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education All,2016Q1,E0,All,0.087
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education All,2016Q2,E0,All,0.086
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education All,2016Q3,E0,All,0.089
@@ -2157,11 +2073,11 @@ Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2018Q3,2,Female,0.089
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2018Q4,0,All Sexes,0.083
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2018Q4,1,Male,0.081
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2018Q4,2,Female,0.085
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2019Q2,1,Male,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2019Q2,2,Female,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2019Q3,0,All Sexes,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2019Q3,1,Male,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2019Q3,2,Female,NA
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,23,Construction,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,42,Wholesale Trade,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,51,Information,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,52,Finance and Insurance,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,53,Real Estate and Rental and Leasing,N/A
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2016Q1,1,Male,0.083
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2016Q1,2,Female,0.091
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2016Q2,1,Male,0.084
@@ -2185,7 +2101,7 @@ Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender All,2018Q2,0,All Sexe
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender All,2019Q1,0,All Sexes,0.087
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender All,2019Q1,1,Male,0.083
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender All,2019Q1,2,Female,0.092
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender All,2019Q2,0,All Sexes,NA
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",N/A
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender All,2016Q1,0,All,0.087
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender All,2016Q2,0,All,0.086
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender All,2016Q3,0,All,0.089
@@ -2294,48 +2210,48 @@ Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q1,92,Public Ad
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q1,31-33,Manufacturing,0.06
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q1,44-45,Retail Trade,0.113
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q1,48-49,Transportation and Warehousing,0.095
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,22,Utilities,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,23,Construction,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,42,Wholesale Trade,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,51,Information,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,52,Finance and Insurance,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,53,Real Estate and Rental and Leasing,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,54,"Professional, Scientific, and Technical Services",NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,55,Management of Companies and Enterprises,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,56,Administrative and Support and Waste Management and Remediation Services,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,61,Educational Services,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,62,Health Care and Social Assistance,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,71,"Arts, Entertainment, and Recreation",NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,72,Accommodation and Food Services,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,81,Other Services (except Public Administration),NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,92,Public Administration,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,31-33,Manufacturing,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,44-45,Retail Trade,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q2,48-49,Transportation and Warehousing,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,22,Utilities,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,23,Construction,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,42,Wholesale Trade,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,51,Information,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,52,Finance and Insurance,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,53,Real Estate and Rental and Leasing,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,55,Management of Companies and Enterprises,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,61,Educational Services,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,62,Health Care and Social Assistance,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,72,Accommodation and Food Services,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,81,Other Services (except Public Administration),NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,92,Public Administration,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,31-33,Manufacturing,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,44-45,Retail Trade,NA
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,48-49,Transportation and Warehousing,NA
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,55,Management of Companies and Enterprises,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,61,Educational Services,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,62,Health Care and Social Assistance,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,72,Accommodation and Food Services,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,81,Other Services (except Public Administration),N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,92,Public Administration,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,31-33,Manufacturing,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,44-45,Retail Trade,N/A
+Separations,Mid-Maryland WIA,Maryland Separations by Industry,2019Q3,48-49,Transportation and Warehousing,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E3,High school,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E3,Less than High school,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E3,Some college,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E4,Bachelor's or Higher,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E4,NR,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Education All,2019Q3,E3,All,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2019Q3,0,All Sexes,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2019Q3,1,Male,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Gender,2019Q3,2,Female,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,22,Utilities,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,23,Construction,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,42,Wholesale Trade,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,51,Information,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,52,Finance and Insurance,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,53,Real Estate and Rental and Leasing,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,55,Management of Companies and Enterprises,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,61,Educational Services,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,62,Health Care and Social Assistance,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,72,Accommodation and Food Services,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,81,Other Services (except Public Administration),N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,92,Public Administration,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,31-33,Manufacturing,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,44-45,Retail Trade,N/A
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2019Q3,48-49,Transportation and Warehousing,N/A
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",0.051
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",null
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q1,22,Utilities,0.049
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q1,23,Construction,0.088
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q1,42,Wholesale Trade,0.066
@@ -2375,7 +2291,7 @@ Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q2,31-33,Manufa
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q2,44-45,Retail Trade,0.1
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q2,48-49,Transportation and Warehousing,0.09
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q3,11,"Agriculture, Forestry, Fishing and Hunting",0.147
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",null
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",0
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q3,22,Utilities,0.036
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q3,23,Construction,0.097
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q3,42,Wholesale Trade,0.071
@@ -2395,7 +2311,7 @@ Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q3,31-33,Manufa
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q3,44-45,Retail Trade,0.102
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q3,48-49,Transportation and Warehousing,0.101
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q4,11,"Agriculture, Forestry, Fishing and Hunting",0.059
-Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",null
+Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",0
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q4,22,Utilities,0.034
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q4,23,Construction,0.08
 Turnover,Mid-Maryland WIA,Maryland Turnover Rate by Industry,2016Q4,42,Wholesale Trade,0.068
@@ -2974,3 +2890,45 @@ Workers,Mid-Maryland WIA,Maryland Workers by Industry,2017Q4,92,Public Administr
 Workers,Mid-Maryland WIA,Maryland Workers by Industry,2017Q4,31-33,Manufacturing,11825
 Workers,Mid-Maryland WIA,Maryland Workers by Industry,2017Q4,44-45,Retail Trade,26279
 Workers,Mid-Maryland WIA,Maryland Workers by Industry,2017Q4,48-49,Transportation and Warehousing,4920
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E0,All Education Categories,30904
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E1,Less than high school,3678
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E2,"High school or equivalent, no college",5916
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E3,Some college or Associate degree,6421
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E4,Bachelor's degree or advanced degree,6162
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),8726
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E0,All Education Categories,41689
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E1,Less than high school,4583
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E2,"High school or equivalent, no college",7317
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E3,Some college or Associate degree,7751
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E4,Bachelor's degree or advanced degree,6796
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),15243
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E0,All Education Categories,38284
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E1,Less than high school,4327
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E2,"High school or equivalent, no college",6862
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E3,Some college or Associate degree,7391
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E4,Bachelor's degree or advanced degree,6734
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),12970
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E0,All Education Categories,36905
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E1,Less than high school,4447
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",7383
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,8059
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,7399
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),9618
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E0,All Education Categories,31256
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E1,Less than high school,3744
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E2,"High school or equivalent, no college",6025
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E3,Some college or Associate degree,6633
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E4,Bachelor's degree or advanced degree,6217
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),8638
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E0,All Education Categories,42525
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E1,Less than high school,4618
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E2,"High school or equivalent, no college",7407
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E3,Some college or Associate degree,7904
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E4,Bachelor's degree or advanced degree,7139
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),15457
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E0,All Education Categories,40191
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E1,Less than high school,4630
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E2,"High school or equivalent, no college",7488
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E3,Some college or Associate degree,8049
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E4,Bachelor's degree or advanced degree,7064
+New Hires,Mid-Maryland WIA,Maryland New Hires by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),12959
