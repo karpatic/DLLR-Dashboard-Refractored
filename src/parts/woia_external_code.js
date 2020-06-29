@@ -718,8 +718,13 @@ import * as dimple from 'dimple';
       "2018Q1", "2018Q2", "2018Q3", "2018Q4", 
       "2019Q1", "2019Q2", "2019Q3", "2019Q4", 
     ])
-    turnOverData = dimple.filterData(turnOverData, "Indicator", ["Maryland Turnover Rate by Education", "Maryland Turnover Rate by Gender", "Maryland Workers by Industry"])
-    let turnOverData1 = dimple.filterData(turnOverData, "Indicator", "Maryland Turnover Rate by Education");
+    turnOverData = dimple.filterData(turnOverData, "Indicator", [
+    "Maryland Turnover Rate by Education", 
+    "Maryland Turnover Rate by Gender", 
+    "Maryland Workers by Industry"])
+
+    let turnOverData1 = dimple.filterData(turnOverData, "Indicator", "Maryland Turnover Rate by Education" );
+    console.log({turnOverData1})
     window.turnOverData2016Q1 = dimple.filterData(turnOverData1, "Time", "2016Q1")
     window.turnOverData2016Q2 = dimple.filterData(turnOverData1, "Time", "2016Q2")
     window.turnOverData2016Q3 = dimple.filterData(turnOverData1, "Time", "2016Q3")
@@ -736,6 +741,7 @@ import * as dimple from 'dimple';
     window.turnOverData2019Q2 = dimple.filterData(turnOverData1, "Time", "2019Q2")
     window.turnOverData2019Q3 = dimple.filterData(turnOverData1, "Time", "2019Q3")
     window.turnOverData2019Q4 = dimple.filterData(turnOverData1, "Time", "2019Q4")
+    console.log({turnOverData2018Q1})
 
     let turnOverData2 = dimple.filterData(turnOverData, "Indicator", "Maryland Turnover Rate by Gender")
     window.turnOverDatg2016Q1 = dimple.filterData(turnOverData2, "Time", "2016Q1")
@@ -809,6 +815,9 @@ import * as dimple from 'dimple';
                ${!turnOverData2019Q3[0]?'':displayAvgQuarterTab3('2019Q3', turnOverData2019Q3, turnOverDatg2019Q3)}
                ${!turnOverData2019Q4[0]?'':displayAvgQuarterTab3('2019Q4', turnOverData2019Q4, turnOverDatg2019Q4)}
   `
+  console.log('turnover 18q1 ', {turnOverData2018Q1, turnOverDatg2018Q1})
+  console.log('turnover 17q4 ', {turnOverData2017Q4, turnOverDatg2017Q4})
+
     window.turnChart = new dimple.chart(svg5,turnOverDatg2017Q4);
     turnChart.setBounds("12%", "12%", "80%", "45%")
     var vetX = turnChart.addCategoryAxis("x", "Indicator_Value")
@@ -1272,11 +1281,22 @@ import * as dimple from 'dimple';
 
     //seperation
 
+
+//
     //chart 8 button
+//
 
     //seperation
     let indusep = dimple.filterData(data, "Indicator", "Maryland Separations by Industry")
-    indusep = dimple.filterData(indusep, "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"])
+    indusep = dimple.filterData(indusep, "Indicator_Value", [
+      "Accommodation and Food Services", 
+      "Administrative and Support and Waste Management and Remediation Services", 
+      "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", 
+      "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", 
+      "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", 
+      "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", 
+      "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"])
+
     window.isepdata1 = dimple.filterData(indusep, "Time", "2016Q1")
     window.isepdata2 = dimple.filterData(indusep, "Time", "2016Q2")
     window.isepdata3 = dimple.filterData(indusep, "Time", "2016Q3")
@@ -1294,12 +1314,6 @@ import * as dimple from 'dimple';
     window.isepdata15 = dimple.filterData(indusep, "Time", "2019Q3")
     window.isepdata16 = dimple.filterData(indusep, "Time", "2019Q4")
 
-    console.log('Separations', {
-        isepdata8,
-        isepdata7,
-        isepdata6,
-        isepdata1
-    })
     let agesep = dimple.filterData(data, "Indicator", "Maryland Separations by Age")
     window.asepdata1 = dimple.filterData(agesep, "Time", "2016Q1")
     window.asepdata2 = dimple.filterData(agesep, "Time", "2016Q2")
@@ -1328,13 +1342,13 @@ import * as dimple from 'dimple';
     window.gsepdata7 = dimple.filterData(gensep, "Time", "2017Q3")
     window.gsepdata8 = dimple.filterData(gensep, "Time", "2017Q4")
     window.gsepdata9 = dimple.filterData(gensep, "Time", "2018Q1")
-    window.gsepdata10 = dimple.filterData(agesep, "Time", "2018Q2")
-    window.gsepdata11 = dimple.filterData(agesep, "Time", "2018Q3")
-    window.gsepdata12 = dimple.filterData(agesep, "Time", "2018Q4")
-    window.gsepdata13 = dimple.filterData(agesep, "Time", "2019Q1")
-    window.gsepdata14 = dimple.filterData(agesep, "Time", "2019Q2")
-    window.gsepdata15 = dimple.filterData(agesep, "Time", "2019Q3")
-    window.gsepdata16 = dimple.filterData(agesep, "Time", "2019Q4")
+    window.gsepdata10 = dimple.filterData(gensep, "Time", "2018Q2")
+    window.gsepdata11 = dimple.filterData(gensep, "Time", "2018Q3")
+    window.gsepdata12 = dimple.filterData(gensep, "Time", "2018Q4")
+    window.gsepdata13 = dimple.filterData(gensep, "Time", "2019Q1")
+    window.gsepdata14 = dimple.filterData(gensep, "Time", "2019Q2")
+    window.gsepdata15 = dimple.filterData(gensep, "Time", "2019Q3")
+    window.gsepdata16 = dimple.filterData(gensep, "Time", "2019Q4")
 
     let edusep = dimple.filterData(data, "Indicator", "Maryland Separations by Education")
     window.esepdata1 = dimple.filterData(edusep, "Time", "2016Q1")
@@ -1346,13 +1360,15 @@ import * as dimple from 'dimple';
     window.esepdata7 = dimple.filterData(edusep, "Time", "2017Q3")
     window.esepdata8 = dimple.filterData(edusep, "Time", "2017Q4")
     window.esepdata9 = dimple.filterData(edusep, "Time", "2018Q1")
-    window.esepdata10 = dimple.filterData(agesep, "Time", "2018Q2")
-    window.esepdata11 = dimple.filterData(agesep, "Time", "2018Q3")
-    window.esepdata12 = dimple.filterData(agesep, "Time", "2018Q4")
-    window.esepdata13 = dimple.filterData(agesep, "Time", "2019Q1")
-    window.esepdata14 = dimple.filterData(agesep, "Time", "2019Q2")
-    window.esepdata15 = dimple.filterData(agesep, "Time", "2019Q3")
-    window.esepdata16 = dimple.filterData(agesep, "Time", "2019Q4")
+    window.esepdata10 = dimple.filterData(edusep, "Time", "2018Q2")
+    window.esepdata11 = dimple.filterData(edusep, "Time", "2018Q3")
+    window.esepdata12 = dimple.filterData(edusep, "Time", "2018Q4")
+    window.esepdata13 = dimple.filterData(edusep, "Time", "2019Q1")
+    window.esepdata14 = dimple.filterData(edusep, "Time", "2019Q2")
+    window.esepdata15 = dimple.filterData(edusep, "Time", "2019Q3")
+    window.esepdata16 = dimple.filterData(edusep, "Time", "2019Q4")
+
+    console.log("separations, gender, edu", {gsepdata9, gsepdata10, esepdata9, esepdata10})
 
     window.chart61 = new dimple.chart(svg71,isepdata8);
     chart61.setBounds("9%", "12%", "55%", "55%")
@@ -1498,6 +1514,11 @@ import * as dimple from 'dimple';
         return returnThis
     }
 
+
+
+    //
+    // Industry: Not For Maryland
+    //
     let showRecordSepeartions = (y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16,pos)=>{
       return `<tr>
 	    <td>${ window.indsList[pos] }</td>
@@ -1519,48 +1540,80 @@ import * as dimple from 'dimple';
 	    <td>${ cma( findIndustry(y16, pos) ) }</td> 
       </tr>`
     }
-    let showRecord = (y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16,pos)=>{
-        return `<tr>
-	    <td>${y1[pos]["Indicator_Value"]}
-	    <td>${cma(y1[pos]["Amount"])}</td> 
-	    <td>${cma(y2[pos]["Amount"])}</td> 
-	    <td>${cma(y3[pos]["Amount"])}</td> 
-	    <td>${cma(y4[pos]["Amount"])}</td> 
-	    <td>${cma(y5[pos]["Amount"])}</td> 
-	    <td>${cma(y6[pos]["Amount"])}</td> 
-	    <td>${cma(y7[pos]["Amount"])}</td> 
-	    <td>${cma(y8[pos]["Amount"])}</td> 
-	    <td>${cma(!y9[0]?'':y9[pos]["Amount"])}</td> 
-	    <td>${cma(!y10[0]?'':y10[pos]["Amount"])}</td> 
-	    <td>${cma(!y11[0]?'':y11[pos]["Amount"])}</td> 
-	    <td>${cma(!y12[0]?'':y12[pos]["Amount"])}</td> 
-	    <td>${cma(!y13[0]?'':y13[pos]["Amount"])}</td> 
-	    <td>${cma(!y14[0]?'':y14[pos]["Amount"])}</td> 
-	    <td>${cma(!y15[0]?'':y15[pos]["Amount"])}</td> 
-	    <td>${cma(!y16[0]?'':y16[pos]["Amount"])}</td> 
-  </tr>`
-    }
-    let showLbldRecord = (lbl,y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16,pos)=>{
+    //
+    // findGender
+    //
+    //
+    let showLbldRecordGend = (lbl,y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16,pos)=>{
         return `
 	    <tr> <td>${lbl}</td> 
-	    <td>${cma(!y1[pos] ? '--' : y1[pos]["Amount"])}</td> 
-	    <td>${cma(!y2[pos] ? '--' : y2[pos]["Amount"])}</td> 
-	    <td>${cma(!y3[pos] ? '--' : y3[pos]["Amount"])}</td> 
-	    <td>${cma(!y4[pos] ? '--' : y4[pos]["Amount"])}</td> 
-	    <td>${cma(!y5[pos] ? '--' : y5[pos]["Amount"])}</td> 
-	    <td>${cma(!y6[pos] ? '--' : y6[pos]["Amount"])}</td> 
-	    <td>${cma(!y7[pos] ? '--' : y7[pos]["Amount"])}</td> 
-	    <td>${cma(!y8[pos] ? '--' : y8[pos]["Amount"])}</td> 
-	    <td>${cma(!y9[pos] ? '--' : y1[pos]["Amount"])}</td> 
-	    <td>${cma(!y10[pos] ? '--' : y10[pos]["Amount"])}</td> 
-	    <td>${cma(!y11[pos] ? '--' : y11[pos]["Amount"])}</td> 
-	    <td>${cma(!y12[pos] ? '--' : y12[pos]["Amount"])}</td> 
-	    <td>${cma(!y13[pos] ? '--' : y13[pos]["Amount"])}</td> 
-	    <td>${cma(!y14[pos] ? '--' : y14[pos]["Amount"])}</td> 
-	    <td>${cma(!y15[pos] ? '--' : y15[pos]["Amount"])}</td> 
+	    <td>${cma( findGender(y1,pos) )}</td> 
+	    <td>${cma( findGender(y2,pos) )}</td> 
+	    <td>${cma( findGender(y3,pos) )}</td> 
+	    <td>${cma( findGender(y4,pos) )}</td> 
+	    <td>${cma( findGender(y5,pos) )}</td> 
+	    <td>${cma( findGender(y6,pos) )}</td> 
+	    <td>${cma( findGender(y7,pos) )}</td> 
+	    <td>${cma( findGender(y8,pos) )}</td> 
+	    <td>${cma( findGender(y9,pos) )}</td> 
+	    <td>${cma( findGender(y10,pos) )}</td> 
+	    <td>${cma( findGender(y12,pos) )}</td> 
+	    <td>${cma( findGender(y13,pos) )}</td> 
+	    <td>${cma( findGender(y14,pos) )}</td> 
+	    <td>${cma( findGender(y15,pos) )}</td> 
 	    </tr>
   `
     }
+    //
+    // findEdu
+    //
+    //
+    let showLbldRecordEdu = (lbl,y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16,pos)=>{
+        return `
+	    <tr> <td>${lbl}</td> 
+	    <td>${cma( findEdu(y1,pos) )}</td> 
+	    <td>${cma( findEdu(y2,pos) )}</td> 
+	    <td>${cma( findEdu(y3,pos) )}</td> 
+	    <td>${cma( findEdu(y4,pos) )}</td> 
+	    <td>${cma( findEdu(y5,pos) )}</td> 
+	    <td>${cma( findEdu(y6,pos) )}</td> 
+	    <td>${cma( findEdu(y7,pos) )}</td> 
+	    <td>${cma( findEdu(y8,pos) )}</td> 
+	    <td>${cma( findEdu(y9,pos) )}</td> 
+	    <td>${cma( findEdu(y10,pos) )}</td> 
+	    <td>${cma( findEdu(y12,pos) )}</td> 
+	    <td>${cma( findEdu(y13,pos) )}</td> 
+	    <td>${cma( findEdu(y14,pos) )}</td> 
+	    <td>${cma( findEdu(y15,pos) )}</td> 
+	    </tr>
+  `
+    }
+    //
+    // findAge
+    //
+    //
+    let showLbldRecordAge = (lbl,y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16,pos)=>{
+        return `
+	    <tr> <td>${lbl}</td> 
+	    <td>${cma( findAge(y1,pos) )}</td> 
+	    <td>${cma( findAge(y2,pos) )}</td> 
+	    <td>${cma( findAge(y3,pos) )}</td> 
+	    <td>${cma( findAge(y4,pos) )}</td> 
+	    <td>${cma( findAge(y5,pos) )}</td> 
+	    <td>${cma( findAge(y6,pos) )}</td> 
+	    <td>${cma( findAge(y7,pos) )}</td> 
+	    <td>${cma( findAge(y8,pos) )}</td> 
+	    <td>${cma( findAge(y9,pos) )}</td> 
+	    <td>${cma( findAge(y10,pos) )}</td> 
+	    <td>${cma( findAge(y12,pos) )}</td> 
+	    <td>${cma( findAge(y13,pos) )}</td> 
+	    <td>${cma( findAge(y14,pos) )}</td> 
+	    <td>${cma( findAge(y15,pos) )}</td> 
+	    </tr>
+  `
+    }
+
+
     console.log({isepdata8})
     let notMdisepdata = CountyName == 'Maryland' ? '' : `
        <thead>
@@ -1627,12 +1680,12 @@ import * as dimple from 'dimple';
         </tr>
        </thead>
        <tbody>
-          ${showLbldRecord('Male', 
+          ${showLbldRecordGend('Male', 
             gsepdata1, gsepdata2, gsepdata3, gsepdata4, 
             gsepdata5, gsepdata6, gsepdata7, gsepdata8, 
             gsepdata9, gsepdata10, gsepdata11, gsepdata12, 
             gsepdata13, gsepdata14, gsepdata15, gsepdata16, 0)}
-          ${showLbldRecord('Female', 
+          ${showLbldRecordGend('Female', 
             gsepdata1, gsepdata2, gsepdata3, gsepdata4, 
             gsepdata5, gsepdata6, gsepdata7, gsepdata8, 
             gsepdata9, gsepdata10, gsepdata11, gsepdata12, 
@@ -1658,27 +1711,27 @@ import * as dimple from 'dimple';
         </tr>
        </thead>
        <tbody>
-          ${showLbldRecord('Less than High school', 
+          ${showLbldRecordEdu('Less than High school', 
             esepdata1, esepdata2, esepdata3, esepdata4, 
             esepdata5, esepdata6, esepdata7, esepdata8,
             esepdata9, esepdata10, esepdata11, esepdata12, 
             esepdata13, esepdata14, esepdata15, esepdata16, 0)}
-          ${showLbldRecord('High school', 
+          ${showLbldRecordEdu('High school', 
             esepdata1, esepdata2, esepdata3, esepdata4, 
             esepdata5, esepdata6, esepdata7, esepdata8,
             esepdata9, esepdata10, esepdata11, esepdata12, 
             esepdata13, esepdata14, esepdata15, esepdata16, 1)}
-          ${showLbldRecord('Some College', 
+          ${showLbldRecordEdu('Some College', 
             esepdata1, esepdata2, esepdata3, esepdata4, 
             esepdata5, esepdata6, esepdata7, esepdata8,
             esepdata9, esepdata10, esepdata11, esepdata12, 
             esepdata13, esepdata14, esepdata15, esepdata16, 2)}
-          ${showLbldRecord("Bachelor's or Higher", 
+          ${showLbldRecordEdu("Bachelor's or Higher", 
             esepdata1, esepdata2, esepdata3, esepdata4, 
             esepdata5, esepdata6, esepdata7, esepdata8,
             esepdata9, esepdata10, esepdata11, esepdata12, 
             esepdata13, esepdata14, esepdata15, esepdata16, 3)}
-          ${showLbldRecord('NR', 
+          ${showLbldRecordEdu('NR', 
             esepdata1, esepdata2, esepdata3, esepdata4, 
             esepdata5, esepdata6, esepdata7, esepdata8,
             esepdata9, esepdata10, esepdata11, esepdata12, 
@@ -1704,42 +1757,42 @@ import * as dimple from 'dimple';
         </tr>
        </thead>
        <tbody>
-          ${showLbldRecord('Age 14-18', 
+          ${showLbldRecordAge('Age 14-18', 
             asepdata1, asepdata2, asepdata3, asepdata4, 
             asepdata5, asepdata6, asepdata7, asepdata8,
             asepdata9, asepdata10, asepdata11, asepdata12, 
             asepdata13, asepdata14, asepdata15, asepdata16, 0)}
-          ${showLbldRecord('Age 19-21', 
+          ${showLbldRecordAge('Age 19-21', 
             asepdata1, asepdata2, asepdata3, asepdata4, 
             asepdata5, asepdata6, asepdata7, asepdata8,
             asepdata9, asepdata10, asepdata11, asepdata12, 
             asepdata13, asepdata14, asepdata15, asepdata16, 1)}
-          ${showLbldRecord('Age 22-24', 
+          ${showLbldRecordAge('Age 22-24', 
             asepdata1, asepdata2, asepdata3, asepdata4, 
             asepdata5, asepdata6, asepdata7, asepdata8,
             asepdata9, asepdata10, asepdata11, asepdata12, 
             asepdata13, asepdata14, asepdata15, asepdata16, 2)}
-          ${showLbldRecord('Age 25-34', 
+          ${showLbldRecordAge('Age 25-34', 
             asepdata1, asepdata2, asepdata3, asepdata4, 
             asepdata5, asepdata6, asepdata7, asepdata8,
             asepdata9, asepdata10, asepdata11, asepdata12, 
             asepdata13, asepdata14, asepdata15, asepdata16, 3)}
-          ${showLbldRecord('Age 35-44', 
+          ${showLbldRecordAge('Age 35-44', 
             asepdata1, asepdata2, asepdata3, asepdata4, 
             asepdata5, asepdata6, asepdata7, asepdata8,
             asepdata9, asepdata10, asepdata11, asepdata12, 
             asepdata13, asepdata14, asepdata15, asepdata16, 4)}
-          ${showLbldRecord('Age 45-54', 
+          ${showLbldRecordAge('Age 45-54', 
             asepdata1, asepdata2, asepdata3, asepdata4, 
             asepdata5, asepdata6, asepdata7, asepdata8,
             asepdata9, asepdata10, asepdata11, asepdata12, 
             asepdata13, asepdata14, asepdata15, asepdata16, 5)}
-          ${showLbldRecord('Age 55-64', 
+          ${showLbldRecordAge('Age 55-64', 
             asepdata1, asepdata2, asepdata3, asepdata4, 
             asepdata5, asepdata6, asepdata7, asepdata8,
             asepdata9, asepdata10, asepdata11, asepdata12, 
             asepdata13, asepdata14, asepdata15, asepdata16, 6)}
-          ${showLbldRecord('Age 65-99', 
+          ${showLbldRecordAge('Age 65-99', 
             asepdata1, asepdata2, asepdata3, asepdata4, 
             asepdata5, asepdata6, asepdata7, asepdata8,
             asepdata9, asepdata10, asepdata11, asepdata12, 
@@ -1786,15 +1839,7 @@ import * as dimple from 'dimple';
                              newHireDatc, turnOverData,
                              workDatg, averageDatg, jobDatg, 
                              newHireDatg, turnOverDatg
-        ) =>{
-            /*
-            console.log(quarter, strUser10, iwdata, hiredata, avgdata, netdata, turndata, 
-                                 isepdata, gsepdata, esepdata, asepdata,
-                                 workData, averageData, jobDatc, 
-                                 newHireDatc, turnOverData,
-                                 workDatg, averageDatg, jobDatg, 
-                                 newHireDatg, turnOverDatg)
-            */                    
+        ) =>{            
             window.displayIndustryMetricsTable(iwdata, hiredata, avgdata, netdata, turndata)
             // Tab 4
             if (strUser10 == "Average Monthly Earnings") { y2.tickFormat = '$,.0f'; chart8.data = avgdata;  }

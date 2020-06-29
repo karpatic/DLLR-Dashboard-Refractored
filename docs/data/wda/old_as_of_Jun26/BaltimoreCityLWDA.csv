@@ -7,7 +7,7 @@ New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,11,"Agricultu
 New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
 Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",N/A
 Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2017Q4,A00,All,5689
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q2,E1,Less than High school,N/A
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q2,A00,All ,5472
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q2,A01,14-18,906
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q2,A02,19-21,1598
@@ -25,7 +25,7 @@ Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q1,A05,
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q1,A06,45-54,6770
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q1,A07,55-64,6627
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q1,A08,65-99,5351
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2017Q3,A00,All,5082
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2019Q1,A00,All ,5563
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q4,A00,All ,5779
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q4,A01,14-18,931
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q4,A02,19-21,1546
@@ -61,7 +61,7 @@ Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q1,A05,
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q1,A06,45-54,6482
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q1,A07,55-64,6427
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q1,A08,65-99,5298
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2017Q2,A00,All,5050
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2018Q1,A00,All ,5362
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q4,A01,14-18,868
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q4,A02,19-21,1517
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q4,A03,22-24,2889
@@ -70,7 +70,7 @@ Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q4,A05,
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q4,A06,45-54,6726
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q4,A07,55-64,6888
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q4,A08,65-99,5943
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2017Q1,A00,All,5188
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2017Q4,A00,All,5689
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q3,A01,14-18,995
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q3,A02,19-21,1594
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q3,A03,22-24,2626
@@ -79,7 +79,7 @@ Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q3,A05,
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q3,A06,45-54,5839
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q3,A07,55-64,5875
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q3,A08,65-99,5172
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2016Q4,A00,All,5537
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2017Q3,A00,All,5082
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q2,A01,14-18,844
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q2,A02,19-21,1445
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q2,A03,22-24,2633
@@ -88,7 +88,7 @@ Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q2,A05,
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q2,A06,45-54,5884
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q2,A07,55-64,5937
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q2,A08,65-99,5232
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2016Q3,A00,All,5153
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2017Q2,A00,All,5050
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q1,A01,14-18,783
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q1,A02,19-21,1331
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q1,A03,22-24,2515
@@ -97,7 +97,7 @@ Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q1,A05,
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q1,A06,45-54,6255
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q1,A07,55-64,6212
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q1,A08,65-99,5186
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2016Q2,A00,All,4820
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2017Q1,A00,All,5188
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q4,A01,14-18,828
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q4,A02,19-21,1426
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q4,A03,22-24,2812
@@ -106,7 +106,7 @@ Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q4,A05,
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q4,A06,45-54,6451
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q4,A07,55-64,6713
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q4,A08,65-99,5964
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2016Q1,A00,All,4980
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2016Q4,A00,All,5537
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q3,A01,14-18,964
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q3,A02,19-21,1548
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q3,A03,22-24,2733
@@ -115,7 +115,7 @@ Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q3,A05,
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q3,A06,45-54,5873
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q3,A07,55-64,5892
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q3,A08,65-99,5284
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q1,1,Male,6038
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2016Q3,A00,All,5153
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q2,A01,14-18,796
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q2,A02,19-21,1392
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q2,A03,22-24,2458
@@ -124,7 +124,7 @@ Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q2,A05,
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q2,A06,45-54,5658
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q2,A07,55-64,5698
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q2,A08,65-99,5014
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q1,2,Female,4103
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2016Q2,A00,All,4820
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q1,A01,14-18,713
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q1,A02,19-21,1255
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q1,A03,22-24,2334
@@ -133,52 +133,52 @@ Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q1,A05,
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q1,A06,45-54,6022
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q1,A07,55-64,5898
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q1,A08,65-99,4931
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q2,1,Male,5575
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q2,2,Female,4189
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q3,1,Male,6096
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q3,2,Female,4352
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q4,1,Male,6719
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q4,2,Female,4557
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q1,1,Male,6267
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q1,2,Female,4297
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q2,1,Male,5841
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q2,2,Female,4395
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q3,1,Male,6073
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q3,2,Female,4244
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q4,1,Male,6911
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q4,2,Female,4677
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q1,1,Male,6437
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q1,2,Female,4477
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q2,1,Male,6041
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q2,2,Female,4548
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q3,1,Male,6068
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q3,2,Female,4371
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q4,1,Male,6975
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q4,2,Female,4807
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2019Q1,1,Male,6741
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2019Q1,2,Female,4610
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2016Q1,A00,All,4980
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q2,E2,Bachelor's or Higher,N/A
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q2,E2,High school,N/A
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q2,E2,NR,N/A
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2019Q2,1,Male,6330
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2019Q2,2,Female,4771
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2019Q3,1,Male,N/A
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2019Q3,2,Female,N/A
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2016Q1,0,All,4980
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2016Q2,0,All,4820
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2016Q3,0,All,5153
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2016Q4,0,All,5537
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2017Q1,0,All,5188
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2017Q2,0,All,5050
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2017Q3,0,All,5082
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2017Q4,0,All,5689
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2018Q1,0,All,5362
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2018Q2,0,All,5224
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2018Q3,0,All,5144
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2018Q4,0,All,5779
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2019Q1,0,All,5563
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2019Q2,0,All,5472
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2019Q3,0,All,N/A
-Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2016Q1,1,Male,122
-Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2016Q1,2,Female,-283
-Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2016Q2,1,Male,4030
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2019Q1,1,Male,6741
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2019Q1,2,Female,4610
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2019Q1,0,All,5563
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q4,1,Male,6975
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q4,2,Female,4807
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2018Q4,0,All,5779
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q3,1,Male,6068
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q3,2,Female,4371
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2018Q3,0,All,5144
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q2,1,Male,6041
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q2,2,Female,4548
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2018Q2,0,All,5224
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q1,1,Male,6437
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2018Q1,2,Female,4477
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2018Q1,0,All,5362
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q4,1,Male,6911
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q4,2,Female,4677
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2017Q4,0,All,5689
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q3,1,Male,6073
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q3,2,Female,4244
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2017Q3,0,All,5082
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q2,1,Male,5841
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q2,2,Female,4395
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2017Q2,0,All,5050
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q1,1,Male,6267
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2017Q1,2,Female,4297
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2017Q1,0,All,5188
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q4,1,Male,6719
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q4,2,Female,4557
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2016Q4,0,All,5537
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q3,1,Male,6096
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q3,2,Female,4352
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2016Q3,0,All,5153
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q2,1,Male,5575
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q2,2,Female,4189
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2016Q2,0,All,4820
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q1,1,Male,6038
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q1,2,Female,4103
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2016Q1,0,All,4980
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",1705
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",7109
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2016Q1,22,Utilities,15855
@@ -359,12 +359,62 @@ Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2018Q4,71,"Art
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2018Q4,72,Accommodation and Food Services,2282
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2018Q4,81,Other Services (except Public Administration),3883
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2018Q4,92,Public Administration,4933
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q1,E1,Less than High school,-142
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q1,E2,High school,-562
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q1,E3,Some college,-395
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q1,E4,Bachelor's or Higher,166
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q1,E5,NR,790
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q2,E1,Less than High school,524
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q2,E2,High school,642
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q2,E3,Some college,410
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q2,E4,Bachelor's or Higher,-298
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q2,E5,NR,5227
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q3,E1,Less than High school,131
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q3,E2,High school,-58
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q3,E3,Some college,-191
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q3,E4,Bachelor's or Higher,-124
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q3,E5,NR,-8
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q4,E1,Less than High school,-373
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q4,E2,High school,-786
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q4,E3,Some college,-884
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q4,E4,Bachelor's or Higher,-706
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q4,E5,NR,1378
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q1,E1,Less than High school,194
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q1,E2,High school,143
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q1,E3,Some college,170
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q1,E4,Bachelor's or Higher,457
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q1,E5,NR,1249
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q2,E1,Less than High school,855
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q2,E2,High school,715
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q2,E3,Some college,487
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q2,E4,Bachelor's or Higher,-240
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q2,E5,NR,5744
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q3,E1,Less than High school,513
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q3,E2,High school,500
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q3,E3,Some college,554
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q3,E4,Bachelor's or Higher,794
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q3,E5,NR,-732
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q4,E1,Less than High school,-332
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q4,E2,High school,-287
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q4,E3,Some college,-439
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q4,E4,Bachelor's or Higher,-551
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q4,E5,NR,1341
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2016Q1,E0,All,-162
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2016Q2,E0,All,6417
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2016Q3,E0,All,-251
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2016Q4,E0,All,-1399
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2017Q1,E0,All,2206
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2017Q2,E0,All,7524
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2017Q3,E0,All,1634
+Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2017Q4,E0,All,-271
+Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2016Q1,1,Male,122
+Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2016Q1,2,Female,-283
+Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2016Q2,1,Male,4030
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2016Q2,2,Female,2397
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2016Q3,1,Male,-626
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2016Q3,2,Female,371
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2016Q4,1,Male,-1920
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2016Q4,2,Female,510
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E0,All Education Categories,-1497
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2017Q1,1,Male,1319
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2017Q1,2,Female,889
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2017Q2,1,Male,4661
@@ -385,16 +435,8 @@ Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2019Q1,1,Male,19
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2019Q1,2,Female,738
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2019Q2,1,Male,3660
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2019Q2,2,Female,2047
-Separations,Baltimore City WIA,Maryland Separations by Age All,2016Q1,A00,All,37265
-Separations,Baltimore City WIA,Maryland Separations by Age All,2016Q2,A00,All,46905
-Separations,Baltimore City WIA,Maryland Separations by Age All,2016Q3,A00,All,56929
-Separations,Baltimore City WIA,Maryland Separations by Age All,2016Q4,A00,All,53736
-Separations,Baltimore City WIA,Maryland Separations by Age All,2017Q1,A00,All,40234
-Separations,Baltimore City WIA,Maryland Separations by Age All,2017Q2,A00,All,47631
-Separations,Baltimore City WIA,Maryland Separations by Age All,2017Q3,A00,All,57090
-Separations,Baltimore City WIA,Maryland Separations by Age All,2017Q4,A00,All,51019
-Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2019Q3,1,Male,N/A
-Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2019Q3,2,Female,N/A
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q2,E2,Some college,N/A
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2019Q2,E1,All,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2016Q1,0,All,-162
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2016Q2,0,All,6417
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2016Q3,0,All,-251
@@ -403,54 +445,13 @@ Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2017Q1,0,All
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2017Q2,0,All,7524
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2017Q3,0,All,1634
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2017Q4,0,All,-271
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E0,All Education Categories,55236
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E0,All Education Categories,41110
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E0,All Education Categories,53256
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E0,All Education Categories,56725
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2018Q1,0,All,835
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2018Q2,0,All,3218
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2018Q3,0,All,1984
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2018Q4,0,All,-1497
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2019Q1,0,All,931
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2019Q2,0,All,5696
-Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2019Q3,0,All,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q1,1,Male,19027
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q1,2,Female,17966
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q2,1,Male,27129
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q2,2,Female,26615
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q3,1,Male,27058
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q3,2,Female,29513
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q4,1,Male,24634
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q4,2,Female,27820
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q1,1,Male,21325
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q1,2,Female,21396
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q2,1,Male,28294
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q2,2,Female,27288
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q3,1,Male,29275
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q3,2,Female,29530
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q4,1,Male,24300
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q4,2,Female,26319
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q1,1,Male,20254
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q1,2,Female,20857
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q2,1,Male,26200
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q2,2,Female,27057
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q3,1,Male,26492
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E0,All Education Categories,55236
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E0,All Education Categories,39363
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q3,2,Female,30234
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q4,1,Male,25874
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q4,2,Female,29362
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q1,1,Male,19150
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q1,2,Female,20213
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q2,1,Male,27701
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q2,2,Female,28686
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q3,1,Male,26665
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q3,2,Female,30756
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2016Q1,0,All,36994
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2016Q2,0,All,53744
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2016Q3,0,All,56571
-Workers,Baltimore City WIA,Maryland Workers by Age All,2016Q1,A00,All,329971
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2016Q4,0,All,52454
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2019Q2,1,Male,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",0
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2016Q1,22,Utilities,-46
@@ -812,9 +813,9 @@ Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q1,44-45,R
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q1,48-49,Transportation and Warehousing,4402
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q1,48-49,Transportation and Warehousing,-1230
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",1574
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2017Q1,0,All,42721
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2019Q2,2,Female,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",5606
-Workers,Baltimore City WIA,Maryland Workers by Age All,2016Q2,A00,All,334380
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2019Q2,0,All Sexes,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q2,22,Utilities,9485
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q2,22,Utilities,76
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q2,23,Construction,5600
@@ -882,119 +883,120 @@ Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q3,A05,
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q3,A06,45-54,N/A
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q3,A07,55-64,N/A
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q3,A08,65-99,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2017Q2,0,All,55582
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2017Q3,0,All,58805
-Workers,Baltimore City WIA,Maryland Workers by Age All,2016Q3,A00,All,333262
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2017Q4,0,All,50619
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2018Q1,0,All,41110
-Workers,Baltimore City WIA,Maryland Workers by Age All,2016Q4,A00,All,336642
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2019Q3,1,Male,N/A
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2019Q3,2,Female,N/A
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender All,2019Q3,0,All,N/A
+Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2019Q3,1,Male,N/A
+Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2019Q3,2,Female,N/A
+Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2019Q3,0,All,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E0,All Education Categories,56386
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E0,All Education Categories,57421
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2019Q2,E0,All Education Categories,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2018Q4,E0,All Education Categories,55236
-Separations,Baltimore City WIA,Maryland Separations by Education All,2018Q1,E0,All Education Categories,40053
-Separations,Baltimore City WIA,Maryland Separations by Education All,2018Q2,E0,All Education Categories,50007
-Separations,Baltimore City WIA,Maryland Separations by Education All,2018Q3,E0,All Education Categories,54886
-Separations,Baltimore City WIA,Maryland Separations by Education All,2018Q4,E0,All Education Categories,55924
-Separations,Baltimore City WIA,Maryland Separations by Education All,2019Q1,E0,All Education Categories,38623
-Separations,Baltimore City WIA,Maryland Separations by Education All,2019Q2,E0,All Education Categories,50588
-Separations,Baltimore City WIA,Maryland Separations by Education All,2019Q3,E0,All Education Categories,N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2018Q1,E0,All Education Categories,0.08
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2018Q2,E0,All Education Categories,0.075
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2018Q3,E0,All Education Categories,0.084
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2018Q4,E0,All Education Categories,0.078
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2019Q1,E0,All Education Categories,0.085
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2019Q3,E0,All Education Categories,N/A
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q1,E0,All Education Categories,835
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q2,E0,All Education Categories,3218
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q3,E0,All Education Categories,1984
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q4,E0,All Education Categories,-1497
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q1,E0,All Education Categories,931
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q2,E0,All Education Categories,5696
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q3,E0,All Education Categories,N/A
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2016Q1,E0,All Education Categories,-162
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2016Q2,E0,All Education Categories,6417
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2016Q3,E0,All Education Categories,-251
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2016Q4,E0,All Education Categories,-1399
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2017Q1,E0,All Education Categories,2206
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2017Q2,E0,All Education Categories,7524
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2017Q3,E0,All Education Categories,1634
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2017Q4,E0,All Education Categories,-271
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2016Q1,E0,All Education Categories,36994
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2016Q2,E0,All Education Categories,53744
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2016Q3,E0,All Education Categories,56571
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2016Q4,E0,All Education Categories,52454
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2017Q1,E0,All Education Categories,42721
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2017Q2,E0,All Education Categories,55582
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2017Q3,E0,All Education Categories,58805
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2017Q4,E0,All Education Categories,50619
-Separations,Baltimore City WIA,Maryland Separations by Education All,2016Q1,E0,All Education Categories,37265
-Separations,Baltimore City WIA,Maryland Separations by Education All,2016Q2,E0,All Education Categories,46905
-Separations,Baltimore City WIA,Maryland Separations by Education All,2016Q3,E0,All Education Categories,56929
-Separations,Baltimore City WIA,Maryland Separations by Education All,2016Q4,E0,All Education Categories,53736
-Separations,Baltimore City WIA,Maryland Separations by Education All,2017Q1,E0,All Education Categories,40234
-Separations,Baltimore City WIA,Maryland Separations by Education All,2017Q2,E0,All Education Categories,47631
-Separations,Baltimore City WIA,Maryland Separations by Education All,2017Q3,E0,All Education Categories,57090
-Separations,Baltimore City WIA,Maryland Separations by Education All,2017Q4,E0,All Education Categories,51019
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2016Q1,E0,All Education Categories,0.081
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2016Q2,E0,All Education Categories,0.075
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2016Q3,E0,All Education Categories,0.081
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2016Q4,E0,All Education Categories,0.08
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2017Q1,E0,All Education Categories,0.078
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2017Q2,E0,All Education Categories,0.08
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2017Q3,E0,All Education Categories,0.082
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2017Q4,E0,All Education Categories,0.082
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q1,E4,Bachelor's degree or advanced degree,166
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q2,E4,Bachelor's degree or advanced degree,-298
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q3,E4,Bachelor's degree or advanced degree,-124
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,7681
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E2,High school,12093
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E3,Some college,12903
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E4,All,-1497
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's or Higher,10544
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E4,Less than High school,-441
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,Bachelor's or Higher,-332
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,High school,-1199
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,NR,1510
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,NR,12014
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,Some college,-1022
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E1,Less than High school,5037
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E2,High school,7863
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E3,Some college,8204
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E4,Bachelor's or Higher,7108
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E5,NR,8782
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E1,Less than High school,7054
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E2,High school,11091
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E3,Some college,11321
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E4,Bachelor's or Higher,8977
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E5,NR,15301
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E1,Less than High school,7301
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E2,High school,11381
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E3,Some college,11778
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E4,Bachelor's or Higher,9986
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E5,NR,16124
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E1,Less than High school,7330
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E2,High school,11386
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E3,Some college,11796
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E4,Bachelor's or Higher,9589
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E5,NR,12352
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E1,Less than High school,5945
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E2,High school,9320
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E3,Some college,9692
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E4,Bachelor's or Higher,8132
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E5,NR,9632
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E1,Less than High school,7594
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E2,High school,11331
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E3,Some college,11575
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E4,Bachelor's or Higher,9038
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E5,NR,16045
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E1,Less than High school,8168
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E2,High school,12099
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E3,Some college,12499
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E4,Bachelor's or Higher,10826
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E5,NR,15212
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E1,Less than High school,7108
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E2,High school,11154
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E3,Some college,11565
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E4,Bachelor's or Higher,9499
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E5,NR,11293
+New Hires,Baltimore City WIA,Maryland New Hires by Education All,2018Q4,E0,All,55236
+New Hires,Baltimore City WIA,Maryland New Hires by Education All,2016Q1,E0,All,36994
+New Hires,Baltimore City WIA,Maryland New Hires by Education All,2016Q2,E0,All,53744
+New Hires,Baltimore City WIA,Maryland New Hires by Education All,2016Q3,E0,All,56571
+New Hires,Baltimore City WIA,Maryland New Hires by Education All,2016Q4,E0,All,52454
+New Hires,Baltimore City WIA,Maryland New Hires by Education All,2017Q1,E0,All,42721
+New Hires,Baltimore City WIA,Maryland New Hires by Education All,2017Q2,E0,All,55582
+New Hires,Baltimore City WIA,Maryland New Hires by Education All,2017Q3,E0,All,58805
+New Hires,Baltimore City WIA,Maryland New Hires by Education All,2017Q4,E0,All,50619
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q1,1,Male,20254
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q1,2,Female,20857
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q2,1,Male,26200
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q2,2,Female,27057
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q3,1,Male,26492
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q3,2,Female,30234
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q4,1,Male,25874
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q4,2,Female,29362
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q1,1,Male,19150
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q1,2,Female,20213
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q2,1,Male,27701
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q2,2,Female,28686
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q3,1,Male,26665
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q3,2,Female,30756
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q1,1,Male,19027
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q1,2,Female,17966
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q2,1,Male,27129
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q2,2,Female,26615
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q3,1,Male,27058
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q3,2,Female,29513
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q4,1,Male,24634
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q4,2,Female,27820
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q1,1,Male,21325
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q1,2,Female,21396
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q2,1,Male,28294
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q2,2,Female,27288
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q3,1,Male,29275
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q3,2,Female,29530
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q4,1,Male,24300
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q4,2,Female,26319
+New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2018Q1,0,All,41110
 New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2018Q2,0,All,53256
 New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2018Q3,0,All,56725
 New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2018Q4,0,All,55236
 New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2019Q1,0,All,39363
 New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2019Q2,0,All,56386
 New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2019Q3,0,All,57421
-Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q1,1,Male,18926
-Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q1,2,Female,18340
-Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q2,1,Male,22862
-Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q2,2,Female,24043
-Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q3,1,Male,27748
-Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q3,2,Female,29181
-Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q4,1,Male,26544
-Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q4,2,Female,27192
-Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q1,1,Male,19892
-Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q1,2,Female,20342
-Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q2,1,Male,23413
-Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q2,2,Female,24218
-Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q3,1,Male,28220
-Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q3,2,Female,28871
-Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q4,1,Male,25785
-Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q4,2,Female,25235
-Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q1,1,Male,19654
-Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q1,2,Female,20399
-Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q2,1,Male,24335
-Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q2,2,Female,25672
-Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q3,1,Male,26127
-Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q3,2,Female,28759
-Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q4,1,Male,26950
-Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q4,2,Female,28974
-Workers,Baltimore City WIA,Maryland Workers by Age All,2017Q1,A00,All,327337
-Workers,Baltimore City WIA,Maryland Workers by Age All,2017Q2,A00,All,333508
-Workers,Baltimore City WIA,Maryland Workers by Age All,2017Q3,A00,All,338131
-Workers,Baltimore City WIA,Maryland Workers by Age All,2017Q4,A00,All,342674
-Separations,Baltimore City WIA,Maryland Separations by Gender,2019Q1,1,Male,19053
-Separations,Baltimore City WIA,Maryland Separations by Gender,2019Q1,2,Female,19570
-Separations,Baltimore City WIA,Maryland Separations by Gender,2019Q2,1,Male,24000
-Separations,Baltimore City WIA,Maryland Separations by Gender,2019Q2,2,Female,26588
-Separations,Baltimore City WIA,Maryland Separations by Gender,2019Q3,1,Male,N/A
-Separations,Baltimore City WIA,Maryland Separations by Gender,2019Q3,2,Female,N/A
-Separations,Baltimore City WIA,Maryland Separations by Gender All,2016Q1,0,All,37265
-Separations,Baltimore City WIA,Maryland Separations by Gender All,2016Q2,0,All,46905
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2019Q1,A00,All ,5563
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2018Q1,A00,All ,5362
-Separations,Baltimore City WIA,Maryland Separations by Age All,2018Q1,A00,All ,40053
+New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2016Q1,0,All,36994
+New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2016Q2,0,All,53744
+New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2016Q3,0,All,56571
+New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2016Q4,0,All,52454
+New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2017Q1,0,All,42721
+New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2017Q2,0,All,55582
+New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2017Q3,0,All,58805
+New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2017Q4,0,All,50619
 New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",0
 New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
 New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,22,Utilities,179
@@ -1415,155 +1417,156 @@ Separations,Baltimore City WIA,Maryland Separations by Age,2017Q4,A05,35-44,9592
 Separations,Baltimore City WIA,Maryland Separations by Age,2017Q4,A06,45-54,7575
 Separations,Baltimore City WIA,Maryland Separations by Age,2017Q4,A07,55-64,5481
 Separations,Baltimore City WIA,Maryland Separations by Age,2017Q4,A08,65-99,2808
+Separations,Baltimore City WIA,Maryland Separations by Age All,2018Q1,A00,All ,40053
 Separations,Baltimore City WIA,Maryland Separations by Age All,2018Q2,A00,All ,50007
 Separations,Baltimore City WIA,Maryland Separations by Age All,2018Q3,A00,All ,54886
 Separations,Baltimore City WIA,Maryland Separations by Age All,2018Q4,A00,All ,55924
 Separations,Baltimore City WIA,Maryland Separations by Age All,2019Q1,A00,All ,38623
 Separations,Baltimore City WIA,Maryland Separations by Age All,2019Q2,A00,All ,50588
-Separations,Baltimore City WIA,Maryland Separations by Age All,2019Q3,A00,All ,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",N/A
-Workers,Baltimore City WIA,Maryland Workers by Age All,2018Q1,A00,All ,333841
-Workers,Baltimore City WIA,Maryland Workers by Age All,2019Q1,A00,All ,335621
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q4,E4,Bachelor's degree or advanced degree,-706
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q1,E4,Bachelor's degree or advanced degree,457
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q2,E4,Bachelor's degree or advanced degree,-240
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q3,E4,Bachelor's degree or advanced degree,794
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q4,E4,Bachelor's degree or advanced degree,-551
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E4,Bachelor's degree or advanced degree,7108
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E4,Bachelor's degree or advanced degree,8977
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E4,Bachelor's degree or advanced degree,9986
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E4,Bachelor's degree or advanced degree,9589
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E4,Bachelor's degree or advanced degree,8132
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E4,Bachelor's degree or advanced degree,9038
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E4,Bachelor's degree or advanced degree,10826
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E4,Bachelor's degree or advanced degree,9499
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q1,E4,Bachelor's degree or advanced degree,6934
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q2,E4,Bachelor's degree or advanced degree,9242
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q3,E4,Bachelor's degree or advanced degree,10094
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q4,E4,Bachelor's degree or advanced degree,10241
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q1,E4,Bachelor's degree or advanced degree,7621
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q2,E4,Bachelor's degree or advanced degree,9212
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q3,E4,Bachelor's degree or advanced degree,9901
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q4,E4,Bachelor's degree or advanced degree,10032
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,10544
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q1,E4,Bachelor's degree or advanced degree,0.06
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q2,E4,Bachelor's degree or advanced degree,0.055
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q3,E4,Bachelor's degree or advanced degree,0.056
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q4,E4,Bachelor's degree or advanced degree,0.057
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q1,E4,Bachelor's degree or advanced degree,0.057
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q2,E4,Bachelor's degree or advanced degree,0.059
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q3,E4,Bachelor's degree or advanced degree,0.057
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E4,Bachelor's degree or advanced degree,7967
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E4,Bachelor's degree or advanced degree,9056
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E4,Bachelor's degree or advanced degree,9959
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,10544
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E4,Bachelor's degree or advanced degree,7722
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E4,Bachelor's degree or advanced degree,9715
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E4,Bachelor's degree or advanced degree,10133
+Separations,Baltimore City WIA,Maryland Separations by Age All,2016Q1,A00,All,37265
+Separations,Baltimore City WIA,Maryland Separations by Age All,2016Q2,A00,All,46905
+Separations,Baltimore City WIA,Maryland Separations by Age All,2016Q3,A00,All,56929
+Separations,Baltimore City WIA,Maryland Separations by Age All,2016Q4,A00,All,53736
+Separations,Baltimore City WIA,Maryland Separations by Age All,2017Q1,A00,All,40234
+Separations,Baltimore City WIA,Maryland Separations by Age All,2017Q2,A00,All,47631
+Separations,Baltimore City WIA,Maryland Separations by Age All,2017Q3,A00,All,57090
+Separations,Baltimore City WIA,Maryland Separations by Age All,2017Q4,A00,All,51019
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q1,E4,Bachelor's or Higher,7727
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q1,E5,NR,8039
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q1,E1,Less than High school,5703
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q1,E2,High school,9041
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q1,E3,Some college,9544
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q2,E1,Less than High school,6855
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q2,E2,High school,11065
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q2,E3,Some college,11762
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q2,E4,Bachelor's or Higher,10171
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q2,E5,NR,10154
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q3,E1,Less than High school,7023
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q3,E2,High school,11251
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q3,E3,Some college,11692
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q3,E4,Bachelor's or Higher,9729
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q3,E5,NR,15191
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q4,E1,Less than High school,8009
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q4,E2,High school,13070
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q4,E3,Some college,13693
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q4,E4,Bachelor's or Higher,10740
+Separations,Baltimore City WIA,Maryland Separations by Education,2018Q4,E5,NR,10412
+Separations,Baltimore City WIA,Maryland Separations by Education,2019Q1,E4,Bachelor's or Higher,7598
+Separations,Baltimore City WIA,Maryland Separations by Education,2019Q1,E5,NR,7579
+Separations,Baltimore City WIA,Maryland Separations by Education,2019Q1,E1,Less than High school,5472
+Separations,Baltimore City WIA,Maryland Separations by Education,2019Q1,E2,High school,8770
+Separations,Baltimore City WIA,Maryland Separations by Education,2019Q1,E3,Some college,9204
+Separations,Baltimore City WIA,Maryland Separations by Education,2019Q2,E1,Less than High school,6935
+Separations,Baltimore City WIA,Maryland Separations by Education,2019Q2,E2,High school,11189
+Separations,Baltimore City WIA,Maryland Separations by Education,2019Q2,E3,Some college,11944
+Separations,Baltimore City WIA,Maryland Separations by Education,2019Q2,E4,Bachelor's or Higher,10284
+Separations,Baltimore City WIA,Maryland Separations by Education,2019Q2,E5,NR,10235
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,55,Management of Companies and Enterprises,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,55,Management of Companies and Enterprises,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q2,E4,Bachelor's degree or advanced degree,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,10544
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,-332
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q1,E4,Bachelor's degree or advanced degree,7727
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q2,E4,Bachelor's degree or advanced degree,10171
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q3,E4,Bachelor's degree or advanced degree,9729
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q4,E4,Bachelor's degree or advanced degree,10740
-Separations,Baltimore City WIA,Maryland Separations by Education,2019Q1,E4,Bachelor's degree or advanced degree,7598
-Separations,Baltimore City WIA,Maryland Separations by Education,2019Q2,E4,Bachelor's degree or advanced degree,10284
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q1,E4,Bachelor's degree or advanced degree,0.059
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q2,E4,Bachelor's degree or advanced degree,0.055
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q3,E4,Bachelor's degree or advanced degree,0.058
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q4,E4,Bachelor's degree or advanced degree,0.057
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q1,E4,Bachelor's degree or advanced degree,0.063
-Separations,Baltimore City WIA,Maryland Separations by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q1,E4,Bachelor's degree or advanced degree,189
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q2,E4,Bachelor's degree or advanced degree,-1092
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q3,E4,Bachelor's degree or advanced degree,229
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q4,E4,Bachelor's degree or advanced degree,-332
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q1,E4,Bachelor's degree or advanced degree,133
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q2,E4,Bachelor's degree or advanced degree,-540
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q4,E4,Bachelor's degree or advanced degree,0.061
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),12014
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),9243
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),14827
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),14827
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),12014
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),8631
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),15357
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),15285
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),1510
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),12014
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),8039
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),10154
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),15191
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),10412
-Separations,Baltimore City WIA,Maryland Separations by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),7579
-Separations,Baltimore City WIA,Maryland Separations by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),10235
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),0.195
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),0.201
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),0.212
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),0.207
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q1,E1,Less than High school,5208
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q1,E2,High school,8449
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q1,E3,Some college,8621
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q1,E4,Bachelor's or Higher,6934
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q1,E5,NR,8054
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q2,E1,Less than High school,6483
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q2,E2,High school,10358
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q2,E3,Some college,10838
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q2,E4,Bachelor's or Higher,9242
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q2,E5,NR,9984
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q3,E1,Less than High school,7169
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q3,E2,High school,11444
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q3,E3,Some college,11958
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q3,E4,Bachelor's or Higher,10094
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q3,E5,NR,16265
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q4,E1,Less than High school,7694
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q4,E2,High school,12156
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q4,E3,Some college,12646
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q4,E4,Bachelor's or Higher,10241
+Separations,Baltimore City WIA,Maryland Separations by Education,2016Q4,E5,NR,10999
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q1,E1,Less than High school,5719
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q1,E2,High school,9135
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q1,E3,Some college,9465
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q1,E4,Bachelor's or Higher,7621
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q1,E5,NR,8294
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q2,E1,Less than High school,6675
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q2,E2,High school,10547
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q2,E3,Some college,10991
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q2,E4,Bachelor's or Higher,9212
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q2,E5,NR,10207
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q3,E1,Less than High school,7622
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q3,E2,High school,11550
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q3,E3,Some college,11884
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q3,E4,Bachelor's or Higher,9901
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q3,E5,NR,16133
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q4,E1,Less than High school,7489
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q4,E2,High school,11476
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q4,E3,Some college,12020
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q4,E4,Bachelor's or Higher,10032
+Separations,Baltimore City WIA,Maryland Separations by Education,2017Q4,E5,NR,10001
+Separations,Baltimore City WIA,Maryland Separations by Education All,2018Q1,E0,All,40053
+Separations,Baltimore City WIA,Maryland Separations by Education All,2018Q2,E0,All,50007
+Separations,Baltimore City WIA,Maryland Separations by Education All,2018Q3,E0,All,54886
+Separations,Baltimore City WIA,Maryland Separations by Education All,2018Q4,E0,All,55924
+Separations,Baltimore City WIA,Maryland Separations by Education All,2019Q1,E0,All,38623
+Separations,Baltimore City WIA,Maryland Separations by Education All,2019Q2,E0,All,50588
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,61,Educational Services,N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),0.204
-Separations,Baltimore City WIA,Maryland Separations by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),1131
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),4616
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),-293
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),1510
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),1123
-Separations,Baltimore City WIA,Maryland Separations by Gender All,2016Q3,0,All,56929
-Separations,Baltimore City WIA,Maryland Separations by Gender All,2016Q4,0,All,53736
-Separations,Baltimore City WIA,Maryland Separations by Gender All,2017Q1,0,All,40234
-Separations,Baltimore City WIA,Maryland Separations by Gender All,2017Q2,0,All,47631
-Separations,Baltimore City WIA,Maryland Separations by Gender All,2017Q3,0,All,57090
-Separations,Baltimore City WIA,Maryland Separations by Gender All,2017Q4,0,All,51019
+Separations,Baltimore City WIA,Maryland Separations by Education All,2016Q1,E0,All,37265
+Separations,Baltimore City WIA,Maryland Separations by Education All,2016Q2,E0,All,46905
+Separations,Baltimore City WIA,Maryland Separations by Education All,2016Q3,E0,All,56929
+Separations,Baltimore City WIA,Maryland Separations by Education All,2016Q4,E0,All,53736
+Separations,Baltimore City WIA,Maryland Separations by Education All,2017Q1,E0,All,40234
+Separations,Baltimore City WIA,Maryland Separations by Education All,2017Q2,E0,All,47631
+Separations,Baltimore City WIA,Maryland Separations by Education All,2017Q3,E0,All,57090
+Separations,Baltimore City WIA,Maryland Separations by Education All,2017Q4,E0,All,51019
+Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q1,1,Male,19654
+Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q1,2,Female,20399
+Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q2,1,Male,24335
+Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q2,2,Female,25672
+Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q3,1,Male,26127
+Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q3,2,Female,28759
+Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q4,1,Male,26950
+Separations,Baltimore City WIA,Maryland Separations by Gender,2018Q4,2,Female,28974
+Separations,Baltimore City WIA,Maryland Separations by Gender,2019Q1,1,Male,19053
+Separations,Baltimore City WIA,Maryland Separations by Gender,2019Q1,2,Female,19570
+Separations,Baltimore City WIA,Maryland Separations by Gender,2019Q2,1,Male,24000
+Separations,Baltimore City WIA,Maryland Separations by Gender,2019Q2,2,Female,26588
+Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,61,Educational Services,N/A
+Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,62,Health Care and Social Assistance,N/A
+Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q1,1,Male,18926
+Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q1,2,Female,18340
+Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q2,1,Male,22862
+Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q2,2,Female,24043
+Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q3,1,Male,27748
+Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q3,2,Female,29181
+Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q4,1,Male,26544
+Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q4,2,Female,27192
+Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q1,1,Male,19892
+Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q1,2,Female,20342
+Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q2,1,Male,23413
+Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q2,2,Female,24218
+Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q3,1,Male,28220
+Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q3,2,Female,28871
+Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q4,1,Male,25785
+Separations,Baltimore City WIA,Maryland Separations by Gender,2017Q4,2,Female,25235
 Separations,Baltimore City WIA,Maryland Separations by Gender All,2018Q1,0,All,40053
 Separations,Baltimore City WIA,Maryland Separations by Gender All,2018Q2,0,All,50007
 Separations,Baltimore City WIA,Maryland Separations by Gender All,2018Q3,0,All,54886
 Separations,Baltimore City WIA,Maryland Separations by Gender All,2018Q4,0,All,55924
 Separations,Baltimore City WIA,Maryland Separations by Gender All,2019Q1,0,All,38623
 Separations,Baltimore City WIA,Maryland Separations by Gender All,2019Q2,0,All,50588
-Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,61,Educational Services,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,62,Health Care and Social Assistance,N/A
-Separations,Baltimore City WIA,Maryland Separations by Gender All,2019Q3,0,All,N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q1,1,Male,0.08
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q1,2,Female,0.083
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q2,1,Male,0.077
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q2,2,Female,0.073
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q3,1,Male,0.086
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q3,2,Female,0.076
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q4,1,Male,0.08
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q4,2,Female,0.079
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q1,1,Male,0.078
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q1,2,Female,0.078
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q2,1,Male,0.082
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q2,2,Female,0.077
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q3,1,Male,0.089
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q3,2,Female,0.076
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q4,1,Male,0.085
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),5021
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),790
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),5227
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),-8
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),1378
-Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,62,Health Care and Social Assistance,N/A
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),1249
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),5744
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),-732
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),1341
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),8782
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),15301
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),16124
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),12352
+Separations,Baltimore City WIA,Maryland Separations by Gender All,2016Q1,0,All,37265
+Separations,Baltimore City WIA,Maryland Separations by Gender All,2016Q2,0,All,46905
+Separations,Baltimore City WIA,Maryland Separations by Gender All,2016Q3,0,All,56929
+Separations,Baltimore City WIA,Maryland Separations by Gender All,2016Q4,0,All,53736
+Separations,Baltimore City WIA,Maryland Separations by Gender All,2017Q1,0,All,40234
+Separations,Baltimore City WIA,Maryland Separations by Gender All,2017Q2,0,All,47631
+Separations,Baltimore City WIA,Maryland Separations by Gender All,2017Q3,0,All,57090
+Separations,Baltimore City WIA,Maryland Separations by Gender All,2017Q4,0,All,51019
 Separations,Baltimore City WIA,Maryland Separations by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",0
 Separations,Baltimore City WIA,Maryland Separations by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
 Separations,Baltimore City WIA,Maryland Separations by Industry,2018Q1,22,Utilities,145
@@ -1864,94 +1867,97 @@ Separations,Baltimore City WIA,Maryland Separations by Industry,2017Q4,92,Public
 Separations,Baltimore City WIA,Maryland Separations by Industry,2017Q4,31-33,Manufacturing,1123
 Separations,Baltimore City WIA,Maryland Separations by Industry,2017Q4,44-45,Retail Trade,3613
 Separations,Baltimore City WIA,Maryland Separations by Industry,2017Q4,48-49,Transportation and Warehousing,4243
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),9632
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),16045
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),15212
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),11293
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),8054
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),9984
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),16265
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),10999
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),8294
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),10207
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),16133
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),10001
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),0.199
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),0.193
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),0.212
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),0.214
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),0.197
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),0.207
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),0.215
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q1,E1,Bachelor's or Higher,0.059
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q1,E1,NR,0.195
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q2,E1,Less than High school,0.084
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q2,E2,Bachelor's or Higher,0.055
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q2,E2,High school,0.071
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q2,E2,NR,0.201
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q2,E2,Some college,0.065
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q3,E3,High school,0.083
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q3,E3,Less than High school,0.097
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q3,E3,Some college,0.074
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q3,E4,Bachelor's or Higher,0.058
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q3,E4,NR,0.212
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q4,E4,Less than High school,0.088
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q4,E5,Bachelor's or Higher,0.057
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q4,E5,High school,0.074
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q4,E5,NR,0.207
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q4,E5,Some college,0.067
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q1,E1,Bachelor's or Higher,0.063
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q1,E1,NR,0.204
 Separations,Baltimore City WIA,Maryland Separations by Age,2019Q3,A08,65-99,N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),0.213
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q1,E2,"High school or equivalent, no college",-562
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q2,E2,"High school or equivalent, no college",642
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q3,E2,"High school or equivalent, no college",-58
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q4,E2,"High school or equivalent, no college",-786
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q1,E2,"High school or equivalent, no college",143
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q4,2,Female,0.08
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2018Q2,1,Male,0.077
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q2,E2,"High school or equivalent, no college",715
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q3,E2,"High school or equivalent, no college",500
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q4,E2,"High school or equivalent, no college",-287
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E2,"High school or equivalent, no college",7863
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E2,"High school or equivalent, no college",11091
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E2,"High school or equivalent, no college",11381
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E2,"High school or equivalent, no college",11386
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E2,"High school or equivalent, no college",9320
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E2,"High school or equivalent, no college",11331
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E2,"High school or equivalent, no college",12099
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E2,"High school or equivalent, no college",11154
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q1,E2,"High school or equivalent, no college",8449
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q2,E2,"High school or equivalent, no college",10358
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q3,E2,"High school or equivalent, no college",11444
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q4,E2,"High school or equivalent, no college",12156
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q1,E2,"High school or equivalent, no college",9135
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q2,E2,"High school or equivalent, no college",10547
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q3,E2,"High school or equivalent, no college",11550
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q4,E2,"High school or equivalent, no college",11476
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q1,E2,"High school or equivalent, no college",0.077
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q2,E2,"High school or equivalent, no college",0.07
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q3,E2,"High school or equivalent, no college",0.078
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q4,E2,"High school or equivalent, no college",0.075
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q1,E2,"High school or equivalent, no college",0.074
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q2,E2,"High school or equivalent, no college",0.075
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q3,E2,"High school or equivalent, no college",0.078
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q2,E2,"High school or equivalent, no college",N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",12093
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",-1199
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q1,E2,"High school or equivalent, no college",9041
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q2,E2,"High school or equivalent, no college",11065
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q3,E2,"High school or equivalent, no college",11251
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q4,E2,"High school or equivalent, no college",13070
-Separations,Baltimore City WIA,Maryland Separations by Education,2019Q1,E2,"High school or equivalent, no college",8770
-Separations,Baltimore City WIA,Maryland Separations by Education,2019Q2,E2,"High school or equivalent, no college",11189
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q2,E2,"High school or equivalent, no college",0.071
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q3,E2,"High school or equivalent, no college",0.083
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q4,E2,"High school or equivalent, no college",0.074
-Separations,Baltimore City WIA,Maryland Separations by Education,2019Q3,E2,"High school or equivalent, no college",N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q3,E2,"High school or equivalent, no college",N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",12093
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E2,"High school or equivalent, no college",8911
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E2,"High school or equivalent, no college",10961
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E2,"High school or equivalent, no college",11960
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",12093
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E2,"High school or equivalent, no college",8573
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E2,"High school or equivalent, no college",11682
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E2,"High school or equivalent, no college",11876
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education ,2018Q1,E2,"High school or equivalent, no college",0.077
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education ,2019Q1,E2,"High school or equivalent, no college",0.081
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q1,E2,"High school or equivalent, no college",-163
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q2,E2,"High school or equivalent, no college",-101
+Separations,Baltimore City WIA,Maryland Separations by Age All,2019Q3,A00,All ,N/A
+Separations,Baltimore City WIA,Maryland Separations by Education,2019Q3,E1,Less than High school,N/A
+Separations,Baltimore City WIA,Maryland Separations by Education,2019Q3,E2,High school,N/A
+Separations,Baltimore City WIA,Maryland Separations by Education,2019Q3,E3,Some college,N/A
+Separations,Baltimore City WIA,Maryland Separations by Education,2019Q3,E4,Bachelor's or Higher,N/A
+Separations,Baltimore City WIA,Maryland Separations by Education,2019Q3,E5,NR,N/A
+Separations,Baltimore City WIA,Maryland Separations by Education All,2019Q3,E0,All,N/A
+Separations,Baltimore City WIA,Maryland Separations by Gender,2019Q3,1,Male,N/A
+Separations,Baltimore City WIA,Maryland Separations by Gender,2019Q3,2,Female,N/A
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q1,E1,Less than High school,0.093
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q1,E2,High school,0.077
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q1,E3,Some college,0.071
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q1,E4,Bachelor's or Higher,0.06
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q1,E5,NR,0.199
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q2,E1,Less than High school,0.087
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q2,E2,High school,0.07
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q2,E3,Some college,0.064
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q2,E4,Bachelor's or Higher,0.055
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q2,E5,NR,0.193
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q3,E1,Less than High school,0.096
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q3,E2,High school,0.078
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q3,E3,Some college,0.07
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q3,E4,Bachelor's or Higher,0.056
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q3,E5,NR,0.212
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q4,E1,Less than High school,0.092
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q4,E2,High school,0.075
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q4,E3,Some college,0.068
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q4,E4,Bachelor's or Higher,0.057
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q4,E5,NR,0.214
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q1,E1,Less than High school,0.09
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q1,E2,High school,0.074
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q1,E3,Some college,0.067
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q1,E4,Bachelor's or Higher,0.057
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q1,E5,NR,0.197
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q2,E1,Less than High school,0.091
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q2,E2,High school,0.075
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q2,E3,Some college,0.068
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q2,E4,Bachelor's or Higher,0.059
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q2,E5,NR,0.207
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q3,E1,Less than High school,0.099
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q3,E2,High school,0.078
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q3,E3,Some college,0.071
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q3,E4,Bachelor's or Higher,0.057
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q3,E5,NR,0.215
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q4,E1,Less than High school,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q4,E2,High school,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q4,E3,Some college,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q4,E4,Bachelor's or Higher,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q4,E5,NR,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2018Q1,E0,All,0.08
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2018Q1,E0,High school,0.077
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2018Q1,E0,Less than High school,0.091
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2018Q1,E0,Some college,0.07
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2018Q2,E1,All,0.075
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2018Q3,E3,All,0.084
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2018Q4,E4,All,0.078
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2019Q1,E0,All,0.085
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2019Q1,E0,High school,0.081
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2019Q1,E0,Less than High school,0.095
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2019Q1,E0,Some college,0.075
+Separations,Baltimore City WIA,Maryland Separations by Gender All,2019Q3,0,All,N/A
 Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",N/A
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q3,E2,"High school or equivalent, no college",731
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q4,E2,"High school or equivalent, no college",-1199
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q1,E2,"High school or equivalent, no college",-147
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q2,E2,"High school or equivalent, no college",507
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q3,E2,"High school or equivalent, no college",N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q4,E2,"High school or equivalent, no college",0.077
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q1,E1,Less than High school,-142
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2016Q1,E0,All,0.081
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2016Q2,E0,All,0.075
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2016Q3,E0,All,0.081
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2016Q4,E0,All,0.08
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2017Q1,E0,All,0.078
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2017Q2,E0,All,0.08
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2017Q3,E0,All,0.082
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2017Q4,E0,All,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2018Q2,1,Male,0.077
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2018Q2,2,Female,0.074
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2018Q3,0,All Sexes,0.084
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2018Q3,1,Male,0.088
@@ -1959,42 +1965,43 @@ Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2018Q3,2,Female,0.0
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2018Q4,0,All Sexes,0.078
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2018Q4,1,Male,0.08
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2018Q4,2,Female,0.077
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2019Q2,1,Male,N/A
 Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
 Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q3,22,Utilities,N/A
 Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q3,23,Construction,N/A
 Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q3,42,Wholesale Trade,N/A
 Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q3,51,Information,N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2019Q2,2,Female,N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2019Q3,0,All Sexes,N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2019Q3,1,Male,N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2019Q3,2,Female,N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2018Q1,2,Female,0.079
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2018Q1,1,Male,0.081
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2019Q1,2,Female,0.085
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2019Q1,1,Male,0.085
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q1,1,Male,0.08
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q1,2,Female,0.083
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q2,1,Male,0.077
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q2,2,Female,0.073
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q3,1,Male,0.086
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q3,2,Female,0.076
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q4,1,Male,0.08
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q4,2,Female,0.079
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q1,1,Male,0.078
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q1,2,Female,0.078
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q2,1,Male,0.082
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q2,2,Female,0.077
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q3,1,Male,0.089
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q3,2,Female,0.076
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q4,1,Male,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2017Q4,2,Female,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2018Q1,0,All Sexes,0.08
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2018Q1,1,Male,0.081
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2018Q1,2,Female,0.079
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2018Q2,0,All Sexes,0.075
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2019Q1,0,All Sexes,0.085
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2019Q1,1,Male,0.085
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2019Q1,2,Female,0.085
+Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q3,52,Finance and Insurance,N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2016Q1,0,All,0.081
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2016Q2,0,All,0.075
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2016Q3,0,All,0.081
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2016Q4,0,All,0.08
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2017Q1,0,All,0.078
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2017Q2,0,All,0.08
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q2,E1,Less than High school,524
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q3,E1,Less than High school,131
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q4,E1,Less than High school,-373
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q1,E1,Less than High school,194
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q2,E1,Less than High school,855
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q3,E1,Less than High school,513
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q4,E1,Less than High school,-332
-Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q3,52,Finance and Insurance,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E1,Less than High school,5037
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E1,Less than High school,7054
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E1,Less than High school,7301
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E1,Less than High school,7330
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E1,Less than High school,5945
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E1,Less than High school,7594
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E1,Less than High school,8168
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E1,Less than High school,7108
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2017Q3,0,All,0.082
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2017Q4,0,All,0
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",0
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2018Q1,22,Utilities,0.029
@@ -2108,15 +2115,15 @@ Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q3,92,Public
 Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q3,31-33,Manufacturing,N/A
 Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q3,44-45,Retail Trade,N/A
 Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q3,48-49,Transportation and Warehousing,N/A
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q1,E1,Less than High school,5208
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q2,E1,Less than High school,6483
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q3,E1,Less than High school,7169
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q4,E1,Less than High school,7694
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q1,E1,Less than High school,5719
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q2,E1,Less than High school,6675
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2017Q3,0,All,0.082
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2017Q4,0,All,0.082
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2018Q1,0,All Sexes,0.08
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q3,E3,High school,N/A
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q3,E3,Less than High school,N/A
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q3,E3,Some college,N/A
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q3,E4,Bachelor's or Higher,N/A
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q3,E4,NR,N/A
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2019Q3,E3,All,N/A
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2019Q3,0,All Sexes,N/A
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2019Q3,1,Male,N/A
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2019Q3,2,Female,N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q3,22,Utilities,N/A
@@ -2275,6 +2282,26 @@ Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q3,92,Public 
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q3,31-33,Manufacturing,0.06
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q3,44-45,Retail Trade,0.118
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q3,48-49,Transportation and Warehousing,0.108
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,11,"Agriculture, Forestry, Fishing and Hunting",0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,22,Utilities,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,23,Construction,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,42,Wholesale Trade,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,51,Information,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,52,Finance and Insurance,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,53,Real Estate and Rental and Leasing,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,54,"Professional, Scientific, and Technical Services",0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,55,Management of Companies and Enterprises,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,56,Administrative and Support and Waste Management and Remediation Services,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,61,Educational Services,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,62,Health Care and Social Assistance,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,71,"Arts, Entertainment, and Recreation",0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,72,Accommodation and Food Services,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,81,Other Services (except Public Administration),0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,92,Public Administration,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,31-33,Manufacturing,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,44-45,Retail Trade,0
+Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,48-49,Transportation and Warehousing,0
 Workers,Baltimore City WIA,Maryland Workers by Age,2018Q1,A01,14-18,2627
 Workers,Baltimore City WIA,Maryland Workers by Age,2018Q1,A02,19-21,8008
 Workers,Baltimore City WIA,Maryland Workers by Age,2018Q1,A03,22-24,16590
@@ -2400,14 +2427,29 @@ Workers,Baltimore City WIA,Maryland Workers by Age,2017Q4,A05,35-44,73689
 Workers,Baltimore City WIA,Maryland Workers by Age,2017Q4,A06,45-54,73268
 Workers,Baltimore City WIA,Maryland Workers by Age,2017Q4,A07,55-64,61420
 Workers,Baltimore City WIA,Maryland Workers by Age,2017Q4,A08,65-99,21654
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q3,E1,Less than High school,7622
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q4,E1,Less than High school,7489
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q1,E1,Less than High school,0.093
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q2,E1,Less than High school,0.087
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q3,E1,Less than High school,0.096
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2018Q2,0,All Sexes,0.075
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2019Q1,0,All Sexes,0.085
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender All,2019Q2,0,All Sexes,N/A
+Workers,Baltimore City WIA,Maryland Workers by Age All,2018Q1,A00,All ,333841
+Workers,Baltimore City WIA,Maryland Workers by Age All,2019Q1,A00,All ,335621
+Workers,Baltimore City WIA,Maryland Workers by Age All,2016Q1,A00,All,329971
+Workers,Baltimore City WIA,Maryland Workers by Age All,2016Q2,A00,All,334380
+Workers,Baltimore City WIA,Maryland Workers by Age All,2016Q3,A00,All,333262
+Workers,Baltimore City WIA,Maryland Workers by Age All,2016Q4,A00,All,336642
+Workers,Baltimore City WIA,Maryland Workers by Age All,2017Q1,A00,All,327337
+Workers,Baltimore City WIA,Maryland Workers by Age All,2017Q2,A00,All,333508
+Workers,Baltimore City WIA,Maryland Workers by Age All,2017Q3,A00,All,338131
+Workers,Baltimore City WIA,Maryland Workers by Age All,2017Q4,A00,All,342674
+Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q2,1,Male,155858
+Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q2,2,Female,185531
+Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q3,0,All Sexes,338679
+Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q3,1,Male,155460
+Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q3,2,Female,183219
+Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q4,0,All Sexes,343800
+Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q4,1,Male,155965
+Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q4,2,Female,187835
+Workers,Baltimore City WIA,Maryland Workers by Gender,2019Q2,1,Male,154351
+Workers,Baltimore City WIA,Maryland Workers by Gender,2019Q2,2,Female,186369
+Workers,Baltimore City WIA,Maryland Workers by Gender,2019Q3,0,All Sexes,339491
+Workers,Baltimore City WIA,Maryland Workers by Gender,2019Q3,1,Male,154984
+Workers,Baltimore City WIA,Maryland Workers by Gender,2019Q3,2,Female,184507
 Workers,Baltimore City WIA,Maryland Workers by Gender,2016Q1,1,Male,151101
 Workers,Baltimore City WIA,Maryland Workers by Gender,2016Q1,2,Female,178871
 Workers,Baltimore City WIA,Maryland Workers by Gender,2016Q2,1,Male,153511
@@ -2424,36 +2466,22 @@ Workers,Baltimore City WIA,Maryland Workers by Gender,2017Q3,1,Male,156391
 Workers,Baltimore City WIA,Maryland Workers by Gender,2017Q3,2,Female,181740
 Workers,Baltimore City WIA,Maryland Workers by Gender,2017Q4,1,Male,157628
 Workers,Baltimore City WIA,Maryland Workers by Gender,2017Q4,2,Female,185045
-Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q1,2,Female,181670
-Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q1,1,Male,152171
 Workers,Baltimore City WIA,Maryland Workers by Gender All,2018Q1,0,All Sexes,333841
-Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q2,1,Male,155858
-Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q2,2,Female,185531
+Workers,Baltimore City WIA,Maryland Workers by Gender All,2018Q1,1,Male,152171
+Workers,Baltimore City WIA,Maryland Workers by Gender All,2018Q1,2,Female,181670
 Workers,Baltimore City WIA,Maryland Workers by Gender All,2018Q2,0,All Sexes,341389
-Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q3,0,All Sexes,338679
-Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q3,1,Male,155460
-Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q3,2,Female,183219
-Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q4,0,All Sexes,343800
-Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q4,1,Male,155965
-Workers,Baltimore City WIA,Maryland Workers by Gender,2018Q4,2,Female,187835
-Workers,Baltimore City WIA,Maryland Workers by Gender,2019Q1,2,Female,183672
-Workers,Baltimore City WIA,Maryland Workers by Gender,2019Q1,1,Male,151950
 Workers,Baltimore City WIA,Maryland Workers by Gender All,2019Q1,0,All Sexes,335621
-Workers,Baltimore City WIA,Maryland Workers by Gender,2019Q2,1,Male,154351
-Workers,Baltimore City WIA,Maryland Workers by Gender,2019Q2,2,Female,186369
+Workers,Baltimore City WIA,Maryland Workers by Gender All,2019Q1,1,Male,151950
+Workers,Baltimore City WIA,Maryland Workers by Gender All,2019Q1,2,Female,183672
+Workers,Baltimore City WIA,Maryland Workers by Gender All,2019Q2,0,All Sexes,340720
 Workers,Baltimore City WIA,Maryland Workers by Gender All,2016Q1,0,All,329971
 Workers,Baltimore City WIA,Maryland Workers by Gender All,2016Q2,0,All,334380
 Workers,Baltimore City WIA,Maryland Workers by Gender All,2016Q3,0,All,333262
 Workers,Baltimore City WIA,Maryland Workers by Gender All,2016Q4,0,All,336642
 Workers,Baltimore City WIA,Maryland Workers by Gender All,2017Q1,0,All,327337
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q4,E1,Less than High school,0.092
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q1,E1,Less than High school,0.09
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q2,E1,Less than High school,0.091
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q3,E1,Less than High school,0.099
 Workers,Baltimore City WIA,Maryland Workers by Gender All,2017Q2,0,All,333508
 Workers,Baltimore City WIA,Maryland Workers by Gender All,2017Q3,0,All,338131
 Workers,Baltimore City WIA,Maryland Workers by Gender All,2017Q4,0,All,342674
-Workers,Baltimore City WIA,Maryland Workers by Gender All,2019Q2,0,All Sexes,340720
 Workers,Baltimore City WIA,Maryland Workers by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",0
 Workers,Baltimore City WIA,Maryland Workers by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
 Workers,Baltimore City WIA,Maryland Workers by Industry,2018Q1,22,Utilities,2508
@@ -2774,12 +2802,12 @@ Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2018Q4,92,Publ
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2018Q4,31-33,Manufacturing,5338
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2018Q4,44-45,Retail Trade,2716
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2018Q4,48-49,Transportation and Warehousing,4255
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q2,E1,Less than High school,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,7681
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,-441
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q1,E1,Less than High school,5703
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q2,E1,Less than High school,6855
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q3,E1,Less than High school,7023
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E0,All Education Categories,55236
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E1,Less than high school,7681
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",12093
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,12903
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,10544
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),12014
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",945
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",7391
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2018Q1,22,Utilities,14523
@@ -2920,115 +2948,45 @@ Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2019Q3,92,Publ
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2019Q3,31-33,Manufacturing,N/A
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2019Q3,44-45,Retail Trade,N/A
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2019Q3,48-49,Transportation and Warehousing,N/A
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q4,E1,Less than High school,8009
-Separations,Baltimore City WIA,Maryland Separations by Education,2019Q1,E1,Less than High school,5472
-Separations,Baltimore City WIA,Maryland Separations by Education,2019Q2,E1,Less than High school,6935
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q2,E1,Less than High school,0.084
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q3,E1,Less than High school,0.097
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q4,E1,Less than High school,0.088
-Separations,Baltimore City WIA,Maryland Separations by Education,2019Q3,E1,Less than High school,N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q3,E1,Less than High school,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,7681
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E1,Less than High school,5609
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E1,Less than High school,7079
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E1,Less than High school,7588
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,7681
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E1,Less than High school,5415
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q4,E1,Less than High school,0.093
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E1,Less than High school,7473
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E1,Less than High school,7629
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education ,2018Q1,E1,Less than High school,0.091
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education ,2019Q1,E1,Less than High school,0.095
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q1,E1,Less than High school,-107
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q2,E1,Less than High school,230
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q3,E1,Less than High school,585
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q4,E1,Less than High school,-441
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q1,E1,Less than High school,-28
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q2,E1,Less than High school,533
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q3,E1,Less than High school,N/A
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q1,E3,Some college or Associate degree,-395
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q2,E3,Some college or Associate degree,410
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q3,E3,Some college or Associate degree,-191
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q4,E3,Some college or Associate degree,-884
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q1,E3,Some college or Associate degree,170
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q2,E3,Some college or Associate degree,487
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q3,E3,Some college or Associate degree,554
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q4,E3,Some college or Associate degree,-439
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E3,Some college or Associate degree,8204
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E3,Some college or Associate degree,11321
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E3,Some college or Associate degree,11778
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E3,Some college or Associate degree,11796
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E3,Some college or Associate degree,9692
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E3,Some college or Associate degree,11575
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E3,Some college or Associate degree,12499
-Workers,Baltimore City WIA,Maryland Workers by Gender,2019Q3,0,All Sexes,339491
-Workers,Baltimore City WIA,Maryland Workers by Gender,2019Q3,1,Male,154984
-Workers,Baltimore City WIA,Maryland Workers by Gender,2019Q3,2,Female,184507
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,11,"Agriculture, Forestry, Fishing and Hunting",0
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",0
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,22,Utilities,0.027
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,23,Construction,0.09
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,42,Wholesale Trade,0.062
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,51,Information,0.064
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,52,Finance and Insurance,0.12
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,53,Real Estate and Rental and Leasing,0.092
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,54,"Professional, Scientific, and Technical Services",0.061
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,55,Management of Companies and Enterprises,0.053
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,56,Administrative and Support and Waste Management and Remediation Services,0.099
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,61,Educational Services,0.072
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,62,Health Care and Social Assistance,0.079
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,71,"Arts, Entertainment, and Recreation",0.18
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,72,Accommodation and Food Services,0.072
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,81,Other Services (except Public Administration),0.064
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,92,Public Administration,0.106
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,31-33,Manufacturing,0.15
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,44-45,Retail Trade,0.084
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2017Q4,48-49,Transportation and Warehousing,0.035
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E3,Some college or Associate degree,11565
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q1,E3,Some college or Associate degree,8621
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q2,E3,Some college or Associate degree,10838
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q3,E3,Some college or Associate degree,11958
-Separations,Baltimore City WIA,Maryland Separations by Education,2016Q4,E3,Some college or Associate degree,12646
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q1,E3,Some college or Associate degree,9465
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q2,E3,Some college or Associate degree,10991
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q3,E3,Some college or Associate degree,11884
-Separations,Baltimore City WIA,Maryland Separations by Education,2017Q4,E3,Some college or Associate degree,12020
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q1,E3,Some college or Associate degree,0.071
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q2,E3,Some college or Associate degree,0.064
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q3,E3,Some college or Associate degree,0.07
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2016Q4,E3,Some college or Associate degree,0.068
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q1,E3,Some college or Associate degree,0.067
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q2,E3,Some college or Associate degree,0.068
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q3,E3,Some college or Associate degree,0.071
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q4,E3,Some college or Associate degree,0.07
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q2,E3,Some college or Associate degree,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,12903
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,-1022
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q1,E3,Some college or Associate degree,9544
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q2,E3,Some college or Associate degree,11762
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q3,E3,Some college or Associate degree,11692
-Separations,Baltimore City WIA,Maryland Separations by Education,2018Q4,E3,Some college or Associate degree,13693
-Separations,Baltimore City WIA,Maryland Separations by Education,2019Q1,E3,Some college or Associate degree,9204
-Separations,Baltimore City WIA,Maryland Separations by Education,2019Q2,E3,Some college or Associate degree,11944
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q2,E3,Some college or Associate degree,0.065
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q3,E3,Some college or Associate degree,0.074
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q4,E3,Some college or Associate degree,0.067
-Separations,Baltimore City WIA,Maryland Separations by Education,2019Q3,E3,Some college or Associate degree,N/A
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education ,2018Q1,E3,Some college or Associate degree,0.07
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education ,2019Q1,E3,Some college or Associate degree,0.075
-Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2019Q3,E3,Some college or Associate degree,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,12903
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E0,All Education Categories,41110
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E1,Less than high school,5609
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E2,"High school or equivalent, no college",8911
 New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E3,Some college or Associate degree,9380
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E4,Bachelor's degree or advanced degree,7967
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),9243
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E0,All Education Categories,53256
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E1,Less than high school,7079
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E2,"High school or equivalent, no college",10961
 New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E3,Some college or Associate degree,11334
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E4,Bachelor's degree or advanced degree,9056
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),14827
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E0,All Education Categories,56725
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E1,Less than high school,7588
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E2,"High school or equivalent, no college",11960
 New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E3,Some college or Associate degree,12392
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E4,Bachelor's degree or advanced degree,9959
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),14827
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E0,All Education Categories,55236
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E1,Less than high school,7681
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",12093
 New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,12903
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,10544
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),12014
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E0,All Education Categories,39363
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E1,Less than high school,5415
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E2,"High school or equivalent, no college",8573
 New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E3,Some college or Associate degree,9022
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E4,Bachelor's degree or advanced degree,7722
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),8631
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E0,All Education Categories,56386
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E1,Less than high school,7473
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E2,"High school or equivalent, no college",11682
 New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E3,Some college or Associate degree,12159
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E4,Bachelor's degree or advanced degree,9715
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),15357
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E0,All Education Categories,57421
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E1,Less than high school,7629
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E2,"High school or equivalent, no college",11876
 New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E3,Some college or Associate degree,12498
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q1,E3,Some college or Associate degree,-207
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q2,E3,Some college or Associate degree,-419
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q3,E3,Some college or Associate degree,724
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q4,E3,Some college or Associate degree,-1022
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q1,E3,Some college or Associate degree,-136
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q2,E3,Some college or Associate degree,226
-Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q3,E3,Some college or Associate degree,N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E4,Bachelor's degree or advanced degree,10133
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),15285

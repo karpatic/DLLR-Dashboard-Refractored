@@ -479,13 +479,88 @@ Earnings,Western Maryland WIA,Maryland Average Monthly Earnings by Gender All,20
 Earnings,Western Maryland WIA,Maryland Average Monthly Earnings by Gender All,2019Q1,0,All,3696
 Earnings,Western Maryland WIA,Maryland Average Monthly Earnings by Gender All,2019Q2,0,All,3770
 Earnings,Western Maryland WIA,Maryland Average Monthly Earnings by Gender All,2019Q3,0,All,N/A
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q1,E4,Bachelor's degree or advanced degree,43
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),380
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q1,E2,"High school or equivalent, no college",-170
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q1,E1,Less than High school,-70
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q1,E3,Some college or Associate degree,-123
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q2,E4,Bachelor's degree or advanced degree,-38
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),2362
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q2,E2,"High school or equivalent, no college",434
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q2,E1,Less than High school,274
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q2,E3,Some college or Associate degree,322
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q3,E4,Bachelor's degree or advanced degree,-88
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),-400
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q3,E2,"High school or equivalent, no college",-7
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q3,E1,Less than High school,11
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q3,E3,Some college or Associate degree,-25
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q4,E4,Bachelor's degree or advanced degree,-30
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),726
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q4,E2,"High school or equivalent, no college",-316
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q4,E1,Less than High school,-153
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q4,E3,Some college or Associate degree,-175
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q1,E4,Bachelor's degree or advanced degree,-59
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),-111
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q1,E2,"High school or equivalent, no college",-156
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q1,E1,Less than High school,-72
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q1,E3,Some college or Associate degree,-207
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q2,E4,Bachelor's degree or advanced degree,-293
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),2094
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q2,E2,"High school or equivalent, no college",82
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q2,E1,Less than High school,171
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q2,E3,Some college or Associate degree,-105
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q3,E4,Bachelor's degree or advanced degree,-55
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),-525
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q3,E2,"High school or equivalent, no college",-224
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q3,E1,Less than High school,-3
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q3,E3,Some college or Associate degree,-194
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q4,E4,Bachelor's degree or advanced degree,-89
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),660
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q4,E2,"High school or equivalent, no college",-370
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q4,E1,Less than High school,-132
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q4,E3,Some college or Associate degree,-247
 Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q1,E0,All Education Categories,-518
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q1,E4,Bachelor's degree or advanced degree,8
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),38
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q1,E2,"High school or equivalent, no college",-263
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q1,E1,Less than High school,-138
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q1,E3,Some college or Associate degree,-162
 Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q2,E0,All Education Categories,2293
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q2,E4,Bachelor's degree or advanced degree,-172
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),2080
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q2,E2,"High school or equivalent, no college",220
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q2,E1,Less than High school,187
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q2,E3,Some college or Associate degree,-27
 Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q3,E0,All Education Categories,-666
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q3,E4,Bachelor's degree or advanced degree,-81
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),-466
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q3,E2,"High school or equivalent, no college",-96
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q3,E1,Less than High school,43
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q3,E3,Some college or Associate degree,-67
 Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q4,E0,All Education Categories,-38
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q4,E4,Bachelor's degree or advanced degree,1
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),426
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q4,E2,"High school or equivalent, no college",-234
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q4,E1,Less than High school,-81
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q4,E3,Some college or Associate degree,-149
 Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q1,E0,All Education Categories,87
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q1,E4,Bachelor's degree or advanced degree,28
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),181
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q1,E2,"High school or equivalent, no college",-107
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q1,E1,Less than High school,53
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q1,E3,Some college or Associate degree,-67
 Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q2,E0,All Education Categories,1776
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q2,E4,Bachelor's degree or advanced degree,-160
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),1777
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q2,E2,"High school or equivalent, no college",42
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q2,E1,Less than High school,117
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q2,E3,Some college or Associate degree,0
 Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q3,E0,All Education Categories,N/A
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q3,E2,"High school or equivalent, no college",N/A
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q3,E1,Less than High school,N/A
+Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q3,E3,Some college or Associate degree,N/A
 Job Change,Western Maryland WIA,Maryland Job Net Change by Education All,2016Q1,E0,All Education Categories,59
 Job Change,Western Maryland WIA,Maryland Job Net Change by Education All,2016Q2,E0,All Education Categories,3355
 Job Change,Western Maryland WIA,Maryland Job Net Change by Education All,2016Q3,E0,All Education Categories,-509
@@ -494,81 +569,6 @@ Job Change,Western Maryland WIA,Maryland Job Net Change by Education All,2017Q1,
 Job Change,Western Maryland WIA,Maryland Job Net Change by Education All,2017Q2,E0,All Education Categories,1955
 Job Change,Western Maryland WIA,Maryland Job Net Change by Education All,2017Q3,E0,All Education Categories,-1002
 Job Change,Western Maryland WIA,Maryland Job Net Change by Education All,2017Q4,E0,All Education Categories,-179
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q1,E0,All Education Categories,13122
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q2,E0,All Education Categories,18424
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q3,E0,All Education Categories,17010
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q4,E0,All Education Categories,16804
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q1,E0,All Education Categories,13025
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q2,E0,All Education Categories,18282
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q3,E0,All Education Categories,16704
-New Hires,Western Maryland WIA,Maryland New Hires by Education All,2016Q1,E0,All Education Categories,12953
-New Hires,Western Maryland WIA,Maryland New Hires by Education All,2016Q2,E0,All Education Categories,19266
-New Hires,Western Maryland WIA,Maryland New Hires by Education All,2016Q3,E0,All Education Categories,17281
-New Hires,Western Maryland WIA,Maryland New Hires by Education All,2016Q4,E0,All Education Categories,16924
-New Hires,Western Maryland WIA,Maryland New Hires by Education All,2017Q1,E0,All Education Categories,12725
-New Hires,Western Maryland WIA,Maryland New Hires by Education All,2017Q2,E0,All Education Categories,17942
-New Hires,Western Maryland WIA,Maryland New Hires by Education All,2017Q3,E0,All Education Categories,16036
-New Hires,Western Maryland WIA,Maryland New Hires by Education All,2017Q4,E0,All Education Categories,16818
-Separations,Western Maryland WIA,Maryland Separations by Education All,2016Q1,E0,All Education Categories,12917
-Separations,Western Maryland WIA,Maryland Separations by Education All,2016Q2,E0,All Education Categories,15894
-Separations,Western Maryland WIA,Maryland Separations by Education All,2016Q3,E0,All Education Categories,17792
-Separations,Western Maryland WIA,Maryland Separations by Education All,2016Q4,E0,All Education Categories,16767
-Separations,Western Maryland WIA,Maryland Separations by Education All,2017Q1,E0,All Education Categories,13402
-Separations,Western Maryland WIA,Maryland Separations by Education All,2017Q2,E0,All Education Categories,16141
-Separations,Western Maryland WIA,Maryland Separations by Education All,2017Q3,E0,All Education Categories,16991
-Separations,Western Maryland WIA,Maryland Separations by Education All,2017Q4,E0,All Education Categories,16906
-Separations,Western Maryland WIA,Maryland Separations by Education All,2018Q1,E0,All Education Categories,13694
-Separations,Western Maryland WIA,Maryland Separations by Education All,2018Q2,E0,All Education Categories,16308
-Separations,Western Maryland WIA,Maryland Separations by Education All,2018Q3,E0,All Education Categories,17645
-Separations,Western Maryland WIA,Maryland Separations by Education All,2018Q4,E0,All Education Categories,16673
-Separations,Western Maryland WIA,Maryland Separations by Education All,2019Q1,E0,All Education Categories,12982
-Separations,Western Maryland WIA,Maryland Separations by Education All,2019Q2,E0,All Education Categories,16616
-Separations,Western Maryland WIA,Maryland Separations by Education All,2019Q3,E0,All Education Categories,N/A
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2016Q1,E0,All Education Categories,0.085
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2016Q2,E0,All Education Categories,0.077
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2016Q3,E0,All Education Categories,0.091
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2016Q4,E0,All Education Categories,0.082
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2017Q1,E0,All Education Categories,0.085
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2017Q2,E0,All Education Categories,0.077
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2017Q3,E0,All Education Categories,0.089
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2017Q4,E0,All Education Categories,0.081
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2018Q1,E0,All Education Categories,0.085
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2018Q2,E0,All Education Categories,0.079
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2018Q3,E0,All Education Categories,0.09
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2018Q4,E0,All Education Categories,0.078
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2019Q1,E0,All Education Categories,0.087
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2019Q2,E0,All Education Categories,N/A
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2019Q3,E0,All Education Categories,N/A
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q1,E4,Bachelor's degree or advanced degree,43
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q2,E4,Bachelor's degree or advanced degree,-38
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q3,E4,Bachelor's degree or advanced degree,-88
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q4,E4,Bachelor's degree or advanced degree,-30
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q1,E4,Bachelor's degree or advanced degree,-59
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q2,E4,Bachelor's degree or advanced degree,-293
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q3,E4,Bachelor's degree or advanced degree,-55
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q4,E4,Bachelor's degree or advanced degree,-89
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q1,E4,Bachelor's degree or advanced degree,8
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q2,E4,Bachelor's degree or advanced degree,-172
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q3,E4,Bachelor's degree or advanced degree,-81
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q4,E4,Bachelor's degree or advanced degree,1
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q1,E4,Bachelor's degree or advanced degree,28
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q2,E4,Bachelor's degree or advanced degree,-160
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q1,E4,Bachelor's degree or advanced degree,1785
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q2,E4,Bachelor's degree or advanced degree,2322
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q3,E4,Bachelor's degree or advanced degree,2117
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q4,E4,Bachelor's degree or advanced degree,2363
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q1,E4,Bachelor's degree or advanced degree,1865
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q2,E4,Bachelor's degree or advanced degree,2160
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q3,E4,Bachelor's degree or advanced degree,2100
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q4,E4,Bachelor's degree or advanced degree,2423
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q1,E4,Bachelor's degree or advanced degree,1900
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q2,E4,Bachelor's degree or advanced degree,2298
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q3,E4,Bachelor's degree or advanced degree,2258
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,2445
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q1,E4,Bachelor's degree or advanced degree,1891
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q2,E4,Bachelor's degree or advanced degree,2375
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q3,E4,Bachelor's degree or advanced degree,2280
 Job Change,Western Maryland WIA,Maryland Job Net Change by Gender,2016Q1,1,Male,-16
 Job Change,Western Maryland WIA,Maryland Job Net Change by Gender,2016Q1,2,Female,75
 Job Change,Western Maryland WIA,Maryland Job Net Change by Gender,2016Q2,2,Female,1460
@@ -1054,96 +1054,96 @@ Job Change,Western Maryland WIA,Maryland Job Net Change by Industry,2019Q3,44-45
 Job Change,Western Maryland WIA,Maryland Job Net Change by Industry,2019Q3,44-45,Retail Trade,N/A
 Job Change,Western Maryland WIA,Maryland Job Net Change by Industry,2019Q3,48-49,Transportation and Warehousing,N/A
 Job Change,Western Maryland WIA,Maryland Job Net Change by Industry,2019Q3,48-49,Transportation and Warehousing,N/A
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q1,E4,Bachelor's degree or advanced degree,1750
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q2,E4,Bachelor's degree or advanced degree,2368
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q3,E4,Bachelor's degree or advanced degree,2205
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q4,E4,Bachelor's degree or advanced degree,2386
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q1,E4,Bachelor's degree or advanced degree,1930
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q2,E4,Bachelor's degree or advanced degree,2479
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q3,E4,Bachelor's degree or advanced degree,2151
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q4,E4,Bachelor's degree or advanced degree,2487
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q1,E4,Bachelor's degree or advanced degree,1906
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q2,E4,Bachelor's degree or advanced degree,2500
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q3,E4,Bachelor's degree or advanced degree,2327
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q4,E4,Bachelor's degree or advanced degree,2416
-Separations,Western Maryland WIA,Maryland Separations by Education,2019Q1,E4,Bachelor's degree or advanced degree,1868
-Separations,Western Maryland WIA,Maryland Separations by Education,2019Q2,E4,Bachelor's degree or advanced degree,2561
-Separations,Western Maryland WIA,Maryland Separations by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q1,E4,Bachelor's degree or advanced degree,0.064
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q2,E4,Bachelor's degree or advanced degree,0.058
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q3,E4,Bachelor's degree or advanced degree,0.065
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q4,E4,Bachelor's degree or advanced degree,0.059
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q1,E4,Bachelor's degree or advanced degree,0.068
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q2,E4,Bachelor's degree or advanced degree,0.058
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q3,E4,Bachelor's degree or advanced degree,0.066
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q4,E4,Bachelor's degree or advanced degree,0.06
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q1,E4,Bachelor's degree or advanced degree,0.069
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q2,E4,Bachelor's degree or advanced degree,0.062
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q3,E4,Bachelor's degree or advanced degree,0.066
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q4,E4,Bachelor's degree or advanced degree,0.059
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q1,E4,Bachelor's degree or advanced degree,0.071
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E4,Bachelor's degree or advanced degree,N/A
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),380
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),2362
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),-400
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),726
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),-111
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),2094
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),-525
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),660
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),38
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),2080
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),-466
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),426
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),181
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),1777
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q1,E4,Bachelor's degree or advanced degree,1785
 New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),4220
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q1,E2,"High school or equivalent, no college",2881
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q1,E1,Less than High school,1351
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q1,E3,Some college or Associate degree,2716
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q2,E4,Bachelor's degree or advanced degree,2322
 New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),7181
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q2,E2,"High school or equivalent, no college",4039
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q2,E1,Less than High school,1997
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q2,E3,Some college or Associate degree,3726
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q3,E4,Bachelor's degree or advanced degree,2117
 New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),6189
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q3,E2,"High school or equivalent, no college",3696
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q3,E1,Less than High school,1800
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q3,E3,Some college or Associate degree,3479
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q4,E4,Bachelor's degree or advanced degree,2363
 New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),5615
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q4,E2,"High school or equivalent, no college",3622
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q4,E1,Less than High school,1749
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q4,E3,Some college or Associate degree,3576
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q1,E4,Bachelor's degree or advanced degree,1865
 New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),3826
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q1,E2,"High school or equivalent, no college",2902
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q1,E1,Less than High school,1395
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q1,E3,Some college or Associate degree,2737
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q2,E4,Bachelor's degree or advanced degree,2160
 New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),6753
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q2,E2,"High school or equivalent, no college",3743
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q2,E1,Less than High school,1886
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q2,E3,Some college or Associate degree,3400
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q3,E4,Bachelor's degree or advanced degree,2100
 New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),5600
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q3,E2,"High school or equivalent, no college",3412
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q3,E1,Less than High school,1749
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q3,E3,Some college or Associate degree,3176
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q4,E4,Bachelor's degree or advanced degree,2423
 New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),5349
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q4,E2,"High school or equivalent, no college",3670
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q4,E1,Less than High school,1825
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q4,E3,Some college or Associate degree,3551
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q1,E0,All Education Categories,13122
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q1,E4,Bachelor's degree or advanced degree,1900
 New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),3934
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q1,E2,"High school or equivalent, no college",2990
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q1,E1,Less than High school,1414
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q1,E3,Some college or Associate degree,2885
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q2,E0,All Education Categories,18424
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q2,E4,Bachelor's degree or advanced degree,2298
 New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),6645
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q2,E2,"High school or equivalent, no college",3968
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q2,E1,Less than High school,1953
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q2,E3,Some college or Associate degree,3559
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q3,E0,All Education Categories,17010
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q3,E4,Bachelor's degree or advanced degree,2258
 New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),5846
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q3,E2,"High school or equivalent, no college",3621
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q3,E1,Less than High school,1824
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q3,E3,Some college or Associate degree,3461
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q4,E0,All Education Categories,16804
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,2445
 New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),5340
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",3628
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,1841
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,3552
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q1,E0,All Education Categories,13025
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q1,E4,Bachelor's degree or advanced degree,1891
 New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),4017
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q1,E2,"High school or equivalent, no college",2868
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q1,E1,Less than High school,1460
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q1,E3,Some college or Associate degree,2789
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q2,E0,All Education Categories,18282
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q2,E4,Bachelor's degree or advanced degree,2375
 New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),6434
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q2,E2,"High school or equivalent, no college",3840
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q2,E1,Less than High school,1945
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q2,E3,Some college or Associate degree,3689
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q3,E0,All Education Categories,16704
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q3,E4,Bachelor's degree or advanced degree,2280
 New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),5711
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),3848
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),4798
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),6608
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),4846
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),3971
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),4698
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),6111
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),4665
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),3916
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),4626
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),6315
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),4844
-Separations,Western Maryland WIA,Maryland Separations by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),3853
-Separations,Western Maryland WIA,Maryland Separations by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),4696
-Separations,Western Maryland WIA,Maryland Separations by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),0.193
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),0.19
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),0.214
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),0.195
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),0.194
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),0.18
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),0.208
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),0.19
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),0.191
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),0.184
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),0.213
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),0.184
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),0.196
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),N/A
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q3,E2,"High school or equivalent, no college",3501
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q3,E1,Less than High school,1794
+New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q3,E3,Some college or Associate degree,3418
+New Hires,Western Maryland WIA,Maryland New Hires by Education All,2016Q1,E0,All Education Categories,12953
+New Hires,Western Maryland WIA,Maryland New Hires by Education All,2016Q2,E0,All Education Categories,19266
+New Hires,Western Maryland WIA,Maryland New Hires by Education All,2016Q3,E0,All Education Categories,17281
+New Hires,Western Maryland WIA,Maryland New Hires by Education All,2016Q4,E0,All Education Categories,16924
+New Hires,Western Maryland WIA,Maryland New Hires by Education All,2017Q1,E0,All Education Categories,12725
+New Hires,Western Maryland WIA,Maryland New Hires by Education All,2017Q2,E0,All Education Categories,17942
+New Hires,Western Maryland WIA,Maryland New Hires by Education All,2017Q3,E0,All Education Categories,16036
+New Hires,Western Maryland WIA,Maryland New Hires by Education All,2017Q4,E0,All Education Categories,16818
 New Hires,Western Maryland WIA,Maryland New Hires by Gender,2016Q1,2,Female,6443
 New Hires,Western Maryland WIA,Maryland New Hires by Gender,2016Q1,1,Male,6510
 New Hires,Western Maryland WIA,Maryland New Hires by Gender,2016Q2,2,Female,9444
@@ -1624,96 +1624,96 @@ Separations,Western Maryland WIA,Maryland Separations by Age All,2018Q4,A00,All,
 Separations,Western Maryland WIA,Maryland Separations by Age All,2019Q1,A00,All,12982
 Separations,Western Maryland WIA,Maryland Separations by Age All,2019Q2,A00,All,16616
 Separations,Western Maryland WIA,Maryland Separations by Age All,2019Q3,A00,All,N/A
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q1,E2,"High school or equivalent, no college",-170
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q2,E2,"High school or equivalent, no college",434
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q3,E2,"High school or equivalent, no college",-7
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q4,E2,"High school or equivalent, no college",-316
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q1,E2,"High school or equivalent, no college",-156
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q2,E2,"High school or equivalent, no college",82
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q3,E2,"High school or equivalent, no college",-224
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q4,E2,"High school or equivalent, no college",-370
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q1,E2,"High school or equivalent, no college",-263
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q2,E2,"High school or equivalent, no college",220
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q3,E2,"High school or equivalent, no college",-96
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q4,E2,"High school or equivalent, no college",-234
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q1,E2,"High school or equivalent, no college",-107
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q2,E2,"High school or equivalent, no college",42
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q3,E2,"High school or equivalent, no college",N/A
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q1,E2,"High school or equivalent, no college",2881
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q2,E2,"High school or equivalent, no college",4039
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q3,E2,"High school or equivalent, no college",3696
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q4,E2,"High school or equivalent, no college",3622
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q1,E2,"High school or equivalent, no college",2902
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q2,E2,"High school or equivalent, no college",3743
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q3,E2,"High school or equivalent, no college",3412
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q4,E2,"High school or equivalent, no college",3670
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q1,E2,"High school or equivalent, no college",2990
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q2,E2,"High school or equivalent, no college",3968
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q3,E2,"High school or equivalent, no college",3621
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",3628
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q1,E2,"High school or equivalent, no college",2868
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q2,E2,"High school or equivalent, no college",3840
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q3,E2,"High school or equivalent, no college",3501
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q1,E4,Bachelor's degree or advanced degree,1750
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),3848
 Separations,Western Maryland WIA,Maryland Separations by Education,2016Q1,E2,"High school or equivalent, no college",3050
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q1,E1,Less than High school,1422
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q1,E3,Some college or Associate degree,2847
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q2,E4,Bachelor's degree or advanced degree,2368
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),4798
 Separations,Western Maryland WIA,Maryland Separations by Education,2016Q2,E2,"High school or equivalent, no college",3603
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q2,E1,Less than High school,1722
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q2,E3,Some college or Associate degree,3403
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q3,E4,Bachelor's degree or advanced degree,2205
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),6608
 Separations,Western Maryland WIA,Maryland Separations by Education,2016Q3,E2,"High school or equivalent, no college",3691
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q3,E1,Less than High school,1791
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q3,E3,Some college or Associate degree,3497
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q4,E4,Bachelor's degree or advanced degree,2386
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),4846
 Separations,Western Maryland WIA,Maryland Separations by Education,2016Q4,E2,"High school or equivalent, no college",3914
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q4,E1,Less than High school,1890
+Separations,Western Maryland WIA,Maryland Separations by Education,2016Q4,E3,Some college or Associate degree,3732
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q1,E4,Bachelor's degree or advanced degree,1930
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),3971
 Separations,Western Maryland WIA,Maryland Separations by Education,2017Q1,E2,"High school or equivalent, no college",3077
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q1,E1,Less than High school,1478
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q1,E3,Some college or Associate degree,2946
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q2,E4,Bachelor's degree or advanced degree,2479
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),4698
 Separations,Western Maryland WIA,Maryland Separations by Education,2017Q2,E2,"High school or equivalent, no college",3697
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q2,E1,Less than High school,1725
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q2,E3,Some college or Associate degree,3542
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q3,E4,Bachelor's degree or advanced degree,2151
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),6111
 Separations,Western Maryland WIA,Maryland Separations by Education,2017Q3,E2,"High school or equivalent, no college",3620
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q3,E1,Less than High school,1747
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q3,E3,Some college or Associate degree,3360
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q4,E4,Bachelor's degree or advanced degree,2487
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),4665
 Separations,Western Maryland WIA,Maryland Separations by Education,2017Q4,E2,"High school or equivalent, no college",4027
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q4,E1,Less than High school,1954
+Separations,Western Maryland WIA,Maryland Separations by Education,2017Q4,E3,Some college or Associate degree,3773
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q1,E4,Bachelor's degree or advanced degree,1906
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),3916
 Separations,Western Maryland WIA,Maryland Separations by Education,2018Q1,E2,"High school or equivalent, no college",3263
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q1,E1,Less than High school,1555
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q1,E3,Some college or Associate degree,3055
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q2,E4,Bachelor's degree or advanced degree,2500
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),4626
 Separations,Western Maryland WIA,Maryland Separations by Education,2018Q2,E2,"High school or equivalent, no college",3784
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q2,E1,Less than High school,1780
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q2,E3,Some college or Associate degree,3619
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q3,E4,Bachelor's degree or advanced degree,2327
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),6315
 Separations,Western Maryland WIA,Maryland Separations by Education,2018Q3,E2,"High school or equivalent, no college",3706
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q3,E1,Less than High school,1781
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q3,E3,Some college or Associate degree,3516
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q4,E4,Bachelor's degree or advanced degree,2416
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),4844
 Separations,Western Maryland WIA,Maryland Separations by Education,2018Q4,E2,"High school or equivalent, no college",3831
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q4,E1,Less than High school,1910
+Separations,Western Maryland WIA,Maryland Separations by Education,2018Q4,E3,Some college or Associate degree,3671
+Separations,Western Maryland WIA,Maryland Separations by Education,2019Q1,E4,Bachelor's degree or advanced degree,1868
+Separations,Western Maryland WIA,Maryland Separations by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),3853
 Separations,Western Maryland WIA,Maryland Separations by Education,2019Q1,E2,"High school or equivalent, no college",2984
+Separations,Western Maryland WIA,Maryland Separations by Education,2019Q1,E1,Less than High school,1416
+Separations,Western Maryland WIA,Maryland Separations by Education,2019Q1,E3,Some college or Associate degree,2861
+Separations,Western Maryland WIA,Maryland Separations by Education,2019Q2,E4,Bachelor's degree or advanced degree,2561
+Separations,Western Maryland WIA,Maryland Separations by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),4696
 Separations,Western Maryland WIA,Maryland Separations by Education,2019Q2,E2,"High school or equivalent, no college",3816
+Separations,Western Maryland WIA,Maryland Separations by Education,2019Q2,E1,Less than High school,1833
+Separations,Western Maryland WIA,Maryland Separations by Education,2019Q2,E3,Some college or Associate degree,3710
+Separations,Western Maryland WIA,Maryland Separations by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
+Separations,Western Maryland WIA,Maryland Separations by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
 Separations,Western Maryland WIA,Maryland Separations by Education,2019Q3,E2,"High school or equivalent, no college",N/A
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q1,E2,"High school or equivalent, no college",0.069
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q2,E2,"High school or equivalent, no college",0.061
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q3,E2,"High school or equivalent, no college",0.074
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q4,E2,"High school or equivalent, no college",0.065
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q1,E2,"High school or equivalent, no college",0.067
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q2,E2,"High school or equivalent, no college",0.063
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q3,E2,"High school or equivalent, no college",0.073
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q4,E2,"High school or equivalent, no college",0.065
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q2,E2,"High school or equivalent, no college",0.064
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q3,E2,"High school or equivalent, no college",0.073
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q4,E2,"High school or equivalent, no college",0.063
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E2,"High school or equivalent, no college",N/A
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E2,"High school or equivalent, no college",N/A
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education ,2018Q1,E2,"High school or equivalent, no college",0.068
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education ,2019Q1,E2,"High school or equivalent, no college",0.069
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q1,E1,Less than High school,-70
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q2,E1,Less than High school,274
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q3,E1,Less than High school,11
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q4,E1,Less than High school,-153
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q1,E1,Less than High school,-72
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q2,E1,Less than High school,171
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q3,E1,Less than High school,-3
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q4,E1,Less than High school,-132
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q1,E1,Less than High school,-138
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q2,E1,Less than High school,187
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q3,E1,Less than High school,43
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q4,E1,Less than High school,-81
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q1,E1,Less than High school,53
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q2,E1,Less than High school,117
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q3,E1,Less than High school,N/A
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q1,E1,Less than High school,1351
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q2,E1,Less than High school,1997
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q3,E1,Less than High school,1800
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q4,E1,Less than High school,1749
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q1,E1,Less than High school,1395
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q2,E1,Less than High school,1886
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q3,E1,Less than High school,1749
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q4,E1,Less than High school,1825
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q1,E1,Less than High school,1414
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q2,E1,Less than High school,1953
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q3,E1,Less than High school,1824
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,1841
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q1,E1,Less than High school,1460
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q2,E1,Less than High school,1945
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q3,E1,Less than High school,1794
+Separations,Western Maryland WIA,Maryland Separations by Education,2019Q3,E1,Less than High school,N/A
+Separations,Western Maryland WIA,Maryland Separations by Education,2019Q3,E3,Some college or Associate degree,N/A
+Separations,Western Maryland WIA,Maryland Separations by Education All,2016Q1,E0,All Education Categories,12917
+Separations,Western Maryland WIA,Maryland Separations by Education All,2016Q2,E0,All Education Categories,15894
+Separations,Western Maryland WIA,Maryland Separations by Education All,2016Q3,E0,All Education Categories,17792
+Separations,Western Maryland WIA,Maryland Separations by Education All,2016Q4,E0,All Education Categories,16767
+Separations,Western Maryland WIA,Maryland Separations by Education All,2017Q1,E0,All Education Categories,13402
+Separations,Western Maryland WIA,Maryland Separations by Education All,2017Q2,E0,All Education Categories,16141
+Separations,Western Maryland WIA,Maryland Separations by Education All,2017Q3,E0,All Education Categories,16991
+Separations,Western Maryland WIA,Maryland Separations by Education All,2017Q4,E0,All Education Categories,16906
+Separations,Western Maryland WIA,Maryland Separations by Education All,2018Q1,E0,All Education Categories,13694
+Separations,Western Maryland WIA,Maryland Separations by Education All,2018Q2,E0,All Education Categories,16308
+Separations,Western Maryland WIA,Maryland Separations by Education All,2018Q3,E0,All Education Categories,17645
+Separations,Western Maryland WIA,Maryland Separations by Education All,2018Q4,E0,All Education Categories,16673
+Separations,Western Maryland WIA,Maryland Separations by Education All,2019Q1,E0,All Education Categories,12982
+Separations,Western Maryland WIA,Maryland Separations by Education All,2019Q2,E0,All Education Categories,16616
+Separations,Western Maryland WIA,Maryland Separations by Education All,2019Q3,E0,All Education Categories,N/A
 Separations,Western Maryland WIA,Maryland Separations by Gender,2016Q1,2,Female,6363
 Separations,Western Maryland WIA,Maryland Separations by Gender,2016Q1,1,Male,6554
 Separations,Western Maryland WIA,Maryland Separations by Gender,2016Q2,1,Male,7908
@@ -2059,96 +2059,96 @@ Separations,Western Maryland WIA,Maryland Separations by Industry,2019Q3,92,Publ
 Separations,Western Maryland WIA,Maryland Separations by Industry,2019Q3,31-33,Manufacturing,N/A
 Separations,Western Maryland WIA,Maryland Separations by Industry,2019Q3,44-45,Retail Trade,N/A
 Separations,Western Maryland WIA,Maryland Separations by Industry,2019Q3,48-49,Transportation and Warehousing,N/A
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q1,E1,Less than High school,1422
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q2,E1,Less than High school,1722
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q3,E1,Less than High school,1791
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q4,E1,Less than High school,1890
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q1,E1,Less than High school,1478
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q2,E1,Less than High school,1725
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q3,E1,Less than High school,1747
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q4,E1,Less than High school,1954
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q1,E1,Less than High school,1555
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q2,E1,Less than High school,1780
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q3,E1,Less than High school,1781
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q4,E1,Less than High school,1910
-Separations,Western Maryland WIA,Maryland Separations by Education,2019Q1,E1,Less than High school,1416
-Separations,Western Maryland WIA,Maryland Separations by Education,2019Q2,E1,Less than High school,1833
-Separations,Western Maryland WIA,Maryland Separations by Education,2019Q3,E1,Less than High school,N/A
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q1,E4,Bachelor's degree or advanced degree,0.064
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),0.193
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q1,E2,"High school or equivalent, no college",0.069
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q1,E1,Less than High school,0.092
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q2,E1,Less than High school,0.083
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q3,E1,Less than High school,0.103
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q4,E1,Less than High school,0.088
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q1,E1,Less than High school,0.089
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q2,E1,Less than High school,0.083
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q3,E1,Less than High school,0.101
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q4,E1,Less than High school,0.089
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q2,E1,Less than High school,0.081
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q3,E1,Less than High school,0.098
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q4,E1,Less than High school,0.082
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E1,Less than High school,N/A
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E1,Less than High school,N/A
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education ,2018Q1,E1,Less than High school,0.09
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education ,2019Q1,E1,Less than High school,0.092
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q1,E3,Some college or Associate degree,-123
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q2,E3,Some college or Associate degree,322
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q3,E3,Some college or Associate degree,-25
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2016Q4,E3,Some college or Associate degree,-175
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q1,E3,Some college or Associate degree,-207
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q2,E3,Some college or Associate degree,-105
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q3,E3,Some college or Associate degree,-194
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2017Q4,E3,Some college or Associate degree,-247
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q1,E3,Some college or Associate degree,-162
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q2,E3,Some college or Associate degree,-27
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q3,E3,Some college or Associate degree,-67
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2018Q4,E3,Some college or Associate degree,-149
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q1,E3,Some college or Associate degree,-67
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q2,E3,Some college or Associate degree,0
-Job Change,Western Maryland WIA,Maryland Job Net Change by Education,2019Q3,E3,Some college or Associate degree,N/A
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q1,E3,Some college or Associate degree,2716
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q2,E3,Some college or Associate degree,3726
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q3,E3,Some college or Associate degree,3479
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2016Q4,E3,Some college or Associate degree,3576
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q1,E3,Some college or Associate degree,2737
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q2,E3,Some college or Associate degree,3400
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q3,E3,Some college or Associate degree,3176
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2017Q4,E3,Some college or Associate degree,3551
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q1,E3,Some college or Associate degree,2885
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q2,E3,Some college or Associate degree,3559
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q3,E3,Some college or Associate degree,3461
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,3552
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q1,E3,Some college or Associate degree,2789
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q2,E3,Some college or Associate degree,3689
-New Hires,Western Maryland WIA,Maryland New Hires by Education,2019Q3,E3,Some college or Associate degree,3418
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q1,E3,Some college or Associate degree,2847
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q2,E3,Some college or Associate degree,3403
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q3,E3,Some college or Associate degree,3497
-Separations,Western Maryland WIA,Maryland Separations by Education,2016Q4,E3,Some college or Associate degree,3732
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q1,E3,Some college or Associate degree,2946
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q2,E3,Some college or Associate degree,3542
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q3,E3,Some college or Associate degree,3360
-Separations,Western Maryland WIA,Maryland Separations by Education,2017Q4,E3,Some college or Associate degree,3773
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q1,E3,Some college or Associate degree,3055
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q2,E3,Some college or Associate degree,3619
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q3,E3,Some college or Associate degree,3516
-Separations,Western Maryland WIA,Maryland Separations by Education,2018Q4,E3,Some college or Associate degree,3671
-Separations,Western Maryland WIA,Maryland Separations by Education,2019Q1,E3,Some college or Associate degree,2861
-Separations,Western Maryland WIA,Maryland Separations by Education,2019Q2,E3,Some college or Associate degree,3710
-Separations,Western Maryland WIA,Maryland Separations by Education,2019Q3,E3,Some college or Associate degree,N/A
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q1,E3,Some college or Associate degree,0.069
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q2,E4,Bachelor's degree or advanced degree,0.058
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),0.19
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q2,E2,"High school or equivalent, no college",0.061
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q2,E1,Less than High school,0.083
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q2,E3,Some college or Associate degree,0.06
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q3,E4,Bachelor's degree or advanced degree,0.065
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),0.214
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q3,E2,"High school or equivalent, no college",0.074
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q3,E1,Less than High school,0.103
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q3,E3,Some college or Associate degree,0.072
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q4,E4,Bachelor's degree or advanced degree,0.059
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),0.195
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q4,E2,"High school or equivalent, no college",0.065
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q4,E1,Less than High school,0.088
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2016Q4,E3,Some college or Associate degree,0.065
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q1,E4,Bachelor's degree or advanced degree,0.068
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),0.194
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q1,E2,"High school or equivalent, no college",0.067
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q1,E1,Less than High school,0.089
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q1,E3,Some college or Associate degree,0.069
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q2,E4,Bachelor's degree or advanced degree,0.058
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),0.18
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q2,E2,"High school or equivalent, no college",0.063
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q2,E1,Less than High school,0.083
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q2,E3,Some college or Associate degree,0.061
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q3,E4,Bachelor's degree or advanced degree,0.066
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),0.208
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q3,E2,"High school or equivalent, no college",0.073
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q3,E1,Less than High school,0.101
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q3,E3,Some college or Associate degree,0.071
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q4,E4,Bachelor's degree or advanced degree,0.06
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),0.19
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q4,E2,"High school or equivalent, no college",0.065
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q4,E1,Less than High school,0.089
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2017Q4,E3,Some college or Associate degree,0.064
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q1,E4,Bachelor's degree or advanced degree,0.069
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),0.191
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q2,E4,Bachelor's degree or advanced degree,0.062
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),0.184
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q2,E2,"High school or equivalent, no college",0.064
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q2,E1,Less than High school,0.081
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q2,E3,Some college or Associate degree,0.064
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q3,E4,Bachelor's degree or advanced degree,0.066
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),0.213
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q3,E2,"High school or equivalent, no college",0.073
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q3,E1,Less than High school,0.098
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q3,E3,Some college or Associate degree,0.071
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q4,E4,Bachelor's degree or advanced degree,0.059
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),0.184
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q4,E2,"High school or equivalent, no college",0.063
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q4,E1,Less than High school,0.082
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q4,E3,Some college or Associate degree,0.063
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q1,E4,Bachelor's degree or advanced degree,0.071
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),0.196
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E4,Bachelor's degree or advanced degree,N/A
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),N/A
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E2,"High school or equivalent, no college",N/A
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E1,Less than High school,N/A
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q2,E3,Some college or Associate degree,N/A
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E2,"High school or equivalent, no college",N/A
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E1,Less than High school,N/A
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q3,E3,Some college or Associate degree,N/A
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education ,2018Q1,E3,Some college or Associate degree,0.069
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Education ,2019Q1,E3,Some college or Associate degree,0.071
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q1,E2,"High school or equivalent, no college",0.068
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q1,E1,Less than High school,0.09
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2018Q1,E3,Some college or Associate degree,0.069
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q1,E2,"High school or equivalent, no college",0.069
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q1,E1,Less than High school,0.092
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education,2019Q1,E3,Some college or Associate degree,0.071
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2016Q1,E0,All Education Categories,0.085
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2016Q2,E0,All Education Categories,0.077
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2016Q3,E0,All Education Categories,0.091
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2016Q4,E0,All Education Categories,0.082
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2017Q1,E0,All Education Categories,0.085
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2017Q2,E0,All Education Categories,0.077
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2017Q3,E0,All Education Categories,0.089
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2017Q4,E0,All Education Categories,0.081
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2018Q1,E0,All Education Categories,0.085
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2018Q2,E0,All Education Categories,0.079
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2018Q3,E0,All Education Categories,0.09
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2018Q4,E0,All Education Categories,0.078
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2019Q1,E0,All Education Categories,0.087
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2019Q2,E0,All Education Categories,N/A
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Education All,2019Q3,E0,All Education Categories,N/A
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2016Q1,1,Male,0.083
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2016Q1,2,Female,0.087
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2016Q2,1,Male,0.076
@@ -2165,6 +2165,8 @@ Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2017Q3,2,Female,0
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2017Q3,1,Male,0.096
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2017Q4,2,Female,0.079
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2017Q4,1,Male,0.083
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2018Q1,1,Male,0.081
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2018Q1,2,Female,0.089
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2018Q2,2,Female,0.077
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2018Q2,1,Male,0.082
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2018Q3,2,Female,0.086
@@ -2173,15 +2175,13 @@ Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2018Q3,1,Male,0.0
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2018Q4,0,All Sexes,0.078
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2018Q4,1,Male,0.078
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2018Q4,2,Female,0.078
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2019Q1,1,Male,0.085
+Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2019Q1,2,Female,0.089
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2019Q2,1,Male,N/A
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2019Q2,2,Female,N/A
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2019Q3,0,All Sexes,N/A
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2019Q3,1,Male,N/A
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2019Q3,2,Female,N/A
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2018Q1,1,Male,0.081
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2018Q1,2,Female,0.089
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2019Q1,1,Male,0.085
-Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender,2019Q1,2,Female,0.089
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender All,2016Q1,0,All,0.085
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender All,2016Q2,0,All,0.077
 Turnover,Western Maryland WIA,Maryland Turnover Rate by Gender All,2016Q3,0,All,0.091
@@ -2645,6 +2645,8 @@ Workers,Western Maryland WIA,Maryland Workers by Gender,2017Q3,1,Male,50957
 Workers,Western Maryland WIA,Maryland Workers by Gender,2017Q3,2,Female,53333
 Workers,Western Maryland WIA,Maryland Workers by Gender,2017Q4,1,Male,50977
 Workers,Western Maryland WIA,Maryland Workers by Gender,2017Q4,2,Female,55087
+Workers,Western Maryland WIA,Maryland Workers by Gender,2018Q1,1,Male,49189
+Workers,Western Maryland WIA,Maryland Workers by Gender,2018Q1,2,Female,53698
 Workers,Western Maryland WIA,Maryland Workers by Gender,2018Q2,1,Male,49727
 Workers,Western Maryland WIA,Maryland Workers by Gender,2018Q2,2,Female,54600
 Workers,Western Maryland WIA,Maryland Workers by Gender,2018Q3,1,Male,50767
@@ -2653,15 +2655,13 @@ Workers,Western Maryland WIA,Maryland Workers by Gender,2018Q3,0,All Sexes,10419
 Workers,Western Maryland WIA,Maryland Workers by Gender,2018Q4,1,Male,50961
 Workers,Western Maryland WIA,Maryland Workers by Gender,2018Q4,2,Female,54711
 Workers,Western Maryland WIA,Maryland Workers by Gender,2018Q4,0,All Sexes,105672
+Workers,Western Maryland WIA,Maryland Workers by Gender,2019Q1,1,Male,49506
+Workers,Western Maryland WIA,Maryland Workers by Gender,2019Q1,2,Female,53852
 Workers,Western Maryland WIA,Maryland Workers by Gender,2019Q2,1,Male,50582
 Workers,Western Maryland WIA,Maryland Workers by Gender,2019Q2,2,Female,54791
 Workers,Western Maryland WIA,Maryland Workers by Gender,2019Q3,1,Male,50872
 Workers,Western Maryland WIA,Maryland Workers by Gender,2019Q3,2,Female,53022
 Workers,Western Maryland WIA,Maryland Workers by Gender,2019Q3,0,All Sexes,103894
-Workers,Western Maryland WIA,Maryland Workers by Gender,2018Q1,1,Male,49189
-Workers,Western Maryland WIA,Maryland Workers by Gender,2018Q1,2,Female,53698
-Workers,Western Maryland WIA,Maryland Workers by Gender,2019Q1,1,Male,49506
-Workers,Western Maryland WIA,Maryland Workers by Gender,2019Q1,2,Female,53852
 Workers,Western Maryland WIA,Maryland Workers by Gender All,2016Q1,0,All,103889
 Workers,Western Maryland WIA,Maryland Workers by Gender All,2016Q2,0,All,105823
 Workers,Western Maryland WIA,Maryland Workers by Gender All,2016Q3,0,All,105152

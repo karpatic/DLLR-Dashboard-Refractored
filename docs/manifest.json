@@ -16,7 +16,7 @@
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./",
-  "description": "DLLR Dashboard",
+  "description": "A Department of Labor Reporting Tool",
   "background_color": "black",
   "theme_color": "red",
   "dir": "rtl",
