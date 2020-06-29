@@ -12,10 +12,14 @@ import * as dimple from 'dimple';
 */
 (async()=>{    
     let pcnt = (d) => {
+        if( d == 'N/A'){ return d }
+        if( d == 'S'){ return d }
       if(d==undefined | d=='--'){ return '--'} 
       return d.slice( d.length -1 ) != '%' ? (d3.format(".1%")(d*1) ) : (d3.format(".1%")(Number(d.slice(0, -1)*.01 ) ) ) 
     }
     let pcnt2 = (d) => { 
+        if( d == 'N/A'){ return d }
+        if( d == 'S'){ return d }
       if(d==undefined | d=='--'){ return '--'}
       d = d+''
       return d.slice( d.length -1 ) != '%' ? (d3.format(".1%")(d*.01) ) : (d3.format(".1%")(Number(d.slice(0, -1)*.01 ) ) ) 
@@ -79,7 +83,7 @@ import * as dimple from 'dimple';
     }
     
     // Retrieve Data
-    let url =  CountyName2 == 'Maryland' ? './data/MarylandData_6-24-20.csv' : "./data/CountyData.csv"
+    let url =  CountyName2 == 'Maryland' ? './data/MarylandData.csv' : "./data/CountyData.csv"
     console.log(url)
     let data = await d3.csv(url)
     console.log({data})

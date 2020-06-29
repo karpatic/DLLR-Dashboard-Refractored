@@ -14,8 +14,8 @@ import image from "./images/image.png"
 (async () => {  
 
 let hr = myConfig.default;
-hr.longName = 'Longname'
-hr.shortName = 'Shortname'
+hr.longName = hr.title
+hr.shortName = hr.description
 
 // let local = window.location.href;
 // let imageLocation = local+"images/"+hr.shortName.trim().toLowerCase()+"/"

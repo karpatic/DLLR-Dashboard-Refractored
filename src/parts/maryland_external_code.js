@@ -11,14 +11,18 @@ import * as dimple from 'dimple';
  */
 (async()=>{
     let pcnt = (d)=>{
+        if( d == 'N/A'){ return d }
+        if( d == 'S'){ return d }
         return d.slice(d.length - 1) != '%' ? (d3.format(".1%")(d * 1)) : (d3.format(".1%")(Number(d.slice(0, -1) * .01)))
     }
     let pcnt2 = (d)=>{
+        if( d == 'N/A'){ return d }
+        if( d == 'S'){ return d }
         return d.slice(d.length - 1) != '%' ? (d3.format(".1%")(d * .01)) : (d3.format(".1%")(Number(d.slice(0, -1) * .01)))
     }
     // Retrieve Data
     console.log('RETRIEVING MARYLAND DATA')
-    let url = './data/MarylandData_6-24-20.csv'
+    let url = './data/MarylandData.csv'
     let data = await d3.csv(url)
     document.getElementById('acsyearagg').innerHTML = '1'
     console.log('Maryland', {

@@ -9,6 +9,7 @@ import * as dimple from 'dimple';
 (async()=>{
     let pcnt = (d)=>{
         if( d == 'N/A'){ return d }
+        if( d == 'S'){ return d }
         if (d == undefined | d == '--') {
             return '--'
         }
@@ -16,6 +17,7 @@ import * as dimple from 'dimple';
     }
     let pcnt2 = (d)=>{
         if( d == 'N/A'){ return d }
+        if( d == 'S'){ return d }
         if (d == undefined | d == '--') {
             return '--'
         }
@@ -23,6 +25,7 @@ import * as dimple from 'dimple';
     }
     let cma = (d)=>{
         if( d == 'N/A'){ return d }
+        if( d == 'S'){ return d }
         if (d == undefined | d == '--') {
             return '--'
         }
@@ -30,16 +33,21 @@ import * as dimple from 'dimple';
     }
     let dlr = (d)=>{
         if( d == 'N/A'){ return d }
+        if( d == 'S'){ return d }
         if (d == undefined | d == '--') {
             return '--'
         }
         return d3.format('$,.0f')(d * 1)
     }
 
-    let url = CountyName2 == 'Maryland' ? './data/MarylandData_6-24-20.csv' : "./data/wda/" + CountyName.replace(/[ ]/g, '') + ".csv"
+    let url = CountyName2 == 'Maryland' ? './data/MarylandData.csv' : "./data/wda/" + CountyName.replace(/[ ]/g, '') + ".csv"
 
     window.findEdu = (objArr,indx)=>{
-        let filtray = ["NR", "Less than High school", "High school", "Some college", "Bachelor's or Higher"]
+        let filtray = ["Educational attainment not available (workers aged 24 or younger)", 
+                       "Less than High school", "High school or equivalent, no college", 
+                       "Some college or Associate degree", 
+                       "Bachelor's degree or advanced degree"
+                      ]
         let flag = false
         let returnThis = objArr.filter(obj=>{
             let val = obj['Indicator_Value']
@@ -48,7 +56,7 @@ import * as dimple from 'dimple';
                     console.log('CHECK THIS OUT', val )
                     flag == true
                 }
-                return ["NR", "N/A", "NA"].includes(val)
+                return ["NR", "N/A", "NA"].includes(val) || val == filtray[indx]   
             }
             else{
               return val == filtray[indx]   
@@ -259,7 +267,16 @@ import * as dimple from 'dimple';
     window.averageDatg2019Q3 = dimple.filterData(averageData1, "Time", "2019Q3")
     window.averageDatg2019Q4 = dimple.filterData(averageData1, "Time", "2019Q4")
 
-    console.log('WOHOOO',{averageDatg2017Q4, averageDatg2018Q1, averageDatg2018Q2, averageDatg2018Q3, averageDatg2018Q4, averageDatg2019Q1, averageDatg2019Q2, averageDatg2019Q3, averageDatg2019Q4})
+    console.log('WOHOOO',{
+        averageDatg2017Q4, 
+        averageDatg2018Q1, 
+        averageDatg2018Q2, 
+        averageDatg2018Q3, 
+        averageDatg2018Q4, 
+        averageDatg2019Q1, 
+        averageDatg2019Q2, 
+        averageDatg2019Q3, 
+        averageDatg2019Q4})
     /*
     console.log('Num Workers, Average Earnings', {
         workData2018Q1,
@@ -454,6 +471,7 @@ import * as dimple from 'dimple';
     window.jobDatc2019Q2 = dimple.filterData(jobData1, "Time", "2019Q2")
     window.jobDatc2019Q3 = dimple.filterData(jobData1, "Time", "2019Q3")
     window.jobDatc2019Q4 = dimple.filterData(jobData1, "Time", "2019Q4")
+    console.log("Maryland Job Net Change by Education", {jobDatc2017Q1}, {jobDatc2018Q1} )
 
     let jobData2 = dimple.filterData(jobData, "Indicator", "Maryland Job Net Change by Gender");
     window.jobDatg2016Q1 = dimple.filterData(jobData2, "Time", "2016Q1")
@@ -479,7 +497,11 @@ import * as dimple from 'dimple';
     var raceX = jc.addCategoryAxis("x", "Indicator_Value");
     var raceY = jc.addMeasureAxis("y", "Amount");
     var rSeries = jc.addSeries("Indicator_Value", dimple.plot.bar);
-    raceX.addOrderRule(["Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A", "Female", "Male"]);
+    raceX.addOrderRule([
+      "Less than High school", 
+      "High school", "Some college", 
+      "Bachelor's or Higher", 
+      "N/A", "Female", "Male"]);
 
     jc.assignColor("Less than High school", "#4dc3ff", "black", 0.7);
     jc.assignColor("High school", "#ff5c33", "black", 0.7);
@@ -529,20 +551,23 @@ import * as dimple from 'dimple';
     // Tab 2 Chart 2
     //
 
+    // Filter for time
+
     let newHireData = dimple.filterData(data, "Time", [
       "2016Q1", "2016Q2", "2016Q3", "2016Q4", 
       "2017Q1", "2017Q2", "2017Q3", "2017Q4", 
       "2018Q1", "2018Q2", "2018Q3", "2018Q4",
       "2019Q1", "2019Q2", "2019Q3", "2019Q4"
     ])
-    console.log('NewHireFilterTime', {newHireData} )
+
+    // Filter for Indicator
 
     newHireData = dimple.filterData(newHireData, "Indicator", [
       "Maryland New Hires by Education", 
       "Maryland New Hires by Gender", 
       "Maryland Workers by Industry"
     ])
-    console.log("NewHireFilterTimeAndIndicator", {newHireData})
+    console.log("NewHireFilterTimeAndIndicator", {newHireData} )
     
     let newHireData1 = dimple.filterData(newHireData, "Indicator", "Maryland New Hires by Education");
     window.newHireDatc2016Q1 = dimple.filterData(newHireData1, "Time", "2016Q1")
@@ -580,15 +605,9 @@ import * as dimple from 'dimple';
     window.newHireDatg2019Q3 = dimple.filterData(newHireData2, "Time", "2019Q3")
     window.newHireDatg2019Q4 = dimple.filterData(newHireData2, "Time", "2019Q4")
 
-    console.log('New Hires, Job Net Changes', {
-        jobDatc2018Q1,
-        jobDatg2018Q1,
-        newHireDatc2018Q1,
-        newHireDatg2018Q1
-    })
+    console.log("Maryland New Hires by Education", {newHireDatc2017Q1}, {newHireDatc2018Q1} )
 
-    let displayAvgQuarterTab2 = (quarter,agec,gendc,agea,genda)=>{
-        console.log('lookatdis', agea)
+    let displayAvgQuarterTab2 = (quarter,jobChangeCount,jobChangeGender,newHireCount,newHireGender,)=>{
         return `
                <tr class="HeadRow">
                   <th>${quarter}</th>
@@ -596,23 +615,23 @@ import * as dimple from 'dimple';
                </tr>
                <tr>
                   <th>New Hires</th>
-                  <td>${cma(findEdu(agec, 1))}</td>
-                  <td>${cma(findEdu(agec, 2))}</td>
-                  <td>${cma(findEdu(agec, 3))}</td>
-                  <td>${cma(findEdu(agec, 4))}</td>
-                  <td>${cma(findEdu(agec, 0))}</td>
-                  <td>${cma(findGender(genda, 0))}</td>
-                  <td>${cma(findGender(genda, 1))}</td>
+                  <td>${cma(findEdu(newHireCount, 1))}</td>
+                  <td>${cma(findEdu(newHireCount, 2))}</td>
+                  <td>${cma(findEdu(newHireCount, 3))}</td>
+                  <td>${cma(findEdu(newHireCount, 4))}</td>
+                  <td>${cma(findEdu(newHireCount, 0))}</td>
+                  <td>${cma(findGender(newHireGender, 0))}</td>
+                  <td>${cma(findGender(newHireGender, 1))}</td>
                </tr>
                <tr class="FootRow">
                   <th >Job Net Change</th>
-                  <td>${cma(findEdu(agea, 1))}</td>
-                  <td>${cma(findEdu(agea, 2))}</td>
-                  <td>${cma(findEdu(agea, 3))}</td>
-                  <td>${cma(findEdu(agea, 4))}</td>
-                  <td>${cma(findEdu(agea, 0))}</td>
-                  <td>${cma(findGender(genda, 0))}</td>
-                  <td>${cma(findGender(genda, 1))}</td>
+                  <td>${cma(findEdu(jobChangeCount, 1))}</td>
+                  <td>${cma(findEdu(jobChangeCount, 2))}</td>
+                  <td>${cma(findEdu(jobChangeCount, 3))}</td>
+                  <td>${cma(findEdu(jobChangeCount, 4))}</td>
+                  <td>${cma(findEdu(jobChangeCount, 0))}</td>
+                  <td>${cma(findGender(jobChangeGender, 0))}</td>
+                  <td>${cma(findGender(jobChangeGender, 1))}</td>
                </tr>`
     }
     // console.log('filter', jobDatc2018Q2, jobDatg2018Q2, newHireDatc2018Q2, newHireDatg2018Q2)
@@ -944,14 +963,14 @@ import * as dimple from 'dimple';
     window.hiredata7 = dimple.filterData(iwData5, "Time", "2017Q3");
     window.hiredata8 = dimple.filterData(iwData5, "Time", "2017Q4");
     window.hiredata9 = dimple.filterData(iwData5, "Time", "2018Q1");
-    window.hiredata10 = dimple.filterData(iwData5, "Time", "2018Q1");
-    window.hiredata11 = dimple.filterData(iwData5, "Time", "2018Q1");
-    window.hiredata12 = dimple.filterData(iwData5, "Time", "2018Q1");
+    window.hiredata10 = dimple.filterData(iwData5, "Time", "2018Q2");
+    window.hiredata11 = dimple.filterData(iwData5, "Time", "2018Q3");
+    window.hiredata12 = dimple.filterData(iwData5, "Time", "2018Q4");
     window.hiredata13 = dimple.filterData(iwData5, "Time", "2019Q1");
     window.hiredata14 = dimple.filterData(iwData5, "Time", "2019Q2");
     window.hiredata15 = dimple.filterData(iwData5, "Time", "2019Q3");
     window.hiredata16 = dimple.filterData(iwData5, "Time", "2019Q4");
-
+    /*
     console.log("LWDA By Industry", {
         iwdata8,
         hiredata8,
@@ -959,10 +978,11 @@ import * as dimple from 'dimple';
         netdata8,
         turndata8
     })
+    */
 
     window.displayIndustryMetricsTable = (wdatax,hiredatax,avgdatax,netdatax,turndatax)=>{
 
-        console.log('displayIndustryMetricsTable', {wdatax,hiredatax,avgdatax,netdatax,turndatax} )
+        // console.log('displayIndustryMetricsTable', {wdatax,hiredatax,avgdatax,netdatax,turndatax} )
         let tableOrder = ['Agriculture, Forestry, Fishing and Hunting', 'Mining, Quarrying, and Oil and Gas Extraction', 'Utilities', 'Construction', 'Manufacturing', 'Wholesale Trade', 'Retail Trade', 'Transportation and Warehousing', 'Information', 'Finance and Insurance', 'Real Estate and Rental and Leasing', 'Professional, Scientific, and Technical Services', 'Management of Companies and Enterprises', 'Administrative and Support and Waste Management and Remediation Services', 'Educational Services', 'Health Care and Social Assistance', 'Arts, Entertainment, and Recreation', 'Accommodation and Food Services', 'Other Services (except Public Administration)', 'Public Administration']
         let filterForData = (objArr,indx)=>{
             return objArr.filter(obj=>{
@@ -1446,6 +1466,59 @@ import * as dimple from 'dimple';
 
     //chart 8 button
 
+    window.indsList = [
+      "Agriculture, Forestry, Fishing and Hunting",
+      "Mining, Quarrying, and Oil and Gas Extraction",
+      "Utilities",
+      "Construction",
+      "Manufacturing",
+      "Wholesale Trade",
+      "Retail Trade",
+      "Transportation and Warehousing",
+      "Information",
+      "Finance and Insurance",
+      "Real Estate and Rental and Leasing",
+      "Professional, Scientific, and Technical Services",
+      "Management of Companies and Enterprises",
+      "Administrative and Support and Waste Management and Remediation Services",
+      "Educational Services",      
+      "Health Care and Social Assistance",
+      "Arts, Entertainment, and Recreation",
+      "Accommodation and Food Services",
+      "Other Services (except Public Administration)",
+      "Public Administration",
+    ]
+    window.findIndustry = (objArr,indx)=>{
+        let returnThis = objArr.filter(obj=>{
+            return obj['Indicator_Value'] == window.indsList[indx]
+        }
+        )[0]
+        returnThis = returnThis == undefined ? '--' : returnThis['Amount']
+        // console.log('findGender:', objArr, indx, returnThis)
+        return returnThis
+    }
+
+    let showRecordSepeartions = (y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16,pos)=>{
+      return `<tr>
+	    <td>${ window.indsList[pos] }</td>
+	    <td>${ cma( findIndustry(y1,pos) ) }</td> 
+	    <td>${ cma( findIndustry(y2, pos) ) }</td> 
+	    <td>${ cma( findIndustry(y3, pos) ) }</td> 
+	    <td>${ cma( findIndustry(y4, pos) ) }</td> 
+	    <td>${ cma( findIndustry(y5, pos) ) }</td> 
+	    <td>${ cma( findIndustry(y6, pos) ) }</td> 
+	    <td>${ cma( findIndustry(y7, pos) ) }</td> 
+	    <td>${ cma( findIndustry(y8, pos) ) }</td> 
+	    <td>${ cma( findIndustry(y9, pos) ) }</td> 
+	    <td>${ cma( findIndustry(y10, pos) ) }</td> 
+	    <td>${ cma( findIndustry(y11, pos) ) }</td> 
+	    <td>${ cma( findIndustry(y12, pos) ) }</td> 
+	    <td>${ cma( findIndustry(y13, pos) ) }</td> 
+	    <td>${ cma( findIndustry(y14, pos) ) }</td> 
+	    <td>${ cma( findIndustry(y15, pos) ) }</td> 
+	    <td>${ cma( findIndustry(y16, pos) ) }</td> 
+      </tr>`
+    }
     let showRecord = (y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16,pos)=>{
         return `<tr>
 	    <td>${y1[pos]["Indicator_Value"]}
@@ -1485,66 +1558,55 @@ import * as dimple from 'dimple';
 	    <td>${cma(!y13[pos] ? '--' : y13[pos]["Amount"])}</td> 
 	    <td>${cma(!y14[pos] ? '--' : y14[pos]["Amount"])}</td> 
 	    <td>${cma(!y15[pos] ? '--' : y15[pos]["Amount"])}</td> 
-	    <td>${cma(!y16[pos] ? '--' : y16[pos]["Amount"])}</td> 
 	    </tr>
   `
     }
-    let notMdisepdata = CountyName == 'Maryland' ? (y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16)=>{
-        return ''
-    }
-    : (y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16)=>{
-        return `
-               <thead>
-                <tr> <th class="HeadRow">Separations by Industry</th> 
-                  <th class="HeadRow">2016Q1</th>
-                  <th class="HeadRow">2016Q2</th>
-                  <th class="HeadRow">2016Q3</th>
-                  <th class="HeadRow">2016Q4</th>
-                  <th class="HeadRow">2017Q1</th>
-                  <th class="HeadRow">2017Q2</th>
-                  <th class="HeadRow">2017Q3</th>
-                  <th class="HeadRow">2017Q4</th> 
-                  <th class="HeadRow">2018Q1</th>
-                  <th class="HeadRow">2018Q2</th>
-                  <th class="HeadRow">2018Q3</th>
-                  <th class="HeadRow">2018Q4</th>
-                  <th class="HeadRow">2019Q1</th>
-                  <th class="HeadRow">2019Q2</th>
-                  <th class="HeadRow">2019Q3</th>
-                  <th class="HeadRow">2019Q4</th> 
-                </tr>
-               </thead>
-               <tbody>
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 13)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 18)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 19)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 5)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 11)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 10)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 2)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 0)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 12)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 14)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 15)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 7)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 17)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 3)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 6)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 4)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 8)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 1)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 9)}
-                  ${showRecord(y1, y2, y3, y4, y5, y6, y7, y8, y9, y10, y11, y12, y13, y14, y15, y16, 16)}
-               </tbody>
-  `
-    }
+    console.log({isepdata8})
+    let notMdisepdata = CountyName == 'Maryland' ? '' : `
+       <thead>
+        <tr> <th class="HeadRow">Separations by Industry</th> 
+          <th class="HeadRow">2016Q1</th>
+          <th class="HeadRow">2016Q2</th>
+          <th class="HeadRow">2016Q3</th>
+          <th class="HeadRow">2016Q4</th>
+          <th class="HeadRow">2017Q1</th>
+          <th class="HeadRow">2017Q2</th>
+          <th class="HeadRow">2017Q3</th>
+          <th class="HeadRow">2017Q4</th> 
+          <th class="HeadRow">2018Q1</th>
+          <th class="HeadRow">2018Q2</th>
+          <th class="HeadRow">2018Q3</th>
+          <th class="HeadRow">2018Q4</th>
+          <th class="HeadRow">2019Q1</th>
+          <th class="HeadRow">2019Q2</th>
+          <th class="HeadRow">2019Q3</th>
+        </tr>
+       </thead>
+       <tbody>
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 0)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 1)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 2)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 3)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 4)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 5)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 6)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 7)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 8)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 9)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 10)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 11)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 12)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 13)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 14)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 15)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 16)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 17)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 18)}
+          ${showRecordSepeartions(isepdata1, isepdata2, isepdata3, isepdata4, isepdata5, isepdata6, isepdata7, isepdata8, isepdata9, isepdata10, isepdata11, isepdata12, isepdata13, isepdata14, isepdata15, isepdata16, 19)}
+       </tbody>
+    `
     document.getElementById('table15').innerHTML = `
-       ${notMdisepdata(
-         isepdata1, isepdata2, isepdata3, isepdata4, 
-         isepdata5, isepdata6, isepdata7, isepdata8,
-         isepdata9, isepdata10, isepdata11, isepdata12, 
-         isepdata13, isepdata14, isepdata15, isepdata16
-         )}
+       ${ notMdisepdata }
        <thead>
         <tr> <th class="HeadRow">Separations by Gender</th> 
           <th class="HeadRow">2016Q1</th>
@@ -1562,7 +1624,6 @@ import * as dimple from 'dimple';
           <th class="HeadRow">2019Q1</th>
           <th class="HeadRow">2019Q2</th>
           <th class="HeadRow">2019Q3</th>
-          <th class="HeadRow">2019Q4</th> 
         </tr>
        </thead>
        <tbody>
@@ -1594,7 +1655,6 @@ import * as dimple from 'dimple';
           <th class="HeadRow">2019Q1</th>
           <th class="HeadRow">2019Q2</th>
           <th class="HeadRow">2019Q3</th>
-          <th class="HeadRow">2019Q4</th> 
         </tr>
        </thead>
        <tbody>
@@ -1641,7 +1701,6 @@ import * as dimple from 'dimple';
           <th class="HeadRow">2019Q1</th>
           <th class="HeadRow">2019Q2</th>
           <th class="HeadRow">2019Q3</th>
-          <th class="HeadRow">2019Q4</th> 
         </tr>
        </thead>
        <tbody>
