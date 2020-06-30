@@ -1236,9 +1236,9 @@ Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education,2016Q3,E2,"Hi
 Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education,2017Q3,E2,"High school or equivalent, no college",0.078
 Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education,2018Q3,E2,"High school or equivalent, no college",0.08
 Job Change,Southern Maryland WIA,Maryland Job Net Change by Industry,2016Q2,71,"Arts, Entertainment, and Recreation",1564
-Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education ,2018Q1,E2,"High school or equivalent, no college",0.081
+Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education,2018Q1,E2,"High school or equivalent, no college",0.081
 Workers,Southern Maryland WIA,Maryland Workers by Industry,2019Q3,42,Wholesale Trade,1566
-Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education ,2019Q1,E2,"High school or equivalent, no college",0.081
+Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education,2019Q1,E2,"High school or equivalent, no college",0.081
 New Hires,Southern Maryland WIA,Maryland New Hires by Industry,2018Q1,23,Construction,1569
 Job Change,Southern Maryland WIA,Maryland Job Net Change by Education,2017Q1,E2,"High school or equivalent, no college",143
 Workers,Southern Maryland WIA,Maryland Workers by Industry,2019Q2,22,Utilities,1577
@@ -2158,11 +2158,11 @@ Separations,Southern Maryland WIA,Maryland Separations by Industry,2017Q3,52,Fin
 Earnings,Southern Maryland WIA,Maryland Average Earnings by Industry,2018Q3,54,"Professional, Scientific, and Technical Services",7034
 Job Change,Southern Maryland WIA,Maryland Job Net Change by Industry,2018Q3,54,"Professional, Scientific, and Technical Services",7034
 Separations,Southern Maryland WIA,Maryland Separations by Gender All,2017Q2,0,All,47631
-Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education ,2018Q1,E1,Less than High school,0.096
+Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education,2018Q1,E1,Less than High school,0.096
 Separations,Southern Maryland WIA,Maryland Separations by Industry,2017Q3,92,Public Administration,1685
 Earnings,Southern Maryland WIA,Maryland Average Earnings by Industry,2016Q1,54,"Professional, Scientific, and Technical Services",7073
 Separations,Southern Maryland WIA,Maryland Separations by Industry,2017Q3,81,Other Services (except Public Administration),2101
-Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education ,2019Q1,E1,Less than High school,0.097
+Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education,2019Q1,E1,Less than High school,0.097
 Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education,2018Q3,E1,Less than High school,0.098
 Earnings,Southern Maryland WIA,Maryland Average Earnings by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",7109
 Separations,Southern Maryland WIA,Maryland Separations by Industry,2017Q3,23,Construction,2355
@@ -2877,11 +2877,11 @@ Separations,Southern Maryland WIA,Maryland Separations by Industry,2019Q2,71,"Ar
 Separations,Southern Maryland WIA,Maryland Separations by Industry,2019Q2,48-49,Transportation and Warehousing,518
 Separations,Southern Maryland WIA,Maryland Separations by Industry,2019Q2,81,Other Services (except Public Administration),550
 Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education,2018Q3,E3,Some college or Associate degree,0.075
-Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education ,2019Q1,E3,Some college or Associate degree,0.077
+Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education,2019Q1,E3,Some college or Associate degree,0.077
 Separations,Southern Maryland WIA,Maryland Separations by Industry,2019Q2,56,Administrative and Support and Waste Management and Remediation Services,812
 Separations,Southern Maryland WIA,Maryland Separations by Industry,2019Q2,23,Construction,1043
 Separations,Southern Maryland WIA,Maryland Separations by Industry,2019Q2,54,"Professional, Scientific, and Technical Services",1274
-Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education ,2018Q1,E3,Some college or Associate degree,0.078
+Turnover,Southern Maryland WIA,Maryland Turnover Rate by Education,2018Q1,E3,Some college or Associate degree,0.078
 Separations,Southern Maryland WIA,Maryland Separations by Industry,2019Q2,61,Educational Services,1280
 Job Change,Southern Maryland WIA,Maryland Job Net Change by Education,2017Q1,E3,Some college or Associate degree,170
 Workers,Southern Maryland WIA,Maryland Workers by Gender All,2016Q2,0,All,334380

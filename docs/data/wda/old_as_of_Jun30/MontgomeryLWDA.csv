@@ -524,21 +524,21 @@ Separations,Montgomery WIA,Maryland Separations by Education All,2018Q4,E0,All E
 Separations,Montgomery WIA,Maryland Separations by Education All,2019Q1,E0,All Education Categories,50469
 Separations,Montgomery WIA,Maryland Separations by Education All,2019Q2,E0,All Education Categories,61610
 Separations,Montgomery WIA,Maryland Separations by Education All,2019Q3,E0,All Education Categories,N/A
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q1,E4,Bachelor's degree or advanced degree,0.063
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q2,E4,Bachelor's degree or advanced degree,0.064
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q3,E4,Bachelor's degree or advanced degree,0.062
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q4,E4,Bachelor's degree or advanced degree,0.059
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q1,E4,Bachelor's degree or advanced degree,0.061
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q2,E4,Bachelor's degree or advanced degree,0.058
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q3,E4,Bachelor's degree or advanced degree,0.061
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q4,E4,Bachelor's degree or advanced degree,0.057
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q1,E4,Bachelor's degree or advanced degree,0.062
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q2,E4,Bachelor's degree or advanced degree,0.059
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q3,E4,Bachelor's degree or advanced degree,0.063
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q4,E4,Bachelor's degree or advanced degree,0.058
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q1,E4,Bachelor's degree or advanced degree,0.064
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q2,E4,Bachelor's degree or advanced degree,N/A
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2016Q1,E0,All Education Categories,0.085
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2016Q2,E0,All Education Categories,0.086
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2016Q3,E0,All Education Categories,0.086
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2016Q4,E0,All Education Categories,0.083
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2017Q1,E0,All Education Categories,0.082
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2017Q2,E0,All Education Categories,0.08
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2017Q3,E0,All Education Categories,0.085
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2017Q4,E0,All Education Categories,0.08
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2018Q1,E0,All Education Categories,0.081
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2018Q2,E0,All Education Categories,0.081
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2018Q3,E0,All Education Categories,0.087
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2018Q4,E0,All Education Categories,0.079
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2019Q1,E0,All Education Categories,0.083
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2019Q2,E0,All Education Categories,N/A
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2019Q3,E0,All Education Categories,N/A
 Job Change,Montgomery WIA,Maryland Job Net Change by Education,2016Q1,E4,Bachelor's degree or advanced degree,3073
 Job Change,Montgomery WIA,Maryland Job Net Change by Education,2016Q2,E4,Bachelor's degree or advanced degree,-57
 Job Change,Montgomery WIA,Maryland Job Net Change by Education,2016Q3,E4,Bachelor's degree or advanced degree,-337
@@ -1069,21 +1069,21 @@ Separations,Montgomery WIA,Maryland Separations by Education,2018Q4,E4,Bachelor'
 Separations,Montgomery WIA,Maryland Separations by Education,2019Q1,E4,Bachelor's degree or advanced degree,11825
 Separations,Montgomery WIA,Maryland Separations by Education,2019Q2,E4,Bachelor's degree or advanced degree,14482
 Separations,Montgomery WIA,Maryland Separations by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),0.195
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),0.205
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),0.212
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),0.208
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),0.19
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),0.206
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),0.21
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),0.198
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),0.185
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),0.201
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),0.209
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),0.195
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),0.189
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),N/A
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q1,E4,Bachelor's degree or advanced degree,0.063
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q2,E4,Bachelor's degree or advanced degree,0.064
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q3,E4,Bachelor's degree or advanced degree,0.062
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q4,E4,Bachelor's degree or advanced degree,0.059
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q1,E4,Bachelor's degree or advanced degree,0.061
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q2,E4,Bachelor's degree or advanced degree,0.058
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q3,E4,Bachelor's degree or advanced degree,0.061
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q4,E4,Bachelor's degree or advanced degree,0.057
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q1,E4,Bachelor's degree or advanced degree,0.062
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q2,E4,Bachelor's degree or advanced degree,0.059
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q3,E4,Bachelor's degree or advanced degree,0.063
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q4,E4,Bachelor's degree or advanced degree,0.058
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q1,E4,Bachelor's degree or advanced degree,0.064
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q2,E4,Bachelor's degree or advanced degree,N/A
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
 Job Change,Montgomery WIA,Maryland Job Net Change by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),2148
 Job Change,Montgomery WIA,Maryland Job Net Change by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),10933
 Job Change,Montgomery WIA,Maryland Job Net Change by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),-4000
@@ -1129,21 +1129,21 @@ Separations,Montgomery WIA,Maryland Separations by Education,2018Q4,E5,Education
 Separations,Montgomery WIA,Maryland Separations by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),11257
 Separations,Montgomery WIA,Maryland Separations by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),13689
 Separations,Montgomery WIA,Maryland Separations by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q1,E2,"High school or equivalent, no college",0.081
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q2,E2,"High school or equivalent, no college",0.081
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q3,E2,"High school or equivalent, no college",0.082
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q4,E2,"High school or equivalent, no college",0.079
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q1,E2,"High school or equivalent, no college",0.078
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q2,E2,"High school or equivalent, no college",0.075
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q3,E2,"High school or equivalent, no college",0.081
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q4,E2,"High school or equivalent, no college",0.076
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q2,E2,"High school or equivalent, no college",0.076
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q3,E2,"High school or equivalent, no college",0.083
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q4,E2,"High school or equivalent, no college",0.075
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q2,E2,"High school or equivalent, no college",N/A
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q3,E2,"High school or equivalent, no college",N/A
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q1,E1,Less than High school,0.087
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q2,E1,Less than High school,0.087
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),0.195
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),0.205
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),0.212
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),0.208
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),0.19
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),0.206
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),0.21
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),0.198
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),0.185
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),0.201
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),0.209
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),0.195
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),0.189
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),N/A
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
 New Hires,Montgomery WIA,Maryland New Hires by Gender,2016Q1,2,Female,30305
 New Hires,Montgomery WIA,Maryland New Hires by Gender,2016Q1,1,Male,26234
 New Hires,Montgomery WIA,Maryland New Hires by Gender,2016Q2,2,Female,34670
@@ -1669,21 +1669,21 @@ Separations,Montgomery WIA,Maryland Separations by Education,2018Q4,E2,"High sch
 Separations,Montgomery WIA,Maryland Separations by Education,2019Q1,E2,"High school or equivalent, no college",9568
 Separations,Montgomery WIA,Maryland Separations by Education,2019Q2,E2,"High school or equivalent, no college",11633
 Separations,Montgomery WIA,Maryland Separations by Education,2019Q3,E2,"High school or equivalent, no college",N/A
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q3,E1,Less than High school,0.09
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q4,E1,Less than High school,0.084
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q1,E1,Less than High school,0.083
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q2,E1,Less than High school,0.081
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q3,E1,Less than High school,0.088
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q4,E1,Less than High school,0.081
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q2,E1,Less than High school,0.082
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q3,E1,Less than High school,0.089
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q4,E1,Less than High school,0.08
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q2,E1,Less than High school,N/A
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q3,E1,Less than High school,N/A
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q1,E3,Some college or Associate degree,0.076
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q2,E3,Some college or Associate degree,0.076
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q3,E3,Some college or Associate degree,0.075
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q4,E3,Some college or Associate degree,0.073
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q1,E2,"High school or equivalent, no college",0.081
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q2,E2,"High school or equivalent, no college",0.081
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q3,E2,"High school or equivalent, no college",0.082
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q4,E2,"High school or equivalent, no college",0.079
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q1,E2,"High school or equivalent, no college",0.078
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q2,E2,"High school or equivalent, no college",0.075
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q3,E2,"High school or equivalent, no college",0.081
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q4,E2,"High school or equivalent, no college",0.076
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q2,E2,"High school or equivalent, no college",0.076
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q3,E2,"High school or equivalent, no college",0.083
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q4,E2,"High school or equivalent, no college",0.075
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q2,E2,"High school or equivalent, no college",N/A
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q3,E2,"High school or equivalent, no college",N/A
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education ,2018Q1,E2,"High school or equivalent, no college",0.078
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education ,2019Q1,E2,"High school or equivalent, no college",0.08
 Job Change,Montgomery WIA,Maryland Job Net Change by Education,2016Q1,E1,Less than High school,854
 Job Change,Montgomery WIA,Maryland Job Net Change by Education,2016Q2,E1,Less than High school,564
 Job Change,Montgomery WIA,Maryland Job Net Change by Education,2016Q3,E1,Less than High school,135
@@ -2074,21 +2074,21 @@ Separations,Montgomery WIA,Maryland Separations by Education,2018Q4,E1,Less than
 Separations,Montgomery WIA,Maryland Separations by Education,2019Q1,E1,Less than High school,6833
 Separations,Montgomery WIA,Maryland Separations by Education,2019Q2,E1,Less than High school,8336
 Separations,Montgomery WIA,Maryland Separations by Education,2019Q3,E1,Less than High school,N/A
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q1,E3,Some college or Associate degree,0.073
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q2,E3,Some college or Associate degree,0.069
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q3,E3,Some college or Associate degree,0.074
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q4,E3,Some college or Associate degree,0.071
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q2,E3,Some college or Associate degree,0.071
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q3,E3,Some college or Associate degree,0.077
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q4,E3,Some college or Associate degree,0.07
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q2,E3,Some college or Associate degree,N/A
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q3,E3,Some college or Associate degree,N/A
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q1,E2,"High school or equivalent, no college",0.078
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q1,E2,"High school or equivalent, no college",0.08
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q1,E1,Less than High school,0.082
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q1,E1,Less than High school,0.084
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q1,E3,Some college or Associate degree,0.073
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q1,E3,Some college or Associate degree,0.075
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q1,E1,Less than High school,0.087
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q2,E1,Less than High school,0.087
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q3,E1,Less than High school,0.09
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q4,E1,Less than High school,0.084
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q1,E1,Less than High school,0.083
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q2,E1,Less than High school,0.081
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q3,E1,Less than High school,0.088
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q4,E1,Less than High school,0.081
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q2,E1,Less than High school,0.082
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q3,E1,Less than High school,0.089
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q4,E1,Less than High school,0.08
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q2,E1,Less than High school,N/A
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q3,E1,Less than High school,N/A
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education ,2018Q1,E1,Less than High school,0.082
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education ,2019Q1,E1,Less than High school,0.084
 Job Change,Montgomery WIA,Maryland Job Net Change by Education,2016Q1,E3,Some college or Associate degree,2098
 Job Change,Montgomery WIA,Maryland Job Net Change by Education,2016Q2,E3,Some college or Associate degree,217
 Job Change,Montgomery WIA,Maryland Job Net Change by Education,2016Q3,E3,Some college or Associate degree,-49
@@ -2134,21 +2134,21 @@ Separations,Montgomery WIA,Maryland Separations by Education,2018Q4,E3,Some coll
 Separations,Montgomery WIA,Maryland Separations by Education,2019Q1,E3,Some college or Associate degree,10987
 Separations,Montgomery WIA,Maryland Separations by Education,2019Q2,E3,Some college or Associate degree,13470
 Separations,Montgomery WIA,Maryland Separations by Education,2019Q3,E3,Some college or Associate degree,N/A
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2016Q1,E0,All Education Categories,0.085
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2016Q2,E0,All Education Categories,0.086
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2016Q3,E0,All Education Categories,0.086
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2016Q4,E0,All Education Categories,0.083
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2017Q1,E0,All Education Categories,0.082
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2017Q2,E0,All Education Categories,0.08
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2017Q3,E0,All Education Categories,0.085
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2017Q4,E0,All Education Categories,0.08
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2018Q1,E0,All Education Categories,0.081
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2018Q2,E0,All Education Categories,0.081
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2018Q3,E0,All Education Categories,0.087
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2018Q4,E0,All Education Categories,0.079
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2019Q1,E0,All Education Categories,0.083
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2019Q2,E0,All Education Categories,N/A
-Turnover,Montgomery WIA,Maryland Turnover Rate by Education All,2019Q3,E0,All Education Categories,N/A
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q1,E3,Some college or Associate degree,0.076
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q2,E3,Some college or Associate degree,0.076
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q3,E3,Some college or Associate degree,0.075
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2016Q4,E3,Some college or Associate degree,0.073
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q1,E3,Some college or Associate degree,0.073
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q2,E3,Some college or Associate degree,0.069
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q3,E3,Some college or Associate degree,0.074
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2017Q4,E3,Some college or Associate degree,0.071
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q2,E3,Some college or Associate degree,0.071
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q3,E3,Some college or Associate degree,0.077
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2018Q4,E3,Some college or Associate degree,0.07
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q2,E3,Some college or Associate degree,N/A
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education,2019Q3,E3,Some college or Associate degree,N/A
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education ,2018Q1,E3,Some college or Associate degree,0.073
+Turnover,Montgomery WIA,Maryland Turnover Rate by Education ,2019Q1,E3,Some college or Associate degree,0.075
 Turnover,Montgomery WIA,Maryland Turnover Rate by Gender,2016Q1,2,Female,0.086
 Turnover,Montgomery WIA,Maryland Turnover Rate by Gender,2016Q1,1,Male,0.083
 Turnover,Montgomery WIA,Maryland Turnover Rate by Gender,2016Q2,2,Female,0.089

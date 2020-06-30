@@ -1590,10 +1590,10 @@ Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,53,Real Esta
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q2,44-45,Retail Trade,2788
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,44-45,Retail Trade,2788
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,11,"Agriculture, Forestry, Fishing and Hunting",226
-Turnover,Susquehanna WIA,Maryland Turnover Rate by Education ,2019Q1,E2,"High school or equivalent, no college",0.081
+Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2019Q1,E2,"High school or equivalent, no college",0.081
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q2,81,Other Services (except Public Administration),2816
 New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2016Q1,0,All,17245
-Turnover,Susquehanna WIA,Maryland Turnover Rate by Education ,2018Q1,E2,"High school or equivalent, no college",0.082
+Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2018Q1,E2,"High school or equivalent, no college",0.082
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,52,Finance and Insurance,246
 New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,44-45,Retail Trade,2820
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q1,81,Other Services (except Public Administration),2821
@@ -2067,11 +2067,11 @@ Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q2,A05,35-
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q1,A05,35-44,4496
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q3,A05,35-44,4505
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q1,A06,45-54,4507
-Turnover,Susquehanna WIA,Maryland Turnover Rate by Education ,2018Q1,E1,Less than High school,0.1
+Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2018Q1,E1,Less than High school,0.1
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q1,56,Administrative and Support and Waste Management and Remediation Services,4541
 Separations,Susquehanna WIA,Maryland Separations by Industry,2018Q1,71,"Arts, Entertainment, and Recreation",289
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q1,56,Administrative and Support and Waste Management and Remediation Services,4563
-Turnover,Susquehanna WIA,Maryland Turnover Rate by Education ,2019Q1,E1,Less than High school,0.1
+Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2019Q1,E1,Less than High school,0.1
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q2,A07,55-64,4580
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q3,A05,35-44,4585
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q4,A05,35-44,4600
@@ -2878,8 +2878,8 @@ Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,21,"Mining, 
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,22,Utilities,N/A
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,23,Construction,N/A
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2016Q3,E3,Some college or Associate degree,0.079
-Turnover,Susquehanna WIA,Maryland Turnover Rate by Education ,2018Q1,E3,Some college or Associate degree,0.08
-Turnover,Susquehanna WIA,Maryland Turnover Rate by Education ,2019Q1,E3,Some college or Associate degree,0.08
+Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2018Q1,E3,Some college or Associate degree,0.08
+Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2019Q1,E3,Some college or Associate degree,0.08
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2017Q3,E3,Some college or Associate degree,0.082
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2018Q3,E3,Some college or Associate degree,0.082
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2016Q2,E3,Some college or Associate degree,0.085
