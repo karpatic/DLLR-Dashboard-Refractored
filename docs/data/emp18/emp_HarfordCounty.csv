@@ -48,8 +48,8 @@ Race,,,,,,
 ,,full-time,,,616,197
 ,N/A,,,,,
 ,,Not working,8625,8558,9414,8387
-,,part time,0,0,,
-,,full time,0,0,,
+,,part time,,,,
+,,full time,,,,
 ,No School,,,,,
 ,,Not working,6729,6273,5657,5600
 ,,part-time,92,60,138,226
@@ -60,11 +60,11 @@ Race,,,,,,
 ,,full time,,517,,181
 ,Kindergarten,,,,,
 ,,Not working,2078,3836,3758,2672
-,,part time,0,0,,
+,,part time,,,,
 ,,full time,,111,,
 ,Less than Highschool,,,,,
 ,,Not working,26683,26587,25446,25853
-,,part time,0,116,387,131
+,,part time,,116,387,131
 ,,full time,175,159,824,539
 ,Some Highschool,,,,,
 ,,Not working,14116,13482,14623,11895

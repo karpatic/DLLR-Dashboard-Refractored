@@ -9,7 +9,7 @@ Gender,,,,,,
 ,,Not working,72191,70870,73601,73923
 ,,part-time,16670,19879,19137,19980
 ,,full-time,70548,73396,73163,71920
-Race,,--------------------------------------------,,,,
+Race,,,,,,
 ,White,,,,,
 ,,Not working,69616,69777,71076,71152
 ,,part-time,18963,20095,16233,20423
@@ -49,19 +49,19 @@ Race,,--------------------------------------------,,,,
 Education,,,,,,
 ,N/A,,,,,
 ,,Not working,10169,10278,11519,10129
-,,part time,0,0,,
-,,full time,0,0,,
+,,part time,,,,
+,,full time,,,,
 ,No School,,,,,
 ,,Not working,6558,7689,6788,10337
 ,,part-time,,128,,
 ,,full-time,904,590,855,1188
 ,Nursery,,,,,
 ,,Not working,6717,4722,6487,4939
-,,part time,0,164,,
+,,part time,,164,,
 ,,full time,,81,118,
 ,Kindergarten,,,,,
 ,,Not working,3365,2321,3986,3987
-,,part time,0,0,,
+,,part time,,,,
 ,,full time,,,,
 ,Less than Highschool,,,,,
 ,,Not working,38539,41366,36849,37900
