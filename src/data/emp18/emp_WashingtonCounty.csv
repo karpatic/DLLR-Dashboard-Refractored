@@ -49,8 +49,8 @@ Race,,,,,,
 Education,,,,,,
 ,N/A,,,,,
 ,,Not working,4781,4430,4888,4697
-,,part time,0,0,,
-,,full time,0,0,,
+,,part time,,,,
+,,full time,,,,
 ,No School,,,,,
 ,,Not working,4440,5035,3788,3803
 ,,part-time,,79,566,
@@ -65,7 +65,7 @@ Education,,,,,,
 ,,full time,,,,
 ,Less than Highschool,,,,,
 ,,Not working,17397,17418,17277,16964
-,,part time,403,147,0,78
+,,part time,403,147,,78
 ,,full time,91,319,705,802
 ,Some Highschool,,,,,
 ,,Not working,13215,12098,9696,11806

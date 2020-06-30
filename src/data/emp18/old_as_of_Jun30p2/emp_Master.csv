@@ -49,8 +49,8 @@ AlleganyCounty,,,full-time,158,1603,788,1200
 AlleganyCounty,Education,,,,,,
 AlleganyCounty,,N/A,,,,,
 AlleganyCounty,,,Not working,20324,19710,18647,19943
-AlleganyCounty,,,part time,,,,
-AlleganyCounty,,,full time,,,,
+AlleganyCounty,,,part time,0,0,,
+AlleganyCounty,,,full time,0,0,,
 AlleganyCounty,,No School,,,,,
 AlleganyCounty,,,Not working,16209,15561,14284,13801
 AlleganyCounty,,,part-time,,490,253,502
@@ -183,20 +183,20 @@ AnneArundelCounty,,,full time,630,"2,339","1,666",
 AnneArundelCounty,Education,,,,,,
 AnneArundelCounty,,N/A,,,,,
 AnneArundelCounty,,,Not working,"39,859","39,267","37,979",
-AnneArundelCounty,,,part time,,,,
-AnneArundelCounty,,,full time,,,,
+AnneArundelCounty,,,part time, -   , -   , -   ,
+AnneArundelCounty,,,full time, -   , -   , -   ,
 AnneArundelCounty,,No School,,,,,
 AnneArundelCounty,,,Not working,"32,266","31,803","29,942",
 AnneArundelCounty,,,part time,207,724,472,
 AnneArundelCounty,,,full time,"1,187","2,211","2,601",
 AnneArundelCounty,,Nursery,,,,,
 AnneArundelCounty,,,Not working,"19,506","19,493","20,489",
-AnneArundelCounty,,,part time,,,,
-AnneArundelCounty,,,full time,,,,
+AnneArundelCounty,,,part time, -   , -   , -   ,
+AnneArundelCounty,,,full time, -   , -   , -   ,
 AnneArundelCounty,,Kindergarten,,,,,
 AnneArundelCounty,,,Not working,"11,593","15,809","14,635",
-AnneArundelCounty,,,part time,,,,
-AnneArundelCounty,,,full time,,,,
+AnneArundelCounty,,,part time, -   , -   , -   ,
+AnneArundelCounty,,,full time, -   , -   , -   ,
 AnneArundelCounty,,Less than Highschool,,,,,
 AnneArundelCounty,,,Not working,"118,115","115,392","119,217",
 AnneArundelCounty,,,part time,"1,427","1,415","1,655",
@@ -585,8 +585,8 @@ CarrollCounty,,,full-time,94,66,237,180
 CarrollCounty,Education,,,,,,
 CarrollCounty,,N/A,,,,,
 CarrollCounty,,,Not working,3463,5099,5430,5370
-CarrollCounty,,,part time,,,,
-CarrollCounty,,,full time,,,,
+CarrollCounty,,,part time,0,0,,
+CarrollCounty,,,full time,0,0,,
 CarrollCounty,,No School,,,,,
 CarrollCounty,,,Not working,4110,3215,2904,4277
 CarrollCounty,,,part-time,70,69,61,
@@ -601,7 +601,7 @@ CarrollCounty,,,part time,,,,
 CarrollCounty,,,full time,,,,
 CarrollCounty,,Less than Highschool,,,,,
 CarrollCounty,,,Not working,20190,17713,17130,16975
-CarrollCounty,,,part time,134,,,165
+CarrollCounty,,,part time,134,0,0,165
 CarrollCounty,,,full time,93,647,891,189
 CarrollCounty,,Some Highschool,,,,,
 CarrollCounty,,,Not working,10166,8660,9830,9910
@@ -719,8 +719,8 @@ Cecil County,,,full time,,128,19,324
 Cecil County,Education,,,,,,
 Cecil County,,N/A,,,,,
 Cecil County,,,Not working,2001,2925,3033,3754
-Cecil County,,,part time,,,,
-Cecil County,,,full time,,,,
+Cecil County,,,part time,0,0,,
+Cecil County,,,full time,0,0,,
 Cecil County,,No School,,,,,
 Cecil County,,,Not working,2066,3639,3245,1718
 Cecil County,,,part time,,,,
@@ -735,7 +735,7 @@ Cecil County,,,part time,,,,
 Cecil County,,,full time,,,,
 Cecil County,,Less than Highschool,,,,,
 Cecil County,,,Not working,12719,11647,12059,11920
-Cecil County,,,part time,500,,,230
+Cecil County,,,part time,500,0,0,230
 Cecil County,,,full time,353,393,86,289
 Cecil County,,Some Highschool,,,,,
 Cecil County,,,Not working,6273,5972,4724,4653
@@ -865,11 +865,11 @@ CharlesCounty,,,part time,,,,
 CharlesCounty,,,full time,,,,
 CharlesCounty,,Kindergarten,,,,,
 CharlesCounty,,,Not working,2385,1889,3758,1236
-CharlesCounty,,,part time,,,,
+CharlesCounty,,,part time,0,0,,
 CharlesCounty,,,full time,,,,
 CharlesCounty,,Less than Highschool,,,,,
 CharlesCounty,,,Not working,18895,18812,18167,18906
-CharlesCounty,,,part time,132,,,
+CharlesCounty,,,part time,132,0,0,0
 CharlesCounty,,,full time,222,182,673,187
 CharlesCounty,,Some Highschool,,,,,
 CharlesCounty,,,Not working,8166,8134,11216,8771
@@ -987,8 +987,8 @@ FrederickCounty,,,full-time,269,260,998,330
 FrederickCounty,Education,,,,,,
 FrederickCounty,,N/A,,,,,
 FrederickCounty,,,Not working,9085,7245,9052,8434
-FrederickCounty,,,part time,,,,
-FrederickCounty,,,full time,,,,
+FrederickCounty,,,part time,0,0,,
+FrederickCounty,,,full time,0,0,,
 FrederickCounty,,No School,,,,,
 FrederickCounty,,,Not working,5633,6367,5966,5457
 FrederickCounty,,,part-time,277,347,191,133
@@ -999,7 +999,7 @@ FrederickCounty,,,part time,,,,
 FrederickCounty,,,full time,,,,
 FrederickCounty,,Kindergarten,,,,,
 FrederickCounty,,,Not working,2932,3354,3695,3466
-FrederickCounty,,,part time,,,,
+FrederickCounty,,,part time,0,0,,
 FrederickCounty,,,full time,,,,
 FrederickCounty,,Less than Highschool,,,,,
 FrederickCounty,,,Not working,29729,27591,28402,29119
@@ -1121,8 +1121,8 @@ HarfordCounty,,,full-time,,,616,197
 HarfordCounty,Education,,,,,,
 HarfordCounty,,N/A,,,,,
 HarfordCounty,,,Not working,8625,8558,9414,8387
-HarfordCounty,,,part time,,,,
-HarfordCounty,,,full time,,,,
+HarfordCounty,,,part time,0,0,,
+HarfordCounty,,,full time,0,0,,
 HarfordCounty,,No School,,,,,
 HarfordCounty,,,Not working,6729,6273,5657,5600
 HarfordCounty,,,part-time,92,60,138,226
@@ -1133,11 +1133,11 @@ HarfordCounty,,,part time,,,,
 HarfordCounty,,,full time,,517,,181
 HarfordCounty,,Kindergarten,,,,,
 HarfordCounty,,,Not working,2078,3836,3758,2672
-HarfordCounty,,,part time,,,,
+HarfordCounty,,,part time,0,0,,
 HarfordCounty,,,full time,,111,,
 HarfordCounty,,Less than Highschool,,,,,
 HarfordCounty,,,Not working,26683,26587,25446,25853
-HarfordCounty,,,part time,,116,387,131
+HarfordCounty,,,part time,0,116,387,131
 HarfordCounty,,,full time,175,159,824,539
 HarfordCounty,,Some Highschool,,,,,
 HarfordCounty,,,Not working,14116,13482,14623,11895
@@ -1215,7 +1215,7 @@ HowardCounty,,Female,,,,,
 HowardCounty,,,Not working,72191,70870,73601,73923
 HowardCounty,,,part-time,16670,19879,19137,19980
 HowardCounty,,,full-time,70548,73396,73163,71920
-HowardCounty,Race,,,,,,
+HowardCounty,Race,,--------------------------------------------,,,,
 HowardCounty,,White,,,,,
 HowardCounty,,,Not working,69616,69777,71076,71152
 HowardCounty,,,part-time,18963,20095,16233,20423
@@ -1255,19 +1255,19 @@ HowardCounty,,,full-time,545,488,880,286
 HowardCounty,Education,,,,,,
 HowardCounty,,N/A,,,,,
 HowardCounty,,,Not working,10169,10278,11519,10129
-HowardCounty,,,part time,,,,
-HowardCounty,,,full time,,,,
+HowardCounty,,,part time,0,0,,
+HowardCounty,,,full time,0,0,,
 HowardCounty,,No School,,,,,
 HowardCounty,,,Not working,6558,7689,6788,10337
 HowardCounty,,,part-time,,128,,
 HowardCounty,,,full-time,904,590,855,1188
 HowardCounty,,Nursery,,,,,
 HowardCounty,,,Not working,6717,4722,6487,4939
-HowardCounty,,,part time,,164,,
+HowardCounty,,,part time,0,164,,
 HowardCounty,,,full time,,81,118,
 HowardCounty,,Kindergarten,,,,,
 HowardCounty,,,Not working,3365,2321,3986,3987
-HowardCounty,,,part time,,,,
+HowardCounty,,,part time,0,0,,
 HowardCounty,,,full time,,,,
 HowardCounty,,Less than Highschool,,,,,
 HowardCounty,,,Not working,38539,41366,36849,37900
@@ -1389,8 +1389,8 @@ MontgomeryCounty,,,full-time,2572,447,1458,1347
 MontgomeryCounty,Education,,,,,,
 MontgomeryCounty,,N/A,,,,,
 MontgomeryCounty,,,Not working,38146,40233,38011,40925
-MontgomeryCounty,,,part time,,,,
-MontgomeryCounty,,,full time,,,,
+MontgomeryCounty,,,part time,0,0,,
+MontgomeryCounty,,,full time,0,0,,
 MontgomeryCounty,,No School,,,,,
 MontgomeryCounty,,,Not working,33335,28675,31336,27852
 MontgomeryCounty,,,part-time,398,1118,946,1444
@@ -1523,8 +1523,8 @@ PrinceGeorgesCounty,,,full-time,1916,1795,1133,2321
 PrinceGeorgesCounty,Education,,,,,,
 PrinceGeorgesCounty,,N/A,,,,,
 PrinceGeorgesCounty,,,Not working,37735,35010,35296,37307
-PrinceGeorgesCounty,,,part time,,,,
-PrinceGeorgesCounty,,,full time,,,,
+PrinceGeorgesCounty,,,part time,0,0,,
+PrinceGeorgesCounty,,,full time,0,0,,
 PrinceGeorgesCounty,,No School,,,,,
 PrinceGeorgesCounty,,,Not working,26216,31927,26919,25754
 PrinceGeorgesCounty,,,part-time,442,1019,1056,871
@@ -1657,8 +1657,8 @@ WashingtonCounty,,,full-time,,,,133
 WashingtonCounty,Education,,,,,,
 WashingtonCounty,,N/A,,,,,
 WashingtonCounty,,,Not working,4781,4430,4888,4697
-WashingtonCounty,,,part time,,,,
-WashingtonCounty,,,full time,,,,
+WashingtonCounty,,,part time,0,0,,
+WashingtonCounty,,,full time,0,0,,
 WashingtonCounty,,No School,,,,,
 WashingtonCounty,,,Not working,4440,5035,3788,3803
 WashingtonCounty,,,part-time,,79,566,
