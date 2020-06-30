@@ -334,17 +334,16 @@ div.tooltip {
 }
 
 .Footer{
+	float:left;
 	margin:auto;
-	width: 60%;
 }
 
 .FooterPrint{
 	margin: 70%;
-	width: 60%;
 }
 
-.FootRight{
-	float:right;
+.FootLeft{
+	float:left;
 }
 
 a {

@@ -59,13 +59,11 @@ export let counties_pop = `
     <div class="Table">
       <table id="pop_table">
       </table>
-    </div>
     <div class="Footer">
-      <div class="FootRight">
-      </div>
       <div class="FootLeft">
         <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: May 01, 2020)</p>
       </div>
+    </div>
     </div>
   </div>
   `
@@ -83,10 +81,10 @@ export let counties_empl_edu_gend = `
     <div class="Table">
       <table id ="empl_edu_gend_table">
       </table>
-    </div>
     <div class="Footer">
       <p>Note: NIL are individuals who are not in the labor force; this includes retirees and others who are not looking for work </p>
       <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: May 01, 2020)</p>
+    </div>
     </div>
   </div>
   `
@@ -103,9 +101,9 @@ export let counties_empl_race_ethn = `
     <div class="Table">
       <table id="empl_race_ethn_table">
       </table>
-    </div>
     <div class="Footer">
       <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: May 01, 2020)</p>
+    </div>
     </div>
   </div>
   `
@@ -122,9 +120,9 @@ export let counties_empl_vet = `
     <div class="Table">
       <table id="empl_vet_table">
       </table>
-    </div>
-    <div class="Footer">
-      <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: May 01, 2020)</p>
+      <div class="Footer">
+        <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: May 01, 2020)</p>
+      </div>
     </div>
   </div>
   `
@@ -141,10 +139,10 @@ export let counties_disabl_pov = `
     <div class="Table">
       <table id ="disabl_pov_table">
       </table>
-    </div>
-    <div class="Footer">
-      <div class="FootLeft">
-        <p>Source: American Community Survey <span id='acsyearagg'>1</span>-Year Estimates (Date Last Accessed: May 01, 2020)</p>
+      <div class="Footer">
+        <div class="FootLeft">
+          <p>Source: American Community Survey <span id='acsyearagg'>1</span>-Year Estimates (Date Last Accessed: May 01, 2020)</p>
+        </div>
       </div>
     </div>
   </div>
@@ -167,10 +165,10 @@ export let counties_tanf = `
           </tr>
         </tfoot>
       </table>
-    </div>
-    <div class="Footer">
-      <div class="FootLeft">
-        <p>Source: Administrative Data from Temporary Assistance to Needy Families (TANF) and MD Wage Records (Date Last Accessed: May 01, 2020)</p>
+      <div class="Footer">
+        <div class="FootLeft">
+          <p>Source: Administrative Data from Temporary Assistance to Needy Families (TANF) and MD Wage Records (Date Last Accessed: May 01, 2020)</p>
+        </div>
       </div>
     </div>
   </div>
