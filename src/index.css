@@ -336,6 +336,7 @@ div.tooltip {
 .Footer{
 	float:left;
 	margin:auto;
+	display:contents;
 }
 
 .FooterPrint{

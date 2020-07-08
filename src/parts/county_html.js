@@ -84,6 +84,7 @@ export let counties_empl_edu_gend = `
     <div class="Footer">
       <p>Note: NIL are individuals who are not in the labor force; this includes retirees and others who are not looking for work </p>
       <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: May 01, 2020)</p>
+      <p>"S" Represents suppressed counts that are less than 3.</p>
     </div>
     </div>
   </div>
@@ -103,6 +104,7 @@ export let counties_empl_race_ethn = `
       </table>
     <div class="Footer">
       <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: May 01, 2020)</p>
+      <p>"S" Represents suppressed counts that are less than 3.</p>
     </div>
     </div>
   </div>
@@ -122,6 +124,7 @@ export let counties_empl_vet = `
       </table>
       <div class="Footer">
         <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: May 01, 2020)</p>
+        <p>"S" Represents suppressed counts that are less than 3.</p>
       </div>
     </div>
   </div>
@@ -168,6 +171,7 @@ export let counties_tanf = `
       <div class="Footer">
         <div class="FootLeft">
           <p>Source: Administrative Data from Temporary Assistance to Needy Families (TANF) and MD Wage Records (Date Last Accessed: May 01, 2020)</p>
+          <p>"S" Represents suppressed counts that are less than 3.</p>
         </div>
       </div>
     </div>
