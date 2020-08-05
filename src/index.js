@@ -62,11 +62,13 @@ import 'chardin.ts/chardinjs.scss';
         //
 
         window.CountyName = location_search.replace("?county=", "").replace(".html", "").replace(/([A-Z])/g, ' $1').trim()
-        window.emplStatusCounties = ["Maryland", "Worcester County", "Wicomico County", "Talbot County", "St Marys County", "Queen Annes County", "Kent County", "Garrett County", "Dorchester County", "Allegany County", "Caroline County", "Calvert County", "Somerset County", "Prince Georges County"]
+        window.md = CountyName == 'Maryland'
+        window.wd = CountyName.includes('L W D A')
+        window.emplStatusCounties = ["Maryland", "Worcester County", "Wicomico County", "Talbot County", "St Marys County", 
+                                     "Queen Annes County", "Kent County", "Garrett County", "Dorchester County", "Allegany County", 
+                                     "Caroline County", "Calvert County", "Somerset County", "Prince Georges County"]
 
         var {countyCode, buttonMenu} = ''
-        let md = CountyName == 'Maryland'
-        let wd = CountyName.includes('L W D A')
         let {wdaDropdowns, wdaCollapse1, wdaCollapse2, wdaCollapse3, wdaCollapse4, wdaCollapse15, countyDropdowns, counties_pop, counties_empl_edu_gend, counties_empl_race_ethn, counties_empl_vet, counties_disabl_pov, counties_empl_status, counties_snap} = false
 		let dropdown = `<div class="ChartTitle">
 		  <p id='title' style="display:inline" >innertext</p>
@@ -96,6 +98,7 @@ import 'chardin.ts/chardinjs.scss';
 				  <option>2018-Q4</option>
 				  <option>2019-Q1</option>
 				  <option>2019-Q2</option>
+				  <option>2019-Q3</option>
 				  <option selected="selected">2019-Q4</option>
 				</select>
 			</div>
@@ -150,12 +153,6 @@ import 'chardin.ts/chardinjs.scss';
             
             buttonMenu = countyDropdowns(CountyName)
         }
-        console.log({
-            CountyName,
-            CountyName1,
-            CountyName2,
-            CountyName4
-        })
 
         //
         // Region Selection and Button Menu
@@ -211,6 +208,8 @@ import 'chardin.ts/chardinjs.scss';
             import(/* webpackChunkName: "counties_external_code" */
             './parts/counties_external_code.js')
         }
+        import(/* webpackChunkName: "event_handlers" */
+            './parts/event_handlers.js')
     }
     localStorage.setItem('Clicked', 'placeholder');
     document.body.innerHTML += ''

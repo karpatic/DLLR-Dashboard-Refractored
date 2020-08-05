@@ -11,32 +11,34 @@ import * as dimple from 'dimple';
  */
 (async()=>{
     let pcnt = (d)=>{
-        if( d == 'N/A'){ return d }
-        if( d == 'S'){ return d }
+        if (d == 'N/A') {
+            return d
+        }
+        if (d == 'S') {
+            return d
+        }
         return d.slice(d.length - 1) != '%' ? (d3.format(".1%")(d * 1)) : (d3.format(".1%")(Number(d.slice(0, -1) * .01)))
     }
     let pcnt2 = (d)=>{
-        if( d == 'N/A'){ return d }
-        if( d == 'S'){ return d }
+        if (d == 'N/A') {
+            return d
+        }
+        if (d == 'S') {
+            return d
+        }
         return d.slice(d.length - 1) != '%' ? (d3.format(".1%")(d * .01)) : (d3.format(".1%")(Number(d.slice(0, -1) * .01)))
     }
     // Retrieve Data
-    console.log('RETRIEVING MARYLAND DATA')
     let url = './data/MarylandData.csv'
     let data = await d3.csv(url)
     document.getElementById('acsyearagg').innerHTML = '1'
-    console.log('Maryland', {
-        data
-    });
 
     // 
     // Apprenticeship Completers
     // 
     // Filter Data
+
     window.mAppData = dimple.filterData(dimple.filterData(data, "Indicator_Value", "Program Completers"), "Time", ["FY15", "FY16", "FY17"]);
-    console.log('Apprenticeship Completers!', {
-        mAppData
-    });
 
     // Create Table
     document.getElementById('table11').innerHTML = `
@@ -94,11 +96,6 @@ import * as dimple from 'dimple';
     window.aprog1 = dimple.filterData(dimple.filterData(data, "Indicator", "New Maryland Apprenticeship Programs"), "Time", "2016");
     window.aprog2 = dimple.filterData(dimple.filterData(data, "Indicator", "New Maryland Apprenticeship Programs"), "Time", "2017");
     window.aprog3 = dimple.filterData(data, "Indicator", "New Maryland Apprenticeship Programs")
-    console.log('New Maryland Apprenticeship Programs!', {
-        aprog1,
-        aprog2,
-        aprog3
-    });
 
     // Create Table
     document.getElementById('table55').innerHTML = `
@@ -162,11 +159,6 @@ import * as dimple from 'dimple';
     window.aNew1 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Apprentices"), "Time", "2016");
     window.aNew2 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Apprentices"), "Time", "2017");
     window.aNew3 = dimple.filterData(data, "Indicator", "Maryland Apprentices")
-    console.log('Maryland Apprentices!', {
-        aNew1,
-        aNew2,
-        aNew3
-    });
 
     // Create Table
     document.getElementById('table19').innerHTML = `
@@ -230,9 +222,6 @@ import * as dimple from 'dimple';
     // Filter Data
     let years = dimple.filterData(data, "Time", ["2013", "2014", "2015"]);
     window.longTermLocation = dimple.filterData(years, "Indicator", "Long Term Unemployed");
-    console.log('Long Term Unemployed!', {
-        longTermLocation
-    });
 
     // Create Table
     document.getElementById('table20').innerHTML = `
@@ -288,9 +277,7 @@ import * as dimple from 'dimple';
     // 
     // Filter
     window.SnapData2 = dimple.filterData(data, "Indicator", "Service Participants in SNAP")
-    console.log('Service Participants in SNAP!', {
-        SnapData2
-    });
+
     // Create Table
     document.getElementById('table155').innerHTML = `
 	<tr class="HeadRow">
@@ -330,265 +317,3 @@ import * as dimple from 'dimple';
     pchart18.draw();
 }
 )()
-
-window.prints = ["pop_chart_print", "empl_edu_gend_chart_print", "empl_race_ethn_chart_print", 
-"empl_vet_chart_print", "disabl_pov_chart_print", "tanf_chart_print", "empl_status_chart_print", 
-"snap_chart_print", "Landing", "Print3", "Print4", "PrintFive", "Print6", "Print17", "Print11", 
-"Print18", "Print19", "Print20", "Print21"]
-
-window.charts = ["pop_chart", "empl_edu_gend_chart", "empl_race_ethn_chart", "empl_vet_chart", 
-"disabl_pov_chart", "tanf_chart", "empl_status_chart", "snap_chart", "Landing", "Chart3", "Chart4", 
-"ChartFive", "Chart6", "Chart17", "Chart11", "Chart18", "Chart19", "Chart20", "Chart21"]
-
-//
-//
-//
-window.drawAll = function() {
-    // Counties
-    pop_chart.draw(0, true);
-    mhhi_chart.draw(0, true);
-    empl_edu_chart.draw(0, true);
-    empl_edu_gend_chart.draw(0, true);
-    empl_race_ethn_chart.draw(0, true);
-    chart5.draw(0, true);
-    window.empl_vet_chart.draw(0, true);
-    emp_dis_chart.draw(0, true);
-    empl_status_chart.draw(0, true);
-    tanf_attainment_chart.draw(0, true);
-    tanf_rate_chart.draw(0, true);
-    tanf_data.draw(0, true);
-    if (!emplStatusCounties.includes(CountyName)) {
-        window.work_exp_pov_chart.draw(0, true)
-        pwork_exp_pov_chart.draw(0, true)
-    }
-    snap_chart.draw(0, true);
-    snap_chart2.draw(0, true);
-    ppop_chart.draw(0, true);
-    mhhi_chart_print.draw(0, true);
-    pempl_edu_chart.draw(0, true);
-    pempl_edu_gend_chart.draw(0, true);
-    pempl_race_ethn_chart.draw(0, true);
-    pchart5.draw(0, true);
-    empl_vet_print_chart.draw(0, true);
-    emp_dis_chart_print.draw(0, true);
-    pempl_status_chart.draw(0, true);
-    ptanf_attainment_chart.draw(0, true);
-    ptanf_rate_chart.draw(0, true);
-    ptanf_data.draw(0, true);
-    psnap_chart.draw(0, true);
-    psnap_chart2.draw(0, true);
-
-    // WDA
-    window.wChart.draw(0, true);
-    avgChart.draw(0, true);
-    jc.draw(0, true);
-    newHireChart.draw(0, true);
-    turnChart.draw(0, true);
-
-    chart8.draw(0, true);
-    chart61.draw(0, true);
-
-    pwChart.draw(0, true);
-    pavgChart.draw(0, true);
-    pjc.draw(0, true);
-    pnewHireChart.draw(0, true);
-    pturnChart.draw(0, true);
-
-    pchart8.draw(0, true);
-    pchart61.draw(0, true);
-
-    edX.shapes.selectAll("text").attr("transform", function(d) {
-        return d3.select(this).attr("transform") + " translate(0, -10) rotate(-45)";
-    });
-    genX.shapes.selectAll("text").attr("transform", function(d) {
-        return d3.select(this).attr("transform") + " translate(0, -10) rotate(-45)";
-    });
-
-    // Maryland
-    chart15.draw(0, true);
-    aprogChart.draw(0, true);
-    aNewChart.draw(0, true);
-    chart1.draw(0, true);
-    chart18.draw(0, true);
-
-}
-
-window.onresize = function() {
-    drawAll();
-}
-
-window.hideall = function(idArr) {
-    idArr.forEach(el=>{ document.getElementById(el).style.display = "none" } )
-}
-window.showall = function(idArr) {
-    idArr.forEach(el=>document.getElementById(el).style.display = "inline")
-}
-
-window.hidePrint = function() {
-    hideall(prints)
-}
-window.hideChart = function() {
-    hideall(charts)
-}
-window.showPrint = function() {
-    showall(prints)
-}
-window.showChart = function() {
-    showall(charts)
-}
-
-var whichChart = 1;
-
-window.onload = function() {
-	document.getElementById("dropdownMenu").style.display = "none";
-    document.getElementById("dropdownMenuY").style.display = "none";
-    document.getElementById("dropdownMenuQ").style.display = "none";
-    document.getElementById("title").style.display = "none";
-
-    document.querySelectorAll('[data-lbl]').forEach(el=>{
-
-        el.removeAttribute("disabled");
-
-        el.addEventListener("click", function() {
-
-            console.log('Clicked0', el.dataset.lbl, el);
-            localStorage.setItem('Clicked', el.dataset.lbl);
-            
-            console.log('Clicked1', el.dataset.lbl, el)
-            whichChart = el.dataset.lbl;
-            let dropdownMenu = document.getElementById("dropdownMenu")
-            let dropdownMenuY = document.getElementById("dropdownMenuY")
-            let dropdownMenuQ = document.getElementById("dropdownMenuQ")
-            let elem = document.getElementById("title")
-            elem.style.display = "inline";
-            switch (whichChart) {
-            case 'pop':
-                elem.innerHTML = 'Population and Median Household Income'
-                dropdownMenu.style.display = "none";
-                dropdownMenuY.style.display = "none";
-                dropdownMenuQ.style.display =  "none";
-                break;
-            case 'empl_edu_gend':
-                elem.innerHTML = 'Demographics - Education and Gender'
-                dropdownMenu.style.display = "inline";
-                dropdownMenuY.style.display = "inline";
-                dropdownMenuQ.style.display =  "none";
-                break;
-            case 'empl_race_ethn':
-                elem.innerHTML = 'Demographics - Race and Ethnicity'
-                dropdownMenu.style.display = "inline";
-                dropdownMenuY.style.display = "inline";
-                dropdownMenuQ.style.display =  "none";
-                break;
-            case 'empl_vet':
-                elem.innerHTML = 'Demographics - Veterans Status'
-                dropdownMenu.style.display = "inline";
-                dropdownMenuY.style.display = "inline";
-                dropdownMenuQ.style.display =  "none";
-                break;
-            case 'disabl_pov':
-                elem.innerHTML = 'Disability and Poverty'
-                dropdownMenu.style.display = "inline";
-                dropdownMenuY.style.display = "inline";
-                dropdownMenuQ.style.display =  "none";
-                break;
-            case 'tanf':
-                elem.innerHTML = 'Temporary Aid for Needy Families (TANF) Stats'
-                dropdownMenu.style.display = "inline";
-                dropdownMenuY.style.display = "inline";
-                dropdownMenuQ.style.display =  "none";
-                break;
-            case 'empl_status':
-                elem.innerHTML = 'Employment Status amongst Maryland Workers'
-                dropdownMenu.style.display = "inline";
-                dropdownMenuY.style.display = "inline";
-                dropdownMenuQ.style.display =  "none";
-                break;
-            case 'snap':
-                elem.innerHTML = 'SNAP Recipient Workers'
-                dropdownMenu.style.display = "inline";
-                dropdownMenuY.style.display = "none";
-                dropdownMenuQ.style.display = "inline";
-                break;
-            case 'collapse9':
-                elem.innerHTML = 'Apprenticeship Completers'
-                dropdownMenu.style.display = "none";
-                dropdownMenuY.style.display = "none";
-                dropdownMenuQ.style.display = "none";
-                break;
-            case 'collapse1':
-                elem.innerHTML = 'Number of Workers and Average Monthly Earnings by Age and Gender'
-                dropdownMenu.style.display = "inline";
-                dropdownMenuY.style.display = "none";
-                dropdownMenuQ.style.display = "inline";
-                break;
-            case 'collapse2':
-                elem.innerHTML = 'New Hires and Job Net Changes by Education and Gender'
-                dropdownMenu.style.display = "inline";
-                dropdownMenuY.style.display = "none";
-                dropdownMenuQ.style.display = "inline";
-                break;
-            case 'collapse3':
-                elem.innerHTML = 'Turnover Rate by Gender and Education'
-                dropdownMenu.style.display = "inline";
-                dropdownMenuY.style.display = "none";
-                dropdownMenuQ.style.display = "inline";
-                break;
-            case 'collapse4':
-                elem.innerHTML = 'Data by Industry'
-                dropdownMenu.style.display = "inline";
-                dropdownMenuY.style.display = "none";
-                dropdownMenuQ.style.display = "inline";
-                break;
-            case 'collapse15':
-                elem.innerHTML = 'Separations'
-                dropdownMenu.style.display = "inline";
-                dropdownMenuY.style.display = "none";
-                dropdownMenuQ.style.display = "inline";
-                break;
-            case 'collapse16':
-                elem.innerHTML = 'New Apprentice Programs'
-                dropdownMenu.style.display = "none";
-                dropdownMenuY.style.display = "none";
-                dropdownMenuQ.style.display = "none";
-                break;
-            case 'collapse17':
-                elem.innerHTML = 'New/Active Apprentice Programs'
-                dropdownMenu.style.display = "none";
-                dropdownMenuY.style.display = "none";
-                dropdownMenuQ.style.display = "none";
-                break;
-            case 'collapse20':
-                elem.innerHTML = 'Long Term Unemployed'
-                dropdownMenu.style.display = "none";
-                dropdownMenuY.style.display = "none";
-                dropdownMenuQ.style.display = "none";
-
-                break;
-            case 'collapse19':
-                elem.innerHTML = 'Service Participants in SNAP'
-                dropdownMenu.style.display = "none";
-                dropdownMenuY.style.display = "none";
-                dropdownMenuQ.style.display = "none";
-                break;
-            default:
-                elem.innerHTML = 'Empty'
-                dropdownMenu.style.display = "none";
-                dropdownMenuY.style.display = "none";
-                dropdownMenuQ.style.display =  "none";
-            }
-
- 
-            window.collapsables = ["pop", "empl_edu_gend", "empl_race_ethn", "empl_vet", "disabl_pov", "tanf", 
-				"snap", "empl_status", "collapse1", "collapse2", "collapse3", "collapse4", "collapse15", 
-				"collapse9", "collapse16", "collapse17", "collapse20", "collapse19"]
-
-            hideall(collapsables)
-            document.getElementById(el.dataset.lbl).style.display = "inline";
-            drawAll();
-            hidePrint(); 
-        })
-
-    }
-    )
-}
