@@ -1346,205 +1346,111 @@ import * as dimple from 'dimple';
     window.chartChange = function() {
         var strUser3 = this.options[this.selectedIndex].text;
         console.log('Chart Change', strUser3)
-        if (strUser3 == "2019") {
-            tanf_attainment_chart.data = tanfAttainment19;
-            ptanf_attainment_chart.data = tanfAttainment19;
-            tanf_perc_chart.data = tanfPerc19;
-            ptanf_perc_chart.data = tanfPerc19;
-            tanf_rate_chart.data = tanfRate19;
-            ptanf_rate_chart.data = tanfRate19;
-            display_tanf_table('2019', tanfAttainment19, tanfPerc19, tanfRate19, tanfData19)
-        }
-        if (strUser3 == "2018") {
-            empl_edu_chart.data = EduAttainment18;
-            empl_edu_gend_chart.data = unempByGender18;
-            empl_race_ethn_chart.data = raceData18;
-            chart5.data = ethData18;
-            empl_vet_chart.data = vetData18;
-            pempl_edu_chart.data = EduAttainment18;
-            pempl_edu_gend_chart.data = unempByGender18;
-            pempl_race_ethn_chart.data = raceData18;
-            pchart5.data = ethData18;
-            empl_vet_print_chart.data = vetData18;
-            pempl_status_chart.data = povRate18
-            empl_status_chart.data = povRate18
-            emp_dis_chart_print.data = disAttainment18
-            emp_dis_chart.data = disAttainment18
+        let data19 = ['','','','','','','',tanfAttainment19, tanfPerc19, tanfRate19, tanfData19]
+        let data18 = [EduAttainment18, unempByGender18, raceData18, ethData18, vetData18, povRate18, disAttainment18, tanfAttainment18, tanfPerc18, tanfRate18, tanfData18]
+        let data17 = [EduAttainment17, unempByGender17, raceData17, ethData17, vetData17, povRate17, disAttainment17, tanfAttainment17, tanfPerc17, tanfRate17, tanfData17]
+        let data16 = [EduAttainment16, unempByGender16, raceData16, ethData16, vetData16, povRate16, disAttainment16, tanfAttainment16, tanfPerc16, tanfRate16, tanfData16]
+        let data15 = [EduAttainment15, unempByGender15, raceData15, ethData15, vetData15, povRate15, disAttainment15, tanfAttainment15, tanfPerc15, tanfRate15, tanfData15]
+        let x = ''
 
-            tanf_attainment_chart.data = tanfAttainment18;
-            tanf_rate_chart.data = tanfRate18;
-            tanf_data.data = tanfData18
-            tanf_perc_chart.data = tanfPerc18;
+        if (strUser3 == "2019") { x = data19 }
+        if (strUser3 == "2018") { x = data18 }
+        if (strUser3 == "2017") { x = data17 }
+        if (strUser3 == "2016") { x = data16 }
+        if (strUser3 == "2015") { x = data15 }
 
-            ptanf_attainment_chart.data = tanfAttainment18;
-            ptanf_rate_chart.data = tanfRate18;
-            ptanf_data.data = tanfData18
-            ptanf_perc_chart.data = tanfPerc18;
+        empl_edu_chart.data = x[0];
+        empl_edu_gend_chart.data = x[1];
+        empl_race_ethn_chart.data = x[2];
+        chart5.data = x[3];
+        empl_vet_chart.data = x[4];
+        pempl_edu_chart.data = x[0];
+        pempl_edu_gend_chart.data = x[1];
+        pempl_race_ethn_chart.data = x[2];
+        pchart5.data = x[3];
+        empl_vet_print_chart.data = x[4];
+        pempl_status_chart.data = x[5]
+        empl_status_chart.data = x[5]
+        emp_dis_chart_print.data = x[6]
+        emp_dis_chart.data =  x[6]
 
-            display_tanf_table('2018', tanfAttainment18, tanfPerc18, tanfRate18, tanfData18)
-        }
-        if (strUser3 == "2017") {
-            empl_edu_chart.data = EduAttainment17;
-            empl_edu_gend_chart.data = unempByGender17;
-            empl_race_ethn_chart.data = raceData17;
-            chart5.data = ethData17;
-            empl_vet_chart.data = vetData17;
-            pempl_edu_chart.data = EduAttainment17;
-            pempl_edu_gend_chart.data = unempByGender17;
-            pempl_race_ethn_chart.data = raceData17;
-            pchart5.data = ethData17;
-            empl_vet_print_chart.data = vetData17;
-            pempl_status_chart.data = povRate17
-            empl_status_chart.data = povRate17
-            emp_dis_chart_print.data = disAttainment17
-            emp_dis_chart.data = disAttainment17
+        tanf_attainment_chart.data =  x[7];
+        tanf_rate_chart.data = x[9];
+        tanf_data.data = x[10];
+        tanf_perc_chart.data = x[8];
 
-            tanf_attainment_chart.data = tanfAttainment17;
-            tanf_rate_chart.data = tanfRate17;
-            tanf_data.data = tanfData17;
-            tanf_perc_chart.data = tanfPerc17;
+        ptanf_attainment_chart.data = x[7];
+        ptanf_rate_chart.data =  x[9];
+        ptanf_data.data =  x[10];
+        ptanf_perc_chart.data = x[8];
 
-            ptanf_attainment_chart.data = tanfAttainment17;
-            ptanf_rate_chart.data = tanfRate17;
-            ptanf_data.data = tanfData17;
-            display_tanf_table('2017', tanfAttainment17, tanfPerc17, tanfRate17, tanfData17)
-            tanf_perc_chart.data = tanfPerc17;
-        }
-        if (strUser3 == "2016") {
-            empl_edu_chart.data = EduAttainment16;
-            empl_edu_gend_chart.data = unempByGender16;
-            empl_race_ethn_chart.data = raceData16;
-            chart5.data = ethData16;
-            empl_vet_chart.data = vetData16;
-            pempl_edu_chart.data = EduAttainment16;
-            pempl_edu_gend_chart.data = unempByGender16;
-            pempl_race_ethn_chart.data = raceData16;
-            pchart5.data = ethData16;
-            empl_vet_print_chart.data = vetData16;
-            pempl_status_chart.data = povRate16
-            empl_status_chart.data = povRate16
-            emp_dis_chart_print.data = disAttainment16
-            emp_dis_chart.data = disAttainment16
-
-            tanf_attainment_chart.data = tanfAttainment16;
-            tanf_rate_chart.data = tanfRate16;
-            tanf_data.data = tanfData16;
-            tanf_perc_chart.data = tanfPerc16;
-
-            ptanf_attainment_chart.data = tanfAttainment16;
-            ptanf_rate_chart.data = tanfRate16;
-            ptanf_data.data = tanfData16
-            ptanf_perc_chart.data = tanfPerc16;
-            display_tanf_table('2016', tanfAttainment16, tanfPerc16, tanfRate16, tanfData16)
-
-        }
-        if (strUser3 == "2015") {
-            empl_edu_chart.data = EduAttainment15;
-            empl_edu_gend_chart.data = unempByGender15;
-            empl_race_ethn_chart.data = raceData15;
-            chart5.data = ethData15;
-            empl_vet_chart.data = vetData15;
-            pempl_edu_chart.data = EduAttainment15;
-            pempl_edu_gend_chart.data = unempByGender15;
-            pempl_race_ethn_chart.data = raceData15;
-            pchart5.data = ethData15;
-            empl_vet_print_chart.data = vetData15;
-            pempl_status_chart.data = povRate15
-            empl_status_chart.data = povRate15
-            emp_dis_chart_print.data = disAttainment15
-            emp_dis_chart.data = disAttainment15
-
-            tanf_attainment_chart.data = tanfAttainment15;
-            tanf_rate_chart.data = tanfRate15;
-            tanf_data.data = tanfData15
-
-            ptanf_attainment_chart.data = tanfAttainment15;
-            ptanf_rate_chart.data = tanfRate15;
-            ptanf_data.data = tanfData15;
-            display_tanf_table('2015', tanfAttainment15, tanfPerc15, tanfRate15, tanfData15)
-
-        }
+        display_tanf_table(strUser3, x[7], x[8], x[9], x[10])
 
         if (!emplStatusCounties.includes(CountyName)) {
             var e8 = document.getElementById("emplStatus_categ_dd");
-            var strUser8 = e8.options[e8.selectedIndex].text;
-            if (strUser3 == "2015") {
-                if (strUser8 == "Gender") {
-                    work_exp_pov_chart.data = workerDatag1;
-                } else if (strUser8 == "Race") {
-                    work_exp_pov_chart.data = workerDatar1;
-                } else if (strUser8 == "Education") {
-                    work_exp_pov_chart.data = workerDatae1;
-                } else if (strUser8 == "Poverty") {
-                    work_exp_pov_chart.data = workerDatap1;
-                }
-                pwork_exp_pov_chart.data = work_exp_pov_chart.data;
-            }
-            if (strUser3 == "2016") {
-                if (strUser8 == "Gender") {
-                    work_exp_pov_chart.data = workerDatag2;
-                } else if (strUser8 == "Race") {
-                    work_exp_pov_chart.data = workerDatar2;
-                } else if (strUser8 == "Education") {
-                    work_exp_pov_chart.data = workerDatae2;
-                } else if (strUser8 == "Poverty") {
-                    work_exp_pov_chart.data = workerDatap2;
-                }
-            }
-            if (strUser3 == "2017") {
-                if (strUser8 == "Gender") {
-                    work_exp_pov_chart.data = workerDatag3;
-                } else if (strUser8 == "Race") {
-                    work_exp_pov_chart.data = workerDatar3;
-                } else if (strUser8 == "Education") {
-                    work_exp_pov_chart.data = workerDatae3;
-                } else if (strUser8 == "Poverty") {
-                    work_exp_pov_chart.data = workerDatap3;
-                }
-            }
-            if (strUser3 == "2018") {
-                if (strUser8 == "Gender") {
-                    work_exp_pov_chart.data = workerDatag4;
-                } else if (strUser8 == "Race") {
-                    work_exp_pov_chart.data = workerDatar4;
-                } else if (strUser8 == "Education") {
-                    work_exp_pov_chart.data = workerDatae4;
-                } else if (strUser8 == "Poverty") {
-                    work_exp_pov_chart.data = workerDatap4;
-                }
-            }
+            var strUser8 = e8.options[e8.selectedIndex].text; 
+
+            let data19p2 = ['', '', '', '']
+            let data18p2 = [workerDatag4, workerDatar4, workerDatae4, workerDatap4]
+            let data17p2 = [workerDatag3, workerDatar3, workerDatae3, workerDatap3]
+            let data16p2 = [workerDatag2, workerDatar2, workerDatae2, workerDatap2]
+            let data15p2 = [workerDatag1, workerDatar1, workerDatae1, workerDatap1]
+            if (strUser3 == "2019") { x = data19p2 }
+            if (strUser3 == "2018") { x = data18p2 }
+            if (strUser3 == "2017") { x = data17p2 }
+            if (strUser3 == "2016") { x = data16p2 }
+            if (strUser3 == "2015") { x = data15p2 }
+            if (strUser8 == "Gender") { work_exp_pov_chart.data = x[0]; } 
+            if (strUser8 == "Race") { work_exp_pov_chart.data = x[1]; }
+            if (strUser8 == "Education") { work_exp_pov_chart.data = x[2]; } 
+            if (strUser8 == "Poverty") { work_exp_pov_chart.data = x[3]; }
+            pwork_exp_pov_chart.data = work_exp_pov_chart.data;
             drawAll();
 
             work_exp_pov_chart.draw();
             pwork_exp_pov_chart.draw();
         }
 
-        empl_edu_chart.draw();
-        empl_edu_gend_chart.draw();
-        empl_race_ethn_chart.draw();
-        chart5.draw();
-        empl_vet_chart.draw();
+        let chartToDraw = [ empl_edu_chart, empl_edu_gend_chart, empl_race_ethn_chart, chart5, empl_vet_chart, pempl_edu_chart,
+          pempl_edu_gend_chart, pempl_race_ethn_chart, pchart5, empl_vet_print_chart, pempl_status_chart, 
+          empl_status_chart, emp_dis_chart_print, emp_dis_chart, tanf_attainment_chart, tanf_rate_chart,
+          tanf_data, tanf_perc_chart, ptanf_attainment_chart, ptanf_rate_chart, ptanf_data, ptanf_perc_chart]
+        chartToDraw.map( chart => { chart.draw() } )
 
-        pempl_edu_chart.draw();
-        pempl_edu_gend_chart.draw();
-        pempl_race_ethn_chart.draw();
-        pchart5.draw();
-        empl_vet_print_chart.draw();
-
-        pempl_status_chart.draw();
-        empl_status_chart.draw();
-        emp_dis_chart_print.draw();
-        emp_dis_chart.draw();
-
-        tanf_attainment_chart.draw();
-        tanf_rate_chart.draw();
-        tanf_data.draw();
-        tanf_perc_chart.draw();
-
-        ptanf_attainment_chart.draw();
-        ptanf_rate_chart.draw();
-        ptanf_data.draw();
-        ptanf_perc_chart.draw();
+        let lookup = [
+          {'tab':'pop','lbl':'Population and Median Household Income','dm':false,'dmy':false,'dmq':false, 'charts':[pop_chart, mhhi_chart] },
+          {'tab':'empl_edu_gend','lbl':'Demographics - Education and Gender','dm':true,'dmy':true,'dmq':false, 'charts':[empl_edu_chart, empl_edu_gend_chart]},
+          {'tab':'empl_race_ethn','lbl':'Demographics - Race and Ethnicity','dm':true,'dmy':true,'dmq':false, 'charts':[empl_race_ethn_chart, chart5]},
+          {'tab':'empl_vet','lbl':'Demographics - Veterans Status','dm':true,'dmy':true,'dmq':false, 'charts':[empl_vet_chart]},
+          {'tab':'disabl_pov','lbl':'Disability and Poverty','dm':true,'dmy':true,'dmq':false, 'charts':[emp_dis_chart]},
+          {'tab':'tanf','lbl':'Temporary Aid for Needy Families (TANF) Stats','dm':true,'dmy':true,'dmq':false, 'charts':[tanf_data,tanf_rate_chart,tanf_attainment_chart] },
+          {'tab':'empl_status','lbl':'Employment Status amongst Maryland Workers','dm':true,'dmy':true,'dmq':false, 'charts':[empl_status_chart] },
+          {'tab':'snap','lbl':'SNAP Recipient Workers','dm':false,'dmy':false,'dmq':false, 'charts':[snap_chart]},
+          {'tab':'collapse9','lbl':'Apprenticeship Completers','dm':false,'dmy':false,'dmq':false},
+          {'tab':'collapse1','lbl':'Number of Workers and Average Monthly Earnings by Age and Gender','dm':true,'dmy':false,'dmq':true},
+          {'tab':'collapse2','lbl':'New Hires and Job Net Changes by Education and Gender','dm':true,'dmy':false,'dmq':true},
+          {'tab':'collapse3','lbl':'Turnover Rate by Gender and Education','dm':true,'dmy':false,'dmq':true},
+          {'tab':'collapse4','lbl':'Data by Industry','dm':true,'dmy':false,'dmq':true},
+          {'tab':'collapse15','lbl':'Separations','dm':true,'dmy':false,'dmq':true},
+          {'tab':'collapse16','lbl':'New Apprentice Programs','dm':false,'dmy':false,'dmq':false},
+          {'tab':'collapse17','lbl':'New/Active Apprentice Programs','dm':false,'dmy':false,'dmq':false},
+          {'tab':'collapse20','lbl':'Long Term Unemployed','dm':false,'dmy':false,'dmq':false},
+          {'tab':'collapse19','lbl':'Service Participants in SNAP','dm':false,'dmy':false,'dmq':false}
+        ]
+        let chart = lookup.filter( obj => obj['tab'] == localStorage.getItem('Clicked')  )[0];
+        let chartsHaveRecords = chart['charts'].map( (chart) => {
+            let recordExists = false
+            chart.data.map( (record) => {
+                recordExists ? '' : recordExists = record['Amount'] 
+            } )
+            if(!recordExists){ 
+              console.log('no records', {recordExists}) 
+              // hide the chart 
+              // display 'No Records' in its place
+            }
+            return recordExists
+        })
+        console.log({chartsHaveRecords})
 
     }
 

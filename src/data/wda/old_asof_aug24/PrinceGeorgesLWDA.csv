@@ -479,13 +479,13 @@ Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Gender All,2018
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Gender All,2019Q1,0,All,4681
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Gender All,2019Q2,0,All,4826
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Gender All,2019Q3,0,All,N/A
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q1,E0,All Education Categories,893
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q2,E0,All Education Categories,8392
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q3,E0,All Education Categories,-2981
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q4,E0,All Education Categories,2522
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q1,E0,All Education Categories,490
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q2,E0,All Education Categories,10156
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q3,E0,All Education Categories,N/A
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q1,E0,All Education Categories,893
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q2,E0,All Education Categories,8392
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q3,E0,All Education Categories,-2981
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q4,E0,All Education Categories,2522
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q1,E0,All Education Categories,490
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q2,E0,All Education Categories,10156
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q3,E0,All Education Categories,N/A
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education All,2016Q1,E0,All Education Categories,630
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education All,2016Q2,E0,All Education Categories,10261
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education All,2016Q3,E0,All Education Categories,80
@@ -494,6 +494,21 @@ Job Change,Prince Georges WIA,Maryland Job Net Change by Education All,2017Q1,E0
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education All,2017Q2,E0,All Education Categories,9730
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education All,2017Q3,E0,All Education Categories,-3676
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education All,2017Q4,E0,All Education Categories,3637
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q1,E0,All Education Categories,41960
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q2,E0,All Education Categories,55728
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q3,E0,All Education Categories,56106
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q4,E0,All Education Categories,53658
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q1,E0,All Education Categories,42740
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q2,E0,All Education Categories,59293
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q3,E0,All Education Categories,59232
+New Hires,Prince Georges WIA,Maryland New Hires by Education All,2016Q1,E0,All Education Categories,38935
+New Hires,Prince Georges WIA,Maryland New Hires by Education All,2016Q2,E0,All Education Categories,56479
+New Hires,Prince Georges WIA,Maryland New Hires by Education All,2016Q3,E0,All Education Categories,60740
+New Hires,Prince Georges WIA,Maryland New Hires by Education All,2016Q4,E0,All Education Categories,56548
+New Hires,Prince Georges WIA,Maryland New Hires by Education All,2017Q1,E0,All Education Categories,42687
+New Hires,Prince Georges WIA,Maryland New Hires by Education All,2017Q2,E0,All Education Categories,57462
+New Hires,Prince Georges WIA,Maryland New Hires by Education All,2017Q3,E0,All Education Categories,57394
+New Hires,Prince Georges WIA,Maryland New Hires by Education All,2017Q4,E0,All Education Categories,54281
 Separations,Prince Georges WIA,Maryland Separations by Education All,2016Q1,E0,All Education Categories,38430
 Separations,Prince Georges WIA,Maryland Separations by Education All,2016Q2,E0,All Education Categories,45786
 Separations,Prince Georges WIA,Maryland Separations by Education All,2016Q3,E0,All Education Categories,60587
@@ -532,13 +547,28 @@ Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q1,E4,Bac
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q2,E4,Bachelor's degree or advanced degree,-143
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q3,E4,Bachelor's degree or advanced degree,-389
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q4,E4,Bachelor's degree or advanced degree,876
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q1,E4,Bachelor's degree or advanced degree,222
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q2,E4,Bachelor's degree or advanced degree,-186
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q3,E4,Bachelor's degree or advanced degree,-425
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q4,E4,Bachelor's degree or advanced degree,128
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q1,E4,Bachelor's degree or advanced degree,-31
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q2,E4,Bachelor's degree or advanced degree,251
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q1,E4,Bachelor's degree or advanced degree,222
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q2,E4,Bachelor's degree or advanced degree,-186
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q3,E4,Bachelor's degree or advanced degree,-425
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q4,E4,Bachelor's degree or advanced degree,128
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q1,E4,Bachelor's degree or advanced degree,-31
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q2,E4,Bachelor's degree or advanced degree,251
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q1,E4,Bachelor's degree or advanced degree,6771
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q2,E4,Bachelor's degree or advanced degree,9036
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q3,E4,Bachelor's degree or advanced degree,9475
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q4,E4,Bachelor's degree or advanced degree,9195
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q1,E4,Bachelor's degree or advanced degree,7361
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q2,E4,Bachelor's degree or advanced degree,8215
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q3,E4,Bachelor's degree or advanced degree,8772
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q4,E4,Bachelor's degree or advanced degree,9582
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q1,E4,Bachelor's degree or advanced degree,7355
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q2,E4,Bachelor's degree or advanced degree,8357
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q3,E4,Bachelor's degree or advanced degree,8376
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,9136
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q1,E4,Bachelor's degree or advanced degree,7270
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q2,E4,Bachelor's degree or advanced degree,8853
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q3,E4,Bachelor's degree or advanced degree,8559
 Job Change,Prince Georges WIA,Maryland Job Net Change by Gender,2016Q1,2,Female,149
 Job Change,Prince Georges WIA,Maryland Job Net Change by Gender,2016Q1,1,Male,481
 Job Change,Prince Georges WIA,Maryland Job Net Change by Gender,2016Q2,1,Male,5080
@@ -1062,13 +1092,28 @@ Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q1,E5,Edu
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),8397
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),-3208
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),1492
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),866
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),7424
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),-2635
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),1776
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),1022
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),7854
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),866
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),7424
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),-2635
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),1776
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),1022
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),7854
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),10603
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),18085
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),21892
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),15659
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),11659
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),20559
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),19462
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),14595
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),11029
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),19193
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),18938
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),14594
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),11548
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),20396
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),22132
 Separations,Prince Georges WIA,Maryland Separations by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),9935
 Separations,Prince Georges WIA,Maryland Separations by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),12016
 Separations,Prince Georges WIA,Maryland Separations by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),23145
@@ -1099,6 +1144,351 @@ Turnover,Prince Georges WIA,Maryland Turnover Rate by Education,2018Q4,E5,Educat
 Turnover,Prince Georges WIA,Maryland Turnover Rate by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),0.2
 Turnover,Prince Georges WIA,Maryland Turnover Rate by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),N/A
 Turnover,Prince Georges WIA,Maryland Turnover Rate by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q1,2,Female,17466
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q1,1,Male,21468
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q2,2,Female,26842
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q2,1,Male,29637
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q3,2,Female,28473
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q3,1,Male,32267
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q4,2,Female,26548
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q4,1,Male,30001
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q1,2,Female,19389
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q1,1,Male,23298
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q2,2,Female,26199
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q2,1,Male,31263
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q3,2,Female,27095
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q3,1,Male,30299
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q4,2,Female,26274
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q4,1,Male,28007
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q1,2,Female,19282
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q1,1,Male,22677
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q2,2,Female,25509
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q2,1,Male,30219
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q3,2,Female,26536
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q3,1,Male,29569
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q4,2,Female,25707
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q4,1,Male,27951
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2019Q1,2,Female,19466
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2019Q1,1,Male,23274
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2019Q2,2,Female,27855
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2019Q2,1,Male,31438
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2019Q3,2,Female,28425
+New Hires,Prince Georges WIA,Maryland New Hires by Gender,2019Q3,1,Male,30806
+New Hires,Prince Georges WIA,Maryland New Hires by Gender All,2016Q1,0,All,38935
+New Hires,Prince Georges WIA,Maryland New Hires by Gender All,2016Q2,0,All,56479
+New Hires,Prince Georges WIA,Maryland New Hires by Gender All,2016Q3,0,All,60740
+New Hires,Prince Georges WIA,Maryland New Hires by Gender All,2016Q4,0,All,56548
+New Hires,Prince Georges WIA,Maryland New Hires by Gender All,2017Q1,0,All,42687
+New Hires,Prince Georges WIA,Maryland New Hires by Gender All,2017Q2,0,All,57462
+New Hires,Prince Georges WIA,Maryland New Hires by Gender All,2017Q3,0,All,57394
+New Hires,Prince Georges WIA,Maryland New Hires by Gender All,2017Q4,0,All,54281
+New Hires,Prince Georges WIA,Maryland New Hires by Gender All,2018Q1,0,All,41960
+New Hires,Prince Georges WIA,Maryland New Hires by Gender All,2018Q2,0,All,55728
+New Hires,Prince Georges WIA,Maryland New Hires by Gender All,2018Q3,0,All,56106
+New Hires,Prince Georges WIA,Maryland New Hires by Gender All,2018Q4,0,All,53658
+New Hires,Prince Georges WIA,Maryland New Hires by Gender All,2019Q1,0,All,42740
+New Hires,Prince Georges WIA,Maryland New Hires by Gender All,2019Q2,0,All,59293
+New Hires,Prince Georges WIA,Maryland New Hires by Gender All,2019Q3,0,All,59232
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",0
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",4
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,22,Utilities,52
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,55,Management of Companies and Enterprises,249
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,51,Information,366
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,31-33,Manufacturing,505
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,52,Finance and Insurance,534
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,53,Real Estate and Rental and Leasing,684
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,92,Public Administration,725
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,71,"Arts, Entertainment, and Recreation",818
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,42,Wholesale Trade,1002
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,81,Other Services (except Public Administration),1297
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,48-49,Transportation and Warehousing,1637
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,54,"Professional, Scientific, and Technical Services",2836
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,61,Educational Services,2913
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,62,Health Care and Social Assistance,3676
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,56,Administrative and Support and Waste Management and Remediation Services,4322
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,23,Construction,4450
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,44-45,Retail Trade,6163
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,72,Accommodation and Food Services,6699
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",5
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,11,"Agriculture, Forestry, Fishing and Hunting",25
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,22,Utilities,45
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,55,Management of Companies and Enterprises,319
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,51,Information,391
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,52,Finance and Insurance,592
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,31-33,Manufacturing,789
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,53,Real Estate and Rental and Leasing,1113
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,42,Wholesale Trade,1272
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,92,Public Administration,1851
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,48-49,Transportation and Warehousing,2324
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,71,"Arts, Entertainment, and Recreation",2455
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,61,Educational Services,2785
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,54,"Professional, Scientific, and Technical Services",3267
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,62,Health Care and Social Assistance,3976
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,81,Other Services (except Public Administration),5495
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,23,Construction,5541
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,56,Administrative and Support and Waste Management and Remediation Services,6698
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,44-45,Retail Trade,8481
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,72,Accommodation and Food Services,9055
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",4
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,11,"Agriculture, Forestry, Fishing and Hunting",29
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,22,Utilities,41
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,51,Information,397
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,55,Management of Companies and Enterprises,502
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,52,Finance and Insurance,636
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,31-33,Manufacturing,731
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,53,Real Estate and Rental and Leasing,841
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,42,Wholesale Trade,1291
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,81,Other Services (except Public Administration),2032
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,71,"Arts, Entertainment, and Recreation",2181
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,92,Public Administration,2733
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,48-49,Transportation and Warehousing,2771
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,54,"Professional, Scientific, and Technical Services",3286
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,62,Health Care and Social Assistance,4415
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,23,Construction,5692
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,56,Administrative and Support and Waste Management and Remediation Services,5848
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,72,Accommodation and Food Services,8703
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,44-45,Retail Trade,9139
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,61,Educational Services,9469
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",4
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,11,"Agriculture, Forestry, Fishing and Hunting",5
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,22,Utilities,32
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,51,Information,406
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,52,Finance and Insurance,603
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,92,Public Administration,695
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,53,Real Estate and Rental and Leasing,791
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,71,"Arts, Entertainment, and Recreation",886
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,42,Wholesale Trade,1191
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,31-33,Manufacturing,1433
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,81,Other Services (except Public Administration),1840
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,54,"Professional, Scientific, and Technical Services",3729
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,61,Educational Services,3731
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,62,Health Care and Social Assistance,3883
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,23,Construction,4288
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,56,Administrative and Support and Waste Management and Remediation Services,4818
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,48-49,Transportation and Warehousing,4906
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,55,Management of Companies and Enterprises,5627
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,72,Accommodation and Food Services,7656
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,44-45,Retail Trade,10024
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",8
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,11,"Agriculture, Forestry, Fishing and Hunting",13
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,22,Utilities,52
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,55,Management of Companies and Enterprises,196
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,51,Information,553
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,52,Finance and Insurance,593
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,92,Public Administration,693
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,53,Real Estate and Rental and Leasing,696
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,31-33,Manufacturing,736
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,71,"Arts, Entertainment, and Recreation",836
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,42,Wholesale Trade,1118
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,81,Other Services (except Public Administration),1438
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,48-49,Transportation and Warehousing,1527
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,61,Educational Services,3110
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,54,"Professional, Scientific, and Technical Services",3128
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,62,Health Care and Social Assistance,3973
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,56,Administrative and Support and Waste Management and Remediation Services,4634
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,23,Construction,4691
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,44-45,Retail Trade,6101
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,72,Accommodation and Food Services,8590
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,11,"Agriculture, Forestry, Fishing and Hunting",7
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",8
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,22,Utilities,41
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,55,Management of Companies and Enterprises,208
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,51,Information,548
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,52,Finance and Insurance,565
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,31-33,Manufacturing,852
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,53,Real Estate and Rental and Leasing,1011
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,42,Wholesale Trade,1255
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,92,Public Administration,1633
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,81,Other Services (except Public Administration),1990
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,71,"Arts, Entertainment, and Recreation",2794
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,48-49,Transportation and Warehousing,2839
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,54,"Professional, Scientific, and Technical Services",3047
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,62,Health Care and Social Assistance,4273
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,61,Educational Services,5716
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,23,Construction,5902
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,56,Administrative and Support and Waste Management and Remediation Services,6630
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,44-45,Retail Trade,8285
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,72,Accommodation and Food Services,9857
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",4
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,11,"Agriculture, Forestry, Fishing and Hunting",11
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,22,Utilities,38
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,55,Management of Companies and Enterprises,224
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,51,Information,584
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,52,Finance and Insurance,598
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,53,Real Estate and Rental and Leasing,804
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,31-33,Manufacturing,841
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,42,Wholesale Trade,1096
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,71,"Arts, Entertainment, and Recreation",1832
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,81,Other Services (except Public Administration),1963
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,92,Public Administration,2985
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,48-49,Transportation and Warehousing,3339
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,54,"Professional, Scientific, and Technical Services",3383
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,62,Health Care and Social Assistance,4981
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,61,Educational Services,5466
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,23,Construction,5673
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,56,Administrative and Support and Waste Management and Remediation Services,5792
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,44-45,Retail Trade,8386
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,72,Accommodation and Food Services,9394
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,11,"Agriculture, Forestry, Fishing and Hunting",7
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",8
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,22,Utilities,43
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,55,Management of Companies and Enterprises,195
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,51,Information,542
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,52,Finance and Insurance,582
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,92,Public Administration,676
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,71,"Arts, Entertainment, and Recreation",749
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,53,Real Estate and Rental and Leasing,793
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,42,Wholesale Trade,1047
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,31-33,Manufacturing,1638
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,54,"Professional, Scientific, and Technical Services",3105
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,62,Health Care and Social Assistance,3887
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,81,Other Services (except Public Administration),4276
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,61,Educational Services,4361
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,56,Administrative and Support and Waste Management and Remediation Services,4440
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,23,Construction,4612
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,48-49,Transportation and Warehousing,5521
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,72,Accommodation and Food Services,7801
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,44-45,Retail Trade,10000
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",10
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",11
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,22,Utilities,54
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,55,Management of Companies and Enterprises,254
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,51,Information,446
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,52,Finance and Insurance,586
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,31-33,Manufacturing,674
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,53,Real Estate and Rental and Leasing,683
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,92,Public Administration,839
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,71,"Arts, Entertainment, and Recreation",902
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,42,Wholesale Trade,1049
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,81,Other Services (except Public Administration),1471
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,48-49,Transportation and Warehousing,2031
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,54,"Professional, Scientific, and Technical Services",3036
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,61,Educational Services,3055
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,62,Health Care and Social Assistance,3942
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,23,Construction,4258
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,56,Administrative and Support and Waste Management and Remediation Services,4801
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,44-45,Retail Trade,6238
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,72,Accommodation and Food Services,7619
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",6
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,11,"Agriculture, Forestry, Fishing and Hunting",17
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,22,Utilities,70
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,55,Management of Companies and Enterprises,198
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,51,Information,446
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,52,Finance and Insurance,595
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,31-33,Manufacturing,707
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,53,Real Estate and Rental and Leasing,1155
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,42,Wholesale Trade,1252
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,92,Public Administration,1954
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,81,Other Services (except Public Administration),2082
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,54,"Professional, Scientific, and Technical Services",2777
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,71,"Arts, Entertainment, and Recreation",2879
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,48-49,Transportation and Warehousing,2936
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,62,Health Care and Social Assistance,4463
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,23,Construction,5350
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,61,Educational Services,5545
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,56,Administrative and Support and Waste Management and Remediation Services,5682
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,44-45,Retail Trade,7719
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,72,Accommodation and Food Services,9895
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",4
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,11,"Agriculture, Forestry, Fishing and Hunting",10
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,22,Utilities,46
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,55,Management of Companies and Enterprises,233
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,51,Information,397
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,52,Finance and Insurance,644
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,31-33,Manufacturing,720
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,53,Real Estate and Rental and Leasing,930
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,42,Wholesale Trade,1045
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,81,Other Services (except Public Administration),2192
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,71,"Arts, Entertainment, and Recreation",2274
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,54,"Professional, Scientific, and Technical Services",2781
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,92,Public Administration,2933
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,48-49,Transportation and Warehousing,3411
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,62,Health Care and Social Assistance,4261
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,23,Construction,5244
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,61,Educational Services,5521
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,56,Administrative and Support and Waste Management and Remediation Services,5778
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,44-45,Retail Trade,8243
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,72,Accommodation and Food Services,9438
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",0
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,11,"Agriculture, Forestry, Fishing and Hunting",5
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,22,Utilities,92
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,55,Management of Companies and Enterprises,202
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,51,Information,533
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,52,Finance and Insurance,567
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,92,Public Administration,737
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,53,Real Estate and Rental and Leasing,872
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,71,"Arts, Entertainment, and Recreation",952
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,42,Wholesale Trade,956
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,31-33,Manufacturing,1558
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,81,Other Services (except Public Administration),1819
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,54,"Professional, Scientific, and Technical Services",3316
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,23,Construction,4199
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,62,Health Care and Social Assistance,4502
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,56,Administrative and Support and Waste Management and Remediation Services,4703
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,61,Educational Services,4790
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,48-49,Transportation and Warehousing,6029
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,72,Accommodation and Food Services,8122
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,44-45,Retail Trade,9697
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,11,"Agriculture, Forestry, Fishing and Hunting",11
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,22,Utilities,78
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,55,Management of Companies and Enterprises,185
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,51,Information,356
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,31-33,Manufacturing,660
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,53,Real Estate and Rental and Leasing,684
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,92,Public Administration,777
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,52,Finance and Insurance,832
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,42,Wholesale Trade,984
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,71,"Arts, Entertainment, and Recreation",1065
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,81,Other Services (except Public Administration),1423
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,48-49,Transportation and Warehousing,2436
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,54,"Professional, Scientific, and Technical Services",2961
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,61,Educational Services,3239
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,62,Health Care and Social Assistance,3928
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,56,Administrative and Support and Waste Management and Remediation Services,4807
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,23,Construction,4918
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,44-45,Retail Trade,5974
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,72,Accommodation and Food Services,7418
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",25
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,22,Utilities,63
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,55,Management of Companies and Enterprises,232
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,51,Information,476
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,52,Finance and Insurance,697
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,31-33,Manufacturing,889
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,53,Real Estate and Rental and Leasing,1289
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,42,Wholesale Trade,1293
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,92,Public Administration,1532
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,81,Other Services (except Public Administration),2131
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,54,"Professional, Scientific, and Technical Services",3295
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,48-49,Transportation and Warehousing,3568
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,71,"Arts, Entertainment, and Recreation",3735
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,62,Health Care and Social Assistance,4171
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,23,Construction,5471
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,56,Administrative and Support and Waste Management and Remediation Services,5653
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,61,Educational Services,6290
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,44-45,Retail Trade,8107
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,72,Accommodation and Food Services,10374
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",12
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,22,Utilities,52
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,55,Management of Companies and Enterprises,209
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,51,Information,412
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,52,Finance and Insurance,548
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,31-33,Manufacturing,768
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,53,Real Estate and Rental and Leasing,938
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,42,Wholesale Trade,1048
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",1840
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,81,Other Services (except Public Administration),2058
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",3152
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,48-49,Transportation and Warehousing,4170
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,62,Health Care and Social Assistance,4563
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,4755
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,23,Construction,5179
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,61,Educational Services,5852
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,92,Public Administration,6517
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,44-45,Retail Trade,8101
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,72,Accommodation and Food Services,9050
+New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
 Separations,Prince Georges WIA,Maryland Separations by Age,2016Q1,A01,14-18,1603
 Separations,Prince Georges WIA,Maryland Separations by Age,2016Q1,A08,65-99,1967
 Separations,Prince Georges WIA,Maryland Separations by Age,2016Q1,A07,55-64,3861
@@ -1242,13 +1632,28 @@ Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q1,E2,"Hi
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q2,E2,"High school or equivalent, no college",455
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q3,E2,"High school or equivalent, no college",-66
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q4,E2,"High school or equivalent, no college",486
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q1,E2,"High school or equivalent, no college",-133
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q2,E2,"High school or equivalent, no college",320
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q3,E2,"High school or equivalent, no college",-96
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q4,E2,"High school or equivalent, no college",180
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q1,E2,"High school or equivalent, no college",-253
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q2,E2,"High school or equivalent, no college",669
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q3,E2,"High school or equivalent, no college",N/A
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q1,E2,"High school or equivalent, no college",-133
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q2,E2,"High school or equivalent, no college",320
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q3,E2,"High school or equivalent, no college",-96
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q4,E2,"High school or equivalent, no college",180
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q1,E2,"High school or equivalent, no college",-253
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q2,E2,"High school or equivalent, no college",669
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q3,E2,"High school or equivalent, no college",N/A
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q1,E2,"High school or equivalent, no college",7829
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q2,E2,"High school or equivalent, no college",10636
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q3,E2,"High school or equivalent, no college",10655
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q4,E2,"High school or equivalent, no college",11501
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q1,E2,"High school or equivalent, no college",8607
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q2,E2,"High school or equivalent, no college",10395
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q3,E2,"High school or equivalent, no college",10617
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q4,E2,"High school or equivalent, no college",10953
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q1,E2,"High school or equivalent, no college",8544
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q2,E2,"High school or equivalent, no college",10202
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q3,E2,"High school or equivalent, no college",10351
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",10835
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q1,E2,"High school or equivalent, no college",8640
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q2,E2,"High school or equivalent, no college",10908
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q3,E2,"High school or equivalent, no college",10403
 Separations,Prince Georges WIA,Maryland Separations by Education,2016Q1,E2,"High school or equivalent, no college",8058
 Separations,Prince Georges WIA,Maryland Separations by Education,2016Q2,E2,"High school or equivalent, no college",9514
 Separations,Prince Georges WIA,Maryland Separations by Education,2016Q3,E2,"High school or equivalent, no college",10450
@@ -1287,13 +1692,28 @@ Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q1,E1,Les
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q2,E1,Less than High school,630
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q3,E1,Less than High school,177
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q4,E1,Less than High school,114
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q1,E1,Less than High school,75
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q2,E1,Less than High school,612
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q3,E1,Less than High school,318
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q4,E1,Less than High school,163
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q1,E1,Less than High school,78
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q2,E1,Less than High school,682
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q3,E1,Less than High school,N/A
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q1,E1,Less than High school,75
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q2,E1,Less than High school,612
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q3,E1,Less than High school,318
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q4,E1,Less than High school,163
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q1,E1,Less than High school,78
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q2,E1,Less than High school,682
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q3,E1,Less than High school,N/A
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q1,E1,Less than High school,5659
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q2,E1,Less than High school,7783
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q3,E1,Less than High school,7617
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q4,E1,Less than High school,8220
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q1,E1,Less than High school,6176
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q2,E1,Less than High school,7701
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q3,E1,Less than High school,7617
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q4,E1,Less than High school,7714
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q1,E1,Less than High school,6158
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q2,E1,Less than High school,7504
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q3,E1,Less than High school,7726
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,7692
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q1,E1,Less than High school,6381
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q2,E1,Less than High school,7903
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q3,E1,Less than High school,7430
 Separations,Prince Georges WIA,Maryland Separations by Gender,2016Q1,2,Female,17318
 Separations,Prince Georges WIA,Maryland Separations by Gender,2016Q1,1,Male,21112
 Separations,Prince Georges WIA,Maryland Separations by Gender,2016Q2,2,Female,21303
@@ -1677,13 +2097,28 @@ Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q1,E3,Som
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q2,E3,Some college or Associate degree,291
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q3,E3,Some college or Associate degree,-152
 Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2017Q4,E3,Some college or Associate degree,658
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q1,E3,Some college or Associate degree,-145
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q2,E3,Some college or Associate degree,121
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q3,E3,Some college or Associate degree,-112
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2018Q4,E3,Some college or Associate degree,261
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q1,E3,Some college or Associate degree,-337
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q2,E3,Some college or Associate degree,591
-Job Change,Prince Georges WIA,Maryland Job Net Change by Education,2019Q3,E3,Some college or Associate degree,N/A
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q1,E3,Some college or Associate degree,-145
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q2,E3,Some college or Associate degree,121
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q3,E3,Some college or Associate degree,-112
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2018Q4,E3,Some college or Associate degree,261
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q1,E3,Some college or Associate degree,-337
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q2,E3,Some college or Associate degree,591
+Job Change,Prince George's WIA,Maryland Job Net Change by Education,2019Q3,E3,Some college or Associate degree,N/A
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q1,E3,Some college or Associate degree,8073
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q2,E3,Some college or Associate degree,10938
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q3,E3,Some college or Associate degree,11101
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q4,E3,Some college or Associate degree,11974
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q1,E3,Some college or Associate degree,8884
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q2,E3,Some college or Associate degree,10592
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q3,E3,Some college or Associate degree,10926
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q4,E3,Some college or Associate degree,11436
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q1,E3,Some college or Associate degree,8873
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q2,E3,Some college or Associate degree,10471
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q3,E3,Some college or Associate degree,10715
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,11402
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q1,E3,Some college or Associate degree,8901
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q2,E3,Some college or Associate degree,11233
+New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q3,E3,Some college or Associate degree,10707
 Separations,Prince Georges WIA,Maryland Separations by Education,2016Q1,E3,Some college or Associate degree,8223
 Separations,Prince Georges WIA,Maryland Separations by Education,2016Q2,E3,Some college or Associate degree,9729
 Separations,Prince Georges WIA,Maryland Separations by Education,2016Q3,E3,Some college or Associate degree,10642
@@ -2539,435 +2974,3 @@ Workers,Prince Georges WIA,Maryland Workers by Industry,2019Q3,72,Accommodation 
 Workers,Prince Georges WIA,Maryland Workers by Industry,2019Q3,44-45,Retail Trade,38794
 Workers,Prince Georges WIA,Maryland Workers by Industry,2019Q3,61,Educational Services,42759
 Workers,Prince Georges WIA,Maryland Workers by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q1,E1,Less than High school,4878
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q1,E2,"High school or equivalent, no college",6710
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q1,E3,Some college or Associate degree,6874
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q1,E4,Bachelor's degree or advanced degree,5574
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),9360
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q2,E1,Less than High school,6239
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q2,E2,"High school or equivalent, no college",8526
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q2,E3,Some college or Associate degree,8612
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q2,E4,Bachelor's degree or advanced degree,6506
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),15542
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q3,E1,Less than High school,6802
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q3,E2,"High school or equivalent, no college",9459
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q3,E3,Some college or Associate degree,9749
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q3,E4,Bachelor's degree or advanced degree,8144
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),19581
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q4,E1,Less than High school,7296
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q4,E2,"High school or equivalent, no college",10169
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q4,E3,Some college or Associate degree,10518
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q4,E4,Bachelor's degree or advanced degree,7718
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),14680
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q1,E1,Less than High school,5418
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q1,E2,"High school or equivalent, no college",7490
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q1,E3,Some college or Associate degree,7691
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q1,E4,Bachelor's degree or advanced degree,6129
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),10294
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q2,E1,Less than High school,6510
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q2,E2,"High school or equivalent, no college",8877
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q2,E3,Some college or Associate degree,8932
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q2,E4,Bachelor's degree or advanced degree,6671
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),17358
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q3,E1,Less than High school,6708
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q3,E2,"High school or equivalent, no college",9339
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q3,E3,Some college or Associate degree,9537
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q3,E4,Bachelor's degree or advanced degree,7390
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),17554
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q4,E1,Less than High school,6520
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q4,E2,"High school or equivalent, no college",9059
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q4,E3,Some college or Associate degree,9198
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q4,E4,Bachelor's degree or advanced degree,7044
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),13518
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q1,E1,Less than High school,5408
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q1,E2,"High school or equivalent, no college",7432
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q1,E3,Some college or Associate degree,7687
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q1,E4,Bachelor's degree or advanced degree,6163
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),9629
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q2,E1,Less than High school,6330
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q2,E2,"High school or equivalent, no college",8637
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q2,E3,Some college or Associate degree,8816
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q2,E4,Bachelor's degree or advanced degree,6849
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),16149
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q3,E1,Less than High school,6737
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q3,E2,"High school or equivalent, no college",8949
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q3,E3,Some college or Associate degree,9197
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q3,E4,Bachelor's degree or advanced degree,6949
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),16997
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,6677
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",9274
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,9631
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,7353
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),13505
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q1,E1,Less than High school,5573
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q1,E2,"High school or equivalent, no college",7535
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q1,E3,Some college or Associate degree,7700
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q1,E4,Bachelor's degree or advanced degree,6141
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),9801
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q2,E1,Less than High school,6876
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q2,E2,"High school or equivalent, no college",9462
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q2,E3,Some college or Associate degree,9611
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q2,E4,Bachelor's degree or advanced degree,7134
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),17483
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q3,E1,Less than High school,6785
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q3,E2,"High school or equivalent, no college",9435
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q3,E3,Some college or Associate degree,9641
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q3,E4,Bachelor's degree or advanced degree,7317
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),20304
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q4,E1,Less than High school,7072
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q4,E2,"High school or equivalent, no college",10252
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q4,E3,Some college or Associate degree,10592
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q4,E4,Bachelor's degree or advanced degree,8525
-New Hires,Prince Georges WIA,Maryland New Hires by Education,2019Q4,E5,Educational attainment not available (workers aged 24 or younger),14126
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q1,1,Male,18412
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q1,2,Female,14984
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q2,1,Male,24636
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q2,2,Female,20789
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q3,1,Male,28432
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q3,2,Female,25301
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q4,1,Male,26615
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2016Q4,2,Female,23766
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q1,1,Male,20213
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q1,2,Female,16810
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q2,1,Male,26196
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q2,2,Female,22152
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q3,1,Male,26572
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q3,2,Female,23955
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q4,1,Male,24203
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2017Q4,2,Female,21136
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q1,1,Male,19510
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q1,2,Female,16809
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q2,1,Male,25166
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q2,2,Female,21615
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q3,1,Male,25515
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q3,2,Female,23316
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q4,1,Male,24175
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2018Q4,2,Female,22266
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2019Q1,1,Male,20054
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2019Q1,2,Female,16697
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2019Q2,1,Male,26517
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2019Q2,2,Female,24049
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2019Q3,1,Male,27655
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2019Q3,2,Female,25827
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2019Q4,1,Male,26548
-New Hires,Prince Georges WIA,Maryland New Hires by Gender,2019Q4,2,Female,24018
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",N/A
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,22,Utilities,50
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,23,Construction,3710
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,31-33,Manufacturing,441
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,42,Wholesale Trade,897
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,44-45,Retail Trade,5613
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,48-49,Transportation and Warehousing,1452
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,51,Information,346
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,52,Finance and Insurance,491
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,53,Real Estate and Rental and Leasing,625
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,54,"Professional, Scientific, and Technical Services",2397
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,55,Management of Companies and Enterprises,222
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,56,Administrative and Support and Waste Management and Remediation Services,3653
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,61,Educational Services,2047
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,62,Health Care and Social Assistance,3077
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,71,"Arts, Entertainment, and Recreation",689
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,72,Accommodation and Food Services,6038
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,81,Other Services (except Public Administration),1080
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q1,92,Public Administration,564
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,11,"Agriculture, Forestry, Fishing and Hunting",21
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",5
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,22,Utilities,43
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,23,Construction,4923
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,31-33,Manufacturing,707
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,42,Wholesale Trade,1130
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,44-45,Retail Trade,7907
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,48-49,Transportation and Warehousing,2092
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,51,Information,449
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,52,Finance and Insurance,550
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,53,Real Estate and Rental and Leasing,928
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,54,"Professional, Scientific, and Technical Services",2835
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,55,Management of Companies and Enterprises,304
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,56,Administrative and Support and Waste Management and Remediation Services,5543
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,61,Educational Services,1865
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,62,Health Care and Social Assistance,3549
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,71,"Arts, Entertainment, and Recreation",1639
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,72,Accommodation and Food Services,8037
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,81,Other Services (except Public Administration),1617
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q2,92,Public Administration,1278
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,11,"Agriculture, Forestry, Fishing and Hunting",20
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",4
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,22,Utilities,38
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,23,Construction,4889
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,31-33,Manufacturing,699
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,42,Wholesale Trade,1209
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,44-45,Retail Trade,8513
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,48-49,Transportation and Warehousing,2600
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,51,Information,400
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,52,Finance and Insurance,599
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,53,Real Estate and Rental and Leasing,770
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,54,"Professional, Scientific, and Technical Services",2931
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,55,Management of Companies and Enterprises,473
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,56,Administrative and Support and Waste Management and Remediation Services,5554
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,61,Educational Services,7578
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,62,Health Care and Social Assistance,4019
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,71,"Arts, Entertainment, and Recreation",1591
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,72,Accommodation and Food Services,7980
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,81,Other Services (except Public Administration),1815
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q3,92,Public Administration,2053
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,11,"Agriculture, Forestry, Fishing and Hunting",6
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,22,Utilities,28
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,23,Construction,3628
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,31-33,Manufacturing,1227
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,42,Wholesale Trade,1076
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,44-45,Retail Trade,9342
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,48-49,Transportation and Warehousing,4626
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,51,Information,435
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,52,Finance and Insurance,515
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,53,Real Estate and Rental and Leasing,690
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,54,"Professional, Scientific, and Technical Services",3239
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,55,Management of Companies and Enterprises,5617
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,56,Administrative and Support and Waste Management and Remediation Services,4255
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,61,Educational Services,2431
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,62,Health Care and Social Assistance,3421
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,71,"Arts, Entertainment, and Recreation",760
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,72,Accommodation and Food Services,7050
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,81,Other Services (except Public Administration),1470
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2016Q4,92,Public Administration,563
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,11,"Agriculture, Forestry, Fishing and Hunting",8
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",7
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,22,Utilities,48
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,23,Construction,4007
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,31-33,Manufacturing,631
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,42,Wholesale Trade,1028
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,44-45,Retail Trade,5593
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,48-49,Transportation and Warehousing,1383
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,51,Information,583
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,52,Finance and Insurance,553
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,53,Real Estate and Rental and Leasing,651
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,54,"Professional, Scientific, and Technical Services",2572
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,55,Management of Companies and Enterprises,179
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,56,Administrative and Support and Waste Management and Remediation Services,3807
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,61,Educational Services,2125
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,62,Health Care and Social Assistance,3626
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,71,"Arts, Entertainment, and Recreation",709
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,72,Accommodation and Food Services,7887
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,81,Other Services (except Public Administration),1202
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q1,92,Public Administration,421
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,11,"Agriculture, Forestry, Fishing and Hunting",7
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",7
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,22,Utilities,40
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,23,Construction,4989
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,31-33,Manufacturing,802
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,42,Wholesale Trade,1193
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,44-45,Retail Trade,7717
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,48-49,Transportation and Warehousing,2639
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,51,Information,602
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,52,Finance and Insurance,602
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,53,Real Estate and Rental and Leasing,836
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,54,"Professional, Scientific, and Technical Services",2625
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,55,Management of Companies and Enterprises,196
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,56,Administrative and Support and Waste Management and Remediation Services,5316
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,61,Educational Services,3571
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,62,Health Care and Social Assistance,3781
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,71,"Arts, Entertainment, and Recreation",1896
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,72,Accommodation and Food Services,8868
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,81,Other Services (except Public Administration),1653
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q2,92,Public Administration,1009
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,11,"Agriculture, Forestry, Fishing and Hunting",9
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",4
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,22,Utilities,39
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,23,Construction,5023
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,31-33,Manufacturing,758
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,42,Wholesale Trade,1058
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,44-45,Retail Trade,7798
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,48-49,Transportation and Warehousing,3114
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,51,Information,511
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,52,Finance and Insurance,629
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,53,Real Estate and Rental and Leasing,775
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,54,"Professional, Scientific, and Technical Services",3105
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,55,Management of Companies and Enterprises,203
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,56,Administrative and Support and Waste Management and Remediation Services,4924
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,61,Educational Services,4171
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,62,Health Care and Social Assistance,4421
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,71,"Arts, Entertainment, and Recreation",1428
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,72,Accommodation and Food Services,8847
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,81,Other Services (except Public Administration),1411
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q3,92,Public Administration,2298
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,11,"Agriculture, Forestry, Fishing and Hunting",6
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",7
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,22,Utilities,37
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,23,Construction,3997
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,31-33,Manufacturing,1410
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,42,Wholesale Trade,931
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,44-45,Retail Trade,9357
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,48-49,Transportation and Warehousing,5233
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,51,Information,446
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,52,Finance and Insurance,522
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,53,Real Estate and Rental and Leasing,731
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,54,"Professional, Scientific, and Technical Services",2700
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,55,Management of Companies and Enterprises,177
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,56,Administrative and Support and Waste Management and Remediation Services,3761
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,61,Educational Services,2753
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,62,Health Care and Social Assistance,3498
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,71,"Arts, Entertainment, and Recreation",604
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,72,Accommodation and Food Services,7177
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,81,Other Services (except Public Administration),1469
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2017Q4,92,Public Administration,523
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",10
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",9
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,22,Utilities,49
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,23,Construction,3715
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,31-33,Manufacturing,610
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,42,Wholesale Trade,937
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,44-45,Retail Trade,5655
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,48-49,Transportation and Warehousing,1935
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,51,Information,373
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,52,Finance and Insurance,642
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,53,Real Estate and Rental and Leasing,668
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,54,"Professional, Scientific, and Technical Services",2344
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,55,Management of Companies and Enterprises,237
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,56,Administrative and Support and Waste Management and Remediation Services,3980
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,61,Educational Services,2120
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,62,Health Care and Social Assistance,3608
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,71,"Arts, Entertainment, and Recreation",779
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,72,Accommodation and Food Services,6848
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,81,Other Services (except Public Administration),1266
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q1,92,Public Administration,535
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,11,"Agriculture, Forestry, Fishing and Hunting",8
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",5
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,22,Utilities,65
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,23,Construction,4319
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,31-33,Manufacturing,623
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,42,Wholesale Trade,1123
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,44-45,Retail Trade,7128
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,48-49,Transportation and Warehousing,2709
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,51,Information,442
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,52,Finance and Insurance,579
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,53,Real Estate and Rental and Leasing,1106
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,54,"Professional, Scientific, and Technical Services",2528
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,55,Management of Companies and Enterprises,172
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,56,Administrative and Support and Waste Management and Remediation Services,4847
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,61,Educational Services,3407
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,62,Health Care and Social Assistance,4002
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,71,"Arts, Entertainment, and Recreation",2124
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,72,Accommodation and Food Services,8869
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,81,Other Services (except Public Administration),1502
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q2,92,Public Administration,1224
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,11,"Agriculture, Forestry, Fishing and Hunting",10
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",4
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,22,Utilities,47
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,23,Construction,4589
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,31-33,Manufacturing,646
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,42,Wholesale Trade,1090
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,44-45,Retail Trade,7719
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,48-49,Transportation and Warehousing,3211
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,51,Information,325
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,52,Finance and Insurance,644
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,53,Real Estate and Rental and Leasing,880
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,54,"Professional, Scientific, and Technical Services",2398
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,55,Management of Companies and Enterprises,209
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,56,Administrative and Support and Waste Management and Remediation Services,4972
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,61,Educational Services,4147
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,62,Health Care and Social Assistance,3870
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,71,"Arts, Entertainment, and Recreation",1393
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,72,Accommodation and Food Services,8797
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,81,Other Services (except Public Administration),1639
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q3,92,Public Administration,2242
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,11,"Agriculture, Forestry, Fishing and Hunting",4
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,22,Utilities,90
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,23,Construction,3572
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,31-33,Manufacturing,1322
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,42,Wholesale Trade,848
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,44-45,Retail Trade,9054
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,48-49,Transportation and Warehousing,5731
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,51,Information,436
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,52,Finance and Insurance,536
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,53,Real Estate and Rental and Leasing,787
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,54,"Professional, Scientific, and Technical Services",2757
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,55,Management of Companies and Enterprises,188
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,56,Administrative and Support and Waste Management and Remediation Services,3941
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,61,Educational Services,2852
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,62,Health Care and Social Assistance,4050
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,71,"Arts, Entertainment, and Recreation",801
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,72,Accommodation and Food Services,7404
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,81,Other Services (except Public Administration),1441
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2018Q4,92,Public Administration,621
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,11,"Agriculture, Forestry, Fishing and Hunting",6
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,22,Utilities,69
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,23,Construction,4234
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,31-33,Manufacturing,578
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,42,Wholesale Trade,917
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,44-45,Retail Trade,5480
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,48-49,Transportation and Warehousing,2433
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,51,Information,285
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,52,Finance and Insurance,471
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,53,Real Estate and Rental and Leasing,602
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,54,"Professional, Scientific, and Technical Services",2366
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,55,Management of Companies and Enterprises,167
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,56,Administrative and Support and Waste Management and Remediation Services,4124
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,61,Educational Services,2313
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,62,Health Care and Social Assistance,3530
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,71,"Arts, Entertainment, and Recreation",903
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,72,Accommodation and Food Services,6580
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,81,Other Services (except Public Administration),1202
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q1,92,Public Administration,484
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",19
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",0
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,22,Utilities,54
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,23,Construction,4719
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,31-33,Manufacturing,808
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,42,Wholesale Trade,1144
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,44-45,Retail Trade,7593
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,48-49,Transportation and Warehousing,3526
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,51,Information,379
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,52,Finance and Insurance,583
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,53,Real Estate and Rental and Leasing,1094
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,54,"Professional, Scientific, and Technical Services",3250
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,55,Management of Companies and Enterprises,227
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,56,Administrative and Support and Waste Management and Remediation Services,5206
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,61,Educational Services,3740
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,62,Health Care and Social Assistance,3768
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,71,"Arts, Entertainment, and Recreation",2979
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,72,Accommodation and Food Services,9124
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,81,Other Services (except Public Administration),1509
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q2,92,Public Administration,843
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",7
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,22,Utilities,45
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,23,Construction,4646
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,31-33,Manufacturing,661
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,42,Wholesale Trade,1081
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,44-45,Retail Trade,7724
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,48-49,Transportation and Warehousing,4097
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,51,Information,371
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,52,Finance and Insurance,515
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,53,Real Estate and Rental and Leasing,885
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",2900
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,55,Management of Companies and Enterprises,200
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,4845
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,61,Educational Services,4397
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,62,Health Care and Social Assistance,4119
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",1301
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,72,Accommodation and Food Services,8221
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,81,Other Services (except Public Administration),1786
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q3,92,Public Administration,5675
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,11,"Agriculture, Forestry, Fishing and Hunting",10
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,22,Utilities,54
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,23,Construction,3713
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,31-33,Manufacturing,1470
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,42,Wholesale Trade,1016
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,44-45,Retail Trade,9269
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,48-49,Transportation and Warehousing,6289
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,51,Information,446
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,52,Finance and Insurance,892
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,53,Real Estate and Rental and Leasing,855
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,54,"Professional, Scientific, and Technical Services",2970
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,55,Management of Companies and Enterprises,198
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,56,Administrative and Support and Waste Management and Remediation Services,4464
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,61,Educational Services,4347
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,62,Health Care and Social Assistance,3805
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,71,"Arts, Entertainment, and Recreation",906
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,72,Accommodation and Food Services,7873
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,81,Other Services (except Public Administration),1400
-New Hires,Prince Georges WIA,Maryland New Hires by Industry,2019Q4,92,Public Administration,587

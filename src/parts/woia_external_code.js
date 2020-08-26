@@ -55,7 +55,15 @@ import * as dimple from 'dimple';
         }
         return d3.format('$,.0f')(d * 1)
     }
-
+    let zeronulls = (dataset) => {
+        console.log({dataset})
+        let returnThis = []
+        for (let record of dataset){
+            if(record['Amount'] == "N/A"){ record['Amount'] = -1 }
+            returnThis.push(record)
+        }
+        return returnThis
+    }
     let url = CountyName2 == 'Maryland' ? './data/MarylandData.csv' : "./data/wda/" + CountyName.replace(/[ ]/g, '') + ".csv"
 
     window.findEdu = (objArr,indx)=>{
@@ -157,7 +165,7 @@ import * as dimple from 'dimple';
     window.workDatg2019Q3 = dimple.filterData(workDataB, "Time", "2019Q3")
     window.workDatg2019Q4 = dimple.filterData(workDataB, "Time", "2019Q4")
 
-    window.wChart = new dimple.chart(svg3,workData2018Q1);
+    window.wChart = new dimple.chart(svg3,zeronulls(workData2018Q1 ) );
     wChart.setBounds("11%", "12%", "35%", "65%")
     window.edX = wChart.addCategoryAxis("x", "Indicator_Value");
     var eduY = wChart.addMeasureAxis("y", "Amount");
@@ -182,7 +190,7 @@ import * as dimple from 'dimple';
 
     eduY.tickFormat = ',.0f';
 
-    window.pwChart = new dimple.chart(print3,workData2018Q1);
+    window.pwChart = new dimple.chart(print3,zeronulls(workData2018Q1 ) );
     pwChart.setBounds("13%", "12%", "35%", 250)
     var pedX = pwChart.addCategoryAxis("x", "Indicator_Value");
     var peduY = pwChart.addMeasureAxis("y", "Amount");
@@ -354,12 +362,13 @@ import * as dimple from 'dimple';
                ${!workData2019Q4[0] ? '' : displayAvgQuarterTab1('2019Q4', workData2019Q4, workDatg2019Q4, averageData2019Q4, averageDatg2019Q4)}
   `
 
-    window.avgChart = new dimple.chart(svg3,averageData2017Q4);
+
+    window.avgChart = new dimple.chart(svg3,zeronulls(averageData2017Q4) );
     avgChart.setBounds("56%", "12%", "35%", "65%")
     window.genX = avgChart.addCategoryAxis("x", "Indicator_Value");
     var genY = avgChart.addMeasureAxis("y", "Amount");
-
     avgChart.addSeries("Indicator_Value", dimple.plot.bar);
+    console.log({avgChart})
 
     avgChart.assignColor("14-18", "#4dc3ff", "black", 0.7);
     avgChart.assignColor("19-21", "#ff5c33", "black", 0.7);
@@ -379,7 +388,7 @@ import * as dimple from 'dimple';
     genY.tickFormat = '$,.0f';
     genY.title = "Average Monthly Earnings";
 
-    window.pavgChart = new dimple.chart(print3,averageDatg2017Q4);
+    window.pavgChart = new dimple.chart(print3,zeronulls(averageDatg2017Q4) );
     pavgChart.setBounds("61%", "12%", "35%", 250)
     var pgenX = pavgChart.addCategoryAxis("x", "Indicator_Value");
     var pgenY = pavgChart.addMeasureAxis("y", "Amount");
@@ -490,7 +499,7 @@ import * as dimple from 'dimple';
     window.jobDatg2019Q3 = dimple.filterData(jobData2, "Time", "2019Q3")
     window.jobDatg2019Q4 = dimple.filterData(jobData2, "Time", "2019Q4")
 
-    window.jc = new dimple.chart(svg4,jobDatc2017Q1);
+    window.jc = new dimple.chart(svg4,zeronulls( jobDatc2017Q1) );
     jc.setBounds("56%", "8%", "35%", "45%")
 
     var raceX = jc.addCategoryAxis("x", "Indicator_Value");
@@ -513,7 +522,7 @@ import * as dimple from 'dimple';
 
     raceY.tickFormat = ',.0f';
 
-    window.pjc = new dimple.chart(print4,jobDatc2017Q1);
+    window.pjc = new dimple.chart(print4,zeronulls(jobDatc2017Q1) );
     pjc.setBounds("59%", "8%", "35%", 175)
 
     var praceX = pjc.addCategoryAxis("x", "Indicator_Value");
@@ -593,7 +602,7 @@ import * as dimple from 'dimple';
                ${!jobDatg2019Q3[0] ? '' : displayAvgQuarterTab2('2019Q3', jobDatc2019Q3, jobDatg2019Q3, newHireDatc2019Q3, newHireDatg2019Q3)}
                ${!jobDatg2019Q4[0] ? '' : displayAvgQuarterTab2('2019Q4', jobDatc2019Q4, jobDatg2019Q4, newHireDatc2019Q4, newHireDatg2019Q4)}
     `
-    window.newHireChart = new dimple.chart(svg4,newHireDatc2017Q4);
+    window.newHireChart = new dimple.chart(svg4,zeronulls(newHireDatc2017Q4) );
     newHireChart.setBounds("11%", "8%", "35%", "45%")
     var ethX = newHireChart.addCategoryAxis("x", "Indicator_Value");
     var ethY = newHireChart.addMeasureAxis("y", "Amount");
@@ -615,7 +624,7 @@ import * as dimple from 'dimple';
     newHireChart.draw();
     ethX.addOrderRule(["Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A", "Female", "Male"]);
 
-    window.pnewHireChart = new dimple.chart(print4,newHireDatc2017Q4);
+    window.pnewHireChart = new dimple.chart(print4,zeronulls(newHireDatc2017Q4) );
     pnewHireChart.setBounds("11%", "8%", "35%", 175)
     var pethX = pnewHireChart.addCategoryAxis("x", "Indicator_Value");
     var pethY = pnewHireChart.addMeasureAxis("y", "Amount");
@@ -729,7 +738,7 @@ import * as dimple from 'dimple';
                ${!turnOverData2019Q4[0] ? '' : displayAvgQuarterTab3('2019Q4', turnOverData2019Q4, turnOverDatg2019Q4)}
   `
 
-    window.turnChart = new dimple.chart(svg5,turnOverDatg2017Q4);
+    window.turnChart = new dimple.chart(svg5,zeronulls(turnOverDatg2017Q4) );
     turnChart.setBounds("12%", "12%", "80%", "45%")
     var vetX = turnChart.addCategoryAxis("x", "Indicator_Value")
 
@@ -754,7 +763,7 @@ import * as dimple from 'dimple';
     vetX.addOrderRule(["Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A", "Female", "Male"]);
     vetX.title = "Turnover Rate";
 
-    window.pturnChart = new dimple.chart(print5,turnOverDatg2017Q4);
+    window.pturnChart = new dimple.chart(print5,zeronulls(turnOverDatg2017Q4) );
     pturnChart.setBounds("12%", "12%", "75%", 175)
     var pvetX = pturnChart.addCategoryAxis("x", "Indicator_Value")
     var pvetY = pturnChart.addMeasureAxis("y", "Amount");
@@ -1086,7 +1095,7 @@ import * as dimple from 'dimple';
       </tbody>
   `
 
-    window.chart8 = new dimple.chart(svg6,iwdata8);
+    window.chart8 = new dimple.chart(svg6,zeronulls(iwdata8) );
     chart8.setBounds("9%", "12%", "55%", "55%")
     var x2 = chart8.addCategoryAxis("x", ["Time", "Indicator_Value"]);
     var y2 = chart8.addMeasureAxis("y", "Amount");
@@ -1124,7 +1133,7 @@ import * as dimple from 'dimple';
     y2.title = 'Placeholder';
     x2.title = " ";
 
-    window.pchart8 = new dimple.chart(print6,iwdata8);
+    window.pchart8 = new dimple.chart(print6,zeronulls(iwdata8) );
     pchart8.setBounds("14%", "12%", "45%", 250)
     var px2 = pchart8.addCategoryAxis("x", ["Time", "Indicator_Value"]);
     var py2 = pchart8.addMeasureAxis("y", "Amount");
@@ -1242,7 +1251,7 @@ import * as dimple from 'dimple';
     window.esepdata15 = dimple.filterData(edusep, "Time", "2019Q3")
     window.esepdata16 = dimple.filterData(edusep, "Time", "2019Q4")
 
-    window.chart61 = new dimple.chart(svg71,isepdata8);
+    window.chart61 = new dimple.chart(svg71,zeronulls(isepdata8) );
     chart61.setBounds("9%", "12%", "55%", "55%")
     var px2 = chart61.addCategoryAxis("x", ["Time", "Indicator_Value"]);
     var sepy2 = chart61.addMeasureAxis("y", "Amount");
@@ -1292,12 +1301,12 @@ import * as dimple from 'dimple';
     chart61.assignColor("Male", "#3366ff", "black", 0.7);
     chart61.assignColor("Female", "pink", "black", 0.7);
 
-    sepy2.title = "Seperations";
+    sepy2.title = "Separations";
     px2.title = " ";
 
     chart61.draw();
 
-    window.pchart61 = new dimple.chart(print71,isepdata8);
+    window.pchart61 = new dimple.chart(print71,zeronulls(isepdata8) );
     pchart61.setBounds("9%", "12%", "50%", 300)
     var px2 = pchart61.addCategoryAxis("x", ["Time", "Indicator_Value"]);
     var psepy2 = pchart61.addMeasureAxis("y", "Amount");
@@ -1461,7 +1470,8 @@ import * as dimple from 'dimple';
   `
     }
 
-    let notMdisepdata = CountyName == 'Maryland' ? '' : `
+    // let notMdisepdata = CountyName == 'Maryland' ? '' : `
+    let notMdisepdata = `
        <thead>
         <tr> <th class="HeadRow">Separations by Industry</th> 
           <th class="HeadRow">2016Q1</th>
@@ -1629,57 +1639,57 @@ import * as dimple from 'dimple';
             // Tab 4
             if (strUser10 == "Average Monthly Earnings") {
                 y2.tickFormat = '$,.0f';
-                chart8.data = avgdata;
+                chart8.data = zeronulls(avgdata);
             }
             if (strUser10 == "Job Net Changes") {
-                chart8.data = netdata;
+                chart8.data = zeronulls(netdata);
             }
             if (strUser10 == "New Hires") {
-                chart8.data = hiredata;
+                chart8.data = zeronulls(hiredata);
             }
             if (strUser10 == "Turnover Rate") {
                 y2.tickFormat = '.1%';
-                chart8.data = turndata;
+                chart8.data = zeronulls(turndata);
             }
             if (strUser10 == "Workers") {
-                chart8.data = iwdata;
+                chart8.data = zeronulls(iwdata);
             }
             // Tabs 1, 2, 3 & 5
             if (["Education", "By Education"].includes(strUser10)) {
-                jc.data = jobDatc
+                jc.data = zeronulls(jobDatc)
                 // tab 2 Chart 3
-                newHireChart.data = newHireDatc;
+                newHireChart.data = zeronulls(newHireDatc);
                 // tab 2 Chart 4
-                turnChart.data = turnOverData;
+                turnChart.data = zeronulls(turnOverData);
                 // tab 3 chart 5
-                chart61.data = esepdata;
+                chart61.data = zeronulls(esepdata);
                 // Tab 5 Chart 7
             }
             if (["Age", "By Age"].includes(strUser10)) {
-                wChart.data = workData
+                wChart.data = zeronulls(workData)
                 // tab 1 Chart 1
-                avgChart.data = averageData
+                avgChart.data = zeronulls(averageData)
                 // tab 1 Chart 1
-                chart61.data = asepdata;
+                chart61.data = zeronulls(asepdata);
                 // Tab 4
             }
             if (["Gender", "By Gender"].includes(strUser10)) {
-                wChart.data = workDatg
+                wChart.data = zeronulls(workDatg)
                 // tab 1 Chart 1
-                avgChart.data = averageDatg
+                avgChart.data = zeronulls(averageDatg)
                 // tab 1 Chart 1
-                jc.data = jobDatg
+                jc.data = zeronulls(jobDatg)
                 // tab 2 Chart 3
-                newHireChart.data = newHireDatg;
+                newHireChart.data = zeronulls(newHireDatg);
                 // tab 2 Chart 4
-                turnChart.data = turnOverDatg;
+                turnChart.data = zeronulls(turnOverDatg);
                 // tab 3 chart 5
-                chart61.data = gsepdata;
+                chart61.data = zeronulls(gsepdata);
                 // Tab 4
             }
 
             if (strUser10 == "Industry") {
-                chart61.data = isepdata;
+                chart61.data = zeronulls(isepdata);
                 // Tab 4
             }
         }

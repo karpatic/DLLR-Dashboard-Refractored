@@ -219,13 +219,17 @@ Separations,Susquehanna WIA,Maryland Separations by Age,2016Q1,A01,14-18,917
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q2,48-49,Transportation and Warehousing,0.069
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q4,11,"Agriculture, Forestry, Fishing and Hunting",0.069
 Separations,Susquehanna WIA,Maryland Separations by Age,2016Q1,A07,55-64,1225
+New Hires,Susquehanna WIA,Maryland New Hires by Education All,2017-Q1,E0,All Education Categories,14971
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",0.07
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2016Q2,48-49,Transportation and Warehousing,0.07
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2016Q4,52,Finance and Insurance,0.07
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2017Q4,55,Management of Companies and Enterprises,0.07
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q1,E0,All Education Categories,15188
 Separations,Susquehanna WIA,Maryland Separations by Age,2016Q1,A03,22-24,1577
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q1,E0,All Education Categories,15533
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2016Q2,52,Finance and Insurance,0.072
 Separations,Susquehanna WIA,Maryland Separations by Age,2016Q1,A02,19-21,1684
+New Hires,Susquehanna WIA,Maryland New Hires by Education All,2016-Q1,E0,All Education Categories,17245
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2017Q2,42,Wholesale Trade,0.073
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q3,52,Finance and Insurance,0.073
 Separations,Susquehanna WIA,Maryland Separations by Age,2016Q1,A06,45-54,1974
@@ -237,6 +241,7 @@ Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2017Q3,62,Health Car
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q2,62,Health Care and Social Assistance,0.075
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2019Q1,23,Construction,0.075
 Separations,Susquehanna WIA,Maryland Separations by Age,2016Q2,A08,65-99,855
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q3,E0,All Education Categories,21272
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2016Q3,55,Management of Companies and Enterprises,0.076
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2016Q3,62,Health Care and Social Assistance,0.076
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2019Q1,62,Health Care and Social Assistance,0.076
@@ -245,6 +250,9 @@ Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2016Q1,54,"Professio
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q3,55,Management of Companies and Enterprises,0.077
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q4,55,Management of Companies and Enterprises,0.077
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2019Q1,42,Wholesale Trade,0.077
+New Hires,Susquehanna WIA,Maryland New Hires by Education All,2016-Q2,E0,All Education Categories,21612
+New Hires,Susquehanna WIA,Maryland New Hires by Education All,2016-Q3,E0,All Education Categories,21638
+New Hires,Susquehanna WIA,Maryland New Hires by Education All,2016-Q4,E0,All Education Categories,21694
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2016Q2,54,"Professional, Scientific, and Technical Services",0.078
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2016Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",0.078
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2017Q1,42,Wholesale Trade,0.078
@@ -254,6 +262,8 @@ Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2017Q4,62,Health Car
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q1,42,Wholesale Trade,0.078
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q2,52,Finance and Insurance,0.078
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q3,62,Health Care and Social Assistance,0.078
+New Hires,Susquehanna WIA,Maryland New Hires by Education All,2017-Q3,E0,All Education Categories,21714
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q3,E0,All Education Categories,21943
 Separations,Susquehanna WIA,Maryland Separations by Age,2016Q2,A07,55-64,1685
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2017Q3,54,"Professional, Scientific, and Technical Services",0.079
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2017Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",0.079
@@ -261,16 +271,21 @@ Separations,Susquehanna WIA,Maryland Separations by Age,2016Q2,A03,22-24,1945
 Separations,Susquehanna WIA,Maryland Separations by Age,2016Q2,A02,19-21,2127
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2017Q2,62,Health Care and Social Assistance,0.08
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q1,23,Construction,0.08
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q2,E0,All Education Categories,23088
+New Hires,Susquehanna WIA,Maryland New Hires by Education All,2017-Q2,E0,All Education Categories,23200
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q2,E0,All Education Categories,23544
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2016Q2,42,Wholesale Trade,0.081
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2017Q1,61,Educational Services,0.081
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q3,22,Utilities,0.081
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q4,62,Health Care and Social Assistance,0.081
+New Hires,Susquehanna WIA,Maryland New Hires by Education All,2017-Q4,E0,All Education Categories,23699
 Separations,Susquehanna WIA,Maryland Separations by Age,2016Q2,A06,45-54,2536
 Separations,Susquehanna WIA,Maryland Separations by Age,2016Q2,A05,35-44,2699
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2016Q2,53,Real Estate and Rental and Leasing,0.082
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2017Q2,54,"Professional, Scientific, and Technical Services",0.082
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2017Q2,55,Management of Companies and Enterprises,0.082
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q2,42,Wholesale Trade,0.082
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q4,E0,All Education Categories,24296
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2016Q1,53,Real Estate and Rental and Leasing,0.083
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q1,62,Health Care and Social Assistance,0.083
 Separations,Susquehanna WIA,Maryland Separations by Age,2016Q2,A04,25-34,4280
@@ -499,10 +514,13 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2017Q1,2,Female,30
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q1,51,Information,S
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q3,62,Health Care and Social Assistance,S
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",S
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,22,Utilities,S
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,22,Utilities,S
 Separations,Susquehanna WIA,Maryland Separations by Age,2016Q4,A08,65-99,1106
 Separations,Susquehanna WIA,Maryland Separations by Age,2016Q4,A01,14-18,1625
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",4
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",4
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,22,Utilities,4
 Separations,Susquehanna WIA,Maryland Separations by Age,2016Q4,A07,55-64,1981
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q3,55,Management of Companies and Enterprises,6
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",6
@@ -513,6 +531,7 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q1,92,Public 
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",7
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q4,55,Management of Companies and Enterprises,7
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,52,Finance and Insurance,7
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,22,Utilities,7
 Separations,Susquehanna WIA,Maryland Separations by Age,2016Q4,A06,45-54,3016
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q4,42,Wholesale Trade,8
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q4,55,Management of Companies and Enterprises,8
@@ -534,62 +553,97 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,22,Utiliti
 Separations,Susquehanna WIA,Maryland Separations by Age,2016Q4,A04,25-34,5613
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q1,A08,65-99,717
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,22,Utilities,13
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,22,Utilities,13
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,22,Utilities,13
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,52,Finance and Insurance,14
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,22,Utilities,14
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",14
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q1,A01,14-18,1036
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q3,11,"Agriculture, Forestry, Fishing and Hunting",15
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,22,Utilities,15
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,22,Utilities,15
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,22,Utilities,15
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q1,A07,55-64,1447
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",16
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,22,Utilities,16
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",16
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",16
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",16
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q1,A03,22-24,1598
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q1,A02,19-21,1828
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",17
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q1,A06,45-54,2052
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q1,A05,35-44,2426
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q1,A04,25-34,3862
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q1,53,Real Estate and Rental and Leasing,18
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",18
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,22,Utilities,18
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q2,A08,65-99,1007
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q2,A01,14-18,1430
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q2,A07,55-64,1835
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q2,A03,22-24,2069
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q2,A02,19-21,2378
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2017Q3,E4,Bachelor's degree or advanced degree,0.071
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,22,Utilities,19
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q1,52,Finance and Insurance,20
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,51,Information,20
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,92,Public Administration,20
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",20
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",21
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q1,71,"Arts, Entertainment, and Recreation",22
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,42,Wholesale Trade,22
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",22
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,22,Utilities,22
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q2,A06,45-54,2658
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q2,A05,35-44,2947
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q2,A04,25-34,4679
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q3,A08,65-99,818
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",24
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",24
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q3,A07,55-64,1694
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q2,53,Real Estate and Rental and Leasing,25
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,48-49,Transportation and Warehousing,25
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",25
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q2,42,Wholesale Trade,26
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,55,Management of Companies and Enterprises,26
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",26
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,55,Management of Companies and Enterprises,26
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q1,51,Information,27
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q4,81,Other Services (except Public Administration),27
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q1,22,Utilities,28
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q1,81,Other Services (except Public Administration),29
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",29
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2017Q2,2,Female,1181
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,71,"Arts, Entertainment, and Recreation",30
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2017Q2,1,Male,2711
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q2,81,Other Services (except Public Administration),31
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,53,Real Estate and Rental and Leasing,31
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,55,Management of Companies and Enterprises,31
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2018Q3,E4,Bachelor's degree or advanced degree,0.074
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q3,A03,22-24,2460
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q4,51,Information,32
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,42,Wholesale Trade,32
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",32
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,55,Management of Companies and Enterprises,32
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q3,A06,45-54,2518
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2017Q3,2,Female,-154
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2019Q1,E4,Bachelor's degree or advanced degree,0.074
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q3,A01,14-18,2740
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,22,Utilities,34
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,55,Management of Companies and Enterprises,34
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,22,Utilities,34
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q3,A05,35-44,3023
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q3,A02,19-21,3782
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q3,A04,25-34,4961
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,55,Management of Companies and Enterprises,36
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q4,A08,65-99,1160
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2018Q1,E4,Bachelor's degree or advanced degree,0.075
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,55,Management of Companies and Enterprises,37
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q4,A01,14-18,1675
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,55,Management of Companies and Enterprises,39
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q4,52,Finance and Insurance,40
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,53,Real Estate and Rental and Leasing,40
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,55,Management of Companies and Enterprises,42
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q4,A07,55-64,2135
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q4,A03,22-24,2751
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q4,A02,19-21,3010
@@ -597,24 +651,30 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q4,53,Real Es
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q1,11,"Agriculture, Forestry, Fishing and Hunting",43
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,92,Public Administration,44
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,62,Health Care and Social Assistance,44
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,55,Management of Companies and Enterprises,44
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q4,54,"Professional, Scientific, and Technical Services",45
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,92,Public Administration,45
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q4,A06,45-54,3152
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",46
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,52,Finance and Insurance,47
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,55,Management of Companies and Enterprises,47
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q4,A05,35-44,3658
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q2,52,Finance and Insurance,48
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q4,51,Information,48
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q4,81,Other Services (except Public Administration),49
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,92,Public Administration,49
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,92,Public Administration,50
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,55,Management of Companies and Enterprises,50
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,62,Health Care and Social Assistance,51
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,48-49,Transportation and Warehousing,51
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,72,Accommodation and Food Services,51
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,55,Management of Companies and Enterprises,51
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,55,Management of Companies and Enterprises,51
 Separations,Susquehanna WIA,Maryland Separations by Age,2017Q4,A04,25-34,6310
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,62,Health Care and Social Assistance,52
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q3,51,Information,53
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,52,Finance and Insurance,53
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,55,Management of Companies and Enterprises,56
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,71,"Arts, Entertainment, and Recreation",57
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",57
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,61,Educational Services,58
@@ -624,12 +684,14 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,81,Other S
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,23,Construction,64
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q1,53,Real Estate and Rental and Leasing,66
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q3,42,Wholesale Trade,66
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,51,Information,67
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q1,56,Administrative and Support and Waste Management and Remediation Services,68
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q3,81,Other Services (except Public Administration),68
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,81,Other Services (except Public Administration),69
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q2,48-49,Transportation and Warehousing,71
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q3,53,Real Estate and Rental and Leasing,71
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,23,Construction,71
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,51,Information,71
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q3,42,Wholesale Trade,72
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2017Q3,1,Male,-103
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,52,Finance and Insurance,73
@@ -641,17 +703,23 @@ Separations,Susquehanna WIA,Maryland Separations by Age,2018Q1,A01,14-18,1030
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,53,Real Estate and Rental and Leasing,77
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,53,Real Estate and Rental and Leasing,77
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,11,"Agriculture, Forestry, Fishing and Hunting",78
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,51,Information,79
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q1,A07,55-64,1545
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q1,A03,22-24,1729
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,51,Information,81
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q1,A02,19-21,1983
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,81,Other Services (except Public Administration),83
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,61,Educational Services,83
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,51,Information,83
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q1,A06,45-54,2218
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q1,A05,35-44,2531
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q1,A04,25-34,4213
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,62,Health Care and Social Assistance,93
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,51,Information,93
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,54,"Professional, Scientific, and Technical Services",94
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,53,Real Estate and Rental and Leasing,94
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q1,56,Administrative and Support and Waste Management and Remediation Services,95
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,51,Information,95
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,11,"Agriculture, Forestry, Fishing and Hunting",96
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q1,22,Utilities,97
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q2,A08,65-99,1078
@@ -660,6 +728,7 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q1,61,Educati
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q3,54,"Professional, Scientific, and Technical Services",104
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2016Q2,E4,Bachelor's degree or advanced degree,0.078
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2017Q4,1,Male,-738
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,51,Information,107
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q1,71,"Arts, Entertainment, and Recreation",108
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,54,"Professional, Scientific, and Technical Services",108
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q2,A01,14-18,1388
@@ -674,7 +743,12 @@ Separations,Susquehanna WIA,Maryland Separations by Age,2018Q2,A02,19-21,2183
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q2,A06,45-54,2601
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,62,Health Care and Social Assistance,118
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q2,A05,35-44,3027
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,51,Information,119
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,92,Public Administration,119
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2017Q1,E4,Bachelor's degree or advanced degree,19
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,92,Public Administration,120
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,53,Real Estate and Rental and Leasing,123
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,53,Real Estate and Rental and Leasing,123
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q2,A04,25-34,4600
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,61,Educational Services,126
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q1,62,Health Care and Social Assistance,127
@@ -683,6 +757,7 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q4,31-33,Manu
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q1,22,Utilities,129
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q3,A08,65-99,879
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q3,31-33,Manufacturing,131
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,11,"Agriculture, Forestry, Fishing and Hunting",131
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q2,22,Utilities,131
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q1,81,Other Services (except Public Administration),132
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q1,61,Educational Services,133
@@ -700,69 +775,107 @@ Separations,Susquehanna WIA,Maryland Separations by Age,2018Q3,A01,14-18,3139
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q3,A02,19-21,3851
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q3,A04,25-34,4908
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q4,A08,65-99,1232
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,53,Real Estate and Rental and Leasing,143
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q4,54,"Professional, Scientific, and Technical Services",144
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q4,A01,14-18,1668
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q1,22,Utilities,144
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q4,A07,55-64,2247
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q3,22,Utilities,146
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,51,Information,148
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q4,22,Utilities,150
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q2,22,Utilities,151
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,31-33,Manufacturing,152
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,51,Information,152
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,23,Construction,154
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",154
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q4,A03,22-24,2786
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,53,Real Estate and Rental and Leasing,155
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,11,"Agriculture, Forestry, Fishing and Hunting",156
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q4,A02,19-21,2935
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q4,A06,45-54,3121
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,42,Wholesale Trade,163
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q4,A05,35-44,3700
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q2,11,"Agriculture, Forestry, Fishing and Hunting",165
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,92,Public Administration,165
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,54,"Professional, Scientific, and Technical Services",166
 Separations,Susquehanna WIA,Maryland Separations by Age,2018Q4,A04,25-34,6538
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,44-45,Retail Trade,167
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,62,Health Care and Social Assistance,167
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,92,Public Administration,167
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q1,A08,65-99,765
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q1,A01,14-18,1053
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q1,A07,55-64,1508
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,92,Public Administration,173
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q1,A03,22-24,1670
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q2,54,"Professional, Scientific, and Technical Services",174
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,92,Public Administration,174
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,92,Public Administration,175
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q1,A02,19-21,1855
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q2,E4,Bachelor's degree or advanced degree,37
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q1,72,Accommodation and Food Services,177
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2017Q3,E4,Bachelor's degree or advanced degree,104
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,53,Real Estate and Rental and Leasing,177
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,92,Public Administration,177
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,11,"Agriculture, Forestry, Fishing and Hunting",178
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",178
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q1,A06,45-54,2114
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,53,Real Estate and Rental and Leasing,179
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,53,Real Estate and Rental and Leasing,179
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,92,Public Administration,179
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,92,Public Administration,181
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q1,A05,35-44,2494
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,92,Public Administration,186
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q1,A04,25-34,4064
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q2,A08,65-99,1094
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q2,A01,14-18,1752
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q2,22,Utilities,189
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q4,48-49,Transportation and Warehousing,190
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,92,Public Administration,190
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,11,"Agriculture, Forestry, Fishing and Hunting",190
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2017Q4,E4,Bachelor's degree or advanced degree,120
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q1,22,Utilities,191
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,51,Information,194
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q1,54,"Professional, Scientific, and Technical Services",195
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,92,Public Administration,195
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,92,Public Administration,195
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q3,22,Utilities,197
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,11,"Agriculture, Forestry, Fishing and Hunting",198
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q2,A03,22-24,1920
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q2,A07,55-64,1935
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q2,A02,19-21,2213
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q3,23,Construction,205
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q2,A06,45-54,2477
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,53,Real Estate and Rental and Leasing,206
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,53,Real Estate and Rental and Leasing,207
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q2,A05,35-44,3028
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2018Q1,2,Female,-416
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q2,A04,25-34,4723
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,53,Real Estate and Rental and Leasing,209
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,31-33,Manufacturing,210
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q3,A01,14-18,N/A
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q3,A02,19-21,N/A
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q1,72,Accommodation and Food Services,213
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",214
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",215
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q3,A03,22-24,N/A
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",215
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,11,"Agriculture, Forestry, Fishing and Hunting",216
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q3,E4,Bachelor's degree or advanced degree,177
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2018Q1,1,Male,S
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,51,Information,218
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,52,Finance and Insurance,220
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,53,Real Estate and Rental and Leasing,220
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,53,Real Estate and Rental and Leasing,221
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2018Q2,2,Female,1239
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q3,A04,25-34,N/A
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,54,"Professional, Scientific, and Technical Services",223
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q3,A05,35-44,N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,52,Finance and Insurance,225
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q3,A06,45-54,N/A
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q3,A07,55-64,N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,51,Information,227
 Separations,Susquehanna WIA,Maryland Separations by Age,2019Q3,A08,65-99,N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,11,"Agriculture, Forestry, Fishing and Hunting",229
 Separations,Susquehanna WIA,Maryland Separations by Age All,2016Q1,A00,All,13554
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q3,22,Utilities,230
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",232
@@ -774,7 +887,11 @@ Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q4,21,"Mining, Quarryin
 Separations,Susquehanna WIA,Maryland Separations by Age All,2016Q4,A00,All,22168
 Separations,Susquehanna WIA,Maryland Separations by Age All,2017Q1,A00,All,14966
 Separations,Susquehanna WIA,Maryland Separations by Age All,2017Q2,A00,All,19005
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,52,Finance and Insurance,245
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,52,Finance and Insurance,245
 Separations,Susquehanna WIA,Maryland Separations by Age All,2017Q3,A00,All,21996
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,52,Finance and Insurance,246
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,52,Finance and Insurance,246
 Separations,Susquehanna WIA,Maryland Separations by Age All,2017Q4,A00,All,23852
 Separations,Susquehanna WIA,Maryland Separations by Age All,2018Q1,A00,All,15994
 Separations,Susquehanna WIA,Maryland Separations by Age All,2018Q2,A00,All,18734
@@ -785,12 +902,16 @@ Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q3,55,Management of Com
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",253
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",255
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",255
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,11,"Agriculture, Forestry, Fishing and Hunting",258
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",258
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",258
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,52,Finance and Insurance,259
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",259
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q2,55,Management of Companies and Enterprises,259
 Separations,Susquehanna WIA,Maryland Separations by Age All,2018Q4,A00,All,24227
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q2,31-33,Manufacturing,263
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,92,Public Administration,264
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,52,Finance and Insurance,264
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q4,55,Management of Companies and Enterprises,264
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q1,55,Management of Companies and Enterprises,265
 Separations,Susquehanna WIA,Maryland Separations by Age All,2019Q1,A00,All,15523
@@ -798,8 +919,12 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q4,61,Educati
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q3,55,Management of Companies and Enterprises,268
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q1,E4,Bachelor's degree or advanced degree,1223
 Separations,Susquehanna WIA,Maryland Separations by Age All,2019Q2,A00,All,19143
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q1,E4,Bachelor's degree or advanced degree,2243
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,53,Real Estate and Rental and Leasing,271
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",272
 Separations,Susquehanna WIA,Maryland Separations by Age All,2019Q3,A00,All,N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,52,Finance and Insurance,275
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,52,Finance and Insurance,275
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",275
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q1,54,"Professional, Scientific, and Technical Services",276
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q2,55,Management of Companies and Enterprises,276
@@ -807,33 +932,67 @@ Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q1,21,"Mining, Quarryin
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q1,23,Construction,278
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q4,44-45,Retail Trade,278
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q4,44-45,Retail Trade,278
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q1,E4,Bachelor's degree or advanced degree,2321
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q1,E4,Bachelor's degree or advanced degree,2382
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q1,55,Management of Companies and Enterprises,281
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,44-45,Retail Trade,282
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,52,Finance and Insurance,282
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,52,Finance and Insurance,282
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,52,Finance and Insurance,284
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q2,E4,Bachelor's degree or advanced degree,2817
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q3,55,Management of Companies and Enterprises,285
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q2,62,Health Care and Social Assistance,288
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,44-45,Retail Trade,288
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q4,55,Management of Companies and Enterprises,288
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q3,E4,Bachelor's degree or advanced degree,2851
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q2,55,Management of Companies and Enterprises,289
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q1,55,Management of Companies and Enterprises,290
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,52,Finance and Insurance,291
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q3,55,Management of Companies and Enterprises,291
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q1,55,Management of Companies and Enterprises,292
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q3,E4,Bachelor's degree or advanced degree,2878
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q3,E4,Bachelor's degree or advanced degree,2930
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q3,E4,Bachelor's degree or advanced degree,2936
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q2,55,Management of Companies and Enterprises,298
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q3,56,Administrative and Support and Waste Management and Remediation Services,302
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",302
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q4,55,Management of Companies and Enterprises,302
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q2,44-45,Retail Trade,303
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q2,E4,Bachelor's degree or advanced degree,2945
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q2,E4,Bachelor's degree or advanced degree,2989
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,53,Real Estate and Rental and Leasing,310
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,52,Finance and Insurance,313
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q3,62,Health Care and Social Assistance,315
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,31-33,Manufacturing,316
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,11,"Agriculture, Forestry, Fishing and Hunting",319
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,71,"Arts, Entertainment, and Recreation",321
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,11,"Agriculture, Forestry, Fishing and Hunting",323
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q1,E4,Bachelor's degree or advanced degree,3124
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q4,44-45,Retail Trade,328
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q2,E4,Bachelor's degree or advanced degree,3158
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q2,23,Construction,331
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q4,E4,Bachelor's degree or advanced degree,3165
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,54,"Professional, Scientific, and Technical Services",338
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q4,E4,Bachelor's degree or advanced degree,3516
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,71,"Arts, Entertainment, and Recreation",351
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,71,"Arts, Entertainment, and Recreation",353
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,3632
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2019Q2,E4,Bachelor's degree or advanced degree,N/A
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q4,48-49,Transportation and Warehousing,377
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,71,"Arts, Entertainment, and Recreation",377
 Separations,Susquehanna WIA,Maryland Separations by Education,2016Q1,E4,Bachelor's degree or advanced degree,2017
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,11,"Agriculture, Forestry, Fishing and Hunting",395
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,71,"Arts, Entertainment, and Recreation",404
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,71,"Arts, Entertainment, and Recreation",406
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,51,Information,407
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q4,48-49,Transportation and Warehousing,428
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,23,Construction,438
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,31-33,Manufacturing,440
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,42,Wholesale Trade,450
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,31-33,Manufacturing,456
 Separations,Susquehanna WIA,Maryland Separations by Education,2016Q2,E4,Bachelor's degree or advanced degree,2755
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,42,Wholesale Trade,468
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2018Q1,E4,Bachelor's degree or advanced degree,-83
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,48-49,Transportation and Warehousing,501
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2018Q2,E4,Bachelor's degree or advanced degree,-70
@@ -846,65 +1005,103 @@ Separations,Susquehanna WIA,Maryland Separations by Education,2017Q1,E4,Bachelor
 Separations,Susquehanna WIA,Maryland Separations by Education,2017Q2,E4,Bachelor's degree or advanced degree,3052
 Separations,Susquehanna WIA,Maryland Separations by Education,2017Q3,E4,Bachelor's degree or advanced degree,2747
 Separations,Susquehanna WIA,Maryland Separations by Education,2017Q4,E4,Bachelor's degree or advanced degree,3446
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,31-33,Manufacturing,536
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2019Q1,E4,Bachelor's degree or advanced degree,-33
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q4,61,Educational Services,556
 Separations,Susquehanna WIA,Maryland Separations by Education,2018Q1,E4,Bachelor's degree or advanced degree,2415
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,42,Wholesale Trade,558
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,42,Wholesale Trade,558
 Separations,Susquehanna WIA,Maryland Separations by Education,2018Q2,E4,Bachelor's degree or advanced degree,3012
 Separations,Susquehanna WIA,Maryland Separations by Education,2018Q3,E4,Bachelor's degree or advanced degree,2712
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,42,Wholesale Trade,559
 Separations,Susquehanna WIA,Maryland Separations by Education,2018Q4,E4,Bachelor's degree or advanced degree,3546
 Separations,Susquehanna WIA,Maryland Separations by Education,2019Q1,E4,Bachelor's degree or advanced degree,2426
 Separations,Susquehanna WIA,Maryland Separations by Education,2019Q2,E4,Bachelor's degree or advanced degree,3085
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2019Q2,E4,Bachelor's degree or advanced degree,53
 Separations,Susquehanna WIA,Maryland Separations by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,42,Wholesale Trade,570
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,42,Wholesale Trade,577
 Separations,Susquehanna WIA,Maryland Separations by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),4178
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q3,48-49,Transportation and Warehousing,580
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,81,Other Services (except Public Administration),589
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q1,A01,14-18,594
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,81,Other Services (except Public Administration),594
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,42,Wholesale Trade,595
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,31-33,Manufacturing,595
 Separations,Susquehanna WIA,Maryland Separations by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),5365
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,81,Other Services (except Public Administration),599
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,81,Other Services (except Public Administration),601
 Separations,Susquehanna WIA,Maryland Separations by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),8978
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,42,Wholesale Trade,608
 Separations,Susquehanna WIA,Maryland Separations by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),7049
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,42,Wholesale Trade,615
 Separations,Susquehanna WIA,Maryland Separations by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),4462
 Separations,Susquehanna WIA,Maryland Separations by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),5878
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,61,Educational Services,630
 Separations,Susquehanna WIA,Maryland Separations by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),8982
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,71,"Arts, Entertainment, and Recreation",633
 Separations,Susquehanna WIA,Maryland Separations by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),7436
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,71,"Arts, Entertainment, and Recreation",640
 Separations,Susquehanna WIA,Maryland Separations by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),4743
 Separations,Susquehanna WIA,Maryland Separations by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),5579
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,61,Educational Services,644
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,61,Educational Services,644
 Separations,Susquehanna WIA,Maryland Separations by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),9303
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q2,A01,14-18,652
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q1,A01,14-18,653
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,31-33,Manufacturing,654
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,81,Other Services (except Public Administration),654
 Separations,Susquehanna WIA,Maryland Separations by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),7389
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q1,A01,14-18,658
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q3,48-49,Transportation and Warehousing,659
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,42,Wholesale Trade,661
 Separations,Susquehanna WIA,Maryland Separations by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),4577
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,81,Other Services (except Public Administration),662
 Separations,Susquehanna WIA,Maryland Separations by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),5885
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,42,Wholesale Trade,665
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,31-33,Manufacturing,671
 Separations,Susquehanna WIA,Maryland Separations by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),-862
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,61,Educational Services,676
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,81,Other Services (except Public Administration),678
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),-733
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,48-49,Transportation and Warehousing,680
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),0.185
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2019Q1,A01,14-18,686
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q4,A01,14-18,691
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,42,Wholesale Trade,691
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q4,61,Educational Services,695
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q2,A01,14-18,696
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q2,A01,14-18,698
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,81,Other Services (except Public Administration),699
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q4,A01,14-18,700
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),0.185
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,31-33,Manufacturing,704
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),0.188
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),0.189
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),0.197
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),0.198
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),0.2
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),0.202
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,81,Other Services (except Public Administration),724
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),0.206
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2019Q2,A01,14-18,731
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,48-49,Transportation and Warehousing,740
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),0.207
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q4,A01,14-18,746
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,81,Other Services (except Public Administration),755
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2018Q2,1,Male,2817
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),0.211
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),0.213
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,42,Wholesale Trade,766
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),0.217
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,48-49,Transportation and Warehousing,768
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",768
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),175
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,31-33,Manufacturing,769
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),249
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,81,Other Services (except Public Administration),778
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),388
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,71,"Arts, Entertainment, and Recreation",793
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,23,Construction,793
@@ -912,14 +1109,47 @@ Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q3,A01,14-
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),630
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q3,A01,14-18,795
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),3190
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,81,Other Services (except Public Administration),798
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,56,Administrative and Support and Waste Management and Remediation Services,800
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),3329
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),4686
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,48-49,Transportation and Warehousing,808
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,42,Wholesale Trade,808
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2018Q3,1,Male,-274
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,56,Administrative and Support and Waste Management and Remediation Services,816
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q1,E5,Educational attainment not available (workers aged 24 or younger),4748
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q1,E5,Educational attainment not available (workers aged 24 or younger),4818
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,31-33,Manufacturing,834
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),5059
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q3,A01,14-18,841
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,31-33,Manufacturing,844
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,81,Other Services (except Public Administration),844
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q4,E5,Educational attainment not available (workers aged 24 or younger),7184
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q4,E5,Educational attainment not available (workers aged 24 or younger),7637
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,61,Educational Services,860
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,31-33,Manufacturing,861
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,71,"Arts, Entertainment, and Recreation",870
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),7742
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,31-33,Manufacturing,873
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),7761
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,81,Other Services (except Public Administration),882
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),8059
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q2,71,"Arts, Entertainment, and Recreation",899
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,71,"Arts, Entertainment, and Recreation",899
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q3,E5,Educational attainment not available (workers aged 24 or younger),8108
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q3,E5,Educational attainment not available (workers aged 24 or younger),8238
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,71,"Arts, Entertainment, and Recreation",900
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,31-33,Manufacturing,903
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q2,E5,Educational attainment not available (workers aged 24 or younger),8547
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,31-33,Manufacturing,912
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,61,Educational Services,913
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,81,Other Services (except Public Administration),915
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),9019
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",919
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q2,E5,Educational attainment not available (workers aged 24 or younger),9296
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,61,Educational Services,926
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,31-33,Manufacturing,927
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),9318
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),N/A
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q1,53,Real Estate and Rental and Leasing,949
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q4,53,Real Estate and Rental and Leasing,955
@@ -931,16 +1161,25 @@ Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q2,53,Real Estate and R
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),-1193
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q2,53,Real Estate and Rental and Leasing,990
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q1,11,"Agriculture, Forestry, Fishing and Hunting",991
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,31-33,Manufacturing,992
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),401
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,54,"Professional, Scientific, and Technical Services",993
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,61,Educational Services,996
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,54,"Professional, Scientific, and Technical Services",1000
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q1,11,"Agriculture, Forestry, Fishing and Hunting",1000
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,61,Educational Services,1001
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q1,53,Real Estate and Rental and Leasing,1003
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",1003
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),146
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q3,51,Information,1009
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,54,"Professional, Scientific, and Technical Services",1011
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,54,"Professional, Scientific, and Technical Services",1014
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,56,Administrative and Support and Waste Management and Remediation Services,1019
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),3367
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2018Q3,2,Female,107
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2018Q4,1,Male,-594
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,48-49,Transportation and Warehousing,1023
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,48-49,Transportation and Warehousing,1029
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2018Q4,2,Female,810
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2019Q1,2,Female,-236
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2019Q1,1,Male,-16
@@ -948,7 +1187,11 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2019Q2,2,Female,147
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q1,51,Information,1042
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q2,51,Information,1050
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2019Q2,1,Male,2765
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,61,Educational Services,1060
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,71,"Arts, Entertainment, and Recreation",1060
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q3,51,Information,1062
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,54,"Professional, Scientific, and Technical Services",1064
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,54,"Professional, Scientific, and Technical Services",1066
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2019Q3,1,Male,N/A
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender,2019Q3,2,Female,N/A
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q4,51,Information,1068
@@ -957,63 +1200,117 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Gender All,2016Q1,0,All,41
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender All,2016Q2,0,All,4073
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender All,2016Q3,0,All,208
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q2,11,"Agriculture, Forestry, Fishing and Hunting",1078
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,23,Construction,1082
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,54,"Professional, Scientific, and Technical Services",1083
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q1,53,Real Estate and Rental and Leasing,1083
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",1084
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q3,53,Real Estate and Rental and Leasing,1085
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,56,Administrative and Support and Waste Management and Remediation Services,1088
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender All,2016Q4,0,All,-388
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender All,2017Q1,0,All,31
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,61,Educational Services,1093
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender All,2017Q2,0,All,3884
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,23,Construction,1102
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender All,2017Q3,0,All,-257
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender All,2017Q4,0,All,33
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q2,51,Information,1117
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q1,53,Real Estate and Rental and Leasing,1121
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,54,"Professional, Scientific, and Technical Services",1126
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q3,53,Real Estate and Rental and Leasing,1127
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q2,11,"Agriculture, Forestry, Fishing and Hunting",1132
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q2,11,"Agriculture, Forestry, Fishing and Hunting",1136
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q4,53,Real Estate and Rental and Leasing,1136
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,61,Educational Services,1137
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,54,"Professional, Scientific, and Technical Services",1139
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender All,2018Q1,0,All,-415
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender All,2018Q2,0,All,4048
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender All,2018Q3,0,All,-166
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q3,11,"Agriculture, Forestry, Fishing and Hunting",1161
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q1,A02,19-21,1166
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q1,51,Information,1166
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,54,"Professional, Scientific, and Technical Services",1167
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q2,53,Real Estate and Rental and Leasing,1167
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q4,53,Real Estate and Rental and Leasing,1168
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender All,2018Q4,0,All,222
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q4,11,"Agriculture, Forestry, Fishing and Hunting",1175
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,61,Educational Services,1177
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender All,2019Q1,0,All,-253
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",1185
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q3,53,Real Estate and Rental and Leasing,1193
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,54,"Professional, Scientific, and Technical Services",1196
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q3,11,"Agriculture, Forestry, Fishing and Hunting",1196
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q3,11,"Agriculture, Forestry, Fishing and Hunting",1197
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q4,11,"Agriculture, Forestry, Fishing and Hunting",1197
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q4,11,"Agriculture, Forestry, Fishing and Hunting",1200
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender All,2019Q2,0,All,4232
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,54,"Professional, Scientific, and Technical Services",1213
 Job Change,Susquehanna WIA,Maryland Job Net Change by Gender All,2019Q3,0,All,N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,23,Construction,1219
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",1221
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q1,1,Male,8011
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q1,2,Female,9234
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,71,"Arts, Entertainment, and Recreation",1233
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q2,2,Female,9914
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q2,1,Male,11698
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,23,Construction,1243
 Separations,Susquehanna WIA,Maryland Separations by Education,2016Q1,E2,"High school or equivalent, no college",2870
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q4,51,Information,1258
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q3,2,Female,10625
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,54,"Professional, Scientific, and Technical Services",1262
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q3,1,Male,11012
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q1,51,Information,1273
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,23,Construction,1275
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q3,51,Information,1275
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,54,"Professional, Scientific, and Technical Services",1290
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q4,2,Female,10821
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q2,51,Information,1297
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q2,A02,19-21,1315
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,48-49,Transportation and Warehousing,1326
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q4,1,Male,10873
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,56,Administrative and Support and Waste Management and Remediation Services,1331
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q1,2,Female,7051
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q2,51,Information,1339
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q1,A02,19-21,1342
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q1,A02,19-21,1351
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,48-49,Transportation and Warehousing,1355
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q4,A02,19-21,1356
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,71,"Arts, Entertainment, and Recreation",1356
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q1,51,Information,1375
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,23,Construction,1382
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q1,1,Male,7920
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q2,2,Female,10729
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q2,A02,19-21,1393
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q2,1,Male,12471
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q3,51,Information,1399
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q3,2,Female,10476
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q3,1,Male,11239
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q4,1,Male,11664
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q4,2,Female,12035
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q4,A02,19-21,1415
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2019Q1,A02,19-21,1426
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q1,72,Accommodation and Food Services,1427
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q1,2,Female,7194
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q1,1,Male,8339
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q2,2,Female,10652
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,71,"Arts, Entertainment, and Recreation",1435
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q2,1,Male,12436
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q2,A02,19-21,1439
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q3,2,Female,10911
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q3,1,Male,11031
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q4,1,Male,11891
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q4,51,Information,1449
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q3,A02,19-21,1451
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,23,Construction,1456
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q4,2,Female,12404
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2019Q1,2,Female,7323
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2019Q1,1,Male,7865
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q3,A02,19-21,1479
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q4,A02,19-21,1487
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,23,Construction,1491
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2019Q2,A02,19-21,1494
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,72,Accommodation and Food Services,1497
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,23,Construction,1506
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,22,Utilities,0
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",24
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,55,Management of Companies and Enterprises,33
@@ -1023,9 +1320,15 @@ Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q1,72,Accommo
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q4,72,Accommodation and Food Services,1529
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q3,A02,19-21,1530
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,72,Accommodation and Food Services,1530
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,62,Health Care and Social Assistance,1532
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,92,Public Administration,114
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q4,72,Accommodation and Food Services,1535
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,23,Construction,1535
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,48-49,Transportation and Warehousing,1538
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,62,Health Care and Social Assistance,1540
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,56,Administrative and Support and Waste Management and Remediation Services,1541
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",169
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,71,"Arts, Entertainment, and Recreation",1545
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,52,Finance and Insurance,205
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,71,"Arts, Entertainment, and Recreation",298
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,81,Other Services (except Public Administration),455
@@ -1034,15 +1337,18 @@ Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,31-33,Manufa
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,42,Wholesale Trade,517
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,54,"Professional, Scientific, and Technical Services",964
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q2,72,Accommodation and Food Services,1571
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,61,Educational Services,1572
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q1,72,Accommodation and Food Services,1577
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q1,72,Accommodation and Food Services,1577
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,72,Accommodation and Food Services,1577
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,72,Accommodation and Food Services,1577
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,48-49,Transportation and Warehousing,992
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,56,Administrative and Support and Waste Management and Remediation Services,1586
 Separations,Susquehanna WIA,Maryland Separations by Education,2016Q2,E2,"High school or equivalent, no college",3610
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q2,72,Accommodation and Food Services,1591
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,56,Administrative and Support and Waste Management and Remediation Services,1020
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,23,Construction,1022
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,61,Educational Services,1607
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,62,Health Care and Social Assistance,1512
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,44-45,Retail Trade,2343
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q1,72,Accommodation and Food Services,2717
@@ -1053,35 +1359,48 @@ Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,22,Utilities
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q2,72,Accommodation and Food Services,1644
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,72,Accommodation and Food Services,1644
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",22
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,62,Health Care and Social Assistance,1656
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2016Q2,72,Accommodation and Food Services,1657
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,55,Management of Companies and Enterprises,35
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,53,Real Estate and Rental and Leasing,115
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q3,72,Accommodation and Food Services,1672
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,62,Health Care and Social Assistance,1673
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,51,Information,146
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q2,72,Accommodation and Food Services,1676
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,72,Accommodation and Food Services,1676
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,11,"Agriculture, Forestry, Fishing and Hunting",233
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,52,Finance and Insurance,234
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,92,Public Administration,274
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,62,Health Care and Social Assistance,1686
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,62,Health Care and Social Assistance,1687
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,23,Construction,1691
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,31-33,Manufacturing,633
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,23,Construction,1693
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,42,Wholesale Trade,643
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q1,71,"Arts, Entertainment, and Recreation",1696
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,62,Health Care and Social Assistance,1701
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,81,Other Services (except Public Administration),663
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,71,"Arts, Entertainment, and Recreation",684
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q1,71,"Arts, Entertainment, and Recreation",1712
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q3,72,Accommodation and Food Services,1715
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,72,Accommodation and Food Services,1715
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,23,Construction,1728
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,48-49,Transportation and Warehousing,1729
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,54,"Professional, Scientific, and Technical Services",899
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,23,Construction,1730
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q2,71,"Arts, Entertainment, and Recreation",1732
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,48-49,Transportation and Warehousing,973
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,62,Health Care and Social Assistance,1763
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,62,Health Care and Social Assistance,1388
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q3,71,"Arts, Entertainment, and Recreation",1787
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,62,Health Care and Social Assistance,1789
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q3,71,"Arts, Entertainment, and Recreation",1794
 Separations,Susquehanna WIA,Maryland Separations by Education,2016Q3,E2,"High school or equivalent, no college",3831
 Separations,Susquehanna WIA,Maryland Separations by Education,2016Q4,E2,"High school or equivalent, no college",4617
 Separations,Susquehanna WIA,Maryland Separations by Education,2017Q1,E2,"High school or equivalent, no college",3242
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q3,71,"Arts, Entertainment, and Recreation",1817
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,71,"Arts, Entertainment, and Recreation",1817
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,62,Health Care and Social Assistance,1819
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q1,71,"Arts, Entertainment, and Recreation",1821
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,71,"Arts, Entertainment, and Recreation",1821
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q4,71,"Arts, Entertainment, and Recreation",1822
@@ -1094,15 +1413,22 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2017Q2,72,Accommo
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q2,72,Accommodation and Food Services,3510
 Separations,Susquehanna WIA,Maryland Separations by Education,2017Q3,E2,"High school or equivalent, no college",4022
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,22,Utilities,S
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,62,Health Care and Social Assistance,1868
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,56,Administrative and Support and Waste Management and Remediation Services,1878
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,44-45,Retail Trade,1892
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q1,71,"Arts, Entertainment, and Recreation",1895
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,71,"Arts, Entertainment, and Recreation",1895
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,56,Administrative and Support and Waste Management and Remediation Services,1900
 Separations,Susquehanna WIA,Maryland Separations by Education,2017Q4,E2,"High school or equivalent, no college",5048
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q1,A03,22-24,1914
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,23,Construction,1916
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,62,Health Care and Social Assistance,1920
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",22
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,55,Management of Companies and Enterprises,42
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,51,Information,115
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,53,Real Estate and Rental and Leasing,137
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,11,"Agriculture, Forestry, Fishing and Hunting",245
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,1955
 Separations,Susquehanna WIA,Maryland Separations by Education,2018Q1,E2,"High school or equivalent, no college",3439
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q2,71,"Arts, Entertainment, and Recreation",1966
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,92,Public Administration,266
@@ -1114,12 +1440,14 @@ Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,31-33,Manufa
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q4,71,"Arts, Entertainment, and Recreation",2000
 Separations,Susquehanna WIA,Maryland Separations by Education,2018Q2,E2,"High school or equivalent, no college",3964
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,81,Other Services (except Public Administration),765
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,48-49,Transportation and Warehousing,2010
 Separations,Susquehanna WIA,Maryland Separations by Education,2018Q3,E2,"High school or equivalent, no college",3920
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q2,71,"Arts, Entertainment, and Recreation",2037
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,71,"Arts, Entertainment, and Recreation",2037
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q4,71,"Arts, Entertainment, and Recreation",2042
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q4,71,"Arts, Entertainment, and Recreation",2042
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,54,"Professional, Scientific, and Technical Services",1041
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,44-45,Retail Trade,2068
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,61,Educational Services,1068
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q2,A03,22-24,2095
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,48-49,Transportation and Warehousing,1106
@@ -1128,7 +1456,12 @@ Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,23,Construct
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q1,A03,22-24,2129
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,56,Administrative and Support and Waste Management and Remediation Services,1561
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,62,Health Care and Social Assistance,1947
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,56,Administrative and Support and Waste Management and Remediation Services,2141
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,56,Administrative and Support and Waste Management and Remediation Services,2146
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,44-45,Retail Trade,2148
 Separations,Susquehanna WIA,Maryland Separations by Education,2018Q4,E2,"High school or equivalent, no college",5112
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,44-45,Retail Trade,2169
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,48-49,Transportation and Warehousing,2175
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,44-45,Retail Trade,3168
 Separations,Susquehanna WIA,Maryland Separations by Education,2019Q1,E2,"High school or equivalent, no college",3326
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q1,71,"Arts, Entertainment, and Recreation",2201
@@ -1138,6 +1471,7 @@ Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q3,A03,22-
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q1,A03,22-24,2213
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q3,72,Accommodation and Food Services,5419
 Separations,Susquehanna WIA,Maryland Separations by Education,2019Q3,E2,"High school or equivalent, no college",N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,62,Health Care and Social Assistance,2214
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q4,22,Utilities,11
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q4,E2,"High school or equivalent, no college",-230
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",18
@@ -1146,6 +1480,8 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2017Q1,E2,"High 
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q4,55,Management of Companies and Enterprises,45
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q4,A03,22-24,2254
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2017Q4,E2,"High school or equivalent, no college",-131
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,62,Health Care and Social Assistance,2269
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,56,Administrative and Support and Waste Management and Remediation Services,2294
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2018Q2,E2,"High school or equivalent, no college",0.071
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q4,53,Real Estate and Rental and Leasing,144
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q2,A03,22-24,2320
@@ -1168,6 +1504,7 @@ Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2016Q4,E2,"High sch
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q1,71,"Arts, Entertainment, and Recreation",2419
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q4,31-33,Manufacturing,715
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q4,61,Educational Services,930
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,56,Administrative and Support and Waste Management and Remediation Services,2429
 Separations,Susquehanna WIA,Maryland Separations by Industry,2016Q4,54,"Professional, Scientific, and Technical Services",1074
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q3,61,Educational Services,2437
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q4,A03,22-24,2444
@@ -1208,6 +1545,7 @@ Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q1,44-45,Reta
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,44-45,Retail Trade,2629
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q1,44-45,Retail Trade,2636
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,44-45,Retail Trade,2636
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2019Q2,2,Female,11233
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q2,71,"Arts, Entertainment, and Recreation",2644
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q1,81,Other Services (except Public Administration),567
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q1,31-33,Manufacturing,672
@@ -1220,6 +1558,7 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,44-45,Reta
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,44-45,Retail Trade,2694
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q1,54,"Professional, Scientific, and Technical Services",766
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q1,48-49,Transportation and Warehousing,1209
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2019Q2,1,Male,12311
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q1,56,Administrative and Support and Waste Management and Remediation Services,1236
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q1,62,Health Care and Social Assistance,1398
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q1,52,Finance and Insurance,2724
@@ -1232,13 +1571,16 @@ Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q1,72,Accommoda
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q2,52,Finance and Insurance,2740
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q2,52,Finance and Insurance,2740
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q4,52,Finance and Insurance,2744
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,56,Administrative and Support and Waste Management and Remediation Services,2745
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,22,Utilities,S
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",18
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,55,Management of Companies and Enterprises,42
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q4,44-45,Retail Trade,2752
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,51,Information,79
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q3,52,Finance and Insurance,2762
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2019Q3,1,Male,10575
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q4,44-45,Retail Trade,2766
+New Hires,Susquehanna WIA,Maryland New Hires by Gender,2019Q3,2,Female,10697
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,92,Public Administration,124
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q3,52,Finance and Insurance,2774
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q1,52,Finance and Insurance,2774
@@ -1250,20 +1592,26 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,44-45,Reta
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,11,"Agriculture, Forestry, Fishing and Hunting",226
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2019Q1,E2,"High school or equivalent, no college",0.081
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q2,81,Other Services (except Public Administration),2816
+New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2016Q1,0,All,17245
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2018Q1,E2,"High school or equivalent, no college",0.082
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,52,Finance and Insurance,246
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,44-45,Retail Trade,2820
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q1,81,Other Services (except Public Administration),2821
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,81,Other Services (except Public Administration),2821
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q3,52,Finance and Insurance,2824
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,44-45,Retail Trade,2825
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q4,71,"Arts, Entertainment, and Recreation",2826
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q1,A08,65-99,2836
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q1,81,Other Services (except Public Administration),2841
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,81,Other Services (except Public Administration),2841
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2016Q3,E2,"High school or equivalent, no college",0.084
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q3,81,Other Services (except Public Administration),2858
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,72,Accommodation and Food Services,2859
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,44-45,Retail Trade,2862
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q4,44-45,Retail Trade,2869
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q4,44-45,Retail Trade,2869
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2017Q3,E2,"High school or equivalent, no college",0.087
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,44-45,Retail Trade,2873
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q4,52,Finance and Insurance,2877
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2018Q3,E2,"High school or equivalent, no college",0.087
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q3,81,Other Services (except Public Administration),2893
@@ -1274,21 +1622,26 @@ Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,42,Wholesale
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,31-33,Manufacturing,575
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",2926
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",2926
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,72,Accommodation and Food Services,2927
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q3,E2,"High school or equivalent, no college",270
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q2,81,Other Services (except Public Administration),2932
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,81,Other Services (except Public Administration),700
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,71,"Arts, Entertainment, and Recreation",785
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,56,Administrative and Support and Waste Management and Remediation Services,2939
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q3,52,Finance and Insurance,2941
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q4,81,Other Services (except Public Administration),2945
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,54,"Professional, Scientific, and Technical Services",882
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,48-49,Transportation and Warehousing,1268
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,72,Accommodation and Food Services,2954
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,23,Construction,1508
+New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2016Q2,0,All,21612
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q3,11,"Agriculture, Forestry, Fishing and Hunting",2976
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2017Q2,E2,"High school or equivalent, no college",306
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q2,81,Other Services (except Public Administration),2980
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,81,Other Services (except Public Administration),2980
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,62,Health Care and Social Assistance,1610
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q2,E2,"High school or equivalent, no college",327
+New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2016Q3,0,All,21638
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q2,81,Other Services (except Public Administration),3004
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,81,Other Services (except Public Administration),3004
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q1,48-49,Transportation and Warehousing,3006
@@ -1297,55 +1650,89 @@ Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,61,Education
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,56,Administrative and Support and Waste Management and Remediation Services,2127
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,44-45,Retail Trade,2664
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q2,72,Accommodation and Food Services,3671
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,44-45,Retail Trade,3021
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q1,11,"Agriculture, Forestry, Fishing and Hunting",3023
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,11,"Agriculture, Forestry, Fishing and Hunting",3023
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,22,Utilities,6
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,44-45,Retail Trade,3027
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",15
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q1,E2,"High school or equivalent, no college",805
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,55,Management of Companies and Enterprises,51
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q1,61,Educational Services,3030
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q2,11,"Agriculture, Forestry, Fishing and Hunting",3031
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q1,81,Other Services (except Public Administration),3032
+New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2016Q4,0,All,21694
+New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2017Q1,0,All,14971
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,51,Information,108
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,56,Administrative and Support and Waste Management and Remediation Services,3042
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,56,Administrative and Support and Waste Management and Remediation Services,3047
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,53,Real Estate and Rental and Leasing,163
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q2,A08,65-99,3051
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q1,E2,"High school or equivalent, no college",3069
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q4,81,Other Services (except Public Administration),3056
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,11,"Agriculture, Forestry, Fishing and Hunting",210
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q2,11,"Agriculture, Forestry, Fishing and Hunting",3058
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q1,E2,"High school or equivalent, no college",3127
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q4,81,Other Services (except Public Administration),3075
+New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2017Q2,0,All,23200
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q4,81,Other Services (except Public Administration),3075
+New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2017Q3,0,All,21714
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q1,E2,"High school or equivalent, no college",3166
+New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2017Q4,0,All,23699
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q2,48-49,Transportation and Warehousing,3089
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q1,A08,65-99,3100
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q1,A04,25-34,3102
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q3,71,"Arts, Entertainment, and Recreation",3102
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,72,Accommodation and Food Services,3103
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q3,11,"Agriculture, Forestry, Fishing and Hunting",3110
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,11,"Agriculture, Forestry, Fishing and Hunting",3110
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,92,Public Administration,215
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q1,E2,"High school or equivalent, no college",3569
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q2,E2,"High school or equivalent, no college",3951
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q3,E2,"High school or equivalent, no college",4106
+New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2018Q1,0,All,15533
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q1,61,Educational Services,3135
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,52,Finance and Insurance,294
+New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2018Q2,0,All,23088
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q3,A08,65-99,3142
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q3,81,Other Services (except Public Administration),3150
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,81,Other Services (except Public Administration),3150
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q3,E2,"High school or equivalent, no college",4111
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,42,Wholesale Trade,510
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,44-45,Retail Trade,3157
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q3,E2,"High school or equivalent, no college",4177
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q3,E2,"High school or equivalent, no college",4199
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,31-33,Manufacturing,706
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q2,E2,"High school or equivalent, no college",4272
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,81,Other Services (except Public Administration),818
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,61,Educational Services,899
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q2,11,"Agriculture, Forestry, Fishing and Hunting",3178
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,11,"Agriculture, Forestry, Fishing and Hunting",3178
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q2,E2,"High school or equivalent, no college",4299
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q3,A08,65-99,3187
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q2,E2,"High school or equivalent, no college",4315
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q3,71,"Arts, Entertainment, and Recreation",3191
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q4,E2,"High school or equivalent, no college",4378
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q2,61,Educational Services,3201
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,72,Accommodation and Food Services,3204
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q2,48-49,Transportation and Warehousing,3207
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,54,"Professional, Scientific, and Technical Services",966
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q3,48-49,Transportation and Warehousing,3222
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q4,E2,"High school or equivalent, no college",4881
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",4937
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q1,62,Health Care and Social Assistance,3243
+New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2018Q3,0,All,21943
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q4,11,"Agriculture, Forestry, Fishing and Hunting",3248
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,71,"Arts, Entertainment, and Recreation",1328
+New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2018Q4,0,All,24296
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q1,A08,65-99,3252
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,72,Accommodation and Food Services,3255
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q1,48-49,Transportation and Warehousing,3261
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q1,48-49,Transportation and Warehousing,3262
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,48-49,Transportation and Warehousing,3262
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,72,Accommodation and Food Services,3262
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q2,A08,65-99,3270
+New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2019Q1,0,All,15188
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q1,61,Educational Services,3289
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,61,Educational Services,3289
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q3,A08,65-99,3290
@@ -1359,12 +1746,14 @@ Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2019Q1,A08,65-
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2019Q3,E2,"High school or equivalent, no college",N/A
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",3328
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2018Q1,E2,"High school or equivalent, no college",-260
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,44-45,Retail Trade,3337
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q3,48-49,Transportation and Warehousing,3344
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,48-49,Transportation and Warehousing,3344
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q2,A04,25-34,3352
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q2,48-49,Transportation and Warehousing,3354
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,48-49,Transportation and Warehousing,3354
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q1,A04,25-34,3359
+New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2019Q2,0,All,23544
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q3,71,"Arts, Entertainment, and Recreation",3364
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q1,56,Administrative and Support and Waste Management and Remediation Services,3367
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q4,48-49,Transportation and Warehousing,3370
@@ -1372,6 +1761,7 @@ Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q4,48-49,Tran
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q2,A04,25-34,3375
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q3,48-49,Transportation and Warehousing,3376
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q2,A08,65-99,3377
+New Hires,Susquehanna WIA,Maryland New Hires by Gender All,2019Q3,0,All,21272
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,48-49,Transportation and Warehousing,1461
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q1,A04,25-34,3405
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q1,61,Educational Services,3419
@@ -1381,6 +1771,7 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q4,11,"Agricu
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q4,11,"Agriculture, Forestry, Fishing and Hunting",3430
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q2,51,Information,3433
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,51,Information,3433
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,44-45,Retail Trade,3434
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2018Q2,E2,"High school or equivalent, no college",322
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,23,Construction,1569
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2018Q3,E2,"High school or equivalent, no college",258
@@ -1393,11 +1784,13 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,56,Adminis
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q3,A04,25-34,3457
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q4,A04,25-34,3461
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2019Q2,A08,65-99,3464
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,44-45,Retail Trade,3507
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q4,A04,25-34,3510
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q3,62,Health Care and Social Assistance,1935
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2019Q1,E2,"High school or equivalent, no college",-185
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q3,56,Administrative and Support and Waste Management and Remediation Services,3517
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,56,Administrative and Support and Waste Management and Remediation Services,3517
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,44-45,Retail Trade,3517
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q2,A04,25-34,3520
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2019Q1,A04,25-34,3522
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q4,A08,65-99,3524
@@ -1573,6 +1966,7 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,61,Educati
 Separations,Susquehanna WIA,Maryland Separations by Industry,2017Q4,44-45,Retail Trade,3248
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q4,53,Real Estate and Rental and Leasing,4033
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q3,81,Other Services (except Public Administration),4035
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,48-49,Transportation and Warehousing,4038
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q4,62,Health Care and Social Assistance,4039
 Workers,Susquehanna WIA,Maryland Workers by Age,2018Q2,A01,14-18,4043
 Separations,Susquehanna WIA,Maryland Separations by Gender,2017Q2,2,Female,9328
@@ -1658,6 +2052,7 @@ Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2016Q2,E1,Less than
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q1,53,Real Estate and Rental and Leasing,4387
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,53,Real Estate and Rental and Leasing,4387
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q3,51,Information,4399
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,72,Accommodation and Food Services,4405
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q3,A05,35-44,4413
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q2,23,Construction,4417
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q1,92,Public Administration,4418
@@ -1683,6 +2078,7 @@ Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q4,A05,35-
 Separations,Susquehanna WIA,Maryland Separations by Industry,2018Q1,61,Educational Services,506
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q3,A07,55-64,4604
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q3,23,Construction,4609
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,72,Accommodation and Food Services,4609
 Workers,Susquehanna WIA,Maryland Workers by Age,2016Q3,A01,14-18,4611
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q2,23,Construction,4615
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q4,51,Information,4617
@@ -1726,6 +2122,7 @@ Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q2,A06,45-
 Separations,Susquehanna WIA,Maryland Separations by Gender,2019Q1,1,Male,7921
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2017Q3,E1,Less than High school,156
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q3,E1,Less than High school,200
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,62,Health Care and Social Assistance,4881
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q1,A06,45-54,4882
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q1,A07,55-64,4893
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q1,E1,Less than High school,269
@@ -1735,12 +2132,14 @@ Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q2,23,Constru
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,23,Construction,4904
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q3,A06,45-54,4905
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q4,A05,35-44,4907
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,72,Accommodation and Food Services,4907
 Separations,Susquehanna WIA,Maryland Separations by Industry,2018Q1,54,"Professional, Scientific, and Technical Services",924
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q1,55,Management of Companies and Enterprises,4911
 Separations,Susquehanna WIA,Maryland Separations by Gender,2019Q2,1,Male,9511
 Separations,Susquehanna WIA,Maryland Separations by Gender,2019Q2,2,Female,9632
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q2,42,Wholesale Trade,4926
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2017Q2,E1,Less than High school,269
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,48-49,Transportation and Warehousing,4948
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2016Q4,A06,45-54,4956
 Separations,Susquehanna WIA,Maryland Separations by Industry,2018Q1,23,Construction,1175
 Separations,Susquehanna WIA,Maryland Separations by Gender,2019Q3,1,Male,N/A
@@ -1750,6 +2149,9 @@ Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q2,A07,55-
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q1,51,Information,4986
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q4,56,Administrative and Support and Waste Management and Remediation Services,5006
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q2,E1,Less than High school,360
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q1,E1,Less than High school,1797
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q1,E1,Less than High school,1801
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q1,E1,Less than High school,1811
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2019Q2,A07,55-64,5060
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q1,A06,45-54,5061
 Separations,Susquehanna WIA,Maryland Separations by Gender,2019Q3,2,Female,N/A
@@ -1760,10 +2162,13 @@ Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2019Q1,A07,55-
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q4,23,Construction,5096
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q4,A07,55-64,5098
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q2,A06,45-54,5104
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q1,E1,Less than High school,1836
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q4,A07,55-64,5119
 Workers,Susquehanna WIA,Maryland Workers by Age,2018Q3,A01,14-18,5141
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,72,Accommodation and Food Services,5156
 Separations,Susquehanna WIA,Maryland Separations by Gender All,2016Q3,0,All,21418
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2017Q4,A06,45-54,5201
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,72,Accommodation and Food Services,5207
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,5216
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2019Q1,A06,45-54,5218
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q3,42,Wholesale Trade,5260
@@ -1778,6 +2183,7 @@ Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q3,56,Administrative an
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q4,23,Construction,5350
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q4,23,Construction,5350
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q3,42,Wholesale Trade,5356
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q3,E1,Less than High school,2357
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q3,55,Management of Companies and Enterprises,5376
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q2,42,Wholesale Trade,5379
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,42,Wholesale Trade,5379
@@ -1786,12 +2192,16 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,42,Wholesa
 Separations,Susquehanna WIA,Maryland Separations by Industry,2018Q1,56,Administrative and Support and Waste Management and Remediation Services,1651
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q2,42,Wholesale Trade,5422
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,42,Wholesale Trade,5422
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,72,Accommodation and Food Services,5440
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q4,42,Wholesale Trade,5449
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q1,42,Wholesale Trade,5467
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q1,31-33,Manufacturing,5479
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,72,Accommodation and Food Services,5487
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q2,55,Management of Companies and Enterprises,5569
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q3,55,Management of Companies and Enterprises,5569
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q3,55,Management of Companies and Enterprises,5569
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,72,Accommodation and Food Services,5575
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q2,E1,Less than High school,2369
 Separations,Susquehanna WIA,Maryland Separations by Industry,2018Q1,44-45,Retail Trade,2464
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q2,55,Management of Companies and Enterprises,5622
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q2,55,Management of Companies and Enterprises,5622
@@ -1820,9 +2230,11 @@ Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q4,42,Wholesa
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q1,55,Management of Companies and Enterprises,5854
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,55,Management of Companies and Enterprises,5854
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q4,31-33,Manufacturing,5868
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q3,E1,Less than High school,2379
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q2,52,Finance and Insurance,5879
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q4,52,Finance and Insurance,5881
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q4,52,Finance and Insurance,5881
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q3,E1,Less than High school,2466
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q4,52,Finance and Insurance,5888
 Workers,Susquehanna WIA,Maryland Workers by Age,2018Q1,A02,19-21,5905
 Workers,Susquehanna WIA,Maryland Workers by Age,2016Q1,A02,19-21,5908
@@ -1832,6 +2244,7 @@ Workers,Susquehanna WIA,Maryland Workers by Age,2018Q2,A02,19-21,5991
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q4,42,Wholesale Trade,6009
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q4,42,Wholesale Trade,6009
 Workers,Susquehanna WIA,Maryland Workers by Age,2019Q2,A02,19-21,6046
+New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,48-49,Transportation and Warehousing,6069
 Workers,Susquehanna WIA,Maryland Workers by Age,2017Q2,A02,19-21,6077
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2016Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",6086
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q4,31-33,Manufacturing,6102
@@ -1913,6 +2326,7 @@ Workers,Susquehanna WIA,Maryland Workers by Age,2018Q1,A08,65-99,7028
 Workers,Susquehanna WIA,Maryland Workers by Age,2018Q3,A03,22-24,7036
 Separations,Susquehanna WIA,Maryland Separations by Gender All,2017Q1,0,All,14966
 Separations,Susquehanna WIA,Maryland Separations by Gender All,2017Q2,0,All,19005
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q2,E1,Less than High school,2501
 Separations,Susquehanna WIA,Maryland Separations by Gender All,2017Q3,0,All,21996
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q2,48-49,Transportation and Warehousing,7052
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q1,54,"Professional, Scientific, and Technical Services",7057
@@ -1930,6 +2344,7 @@ Workers,Susquehanna WIA,Maryland Workers by Age,2016Q3,A03,22-24,7120
 Workers,Susquehanna WIA,Maryland Workers by Age,2018Q4,A03,22-24,7160
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q1,23,Construction,7164
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q2,23,Construction,7171
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q2,E1,Less than High school,2515
 Workers,Susquehanna WIA,Maryland Workers by Age,2016Q3,A02,19-21,7192
 Separations,Susquehanna WIA,Maryland Separations by Gender All,2017Q4,0,All,23852
 Workers,Susquehanna WIA,Maryland Workers by Age,2017Q3,A02,19-21,7198
@@ -1948,10 +2363,12 @@ Separations,Susquehanna WIA,Maryland Separations by Gender All,2018Q1,0,All,1599
 Workers,Susquehanna WIA,Maryland Workers by Age,2018Q2,A08,65-99,7340
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q2,48-49,Transportation and Warehousing,7365
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q3,48-49,Transportation and Warehousing,7370
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q3,E1,Less than High school,2538
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q1,48-49,Transportation and Warehousing,7402
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q3,61,Educational Services,7420
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q2,22,Utilities,7427
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q1,23,Construction,7434
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q2,E1,Less than High school,2582
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q4,23,Construction,7444
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q2,23,Construction,7471
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",7475
@@ -1967,6 +2384,7 @@ Separations,Susquehanna WIA,Maryland Separations by Gender All,2018Q2,0,All,1873
 Workers,Susquehanna WIA,Maryland Workers by Industry,2018Q4,23,Construction,7605
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q3,23,Construction,7616
 Separations,Susquehanna WIA,Maryland Separations by Gender All,2018Q3,0,All,22098
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q4,E1,Less than High school,2587
 Workers,Susquehanna WIA,Maryland Workers by Age,2018Q4,A08,65-99,7638
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q3,23,Construction,7643
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q2,23,Construction,7655
@@ -1977,6 +2395,8 @@ Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q2,54,"Profes
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q2,54,"Professional, Scientific, and Technical Services",7679
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q1,52,Finance and Insurance,7705
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,52,Finance and Insurance,7705
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q4,E1,Less than High school,2811
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,2978
 Workers,Susquehanna WIA,Maryland Workers by Industry,2016Q4,23,Construction,7794
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2019Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",7830
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2019Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",7830
@@ -2516,18 +2936,33 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q2,E3,Some c
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q3,E3,Some college or Associate degree,280
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2016Q1,E3,Some college or Associate degree,1257
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,51,Information,N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q1,E3,Some college or Associate degree,3041
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q1,E3,Some college or Associate degree,3151
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,52,Finance and Insurance,N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q1,E3,Some college or Associate degree,3196
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,53,Real Estate and Rental and Leasing,N/A
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",N/A
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,55,Management of Companies and Enterprises,N/A
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,N/A
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,61,Educational Services,N/A
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,62,Health Care and Social Assistance,N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q2,E3,Some college or Associate degree,3928
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",N/A
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,72,Accommodation and Food Services,N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q1,E3,Some college or Associate degree,3993
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,81,Other Services (except Public Administration),N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q3,E3,Some college or Associate degree,4054
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q3,E3,Some college or Associate degree,4096
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q3,E3,Some college or Associate degree,4112
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q2,E3,Some college or Associate degree,4159
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q2,E3,Some college or Associate degree,4183
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q3,E3,Some college or Associate degree,4211
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q2,E3,Some college or Associate degree,4281
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2016-Q4,E3,Some college or Associate degree,4379
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,92,Public Administration,N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2017-Q4,E3,Some college or Associate degree,4854
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,31-33,Manufacturing,N/A
+New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,5007
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,44-45,Retail Trade,N/A
 Separations,Susquehanna WIA,Maryland Separations by Industry,2019Q3,48-49,Transportation and Warehousing,N/A
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2019Q2,E3,Some college or Associate degree,N/A
@@ -2539,435 +2974,3 @@ Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2018Q4,E3,Some c
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2019Q1,E3,Some college or Associate degree,-79
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2019Q2,E3,Some college or Associate degree,241
 Job Change,Susquehanna WIA,Maryland Job Net Change by Education,2019Q3,E3,Some college or Associate degree,N/A
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q1,E1,Less than High school,1453
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q1,E2,"High school or equivalent, no college",2597
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q1,E3,Some college or Associate degree,2565
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q1,E4,Bachelor's degree or advanced degree,1902
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),4022
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q2,E1,Less than High school,1943
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q2,E2,"High school or equivalent, no college",3237
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q2,E3,Some college or Associate degree,3223
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q2,E4,Bachelor's degree or advanced degree,2190
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),7145
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q3,E1,Less than High school,2105
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q3,E2,"High school or equivalent, no college",3636
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q3,E3,Some college or Associate degree,3548
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q3,E4,Bachelor's degree or advanced degree,2446
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),7469
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q4,E1,Less than High school,2281
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q4,E2,"High school or equivalent, no college",3817
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q4,E3,Some college or Associate degree,3779
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q4,E4,Bachelor's degree or advanced degree,2534
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),6715
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q1,E1,Less than High school,1597
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q1,E2,"High school or equivalent, no college",2748
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q1,E3,Some college or Associate degree,2704
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q1,E4,Bachelor's degree or advanced degree,1990
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),4210
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q2,E1,Less than High school,2065
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q2,E2,"High school or equivalent, no college",3475
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q2,E3,Some college or Associate degree,3348
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q2,E4,Bachelor's degree or advanced degree,2270
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),7748
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q3,E1,Less than High school,2192
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q3,E2,"High school or equivalent, no college",3695
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q3,E3,Some college or Associate degree,3651
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q3,E4,Bachelor's degree or advanced degree,2473
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),7482
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q4,E1,Less than High school,2531
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q4,E2,"High school or equivalent, no college",4299
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q4,E3,Some college or Associate degree,4202
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q4,E4,Bachelor's degree or advanced degree,2775
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),7126
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q1,E1,Less than High school,1672
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q1,E2,"High school or equivalent, no college",2851
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q1,E3,Some college or Associate degree,2850
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q1,E4,Bachelor's degree or advanced degree,2077
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),4383
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q2,E1,Less than High school,2146
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q2,E2,"High school or equivalent, no college",3576
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q2,E3,Some college or Associate degree,3479
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q2,E4,Bachelor's degree or advanced degree,2410
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),7308
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q3,E1,Less than High school,2193
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q3,E2,"High school or equivalent, no college",3677
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q3,E3,Some college or Associate degree,3632
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q3,E4,Bachelor's degree or advanced degree,2526
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),7286
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,2562
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",4187
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,4180
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,2804
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),7011
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q1,E1,Less than High school,1612
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q1,E2,"High school or equivalent, no college",2787
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q1,E3,Some college or Associate degree,2830
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q1,E4,Bachelor's degree or advanced degree,2074
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),4091
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q2,E1,Less than High school,2085
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q2,E2,"High school or equivalent, no college",3537
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q2,E3,Some college or Associate degree,3553
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q2,E4,Bachelor's degree or advanced degree,2525
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),7560
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q3,E1,Less than High school,2132
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q3,E2,"High school or equivalent, no college",3707
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q3,E3,Some college or Associate degree,3724
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q3,E4,Bachelor's degree or advanced degree,2656
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),7143
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q4,E1,Less than High school,2494
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q4,E2,"High school or equivalent, no college",4299
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q4,E3,Some college or Associate degree,4277
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q4,E4,Bachelor's degree or advanced degree,2879
-New Hires,Susquehanna WIA,Maryland New Hires by Education,2019Q4,E5,Educational attainment not available (workers aged 24 or younger),7093
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q1,1,Male,6698
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q1,2,Female,5841
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q2,1,Male,9416
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q2,2,Female,8322
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q3,1,Male,9865
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q3,2,Female,9339
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q4,1,Male,9531
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2016Q4,2,Female,9596
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q1,1,Male,7028
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q1,2,Female,6220
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q2,1,Male,9995
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q2,2,Female,8912
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q3,1,Male,10052
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q3,2,Female,9442
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q4,1,Male,10451
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2017Q4,2,Female,10483
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q1,1,Male,7438
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q1,2,Female,6394
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q2,1,Male,10073
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q2,2,Female,8846
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q3,1,Male,9746
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q3,2,Female,9567
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q4,1,Male,10255
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2018Q4,2,Female,10489
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2019Q1,1,Male,6917
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2019Q1,2,Female,6477
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2019Q2,1,Male,10021
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2019Q2,2,Female,9239
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2019Q3,1,Male,9602
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2019Q3,2,Female,9761
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2019Q4,1,Male,10431
-New Hires,Susquehanna WIA,Maryland New Hires by Gender,2019Q4,2,Female,10611
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",189
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",14
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,22,Utilities,29
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,23,Construction,1189
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,31-33,Manufacturing,402
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,42,Wholesale Trade,459
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,44-45,Retail Trade,1730
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,48-49,Transportation and Warehousing,624
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,51,Information,82
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,52,Finance and Insurance,192
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,53,Real Estate and Rental and Leasing,77
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,54,"Professional, Scientific, and Technical Services",1074
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,55,Management of Companies and Enterprises,22
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,56,Administrative and Support and Waste Management and Remediation Services,930
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,61,Educational Services,438
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,62,Health Care and Social Assistance,1603
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,71,"Arts, Entertainment, and Recreation",324
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,72,Accommodation and Food Services,2507
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,81,Other Services (except Public Administration),551
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q1,92,Public Administration,104
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,11,"Agriculture, Forestry, Fishing and Hunting",282
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",25
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,22,Utilities,8
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,23,Construction,1443
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,31-33,Manufacturing,781
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,42,Wholesale Trade,557
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,44-45,Retail Trade,2766
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,48-49,Transportation and Warehousing,921
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,51,Information,76
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,52,Finance and Insurance,232
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,53,Real Estate and Rental and Leasing,118
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,54,"Professional, Scientific, and Technical Services",1007
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,55,Management of Companies and Enterprises,36
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,56,Administrative and Support and Waste Management and Remediation Services,1532
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,61,Educational Services,576
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,62,Health Care and Social Assistance,1471
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,71,"Arts, Entertainment, and Recreation",912
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,72,Accommodation and Food Services,4230
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,81,Other Services (except Public Administration),626
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q2,92,Public Administration,138
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,11,"Agriculture, Forestry, Fishing and Hunting",203
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",19
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,22,Utilities,N/A
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,23,Construction,1552
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,31-33,Manufacturing,607
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,42,Wholesale Trade,557
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,44-45,Retail Trade,2898
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,48-49,Transportation and Warehousing,1542
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,51,Information,72
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,52,Finance and Insurance,272
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,53,Real Estate and Rental and Leasing,110
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,54,"Professional, Scientific, and Technical Services",940
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,55,Management of Companies and Enterprises,46
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,56,Administrative and Support and Waste Management and Remediation Services,1708
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,61,Educational Services,798
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,62,Health Care and Social Assistance,1852
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,71,"Arts, Entertainment, and Recreation",810
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,72,Accommodation and Food Services,4342
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,81,Other Services (except Public Administration),718
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q3,92,Public Administration,160
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,11,"Agriculture, Forestry, Fishing and Hunting",172
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",15
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,22,Utilities,N/A
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,23,Construction,1295
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,31-33,Manufacturing,490
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,42,Wholesale Trade,479
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,44-45,Retail Trade,3238
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,48-49,Transportation and Warehousing,3683
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,51,Information,91
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,52,Finance and Insurance,250
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,53,Real Estate and Rental and Leasing,155
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,54,"Professional, Scientific, and Technical Services",1027
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,55,Management of Companies and Enterprises,47
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,56,Administrative and Support and Waste Management and Remediation Services,2118
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,61,Educational Services,584
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,62,Health Care and Social Assistance,1492
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,71,"Arts, Entertainment, and Recreation",301
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,72,Accommodation and Food Services,3021
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,81,Other Services (except Public Administration),519
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2016Q4,92,Public Administration,149
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,11,"Agriculture, Forestry, Fishing and Hunting",188
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",15
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,22,Utilities,3
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,23,Construction,1237
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,31-33,Manufacturing,542
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,42,Wholesale Trade,427
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,44-45,Retail Trade,1879
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,48-49,Transportation and Warehousing,745
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,51,Information,87
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,52,Finance and Insurance,290
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,53,Real Estate and Rental and Leasing,147
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,54,"Professional, Scientific, and Technical Services",891
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,55,Management of Companies and Enterprises,32
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,56,Administrative and Support and Waste Management and Remediation Services,1186
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,61,Educational Services,458
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,62,Health Care and Social Assistance,1397
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,71,"Arts, Entertainment, and Recreation",265
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,72,Accommodation and Food Services,2823
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,81,Other Services (except Public Administration),532
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q1,92,Public Administration,104
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,11,"Agriculture, Forestry, Fishing and Hunting",207
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",23
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,22,Utilities,12
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,23,Construction,1470
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,31-33,Manufacturing,599
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,42,Wholesale Trade,577
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,44-45,Retail Trade,2572
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,48-49,Transportation and Warehousing,1218
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,51,Information,120
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,52,Finance and Insurance,249
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,53,Real Estate and Rental and Leasing,182
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,54,"Professional, Scientific, and Technical Services",935
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,55,Management of Companies and Enterprises,40
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,56,Administrative and Support and Waste Management and Remediation Services,2451
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,61,Educational Services,588
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,62,Health Care and Social Assistance,1500
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,71,"Arts, Entertainment, and Recreation",753
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,72,Accommodation and Food Services,4520
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,81,Other Services (except Public Administration),757
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q2,92,Public Administration,135
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,11,"Agriculture, Forestry, Fishing and Hunting",176
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",17
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,22,Utilities,15
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,23,Construction,1321
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,31-33,Manufacturing,744
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,42,Wholesale Trade,542
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,44-45,Retail Trade,2635
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,48-49,Transportation and Warehousing,1995
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,51,Information,108
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,52,Finance and Insurance,258
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,53,Real Estate and Rental and Leasing,207
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,54,"Professional, Scientific, and Technical Services",1020
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,55,Management of Companies and Enterprises,53
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,56,Administrative and Support and Waste Management and Remediation Services,2189
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,61,Educational Services,676
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,62,Health Care and Social Assistance,1741
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,71,"Arts, Entertainment, and Recreation",651
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,72,Accommodation and Food Services,4211
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,81,Other Services (except Public Administration),810
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q3,92,Public Administration,127
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,11,"Agriculture, Forestry, Fishing and Hunting",105
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",25
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,22,Utilities,5
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,23,Construction,960
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,31-33,Manufacturing,644
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,42,Wholesale Trade,555
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,44-45,Retail Trade,3235
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,48-49,Transportation and Warehousing,4660
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,51,Information,223
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,52,Finance and Insurance,430
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,53,Real Estate and Rental and Leasing,173
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,54,"Professional, Scientific, and Technical Services",930
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,55,Management of Companies and Enterprises,47
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,56,Administrative and Support and Waste Management and Remediation Services,2543
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,61,Educational Services,647
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,62,Health Care and Social Assistance,1613
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,71,"Arts, Entertainment, and Recreation",346
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,72,Accommodation and Food Services,2784
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,81,Other Services (except Public Administration),767
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2017Q4,92,Public Administration,243
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",139
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",20
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,22,Utilities,10
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,23,Construction,1114
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,31-33,Manufacturing,607
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,42,Wholesale Trade,530
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,44-45,Retail Trade,1939
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,48-49,Transportation and Warehousing,694
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,51,Information,61
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,52,Finance and Insurance,250
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,53,Real Estate and Rental and Leasing,160
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,54,"Professional, Scientific, and Technical Services",1200
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,55,Management of Companies and Enterprises,21
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,56,Administrative and Support and Waste Management and Remediation Services,1458
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,61,Educational Services,422
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,62,Health Care and Social Assistance,1394
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,71,"Arts, Entertainment, and Recreation",253
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,72,Accommodation and Food Services,2558
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,81,Other Services (except Public Administration),835
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q1,92,Public Administration,168
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,11,"Agriculture, Forestry, Fishing and Hunting",209
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",20
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,22,Utilities,21
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,23,Construction,1326
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,31-33,Manufacturing,798
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,42,Wholesale Trade,699
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,44-45,Retail Trade,2618
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,48-49,Transportation and Warehousing,1209
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,51,Information,105
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,52,Finance and Insurance,281
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,53,Real Estate and Rental and Leasing,158
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,54,"Professional, Scientific, and Technical Services",1181
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,55,Management of Companies and Enterprises,37
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,56,Administrative and Support and Waste Management and Remediation Services,2362
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,61,Educational Services,540
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,62,Health Care and Social Assistance,1593
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,71,"Arts, Entertainment, and Recreation",646
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,72,Accommodation and Food Services,4209
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,81,Other Services (except Public Administration),749
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q2,92,Public Administration,159
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,11,"Agriculture, Forestry, Fishing and Hunting",138
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",15
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,22,Utilities,14
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,23,Construction,1286
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,31-33,Manufacturing,883
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,42,Wholesale Trade,510
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,44-45,Retail Trade,2708
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,48-49,Transportation and Warehousing,1809
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,51,Information,78
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,52,Finance and Insurance,392
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,53,Real Estate and Rental and Leasing,133
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,54,"Professional, Scientific, and Technical Services",1011
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,55,Management of Companies and Enterprises,50
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,56,Administrative and Support and Waste Management and Remediation Services,1849
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,61,Educational Services,737
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,62,Health Care and Social Assistance,1693
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,71,"Arts, Entertainment, and Recreation",750
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,72,Accommodation and Food Services,4464
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,81,Other Services (except Public Administration),651
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q3,92,Public Administration,142
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,11,"Agriculture, Forestry, Fishing and Hunting",129
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",16
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,22,Utilities,14
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,23,Construction,1027
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,31-33,Manufacturing,702
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,42,Wholesale Trade,535
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,44-45,Retail Trade,3053
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,48-49,Transportation and Warehousing,5293
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,51,Information,71
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,52,Finance and Insurance,274
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,53,Real Estate and Rental and Leasing,168
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,54,"Professional, Scientific, and Technical Services",1077
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,55,Management of Companies and Enterprises,42
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,56,Administrative and Support and Waste Management and Remediation Services,1941
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,61,Educational Services,624
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,62,Health Care and Social Assistance,1499
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,71,"Arts, Entertainment, and Recreation",464
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,72,Accommodation and Food Services,3020
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,81,Other Services (except Public Administration),646
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2018Q4,92,Public Administration,147
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,11,"Agriculture, Forestry, Fishing and Hunting",175
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",15
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,22,Utilities,9
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,23,Construction,878
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,31-33,Manufacturing,817
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,42,Wholesale Trade,552
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,44-45,Retail Trade,1955
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,48-49,Transportation and Warehousing,700
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,51,Information,64
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,52,Finance and Insurance,205
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,53,Real Estate and Rental and Leasing,106
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,54,"Professional, Scientific, and Technical Services",989
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,55,Management of Companies and Enterprises,25
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,56,Administrative and Support and Waste Management and Remediation Services,1415
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,61,Educational Services,423
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,62,Health Care and Social Assistance,1536
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,71,"Arts, Entertainment, and Recreation",270
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,72,Accommodation and Food Services,2549
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,81,Other Services (except Public Administration),560
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q1,92,Public Administration,150
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",205
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",20
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,22,Utilities,13
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,23,Construction,1472
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,31-33,Manufacturing,841
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,42,Wholesale Trade,639
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,44-45,Retail Trade,2799
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,48-49,Transportation and Warehousing,954
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,51,Information,191
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,52,Finance and Insurance,193
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,53,Real Estate and Rental and Leasing,202
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,54,"Professional, Scientific, and Technical Services",1199
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,55,Management of Companies and Enterprises,30
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,56,Administrative and Support and Waste Management and Remediation Services,2249
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,61,Educational Services,557
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,62,Health Care and Social Assistance,1566
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,71,"Arts, Entertainment, and Recreation",707
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,72,Accommodation and Food Services,4503
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,81,Other Services (except Public Administration),774
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q2,92,Public Administration,147
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",147
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",26
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,22,Utilities,20
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,23,Construction,1256
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,31-33,Manufacturing,783
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,42,Wholesale Trade,729
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,44-45,Retail Trade,3215
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,48-49,Transportation and Warehousing,1535
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,51,Information,99
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,52,Finance and Insurance,232
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,53,Real Estate and Rental and Leasing,279
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",1118
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,55,Management of Companies and Enterprises,41
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,1630
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,61,Educational Services,741
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,62,Health Care and Social Assistance,2078
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",583
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,72,Accommodation and Food Services,4027
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,81,Other Services (except Public Administration),653
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q3,92,Public Administration,171
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,11,"Agriculture, Forestry, Fishing and Hunting",83
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",7
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,22,Utilities,14
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,23,Construction,938
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,31-33,Manufacturing,666
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,42,Wholesale Trade,794
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,44-45,Retail Trade,6041
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,48-49,Transportation and Warehousing,2709
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,51,Information,124
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,52,Finance and Insurance,178
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,53,Real Estate and Rental and Leasing,203
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,54,"Professional, Scientific, and Technical Services",1063
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,55,Management of Companies and Enterprises,47
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,56,Administrative and Support and Waste Management and Remediation Services,1587
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,61,Educational Services,723
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,62,Health Care and Social Assistance,1957
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,71,"Arts, Entertainment, and Recreation",353
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,72,Accommodation and Food Services,2790
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,81,Other Services (except Public Administration),597
-New Hires,Susquehanna WIA,Maryland New Hires by Industry,2019Q4,92,Public Administration,168

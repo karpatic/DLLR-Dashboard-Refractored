@@ -241,12 +241,33 @@ window.onload = function() {
     document.getElementById("dropdownMenuY").style.display = "none";
     document.getElementById("dropdownMenuQ").style.display = "none";
     document.getElementById("title").style.display = "none";
-
     document.querySelectorAll('[data-lbl]').forEach(el=>{
 
         el.removeAttribute("disabled");
 
         el.addEventListener("click", function() {
+
+            let lookup = [
+              {'tab':'pop','lbl':'Population and Median Household Income','dm':false,'dmy':false,'dmq':false, 'charts':[pop_chart, mhhi_chart] },
+              {'tab':'empl_edu_gend','lbl':'Demographics - Education and Gender','dm':true,'dmy':true,'dmq':false, 'charts':[empl_edu_chart, empl_edu_gend_chart]},
+              {'tab':'empl_race_ethn','lbl':'Demographics - Race and Ethnicity','dm':true,'dmy':true,'dmq':false, 'charts':[empl_race_ethn_chart, chart5]},
+              {'tab':'empl_vet','lbl':'Demographics - Veterans Status','dm':true,'dmy':true,'dmq':false, 'charts':[empl_vet_chart]},
+              {'tab':'disabl_pov','lbl':'Disability and Poverty','dm':true,'dmy':true,'dmq':false, 'charts':[emp_dis_chart]},
+              {'tab':'tanf','lbl':'Temporary Aid for Needy Families (TANF) Stats','dm':true,'dmy':true,'dmq':false, 'charts':[tanf_data,tanf_rate_chart,tanf_attainment_chart] },
+              {'tab':'empl_status','lbl':'Employment Status amongst Maryland Workers','dm':true,'dmy':true,'dmq':false, 'charts':[empl_status_chart] },
+              {'tab':'snap','lbl':'SNAP Recipient Workers','dm':false,'dmy':false,'dmq':false, 'charts':[snap_chart]},
+              {'tab':'collapse9','lbl':'Apprenticeship Completers','dm':false,'dmy':false,'dmq':false},
+              {'tab':'collapse1','lbl':'Number of Workers and Average Monthly Earnings by Age and Gender','dm':true,'dmy':false,'dmq':true},
+              {'tab':'collapse2','lbl':'New Hires and Job Net Changes by Education and Gender','dm':true,'dmy':false,'dmq':true},
+              {'tab':'collapse3','lbl':'Turnover Rate by Gender and Education','dm':true,'dmy':false,'dmq':true},
+              {'tab':'collapse4','lbl':'Data by Industry','dm':true,'dmy':false,'dmq':true},
+              {'tab':'collapse15','lbl':'Separations','dm':true,'dmy':false,'dmq':true},
+              {'tab':'collapse16','lbl':'New Apprentice Programs','dm':false,'dmy':false,'dmq':false},
+              {'tab':'collapse17','lbl':'New/Active Apprentice Programs','dm':false,'dmy':false,'dmq':false},
+              {'tab':'collapse20','lbl':'Long Term Unemployed','dm':false,'dmy':false,'dmq':false},
+              {'tab':'collapse19','lbl':'Service Participants in SNAP','dm':false,'dmy':false,'dmq':false}
+            ]
+
             whichChart = el.dataset.lbl;
 
             let dm = "none";
@@ -258,78 +279,30 @@ window.onload = function() {
             console.log('Clicked', whichChart, el);
             localStorage.setItem('Clicked', el.dataset.lbl);
 
-            switch (whichChart) {
-            case 'pop':
-                elem.innerHTML = 'Population and Median Household Income'
-                break;
-            case 'empl_edu_gend':
-                elem.innerHTML = 'Demographics - Education and Gender'
-                dm = dmy = "inline";
-                break;
-            case 'empl_race_ethn':
-                elem.innerHTML = 'Demographics - Race and Ethnicity'
-                 dm = dmy = "inline";
-                break;
-            case 'empl_vet':
-                elem.innerHTML = 'Demographics - Veterans Status'
-                dm = dmy = "inline";
-                break;
-            case 'disabl_pov':
-                elem.innerHTML = 'Disability and Poverty'
-                dm = dmy = "inline";
-                break;
-            case 'tanf':
-                elem.innerHTML = 'Temporary Aid for Needy Families (TANF) Stats'
-                dm = dmy = "inline";
-                break;
-            case 'empl_status':
-                elem.innerHTML = 'Employment Status amongst Maryland Workers'
-                dm = dmy = "inline";
-                break;
-            case 'snap':
-                elem.innerHTML = 'SNAP Recipient Workers'
-                break;
-            case 'collapse9':
-                elem.innerHTML = 'Apprenticeship Completers'
-                break;
-            case 'collapse1':
-                elem.innerHTML = 'Number of Workers and Average Monthly Earnings by Age and Gender'
-                dm = dmq = "inline";
-                break;
-            case 'collapse2':
-                elem.innerHTML = 'New Hires and Job Net Changes by Education and Gender'
-                dm = dmq = "inline";
-                break;
-            case 'collapse3':
-                elem.innerHTML = 'Turnover Rate by Gender and Education'
-                dm = dmq = "inline";
-                break;
-            case 'collapse4':
-                elem.innerHTML = 'Data by Industry'
-                dm = dmq = "inline";
-                break;
-            case 'collapse15':
-                elem.innerHTML = 'Separations'
-                dm = dmq = "inline";
-                break;
-            case 'collapse16':
-                elem.innerHTML = 'New Apprentice Programs'
-                break;
-            case 'collapse17':
-                elem.innerHTML = 'New/Active Apprentice Programs'
-                break;
-            case 'collapse20':
-                elem.innerHTML = 'Long Term Unemployed'
-                break;
-            case 'collapse19':
-                elem.innerHTML = 'Service Participants in SNAP'
-                break;
-            default:
-                elem.innerHTML = 'Empty'
-            }
-            document.getElementById("dropdownMenu").style.display = dm;
-            document.getElementById("dropdownMenuY").style.display = dmy;
-            document.getElementById("dropdownMenuQ").style.display = dmq;
+            let chart = lookup.filter( obj => obj['tab'] == el.dataset.lbl  )[0];
+            /*
+            let chartsHaveRecords = chart['charts'].map( (chart) => {
+                let recordExists = false
+                chart.data.map( (record) => {
+                    recordExists ? '' : recordExists = record['Amount'] 
+                } )
+                if(!recordExists){ 
+                  console.log('no records', {recordExists}) 
+                  // hide the chart 
+                  // display 'No Records' in its place
+                }
+                return recordExists
+            })
+
+            console.log({chartsHaveRecords})
+            */
+            elem.innerHTML = chart['lbl']
+
+            let conditionalDisplay = (id,obj,attr) => { document.getElementById(id).style.display = obj[attr] ? "inline" : 'none'; }
+            conditionalDisplay("dropdownMenu", chart, 'dm')
+            conditionalDisplay("dropdownMenuY", chart, 'dmy')
+            conditionalDisplay("dropdownMenuQ", chart, 'dmq')
+
             hideall(collapsables)
             showall([whichChart]) 
             hideall(prints);

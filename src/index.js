@@ -77,29 +77,29 @@ import 'chardin.ts/chardinjs.scss';
 			<p style="display:inline;">Select Time Period:</p>
 				<select id='dropdownMenuY' style="display:inline; id="year_dd" style="display:inline; float:right">
 				  <option>Pick a Time Period</option>
-				  <option>2015</option>
-				  <option>2016</option>
-				  <option>2017</option>
-				  <option>2018</option>
-				  <option>2019</option>
+				  <option id='2015'>2015</option>
+				  <option id='2016'>2016</option>
+				  <option id='2017'>2017</option>
+				  <option id='2018'>2018</option>
+				  <option id='2019'>2019</option>
 				</select>
 				<select  id='dropdownMenuQ' style="display:inline; id="quar_dd">
-				  <option>2016-Q1</option>
-				  <option>2016-Q2</option>
-				  <option>2016-Q3</option>
-				  <option>2016-Q4</option>
-				  <option>2017-Q1</option>
-				  <option>2017-Q2</option>
-				  <option>2017-Q3</option>
-				  <option>2017-Q4</option>
-				  <option>2018-Q1</option>
-				  <option>2018-Q2</option>
-				  <option>2018-Q3</option>
-				  <option>2018-Q4</option>
-				  <option>2019-Q1</option>
-				  <option>2019-Q2</option>
-				  <option>2019-Q3</option>
-				  <option selected="selected">2019-Q4</option>
+				  <option id='2016q1'>2016-Q1</option>
+				  <option id='2016q2'>2016-Q2</option>
+				  <option id='2016q3'>2016-Q3</option>
+				  <option id='2016q4'>2016-Q4</option>
+				  <option id='2017q1'>2017-Q1</option>
+				  <option id='2017q2'>2017-Q2</option>
+				  <option id='2017q3'>2017-Q3</option>
+				  <option id='2017q4'>2017-Q4</option>
+				  <option id='2018q1'>2018-Q1</option>
+				  <option id='2018q2'>2018-Q2</option>
+				  <option id='2018q3'>2018-Q3</option>
+				  <option id='2018q4'>2018-Q4</option>
+				  <option id='2019q1'>2019-Q1</option>
+				  <option id='2019q2'>2019-Q2</option>
+				  <option id='2019q3'>2019-Q3</option>
+				  <option id='2019q4' selected="selected">2019-Q4</option>
 				</select>
 			</div>
 		</div>
