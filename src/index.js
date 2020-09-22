@@ -28,7 +28,6 @@ import 'chardin.ts/chardinjs.scss';
     //
     // Load the Homepage
     //
-
     if (!location_search) {
         console.log('HOMEPAGE')
         let myCounties = await import (/* webpackChunkName: "boundary_marylands_counties" */
@@ -60,7 +59,8 @@ import 'chardin.ts/chardinjs.scss';
         //
         // Load a View
         //
-
+        localStorage.setItem('Clicked', 'nothingyet');
+        
         window.CountyName = location_search.replace("?county=", "").replace(".html", "").replace(/([A-Z])/g, ' $1').trim()
         window.md = CountyName == 'Maryland'
         window.wd = CountyName.includes('L W D A')
@@ -69,69 +69,75 @@ import 'chardin.ts/chardinjs.scss';
                                      "Caroline County", "Calvert County", "Somerset County", "Prince Georges County"]
 
         var {countyCode, buttonMenu} = ''
-        let {wdaDropdowns, wdaCollapse1, wdaCollapse2, wdaCollapse3, wdaCollapse4, wdaCollapse15, countyDropdowns, counties_pop, counties_empl_edu_gend, counties_empl_race_ethn, counties_empl_vet, counties_disabl_pov, counties_empl_status, counties_snap} = false
+
+        let {wdaDropdowns, wdaCollapse1, wdaCollapse2, wdaCollapse3, wdaCollapse4, wdaCollapse5, countyDropdowns, counties_pop, counties_empl_edu_gend, counties_empl_race_ethn, counties_empl_vet, counties_disabl_pov, counties_empl_status, counties_snap} = false
 		let dropdown = `<div class="ChartTitle">
 		  <p id='title' style="display:inline" >innertext</p>
 		  <p></p>
 		  <div id='dropdownMenu' style="display:inline; float:right">
+		    <p id='notalldataavailablewarning' style='color:red'> Only partial data is available for the given year.</p>
+		    <br>
 			<p style="display:inline;">Select Time Period:</p>
-				<select id='dropdownMenuY' style="display:inline; id="year_dd" style="display:inline; float:right">
-				  <option>Pick a Time Period</option>
-				  <option id='2015'>2015</option>
-				  <option id='2016'>2016</option>
-				  <option id='2017'>2017</option>
-				  <option id='2018'>2018</option>
-				  <option id='2019'>2019</option>
+				<select id='dropdownMenuY' style="display:inline; float:right">
+				  <option value='false'>Pick a Time Period</option>
+				  <option value='data15'>2015</option>
+				  <option value='data16'>2016</option>
+				  <option value='data17'>2017</option>
+				  <option value='data18' selected="selected">2018</option>
+				  <option value='data19'>2019</option>
 				</select>
-				<select  id='dropdownMenuQ' style="display:inline; id="quar_dd">
-				  <option id='2016q1'>2016-Q1</option>
-				  <option id='2016q2'>2016-Q2</option>
-				  <option id='2016q3'>2016-Q3</option>
-				  <option id='2016q4'>2016-Q4</option>
-				  <option id='2017q1'>2017-Q1</option>
-				  <option id='2017q2'>2017-Q2</option>
-				  <option id='2017q3'>2017-Q3</option>
-				  <option id='2017q4'>2017-Q4</option>
-				  <option id='2018q1'>2018-Q1</option>
-				  <option id='2018q2'>2018-Q2</option>
-				  <option id='2018q3'>2018-Q3</option>
-				  <option id='2018q4'>2018-Q4</option>
-				  <option id='2019q1'>2019-Q1</option>
-				  <option id='2019q2'>2019-Q2</option>
-				  <option id='2019q3'>2019-Q3</option>
-				  <option id='2019q4' selected="selected">2019-Q4</option>
+				<select  id='dropdownMenuQ' style="display:inline">
+				  <option value='data16q1'>2016-Q1</option>
+				  <option value='data16q2'>2016-Q2</option>
+				  <option value='data16q3'>2016-Q3</option>
+				  <option value='data16q4'>2016-Q4</option>
+				  <option value='data17q1'>2017-Q1</option>
+				  <option value='data17q2'>2017-Q2</option>
+				  <option value='data17q3'>2017-Q3</option>
+				  <option value='data17q4'>2017-Q4</option>
+				  <option value='data18q1'>2018-Q1</option>
+				  <option value='data18q2'>2018-Q2</option>
+				  <option value='data18q3'>2018-Q3</option>
+				  <option value='data18q4' selected="selected">2018-Q4</option>
+				  <option value='data19q1'>2019-Q1</option>
+				  <option value='data19q2'>2019-Q2</option>
+				  <option value='data19q3'>2019-Q3</option>
+				  <option value='data19q4'>2019-Q4</option>
 				</select>
 			</div>
 		</div>
 		`
-
+		
         if (wd) {
             //
             // WDA
             //
+            localStorage.setItem('viewing', 'wd')
             let tmp = CountyName.replace("L W D A", "")
             window.CountyName1 = tmp + "WIA -- Maryland Statewide"
             window.CountyName2 = tmp + "WIA"
             window.CountyName4 = tmp + " Local Workforce Development Area"
             window.CountyName5 = tmp + "LWDA"
-            let {wdaDropdowns, wdaCollapse1, wdaCollapse2, wdaCollapse3, wdaCollapse4, wdaCollapse15} = await import ('./parts/woia_html')
+            let {wdaDropdowns, wdaCollapse1, wdaCollapse2, wdaCollapse3, wdaCollapse4, wdaCollapse5} = await import ('./parts/woia_html')
             buttonMenu = wdaDropdowns
-            countyCode = `${dropdown} ${wdaCollapse1} ${wdaCollapse2} ${wdaCollapse3} ${wdaCollapse4(CountyName)} ${wdaCollapse15}`
+            countyCode = `${dropdown} ${wdaCollapse1} ${wdaCollapse2} ${wdaCollapse3} ${wdaCollapse4(CountyName)} ${wdaCollapse5}`
         } else if (md) {
             //
             // MD
             //
+            localStorage.setItem('viewing', 'md')
             window.CountyName = window.CountyName1 = window.CountyName2 = window.CountyName4 = 'Maryland'
-            let {wdaDropdowns, wdaCollapse1, wdaCollapse2, wdaCollapse3, wdaCollapse4, wdaCollapse15} = await import ('./parts/woia_html')
+            let {wdaDropdowns, wdaCollapse1, wdaCollapse2, wdaCollapse3, wdaCollapse4, wdaCollapse5} = await import ('./parts/woia_html')
             let {countyDropdowns, counties_pop, counties_empl_edu_gend, counties_empl_race_ethn, counties_empl_vet, counties_disabl_pov, counties_tanf, counties_empl_status, counties_snap} = await import ('./parts/county_html')
             let {mdDrodowns, mdApprenticeshipCompleters, mdNewApprenticeShipPrograms, mdNewAndACtivePrograms, mdLongTermUnemployment, mdServiceParticipantsInSnap} = await import ('./parts/maryland_html')
             buttonMenu = mdDrodowns
-            countyCode = `${dropdown} ${wdaCollapse1} ${wdaCollapse2} ${wdaCollapse3} ${wdaCollapse4(CountyName)} ${wdaCollapse15} ${counties_pop} ${counties_empl_edu_gend} ${counties_empl_race_ethn} ${counties_empl_vet} ${counties_disabl_pov} ${counties_tanf} ${counties_empl_status} ${counties_snap}  ${mdApprenticeshipCompleters} ${mdNewApprenticeShipPrograms} ${mdNewAndACtivePrograms} ${mdLongTermUnemployment} ${mdServiceParticipantsInSnap}
+            countyCode = `${dropdown} ${wdaCollapse1} ${wdaCollapse2} ${wdaCollapse3} ${wdaCollapse4(CountyName)} ${wdaCollapse5} ${counties_pop} ${counties_empl_edu_gend} ${counties_empl_race_ethn} ${counties_empl_vet} ${counties_disabl_pov} ${counties_tanf} ${counties_empl_status} ${counties_snap}  ${mdApprenticeshipCompleters} ${mdNewApprenticeShipPrograms} ${mdNewAndACtivePrograms} ${mdLongTermUnemployment} ${mdServiceParticipantsInSnap}
             `
         } else {
             //
             // County
             //
+            localStorage.setItem('viewing', 'ct')
             let {countyDropdowns, counties_pop, counties_empl_edu_gend, counties_empl_race_ethn, counties_empl_vet, counties_disabl_pov, counties_tanf, counties_empl_status, counties_snap} = await import ('./parts/county_html')
             countyCode = `${dropdown} ${counties_pop} ${counties_empl_edu_gend} ${counties_empl_race_ethn} ${counties_empl_vet} ${counties_disabl_pov} ${counties_tanf} ${counties_empl_status} ${counties_snap} 
             `
@@ -174,7 +180,7 @@ import 'chardin.ts/chardinjs.scss';
 	  </div>
 	  `
 
-        let wrapper = `
+      let wrapper = `
 	  ${sidebutton}
 	  <div id="Wrapper">
 		<div class="content">

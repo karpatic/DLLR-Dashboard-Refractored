@@ -9,36 +9,19 @@ import * as dimple from 'dimple';
  * 4 - collapse20 - Chart20-pchart1 - Print2 - table20 - Long Term Unemployed
  * 5 - collapse19 - Chart21-chart18 - Print21 - table155 - Service Partcipants in SNAP
  */
+ import {pcnt, pcnt2} from './event_handlers.js'
+
 (async()=>{
-    let pcnt = (d)=>{
-        if (d == 'N/A') {
-            return d
-        }
-        if (d == 'S') {
-            return d
-        }
-        return d.slice(d.length - 1) != '%' ? (d3.format(".1%")(d * 1)) : (d3.format(".1%")(Number(d.slice(0, -1) * .01)))
-    }
-    let pcnt2 = (d)=>{
-        if (d == 'N/A') {
-            return d
-        }
-        if (d == 'S') {
-            return d
-        }
-        return d.slice(d.length - 1) != '%' ? (d3.format(".1%")(d * .01)) : (d3.format(".1%")(Number(d.slice(0, -1) * .01)))
-    }
     // Retrieve Data
     let url = './data/MarylandData.csv'
-    let data = await d3.csv(url)
-    document.getElementById('acsyearagg').innerHTML = '1'
+    let data = await d3.csv(url) 
 
     // 
     // Apprenticeship Completers
     // 
     // Filter Data
 
-    window.mAppData = dimple.filterData(dimple.filterData(data, "Indicator_Value", "Program Completers"), "Time", ["FY15", "FY16", "FY17"]);
+    window.mAppData = dimple.filterData(dimple.filterData(data, "Indicator_Value", "Program Completers"), "Time", ["FY15", "FY16", "FY17", "FY18"]);
 
     // Create Table
     document.getElementById('table11').innerHTML = `
@@ -315,5 +298,77 @@ import * as dimple from 'dimple';
     chart18.draw();
     var pworkLine = pchart18.addSeries("Indicator", dimple.plot.bar);
     pchart18.draw();
+ /*
+ * 1 - collapse9 - Chart11-chart15 - Apprenticeship Completers, 
+ * 2 - collapse16 - Chart18-aprogChart - Print18 - table55 New Apprentice Programs
+ * 3 - collapse17 - Chart19-aNewChart - Print19 - table19 - New/Active Apprentices
+ * 4 - collapse20 - Chart20-pchart1 - Print2 - table20 - Long Term Unemployed
+ * 5 - collapse19 - Chart21-chart18 - Print21 - table155 - Service Partcipants in SNAP
+ */
+    window.mdLookup = [ {
+        'tab': 'collapse9',
+        'lbl': 'Apprenticeship Completers',
+        'dm': false,
+        'dmy': false,
+        'dmq': false,
+        'charts': [chart15],
+        'pcharts': [pchart15],
+        'svgName': '#Chart11',
+        'data': { }
+    }, {
+        'tab': 'collapse16',
+        'lbl': 'New Apprentice Programs',
+        'dm': false,
+        'dmy': false,
+        'dmq': false,
+        'charts': [aprogChart],
+        'pcharts': [aprogChart],
+        'svgName': '#Chart18',
+        'data': { }
+    }, {
+        'tab': 'collapse17',
+        'lbl': 'New/Active Apprentice Programs',
+        'dm': false,
+        'dmy': false,
+        'dmq': false,
+        'charts': [aNewChart],
+        'pcharts': [aNewChart],
+        'svgName': '#Chart19',
+        'data': { }
+    }, {
+        'tab': 'collapse20',
+        'lbl': 'Long Term Unemployed',
+        'dm': false,
+        'dmy': false,
+        'dmq': false,
+        'charts': [chart1],
+        'pcharts': [pchart1],
+        'svgName': '#Chart20',
+        'data': { }
+    }, {
+        'tab': 'collapse19',
+        'lbl': 'Service Participants in SNAP',
+        'dm': false,
+        'dmy': false,
+        'dmq': false,
+        'charts': [chart18],
+        'pcharts': [pchart18],
+        'svgName': '#Chart21',
+        'data': { }
+    }, 
+
+
+/*
+ 
+ 
+
+
+*/
+
+
+    ]
+
+
+
 }
 )()

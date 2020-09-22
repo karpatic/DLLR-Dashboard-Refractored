@@ -25,6 +25,10 @@ module.exports = env => {
 	index: './src/index.js',
   },
   optimization: {
+    moduleIds: "hashed",
+    runtimeChunk: {
+      name: "manifest",
+    },
     minimizer: [
       new TerserPlugin({
 		sourceMap: true,
@@ -36,7 +40,9 @@ module.exports = env => {
   output: {
     filename: '[name].[hash].js',
     chunkFilename: '[name].[hash].js',
-    globalObject: "this"
+    globalObject: "this",
+    sourceMapFilename: "[name].[hash].js.map",
+    devtoolModuleFilenameTemplate: info => 'file://' + path.resolve(info.absoluteResourcePath).replace(/\\/g, '/')
   },
   module: {
     rules: [
@@ -53,7 +59,7 @@ module.exports = env => {
         use: {
           loader: "babel-loader",
           options: { 
-              "presets": ["@babel/preset-env", "@babel/preset-react"],
+              "presets": [ ["@babel/preset-env", { "modules": false }], "@babel/preset-react"],
               "plugins": [ '@babel/transform-runtime' ]
           }
         }

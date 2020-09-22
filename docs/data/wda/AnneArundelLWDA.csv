@@ -660,21 +660,6 @@ Job Change,Anne Arundel WIA,Maryland Job Net Change by Education All,2017Q1,E0,A
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education All,2017Q2,E0,All Education Categories,7202
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education All,2017Q3,E0,All Education Categories,-2190
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education All,2017Q4,E0,All Education Categories,-39
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q3,E0,All Education Categories,51102
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q2,E0,All Education Categories,51542
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q1,E0,All Education Categories,36139
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q4,E0,All Education Categories,44884
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q3,E0,All Education Categories,47986
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q2,E0,All Education Categories,50202
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q1,E0,All Education Categories,36289
-New Hires,Anne Arundel WIA,Maryland New Hires by Education All,2017Q4,E0,All Education Categories,44225
-New Hires,Anne Arundel WIA,Maryland New Hires by Education All,2017Q3,E0,All Education Categories,46641
-New Hires,Anne Arundel WIA,Maryland New Hires by Education All,2017Q2,E0,All Education Categories,49431
-New Hires,Anne Arundel WIA,Maryland New Hires by Education All,2017Q1,E0,All Education Categories,36932
-New Hires,Anne Arundel WIA,Maryland New Hires by Education All,2016Q4,E0,All Education Categories,44937
-New Hires,Anne Arundel WIA,Maryland New Hires by Education All,2016Q3,E0,All Education Categories,49295
-New Hires,Anne Arundel WIA,Maryland New Hires by Education All,2016Q2,E0,All Education Categories,49813
-New Hires,Anne Arundel WIA,Maryland New Hires by Education All,2016Q1,E0,All Education Categories,35095
 Separations,Anne Arundel WIA,Maryland Separations by Education,2018Q1,E0,All Education Categories,36448
 Separations,Anne Arundel WIA,Maryland Separations by Education,2018Q2,E0,All Education Categories,42133
 Separations,Anne Arundel WIA,Maryland Separations by Education,2018Q3,E0,All Education Categories,49437
@@ -1030,8 +1015,6 @@ Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q1,E4,Bache
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q2,E4,Bachelor's degree or advanced degree,-169
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q3,E4,Bachelor's degree or advanced degree,-103
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q4,E4,Bachelor's degree or advanced degree,-318
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q3,E4,Bachelor's degree or advanced degree,7869
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q2,E4,Bachelor's degree or advanced degree,7802
 Earnings,Anne Arundel WIA,Maryland Average Monthly Earnings by Age,2019Q3,A07,55-64,N/A
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Gender,2019Q1,1,Male,-85
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Gender,2019Q1,2,Female,-208
@@ -1050,23 +1033,6 @@ Job Change,Anne Arundel WIA,Maryland Job Net Change by Gender All,2017Q1,0,All,8
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Gender All,2017Q2,0,All,7202
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Gender All,2017Q3,0,All,-2190
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Gender All,2017Q4,0,All,-39
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q1,2,Female,16852
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q1,1,Male,18243
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q2,2,Female,23658
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q2,1,Male,26154
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q1,E4,Bachelor's degree or advanced degree,6179
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,7662
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q3,E4,Bachelor's degree or advanced degree,7258
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q2,E4,Bachelor's degree or advanced degree,7543
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q1,E4,Bachelor's degree or advanced degree,6292
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q4,E4,Bachelor's degree or advanced degree,7416
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q3,E4,Bachelor's degree or advanced degree,7017
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q2,E4,Bachelor's degree or advanced degree,7197
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q1,E4,Bachelor's degree or advanced degree,6222
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q4,E4,Bachelor's degree or advanced degree,7554
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q3,E4,Bachelor's degree or advanced degree,7440
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q2,E4,Bachelor's degree or advanced degree,7364
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q1,E4,Bachelor's degree or advanced degree,6202
 Separations,Anne Arundel WIA,Maryland Separations by Education,2018Q1,E4,Bachelor's degree or advanced degree,6314
 Separations,Anne Arundel WIA,Maryland Separations by Education,2018Q2,E4,Bachelor's degree or advanced degree,7373
 Separations,Anne Arundel WIA,Maryland Separations by Education,2018Q3,E4,Bachelor's degree or advanced degree,7417
@@ -1082,7 +1048,6 @@ Separations,Anne Arundel WIA,Maryland Separations by Education,2017Q2,E4,Bachelo
 Separations,Anne Arundel WIA,Maryland Separations by Education,2017Q3,E4,Bachelor's degree or advanced degree,7088
 Separations,Anne Arundel WIA,Maryland Separations by Education,2017Q4,E4,Bachelor's degree or advanced degree,7766
 Separations,Anne Arundel WIA,Maryland Separations by Education,2019Q1,E4,Bachelor's degree or advanced degree,6374
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q3,2,Female,24290
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2017Q3,11,"Agriculture, Forestry, Fishing and Hunting",0.179
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Education,2018Q1,E4,Bachelor's degree or advanced degree,0.066
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Education,2018Q2,E4,Bachelor's degree or advanced degree,0.064
@@ -1102,7 +1067,6 @@ Turnover,Anne Arundel WIA,Maryland Turnover Rate by Education,2017Q4,E4,Bachelor
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),512
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),6573
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),-1593
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q3,1,Male,25005
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),872
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),6901
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),N/A
@@ -1115,21 +1079,6 @@ Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q1,E5,Educa
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),6498
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),-2094
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),1070
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),17139
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),18251
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),10291
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),12957
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),16490
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),17992
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),10555
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),13231
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),16242
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),18162
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),11124
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),13485
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),17707
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),18519
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),10446
 Separations,Anne Arundel WIA,Maryland Separations by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),10090
 Separations,Anne Arundel WIA,Maryland Separations by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),11413
 Separations,Anne Arundel WIA,Maryland Separations by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),18031
@@ -1144,43 +1093,8 @@ Separations,Anne Arundel WIA,Maryland Separations by Education,2017Q1,E5,Educati
 Separations,Anne Arundel WIA,Maryland Separations by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),11677
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2017Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",0.042
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2017Q3,22,Utilities,0.023
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q4,2,Female,22721
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q4,1,Male,22215
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q1,2,Female,17897
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q1,1,Male,19035
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q2,2,Female,23577
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q2,1,Male,25854
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q3,2,Female,22749
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q3,1,Male,23892
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q4,2,Female,22188
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q4,1,Male,22037
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q1,0,All,36289
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q1,2,Female,17255
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q1,1,Male,19033
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q2,0,All,50202
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q2,2,Female,23652
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q2,1,Male,26550
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q3,0,All,47986
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q3,2,Female,23692
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q3,1,Male,24294
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q4,0,All,44884
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q4,2,Female,22181
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q4,1,Male,22704
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q1,0,All,36139
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q1,1,Male,18898
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q1,2,Female,17240
 Separations,Anne Arundel WIA,Maryland Separations by Industry,2019Q1,11,"Agriculture, Forestry, Fishing and Hunting",17
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q2,0,All,51542
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q2,2,Female,24757
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q2,1,Male,26785
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q3,0,All,51102
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q3,2,Female,24829
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q3,1,Male,26273
 Separations,Anne Arundel WIA,Maryland Separations by Industry,2019Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",5
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender All,2016Q1,0,All,35095
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender All,2016Q2,0,All,49813
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender All,2016Q3,0,All,49295
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender All,2016Q4,0,All,44937
 Workers,Anne Arundel WIA,Maryland Workers by Age All,2016Q1,A00,All,258349
 Workers,Anne Arundel WIA,Maryland Workers by Age All,2016Q2,A00,All,264739
 Workers,Anne Arundel WIA,Maryland Workers by Age All,2016Q3,A00,All,268943
@@ -1189,306 +1103,7 @@ Workers,Anne Arundel WIA,Maryland Workers by Age All,2017Q1,A00,All,258807
 Workers,Anne Arundel WIA,Maryland Workers by Age All,2017Q2,A00,All,262079
 Workers,Anne Arundel WIA,Maryland Workers by Age All,2017Q3,A00,All,267456
 Workers,Anne Arundel WIA,Maryland Workers by Age All,2017Q4,A00,All,266830
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",13
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,11,"Agriculture, Forestry, Fishing and Hunting",25
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,11,"Agriculture, Forestry, Fishing and Hunting",25
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,11,"Agriculture, Forestry, Fishing and Hunting",28
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,11,"Agriculture, Forestry, Fishing and Hunting",25
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",33
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",31
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",27
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,11,"Agriculture, Forestry, Fishing and Hunting",27
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,11,"Agriculture, Forestry, Fishing and Hunting",30
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,11,"Agriculture, Forestry, Fishing and Hunting",20
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,11,"Agriculture, Forestry, Fishing and Hunting",13
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,11,"Agriculture, Forestry, Fishing and Hunting",32
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,11,"Agriculture, Forestry, Fishing and Hunting",19
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,11,"Agriculture, Forestry, Fishing and Hunting",17
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",15
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",5
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",17
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",7
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",11
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",17
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",22
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",20
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",7
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",14
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",5
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender All,2017Q1,0,All,36932
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",9
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",5
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",N/A
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,22,Utilities,32
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,22,Utilities,42
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,22,Utilities,19
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,22,Utilities,20
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,22,Utilities,23
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,22,Utilities,24
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,22,Utilities,19
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,22,Utilities,19
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,22,Utilities,18
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,22,Utilities,8
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,22,Utilities,7
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,22,Utilities,15
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,22,Utilities,13
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,22,Utilities,19
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,22,Utilities,15
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,23,Construction,2599
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,23,Construction,3398
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,23,Construction,3299
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,23,Construction,2633
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,23,Construction,2930
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,23,Construction,3605
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,23,Construction,3513
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,23,Construction,2570
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,23,Construction,3406
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,23,Construction,3175
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,23,Construction,2530
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,23,Construction,2432
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,23,Construction,3278
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,23,Construction,3275
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,23,Construction,2639
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,42,Wholesale Trade,932
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,42,Wholesale Trade,1141
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,42,Wholesale Trade,998
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,42,Wholesale Trade,1004
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,42,Wholesale Trade,1006
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,42,Wholesale Trade,1114
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,42,Wholesale Trade,1008
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,42,Wholesale Trade,1071
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,42,Wholesale Trade,1216
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,42,Wholesale Trade,1150
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,42,Wholesale Trade,1068
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,42,Wholesale Trade,1078
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,42,Wholesale Trade,1306
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,42,Wholesale Trade,1129
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,42,Wholesale Trade,1025
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,51,Information,383
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,51,Information,427
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,51,Information,264
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,51,Information,292
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,51,Information,264
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,51,Information,341
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,51,Information,210
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,51,Information,291
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,51,Information,362
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,51,Information,310
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,51,Information,429
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,51,Information,549
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,51,Information,438
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,51,Information,318
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,51,Information,297
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,52,Finance and Insurance,624
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,52,Finance and Insurance,648
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,52,Finance and Insurance,749
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,52,Finance and Insurance,659
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,52,Finance and Insurance,556
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,52,Finance and Insurance,565
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,52,Finance and Insurance,610
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,52,Finance and Insurance,626
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,52,Finance and Insurance,687
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,52,Finance and Insurance,615
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,52,Finance and Insurance,652
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,52,Finance and Insurance,558
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,52,Finance and Insurance,665
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,52,Finance and Insurance,693
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,52,Finance and Insurance,642
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,53,Real Estate and Rental and Leasing,695
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,53,Real Estate and Rental and Leasing,878
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,53,Real Estate and Rental and Leasing,814
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,53,Real Estate and Rental and Leasing,716
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,53,Real Estate and Rental and Leasing,569
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,53,Real Estate and Rental and Leasing,920
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,53,Real Estate and Rental and Leasing,799
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,53,Real Estate and Rental and Leasing,529
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,53,Real Estate and Rental and Leasing,841
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,53,Real Estate and Rental and Leasing,754
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,53,Real Estate and Rental and Leasing,636
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,53,Real Estate and Rental and Leasing,680
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,53,Real Estate and Rental and Leasing,917
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,53,Real Estate and Rental and Leasing,840
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,53,Real Estate and Rental and Leasing,752
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,54,"Professional, Scientific, and Technical Services",3395
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,54,"Professional, Scientific, and Technical Services",3568
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,54,"Professional, Scientific, and Technical Services",3209
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,54,"Professional, Scientific, and Technical Services",3474
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,54,"Professional, Scientific, and Technical Services",3119
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,54,"Professional, Scientific, and Technical Services",4009
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",3613
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,54,"Professional, Scientific, and Technical Services",3469
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,54,"Professional, Scientific, and Technical Services",3463
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,54,"Professional, Scientific, and Technical Services",3221
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,54,"Professional, Scientific, and Technical Services",3377
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,54,"Professional, Scientific, and Technical Services",2927
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,54,"Professional, Scientific, and Technical Services",3282
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,54,"Professional, Scientific, and Technical Services",3099
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,54,"Professional, Scientific, and Technical Services",3689
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,55,Management of Companies and Enterprises,224
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,55,Management of Companies and Enterprises,328
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,55,Management of Companies and Enterprises,271
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,55,Management of Companies and Enterprises,228
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,55,Management of Companies and Enterprises,177
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,55,Management of Companies and Enterprises,327
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,55,Management of Companies and Enterprises,239
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,55,Management of Companies and Enterprises,211
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,55,Management of Companies and Enterprises,336
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,55,Management of Companies and Enterprises,343
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,55,Management of Companies and Enterprises,298
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,55,Management of Companies and Enterprises,262
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,55,Management of Companies and Enterprises,346
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,55,Management of Companies and Enterprises,273
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,55,Management of Companies and Enterprises,254
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,56,Administrative and Support and Waste Management and Remediation Services,4991
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,56,Administrative and Support and Waste Management and Remediation Services,7583
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,56,Administrative and Support and Waste Management and Remediation Services,6574
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,56,Administrative and Support and Waste Management and Remediation Services,6273
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,56,Administrative and Support and Waste Management and Remediation Services,5172
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,56,Administrative and Support and Waste Management and Remediation Services,7537
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,7019
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,56,Administrative and Support and Waste Management and Remediation Services,4974
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,56,Administrative and Support and Waste Management and Remediation Services,7137
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,56,Administrative and Support and Waste Management and Remediation Services,6829
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,56,Administrative and Support and Waste Management and Remediation Services,5914
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,56,Administrative and Support and Waste Management and Remediation Services,5405
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,56,Administrative and Support and Waste Management and Remediation Services,7049
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,56,Administrative and Support and Waste Management and Remediation Services,6327
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,56,Administrative and Support and Waste Management and Remediation Services,5558
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,61,Educational Services,1311
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,61,Educational Services,1416
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,61,Educational Services,2027
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,61,Educational Services,1722
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,61,Educational Services,1184
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,61,Educational Services,1273
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,61,Educational Services,2233
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,61,Educational Services,1178
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,61,Educational Services,1173
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,61,Educational Services,2078
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,61,Educational Services,1487
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,61,Educational Services,1244
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,61,Educational Services,1234
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,61,Educational Services,1888
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,61,Educational Services,1848
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,62,Health Care and Social Assistance,3361
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,62,Health Care and Social Assistance,3814
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,62,Health Care and Social Assistance,4287
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,62,Health Care and Social Assistance,3716
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,62,Health Care and Social Assistance,3545
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,62,Health Care and Social Assistance,4159
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,62,Health Care and Social Assistance,4400
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,62,Health Care and Social Assistance,3259
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,62,Health Care and Social Assistance,3538
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,62,Health Care and Social Assistance,4396
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,62,Health Care and Social Assistance,3568
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,62,Health Care and Social Assistance,3451
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,62,Health Care and Social Assistance,3900
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,62,Health Care and Social Assistance,4106
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,62,Health Care and Social Assistance,3761
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,71,"Arts, Entertainment, and Recreation",1042
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,71,"Arts, Entertainment, and Recreation",2907
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,71,"Arts, Entertainment, and Recreation",1555
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,71,"Arts, Entertainment, and Recreation",1219
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,71,"Arts, Entertainment, and Recreation",743
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,71,"Arts, Entertainment, and Recreation",2127
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",1519
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,71,"Arts, Entertainment, and Recreation",862
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,71,"Arts, Entertainment, and Recreation",2082
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,71,"Arts, Entertainment, and Recreation",1989
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,71,"Arts, Entertainment, and Recreation",1335
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,71,"Arts, Entertainment, and Recreation",1106
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,71,"Arts, Entertainment, and Recreation",2440
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,71,"Arts, Entertainment, and Recreation",1901
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,71,"Arts, Entertainment, and Recreation",1030
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,72,Accommodation and Food Services,6817
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,72,Accommodation and Food Services,9648
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,72,Accommodation and Food Services,9462
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,72,Accommodation and Food Services,7291
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,72,Accommodation and Food Services,6900
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,72,Accommodation and Food Services,10590
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,72,Accommodation and Food Services,9557
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,72,Accommodation and Food Services,6813
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,72,Accommodation and Food Services,10679
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,72,Accommodation and Food Services,9273
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,72,Accommodation and Food Services,8045
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,72,Accommodation and Food Services,7341
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,72,Accommodation and Food Services,10167
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,72,Accommodation and Food Services,8902
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,72,Accommodation and Food Services,7553
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,81,Other Services (except Public Administration),1530
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,81,Other Services (except Public Administration),1899
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,81,Other Services (except Public Administration),2357
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,81,Other Services (except Public Administration),1547
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,81,Other Services (except Public Administration),1420
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,81,Other Services (except Public Administration),1896
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,81,Other Services (except Public Administration),2255
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,81,Other Services (except Public Administration),1346
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,81,Other Services (except Public Administration),1899
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,81,Other Services (except Public Administration),2500
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,81,Other Services (except Public Administration),1537
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,81,Other Services (except Public Administration),1588
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,81,Other Services (except Public Administration),2076
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,81,Other Services (except Public Administration),2234
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,81,Other Services (except Public Administration),1567
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,92,Public Administration,1033
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,92,Public Administration,2121
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,92,Public Administration,1518
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,92,Public Administration,1001
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,92,Public Administration,1144
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,92,Public Administration,1983
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,92,Public Administration,1405
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,92,Public Administration,769
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,92,Public Administration,1979
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,92,Public Administration,1340
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,92,Public Administration,1370
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,92,Public Administration,1046
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,92,Public Administration,2065
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,92,Public Administration,1143
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,92,Public Administration,759
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,31-33,Manufacturing,770
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,31-33,Manufacturing,1189
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,31-33,Manufacturing,1156
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,31-33,Manufacturing,980
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,31-33,Manufacturing,947
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,31-33,Manufacturing,1365
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,31-33,Manufacturing,1180
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,31-33,Manufacturing,791
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,31-33,Manufacturing,1312
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,31-33,Manufacturing,1053
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,31-33,Manufacturing,1005
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,31-33,Manufacturing,850
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,31-33,Manufacturing,1075
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,31-33,Manufacturing,1034
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,31-33,Manufacturing,796
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,44-45,Retail Trade,4918
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,44-45,Retail Trade,6767
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,44-45,Retail Trade,7169
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,44-45,Retail Trade,9175
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,44-45,Retail Trade,4692
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,44-45,Retail Trade,6544
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,44-45,Retail Trade,7126
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,44-45,Retail Trade,4598
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,44-45,Retail Trade,7436
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,44-45,Retail Trade,8040
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,44-45,Retail Trade,9716
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,44-45,Retail Trade,5085
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,44-45,Retail Trade,7078
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,44-45,Retail Trade,7465
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,44-45,Retail Trade,9708
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,48-49,Transportation and Warehousing,1604
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,48-49,Transportation and Warehousing,2399
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,48-49,Transportation and Warehousing,2215
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,48-49,Transportation and Warehousing,2901
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,48-49,Transportation and Warehousing,1710
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,48-49,Transportation and Warehousing,3116
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,48-49,Transportation and Warehousing,4343
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,48-49,Transportation and Warehousing,1671
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,48-49,Transportation and Warehousing,2215
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,48-49,Transportation and Warehousing,2178
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,48-49,Transportation and Warehousing,1937
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,48-49,Transportation and Warehousing,1302
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,48-49,Transportation and Warehousing,2061
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,48-49,Transportation and Warehousing,1971
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,48-49,Transportation and Warehousing,2314
 Separations,Anne Arundel WIA,Maryland Separations by Age,2018Q1,A00,All Ages (14-99),36448
 Separations,Anne Arundel WIA,Maryland Separations by Age,2018Q2,A00,All Ages (14-99),42133
 Separations,Anne Arundel WIA,Maryland Separations by Age,2018Q3,A00,All Ages (14-99),49437
@@ -1616,9 +1231,6 @@ Separations,Anne Arundel WIA,Maryland Separations by Age,2017Q1,A08,65-99,1736
 Separations,Anne Arundel WIA,Maryland Separations by Age,2017Q2,A08,65-99,2301
 Separations,Anne Arundel WIA,Maryland Separations by Age,2017Q3,A08,65-99,2009
 Separations,Anne Arundel WIA,Maryland Separations by Age,2017Q4,A08,65-99,2433
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender All,2017Q2,0,All,49431
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender All,2017Q3,0,All,46641
-New Hires,Anne Arundel WIA,Maryland New Hires by Gender All,2017Q4,0,All,44225
 Separations,Anne Arundel WIA,Maryland Separations by Gender,2016Q1,2,Female,16167
 Separations,Anne Arundel WIA,Maryland Separations by Gender,2016Q1,1,Male,17428
 Separations,Anne Arundel WIA,Maryland Separations by Gender,2016Q2,2,Female,19894
@@ -1675,22 +1287,7 @@ Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q1,E2,"High
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q2,E2,"High school or equivalent, no college",378
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q3,E2,"High school or equivalent, no college",-48
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q4,E2,"High school or equivalent, no college",-380
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q4,E2,"High school or equivalent, no college",8850
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q3,E2,"High school or equivalent, no college",8850
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q2,E2,"High school or equivalent, no college",9113
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q1,E2,"High school or equivalent, no college",7302
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q4,E2,"High school or equivalent, no college",8993
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q3,E2,"High school or equivalent, no college",9133
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q2,E2,"High school or equivalent, no college",9060
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Industry,2019Q3,72,Accommodation and Food Services,N/A
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q1,E2,"High school or equivalent, no college",6939
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q3,E2,"High school or equivalent, no college",9725
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q2,E2,"High school or equivalent, no college",9560
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q1,E2,"High school or equivalent, no college",7337
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",9105
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q3,E2,"High school or equivalent, no college",9095
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q2,E2,"High school or equivalent, no college",9319
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q1,E2,"High school or equivalent, no college",7293
 Separations,Anne Arundel WIA,Maryland Separations by Industry,2019Q1,62,Health Care and Social Assistance,3209
 Separations,Anne Arundel WIA,Maryland Separations by Education,2016Q1,E2,"High school or equivalent, no college",6912
 Separations,Anne Arundel WIA,Maryland Separations by Education,2016Q2,E2,"High school or equivalent, no college",8432
@@ -2065,21 +1662,6 @@ Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q1,E1,Less 
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q2,E1,Less than High school,288
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q3,E1,Less than High school,97
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q4,E1,Less than High school,-99
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q3,E1,Less than High school,6250
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q2,E1,Less than High school,6140
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q1,E1,Less than High school,4694
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,5753
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q3,E1,Less than High school,5817
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q2,E1,Less than High school,5861
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q1,E1,Less than High school,4570
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q4,E1,Less than High school,5600
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q3,E1,Less than High school,5658
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q2,E1,Less than High school,5719
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q1,E1,Less than High school,4636
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q4,E1,Less than High school,5576
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q3,E1,Less than High school,5739
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q2,E1,Less than High school,5663
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q1,E1,Less than High school,4215
 Separations,Anne Arundel WIA,Maryland Separations by Education,2018Q1,E1,Less than High school,4652
 Separations,Anne Arundel WIA,Maryland Separations by Education,2018Q2,E1,Less than High school,5411
 Separations,Anne Arundel WIA,Maryland Separations by Education,2018Q3,E1,Less than High school,5605
@@ -2143,12 +1725,7 @@ Separations,Anne Arundel WIA,Maryland Separations by Industry,2019Q3,23,Construc
 Separations,Anne Arundel WIA,Maryland Separations by Industry,2019Q3,42,Wholesale Trade,N/A
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q3,E3,Some college or Associate degree,-50
 Job Change,Anne Arundel WIA,Maryland Job Net Change by Education,2017Q4,E3,Some college or Associate degree,-306
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q4,E3,Some college or Associate degree,9129
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q3,E3,Some college or Associate degree,8874
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q2,E3,Some college or Associate degree,9240
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q1,E3,Some college or Associate degree,7649
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Gender,2018Q2,0,All,0.088
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q4,E3,Some college or Associate degree,9330
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Gender,2018Q2,2,Female,0.089
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Gender,2018Q2,1,Male,0.087
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Gender,2018Q3,0,All,0.096
@@ -2186,14 +1763,6 @@ Workers,Anne Arundel WIA,Maryland Workers by Gender,2016Q1,2,Female,125431
 Workers,Anne Arundel WIA,Maryland Workers by Gender,2016Q1,1,Male,132919
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2017Q3,61,Educational Services,0.028
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2017Q3,62,Health Care and Social Assistance,0.084
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q3,E3,Some college or Associate degree,9276
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q2,E3,Some college or Associate degree,9207
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q1,E3,Some college or Associate degree,7294
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q3,E3,Some college or Associate degree,10119
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q2,E3,Some college or Associate degree,9790
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q1,E3,Some college or Associate degree,7638
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,9408
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q3,E3,Some college or Associate degree,9326
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",0.124
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2018Q2,11,"Agriculture, Forestry, Fishing and Hunting",0.1
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2018Q3,11,"Agriculture, Forestry, Fishing and Hunting",0.171
@@ -2253,13 +1822,11 @@ Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2016Q4,23,Construct
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2017Q1,23,Construction,0.083
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2017Q2,23,Construction,0.082
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2017Q3,48-49,Transportation and Warehousing,0.107
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q2,E3,Some college or Associate degree,9487
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2018Q1,42,Wholesale Trade,0.058
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2018Q2,42,Wholesale Trade,0.061
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2018Q3,42,Wholesale Trade,0.07
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2018Q4,42,Wholesale Trade,0.062
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2019Q1,42,Wholesale Trade,0.063
-New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q1,E3,Some college or Associate degree,7578
 Separations,Anne Arundel WIA,Maryland Separations by Education,2019Q1,E3,Some college or Associate degree,7922
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2016Q1,42,Wholesale Trade,0.063
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2016Q2,42,Wholesale Trade,0.067
@@ -2447,7 +2014,6 @@ Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2018Q3,44-45,Retail
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2018Q4,44-45,Retail Trade,0.115
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2019Q1,44-45,Retail Trade,0.123
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2019Q3,48-49,Transportation and Warehousing,N/A
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2016Q1,44-45,Retail Trade,0.133
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2016Q2,44-45,Retail Trade,0.105
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2016Q3,44-45,Retail Trade,0.114
@@ -2459,7 +2025,6 @@ Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2018Q2,48-49,Transp
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2018Q3,48-49,Transportation and Warehousing,0.109
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2018Q4,48-49,Transportation and Warehousing,0.124
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2019Q1,48-49,Transportation and Warehousing,0.112
-New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",0
 Separations,Anne Arundel WIA,Maryland Separations by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2016Q1,48-49,Transportation and Warehousing,0.084
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Industry,2016Q2,48-49,Transportation and Warehousing,0.075
@@ -2974,3 +2539,435 @@ Turnover,Anne Arundel WIA,Maryland Turnover Rate by Education,2019Q2,E3,Some col
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Education,2017Q3,E3,Some college or Associate degree,0.077
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Education,2019Q3,E3,Some college or Associate degree,N/A
 Turnover,Anne Arundel WIA,Maryland Turnover Rate by Education,2017Q4,E3,Some college or Associate degree,0.073
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q1,E1,Less than High school,4152
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q1,E2,"High school or equivalent, no college",6731
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q1,E3,Some college or Associate degree,6910
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q1,E4,Bachelor's degree or advanced degree,5598
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),9545
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q2,E1,Less than High school,4959
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q2,E2,"High school or equivalent, no college",7842
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q2,E3,Some college or Associate degree,7870
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q2,E4,Bachelor's degree or advanced degree,6073
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),16056
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q3,E1,Less than High school,5224
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q3,E2,"High school or equivalent, no college",8189
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q3,E3,Some college or Associate degree,8331
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q3,E4,Bachelor's degree or advanced degree,6474
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),16216
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q4,E1,Less than High school,4999
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q4,E2,"High school or equivalent, no college",7870
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q4,E3,Some college or Associate degree,8032
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q4,E4,Bachelor's degree or advanced degree,6156
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),12728
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q1,E1,Less than High school,4080
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q1,E2,"High school or equivalent, no college",6414
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q1,E3,Some college or Associate degree,6722
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q1,E4,Bachelor's degree or advanced degree,5336
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),9755
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q2,E1,Less than High school,4992
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q2,E2,"High school or equivalent, no college",7830
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q2,E3,Some college or Associate degree,7877
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q2,E4,Bachelor's degree or advanced degree,5920
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),15555
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q3,E1,Less than High school,5105
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q3,E2,"High school or equivalent, no college",7938
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q3,E3,Some college or Associate degree,7923
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q3,E4,Bachelor's degree or advanced degree,6120
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),14751
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q4,E1,Less than High school,4954
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q4,E2,"High school or equivalent, no college",7652
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q4,E3,Some college or Associate degree,7780
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q4,E4,Bachelor's degree or advanced degree,5900
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),12375
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q1,E1,Less than High school,4107
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q1,E2,"High school or equivalent, no college",6508
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q1,E3,Some college or Associate degree,6697
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q1,E4,Bachelor's degree or advanced degree,5394
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),9184
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q2,E1,Less than High school,5191
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q2,E2,"High school or equivalent, no college",8107
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q2,E3,Some college or Associate degree,8175
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q2,E4,Bachelor's degree or advanced degree,6234
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),15274
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q3,E1,Less than High school,5248
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q3,E2,"High school or equivalent, no college",8182
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q3,E3,Some college or Associate degree,8322
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q3,E4,Bachelor's degree or advanced degree,6351
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),14938
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,5104
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",7950
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,8089
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,6209
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),12074
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q1,E1,Less than High school,4232
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q1,E2,"High school or equivalent, no college",6597
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q1,E3,Some college or Associate degree,6764
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q1,E4,Bachelor's degree or advanced degree,5333
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),8972
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q2,E1,Less than High school,5394
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q2,E2,"High school or equivalent, no college",8246
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q2,E3,Some college or Associate degree,8489
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q2,E4,Bachelor's degree or advanced degree,6482
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),15603
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q3,E1,Less than High school,5657
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q3,E2,"High school or equivalent, no college",8747
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q3,E3,Some college or Associate degree,9074
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q3,E4,Bachelor's degree or advanced degree,6849
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),15380
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q4,E1,Less than High school,5491
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q4,E2,"High school or equivalent, no college",8729
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q4,E3,Some college or Associate degree,8984
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q4,E4,Bachelor's degree or advanced degree,6796
+New Hires,Anne Arundel WIA,Maryland New Hires by Education,2019Q4,E5,Educational attainment not available (workers aged 24 or younger),13074
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",24
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",22
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,22,Utilities,17
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,23,Construction,2305
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,31-33,Manufacturing,705
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,42,Wholesale Trade,927
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,44-45,Retail Trade,4095
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,48-49,Transportation and Warehousing,1488
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,51,Information,226
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,52,Finance and Insurance,3092
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,53,Real Estate and Rental and Leasing,472
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,54,"Professional, Scientific, and Technical Services",2893
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,55,Management of Companies and Enterprises,193
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,56,Administrative and Support and Waste Management and Remediation Services,4339
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,61,Educational Services,749
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,62,Health Care and Social Assistance,2819
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,71,"Arts, Entertainment, and Recreation",707
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,72,Accommodation and Food Services,6095
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,81,Other Services (except Public Administration),1155
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q1,92,Public Administration,612
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,11,"Agriculture, Forestry, Fishing and Hunting",14
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",8
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,22,Utilities,67
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,23,Construction,3018
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,31-33,Manufacturing,1182
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,42,Wholesale Trade,1190
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,44-45,Retail Trade,6754
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,48-49,Transportation and Warehousing,1868
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,51,Information,291
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,52,Finance and Insurance,597
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,53,Real Estate and Rental and Leasing,707
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,54,"Professional, Scientific, and Technical Services",3086
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,55,Management of Companies and Enterprises,301
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,56,Administrative and Support and Waste Management and Remediation Services,6023
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,61,Educational Services,711
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,62,Health Care and Social Assistance,3184
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,71,"Arts, Entertainment, and Recreation",1433
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,72,Accommodation and Food Services,9405
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,81,Other Services (except Public Administration),1595
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q2,92,Public Administration,1367
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,11,"Agriculture, Forestry, Fishing and Hunting",23
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",13
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,22,Utilities,11
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,23,Construction,2870
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,31-33,Manufacturing,913
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,42,Wholesale Trade,1026
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,44-45,Retail Trade,7426
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,48-49,Transportation and Warehousing,1990
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,51,Information,251
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,52,Finance and Insurance,585
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,53,Real Estate and Rental and Leasing,700
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,54,"Professional, Scientific, and Technical Services",2891
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,55,Management of Companies and Enterprises,313
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,56,Administrative and Support and Waste Management and Remediation Services,6316
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,61,Educational Services,1594
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,62,Health Care and Social Assistance,4025
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,71,"Arts, Entertainment, and Recreation",1598
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,72,Accommodation and Food Services,8670
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,81,Other Services (except Public Administration),2108
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q3,92,Public Administration,1111
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,11,"Agriculture, Forestry, Fishing and Hunting",15
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",5
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,22,Utilities,6
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,23,Construction,2104
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,31-33,Manufacturing,826
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,42,Wholesale Trade,904
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,44-45,Retail Trade,8991
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,48-49,Transportation and Warehousing,1721
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,51,Information,366
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,52,Finance and Insurance,434
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,53,Real Estate and Rental and Leasing,506
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,54,"Professional, Scientific, and Technical Services",3042
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,55,Management of Companies and Enterprises,258
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,56,Administrative and Support and Waste Management and Remediation Services,5340
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,61,Educational Services,972
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,62,Health Care and Social Assistance,3252
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,71,"Arts, Entertainment, and Recreation",1083
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,72,Accommodation and Food Services,7497
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,81,Other Services (except Public Administration),1338
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2016Q4,92,Public Administration,1126
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,11,"Agriculture, Forestry, Fishing and Hunting",14
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",3
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,22,Utilities,4
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,23,Construction,2117
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,31-33,Manufacturing,782
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,42,Wholesale Trade,982
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,44-45,Retail Trade,4566
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,48-49,Transportation and Warehousing,1189
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,51,Information,408
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,52,Finance and Insurance,504
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,53,Real Estate and Rental and Leasing,609
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,54,"Professional, Scientific, and Technical Services",2472
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,55,Management of Companies and Enterprises,235
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,56,Administrative and Support and Waste Management and Remediation Services,4711
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,61,Educational Services,898
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,62,Health Care and Social Assistance,3101
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,71,"Arts, Entertainment, and Recreation",927
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,72,Accommodation and Food Services,6504
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,81,Other Services (except Public Administration),1413
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q1,92,Public Administration,867
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,11,"Agriculture, Forestry, Fishing and Hunting",18
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",6
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,22,Utilities,16
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,23,Construction,2766
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,31-33,Manufacturing,955
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,42,Wholesale Trade,1247
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,44-45,Retail Trade,6477
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,48-49,Transportation and Warehousing,1864
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,51,Information,364
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,52,Finance and Insurance,641
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,53,Real Estate and Rental and Leasing,762
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,54,"Professional, Scientific, and Technical Services",2708
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,55,Management of Companies and Enterprises,312
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,56,Administrative and Support and Waste Management and Remediation Services,5955
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,61,Educational Services,803
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,62,Health Care and Social Assistance,3453
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,71,"Arts, Entertainment, and Recreation",1729
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,72,Accommodation and Food Services,9020
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,81,Other Services (except Public Administration),1672
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q2,92,Public Administration,1407
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,11,"Agriculture, Forestry, Fishing and Hunting",16
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,22,Utilities,17
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,23,Construction,2937
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,31-33,Manufacturing,940
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,42,Wholesale Trade,1092
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,44-45,Retail Trade,6896
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,48-49,Transportation and Warehousing,1835
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,51,Information,256
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,52,Finance and Insurance,594
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,53,Real Estate and Rental and Leasing,767
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,54,"Professional, Scientific, and Technical Services",2575
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,55,Management of Companies and Enterprises,242
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,56,Administrative and Support and Waste Management and Remediation Services,5891
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,61,Educational Services,1466
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,62,Health Care and Social Assistance,3730
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,71,"Arts, Entertainment, and Recreation",1415
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,72,Accommodation and Food Services,8291
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,81,Other Services (except Public Administration),1897
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q3,92,Public Administration,978
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,11,"Agriculture, Forestry, Fishing and Hunting",12
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,22,Utilities,14
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,23,Construction,2257
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,31-33,Manufacturing,702
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,42,Wholesale Trade,869
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,44-45,Retail Trade,8990
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,48-49,Transportation and Warehousing,2157
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,51,Information,255
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,52,Finance and Insurance,582
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,53,Real Estate and Rental and Leasing,657
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,54,"Professional, Scientific, and Technical Services",2778
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,55,Management of Companies and Enterprises,215
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,56,Administrative and Support and Waste Management and Remediation Services,5143
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,61,Educational Services,964
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,62,Health Care and Social Assistance,3241
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,71,"Arts, Entertainment, and Recreation",856
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,72,Accommodation and Food Services,6966
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,81,Other Services (except Public Administration),1357
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2017Q4,92,Public Administration,646
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",12
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",16
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,22,Utilities,27
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,23,Construction,2353
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,31-33,Manufacturing,681
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,42,Wholesale Trade,848
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,44-45,Retail Trade,4465
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,48-49,Transportation and Warehousing,1493
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,51,Information,299
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,52,Finance and Insurance,554
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,53,Real Estate and Rental and Leasing,591
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,54,"Professional, Scientific, and Technical Services",2871
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,55,Management of Companies and Enterprises,180
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,56,Administrative and Support and Waste Management and Remediation Services,4559
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,61,Educational Services,907
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,62,Health Care and Social Assistance,2985
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,71,"Arts, Entertainment, and Recreation",858
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,72,Accommodation and Food Services,6029
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,81,Other Services (except Public Administration),1297
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q1,92,Public Administration,864
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,11,"Agriculture, Forestry, Fishing and Hunting",13
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",4
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,22,Utilities,27
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,23,Construction,2961
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,31-33,Manufacturing,1018
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,42,Wholesale Trade,1065
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,44-45,Retail Trade,6184
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,48-49,Transportation and Warehousing,2142
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,51,Information,362
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,52,Finance and Insurance,567
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,53,Real Estate and Rental and Leasing,704
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,54,"Professional, Scientific, and Technical Services",3135
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,55,Management of Companies and Enterprises,264
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,56,Administrative and Support and Waste Management and Remediation Services,6670
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,61,Educational Services,885
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,62,Health Care and Social Assistance,3421
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,71,"Arts, Entertainment, and Recreation",2080
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,72,Accommodation and Food Services,8444
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,81,Other Services (except Public Administration),1622
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q2,92,Public Administration,1413
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,11,"Agriculture, Forestry, Fishing and Hunting",18
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",14
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,22,Utilities,18
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,23,Construction,2978
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,31-33,Manufacturing,1041
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,42,Wholesale Trade,923
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,44-45,Retail Trade,6624
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,48-49,Transportation and Warehousing,2093
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,51,Information,248
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,52,Finance and Insurance,590
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,53,Real Estate and Rental and Leasing,704
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,54,"Professional, Scientific, and Technical Services",2844
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,55,Management of Companies and Enterprises,241
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,56,Administrative and Support and Waste Management and Remediation Services,6144
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,61,Educational Services,1523
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,62,Health Care and Social Assistance,3850
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,71,"Arts, Entertainment, and Recreation",1061
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,72,Accommodation and Food Services,8820
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,81,Other Services (except Public Administration),1992
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q3,92,Public Administration,1316
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,11,"Agriculture, Forestry, Fishing and Hunting",18
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",5
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,22,Utilities,18
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,23,Construction,2152
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,31-33,Manufacturing,841
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,42,Wholesale Trade,797
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,44-45,Retail Trade,8392
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,48-49,Transportation and Warehousing,2721
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,51,Information,232
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,52,Finance and Insurance,526
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,53,Real Estate and Rental and Leasing,527
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,54,"Professional, Scientific, and Technical Services",2925
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,55,Management of Companies and Enterprises,186
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,56,Administrative and Support and Waste Management and Remediation Services,5840
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,61,Educational Services,1051
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,62,Health Care and Social Assistance,3290
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,71,"Arts, Entertainment, and Recreation",960
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,72,Accommodation and Food Services,6736
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,81,Other Services (except Public Administration),1309
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2018Q4,92,Public Administration,900
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,11,"Agriculture, Forestry, Fishing and Hunting",23
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",8
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,22,Utilities,18
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,23,Construction,2604
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,31-33,Manufacturing,766
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,42,Wholesale Trade,942
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,44-45,Retail Trade,4257
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,48-49,Transportation and Warehousing,1633
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,51,Information,228
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,52,Finance and Insurance,488
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,53,Real Estate and Rental and Leasing,498
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,54,"Professional, Scientific, and Technical Services",2826
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,55,Management of Companies and Enterprises,161
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,56,Administrative and Support and Waste Management and Remediation Services,4595
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,61,Educational Services,783
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,62,Health Care and Social Assistance,3170
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,71,"Arts, Entertainment, and Recreation",588
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,72,Accommodation and Food Services,6132
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,81,Other Services (except Public Administration),1255
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q1,92,Public Administration,922
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",22
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",12
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,22,Utilities,25
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,23,Construction,3209
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,31-33,Manufacturing,1199
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,42,Wholesale Trade,990
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,44-45,Retail Trade,5983
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,48-49,Transportation and Warehousing,2740
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,51,Information,282
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,52,Finance and Insurance,489
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,53,Real Estate and Rental and Leasing,781
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,54,"Professional, Scientific, and Technical Services",3323
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,55,Management of Companies and Enterprises,279
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,56,Administrative and Support and Waste Management and Remediation Services,6761
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,61,Educational Services,811
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,62,Health Care and Social Assistance,3763
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,71,"Arts, Entertainment, and Recreation",1277
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,72,Accommodation and Food Services,9264
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,81,Other Services (except Public Administration),1610
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q2,92,Public Administration,1392
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",21
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",21
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,22,Utilities,18
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,23,Construction,3275
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,31-33,Manufacturing,1052
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,42,Wholesale Trade,941
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,44-45,Retail Trade,6681
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,48-49,Transportation and Warehousing,4201
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,51,Information,182
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,52,Finance and Insurance,469
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,53,Real Estate and Rental and Leasing,717
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",3059
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,55,Management of Companies and Enterprises,219
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,6569
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,61,Educational Services,1744
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,62,Health Care and Social Assistance,4029
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",1063
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,72,Accommodation and Food Services,8388
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,81,Other Services (except Public Administration),1861
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q3,92,Public Administration,1200
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,11,"Agriculture, Forestry, Fishing and Hunting",9
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",10
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,22,Utilities,16
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,23,Construction,2327
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,31-33,Manufacturing,967
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,42,Wholesale Trade,847
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,44-45,Retail Trade,8821
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,48-49,Transportation and Warehousing,5577
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,51,Information,183
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,52,Finance and Insurance,569
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,53,Real Estate and Rental and Leasing,589
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,54,"Professional, Scientific, and Technical Services",3131
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,55,Management of Companies and Enterprises,210
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,56,Administrative and Support and Waste Management and Remediation Services,5517
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,61,Educational Services,1216
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,62,Health Care and Social Assistance,3676
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,71,"Arts, Entertainment, and Recreation",770
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,72,Accommodation and Food Services,6482
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,81,Other Services (except Public Administration),1260
+New Hires,Anne Arundel WIA,Maryland New Hires by Industry,2019Q4,92,Public Administration,897
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q1,1,Male,17983
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q1,2,Female,14952
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q2,1,Male,22309
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q2,2,Female,20491
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q3,1,Male,22377
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q3,2,Female,22057
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q4,1,Male,19493
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2016Q4,2,Female,20291
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q1,1,Male,16665
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q1,2,Female,15642
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q2,1,Male,21811
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q2,2,Female,20362
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q3,1,Male,21359
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q3,2,Female,20478
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q4,1,Male,19184
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2017Q4,2,Female,19478
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q1,1,Male,16727
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q1,2,Female,15163
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q2,1,Male,22617
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q2,2,Female,20365
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q3,1,Male,21806
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q3,2,Female,21236
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q4,1,Male,19830
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2018Q4,2,Female,19595
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q1,1,Male,16682
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q1,2,Female,15216
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q2,1,Male,22705
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q2,2,Female,21509
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q3,1,Male,23492
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q3,2,Female,22216
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q4,1,Male,21128
+New Hires,Anne Arundel WIA,Maryland New Hires by Gender,2019Q4,2,Female,21947

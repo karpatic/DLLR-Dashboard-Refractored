@@ -1,10 +1,7 @@
 Measure,Location,Indicator,Time,Indicator_Status,Indicator_Value,Amount
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",0
 Separations,Baltimore City WIA,Maryland Separations by Industry,2017Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",0
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
 Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",N/A
 Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2017Q4,A00,All,5689
@@ -364,7 +361,6 @@ Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2016Q3,1,Male,-6
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2016Q3,2,Female,371
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2016Q4,1,Male,-1920
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2016Q4,2,Female,510
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E0,All Education Categories,-1497
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2017Q1,1,Male,1319
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2017Q1,2,Female,889
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender,2017Q2,1,Male,4661
@@ -403,10 +399,6 @@ Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2017Q1,0,All
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2017Q2,0,All,7524
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2017Q3,0,All,1634
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2017Q4,0,All,-271
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E0,All Education Categories,55236
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E0,All Education Categories,41110
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E0,All Education Categories,53256
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E0,All Education Categories,56725
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2018Q1,0,All,835
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2018Q2,0,All,3218
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2018Q3,0,All,1984
@@ -414,43 +406,7 @@ Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2018Q4,0,All
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2019Q1,0,All,931
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2019Q2,0,All,5696
 Job Change,Baltimore City WIA,Maryland Job Net Change by Gender All,2019Q3,0,All,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q1,1,Male,19027
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q1,2,Female,17966
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q2,1,Male,27129
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q2,2,Female,26615
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q3,1,Male,27058
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q3,2,Female,29513
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q4,1,Male,24634
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q4,2,Female,27820
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q1,1,Male,21325
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q1,2,Female,21396
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q2,1,Male,28294
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q2,2,Female,27288
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q3,1,Male,29275
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q3,2,Female,29530
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q4,1,Male,24300
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q4,2,Female,26319
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q1,1,Male,20254
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q1,2,Female,20857
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q2,1,Male,26200
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q2,2,Female,27057
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q3,1,Male,26492
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E0,All Education Categories,55236
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E0,All Education Categories,39363
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q3,2,Female,30234
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q4,1,Male,25874
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q4,2,Female,29362
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q1,1,Male,19150
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q1,2,Female,20213
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q2,1,Male,27701
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q2,2,Female,28686
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q3,1,Male,26665
-New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q3,2,Female,30756
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2016Q1,0,All,36994
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2016Q2,0,All,53744
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2016Q3,0,All,56571
 Workers,Baltimore City WIA,Maryland Workers by Age All,2016Q1,A00,All,329971
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2016Q4,0,All,52454
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",0
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2016Q1,22,Utilities,-46
@@ -812,7 +768,6 @@ Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q1,44-45,R
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q1,48-49,Transportation and Warehousing,4402
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q1,48-49,Transportation and Warehousing,-1230
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",1574
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2017Q1,0,All,42721
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",5606
 Workers,Baltimore City WIA,Maryland Workers by Age All,2016Q2,A00,All,334380
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q2,22,Utilities,9485
@@ -882,19 +837,12 @@ Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q3,A05,
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q3,A06,45-54,N/A
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q3,A07,55-64,N/A
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q3,A08,65-99,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2017Q2,0,All,55582
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2017Q3,0,All,58805
 Workers,Baltimore City WIA,Maryland Workers by Age All,2016Q3,A00,All,333262
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2017Q4,0,All,50619
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2018Q1,0,All,41110
 Workers,Baltimore City WIA,Maryland Workers by Age All,2016Q4,A00,All,336642
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E0,All Education Categories,56386
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E0,All Education Categories,57421
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q1,E1,Less than High school,0.09
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2018Q4,E0,All Education Categories,55236
 Separations,Baltimore City WIA,Maryland Separations by Education All,2018Q1,E0,All Education Categories,40053
 Separations,Baltimore City WIA,Maryland Separations by Education All,2018Q2,E0,All Education Categories,50007
 Separations,Baltimore City WIA,Maryland Separations by Education All,2018Q3,E0,All Education Categories,54886
@@ -923,14 +871,6 @@ Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2017Q1,E0
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2017Q2,E0,All Education Categories,7524
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2017Q3,E0,All Education Categories,1634
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education All,2017Q4,E0,All Education Categories,-271
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2016Q1,E0,All Education Categories,36994
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2016Q2,E0,All Education Categories,53744
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2016Q3,E0,All Education Categories,56571
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2016Q4,E0,All Education Categories,52454
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2017Q1,E0,All Education Categories,42721
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2017Q2,E0,All Education Categories,55582
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2017Q3,E0,All Education Categories,58805
-New Hires,Baltimore City WIA,Maryland New Hires by Education All,2017Q4,E0,All Education Categories,50619
 Separations,Baltimore City WIA,Maryland Separations by Education All,2016Q1,E0,All Education Categories,37265
 Separations,Baltimore City WIA,Maryland Separations by Education All,2016Q2,E0,All Education Categories,46905
 Separations,Baltimore City WIA,Maryland Separations by Education All,2016Q3,E0,All Education Categories,56929
@@ -950,12 +890,6 @@ Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q3,E5,Educat
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q1,E4,Bachelor's degree or advanced degree,166
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q2,E4,Bachelor's degree or advanced degree,-298
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2016Q3,E4,Bachelor's degree or advanced degree,-124
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2018Q2,0,All,53256
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2018Q3,0,All,56725
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2018Q4,0,All,55236
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2019Q1,0,All,39363
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2019Q2,0,All,56386
-New Hires,Baltimore City WIA,Maryland New Hires by Gender All,2019Q3,0,All,57421
 Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q1,1,Male,18926
 Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q1,2,Female,18340
 Separations,Baltimore City WIA,Maryland Separations by Gender,2016Q2,1,Male,22862
@@ -995,306 +929,11 @@ Separations,Baltimore City WIA,Maryland Separations by Gender All,2016Q2,0,All,4
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2019Q1,A00,All ,5563
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2018Q1,A00,All ,5362
 Separations,Baltimore City WIA,Maryland Separations by Age All,2018Q1,A00,All ,40053
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,22,Utilities,179
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,23,Construction,1895
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,42,Wholesale Trade,726
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,51,Information,491
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,52,Finance and Insurance,1322
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,53,Real Estate and Rental and Leasing,725
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,54,"Professional, Scientific, and Technical Services",2471
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,55,Management of Companies and Enterprises,273
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,56,Administrative and Support and Waste Management and Remediation Services,7586
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,61,Educational Services,3125
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,62,Health Care and Social Assistance,6469
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,71,"Arts, Entertainment, and Recreation",1384
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,72,Accommodation and Food Services,5729
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,81,Other Services (except Public Administration),1513
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,92,Public Administration,1109
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,31-33,Manufacturing,971
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,44-45,Retail Trade,2913
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,48-49,Transportation and Warehousing,2228
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,11,"Agriculture, Forestry, Fishing and Hunting",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,22,Utilities,109
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,23,Construction,2277
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,42,Wholesale Trade,823
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,51,Information,615
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,52,Finance and Insurance,982
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,53,Real Estate and Rental and Leasing,825
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,54,"Professional, Scientific, and Technical Services",3055
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,55,Management of Companies and Enterprises,504
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,56,Administrative and Support and Waste Management and Remediation Services,10114
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,61,Educational Services,4071
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,62,Health Care and Social Assistance,6772
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,71,"Arts, Entertainment, and Recreation",2368
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,72,Accommodation and Food Services,8070
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,81,Other Services (except Public Administration),2134
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,92,Public Administration,1774
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,31-33,Manufacturing,1225
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,44-45,Retail Trade,3315
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,48-49,Transportation and Warehousing,4219
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,11,"Agriculture, Forestry, Fishing and Hunting",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,22,Utilities,54
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,23,Construction,2066
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,42,Wholesale Trade,913
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,51,Information,735
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,52,Finance and Insurance,890
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,53,Real Estate and Rental and Leasing,776
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,54,"Professional, Scientific, and Technical Services",2746
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,55,Management of Companies and Enterprises,651
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,56,Administrative and Support and Waste Management and Remediation Services,10535
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,61,Educational Services,6961
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,62,Health Care and Social Assistance,7181
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,71,"Arts, Entertainment, and Recreation",1605
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,72,Accommodation and Food Services,7055
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,81,Other Services (except Public Administration),1834
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,92,Public Administration,3812
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,31-33,Manufacturing,1260
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,44-45,Retail Trade,3882
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,48-49,Transportation and Warehousing,3770
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,11,"Agriculture, Forestry, Fishing and Hunting",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,22,Utilities,64
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,23,Construction,1810
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,42,Wholesale Trade,816
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,51,Information,550
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,52,Finance and Insurance,757
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,53,Real Estate and Rental and Leasing,1181
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,54,"Professional, Scientific, and Technical Services",2768
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,55,Management of Companies and Enterprises,528
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,56,Administrative and Support and Waste Management and Remediation Services,10416
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,61,Educational Services,6013
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,62,Health Care and Social Assistance,6949
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,71,"Arts, Entertainment, and Recreation",983
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,72,Accommodation and Food Services,5954
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,81,Other Services (except Public Administration),1802
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,92,Public Administration,1541
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,31-33,Manufacturing,1140
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,44-45,Retail Trade,6487
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,48-49,Transportation and Warehousing,5477
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,11,"Agriculture, Forestry, Fishing and Hunting",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,22,Utilities,166
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,23,Construction,1680
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,42,Wholesale Trade,666
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,51,Information,642
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,52,Finance and Insurance,740
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,53,Real Estate and Rental and Leasing,639
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,54,"Professional, Scientific, and Technical Services",2469
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,55,Management of Companies and Enterprises,396
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,56,Administrative and Support and Waste Management and Remediation Services,8088
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,61,Educational Services,3356
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,62,Health Care and Social Assistance,5698
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,71,"Arts, Entertainment, and Recreation",959
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,72,Accommodation and Food Services,5622
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,81,Other Services (except Public Administration),1430
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,92,Public Administration,1222
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,31-33,Manufacturing,1014
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,44-45,Retail Trade,2584
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,48-49,Transportation and Warehousing,1987
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,22,Utilities,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,22,Utilities,154
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,23,Construction,2176
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,42,Wholesale Trade,882
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,51,Information,735
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,52,Finance and Insurance,960
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,53,Real Estate and Rental and Leasing,779
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,54,"Professional, Scientific, and Technical Services",3013
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,55,Management of Companies and Enterprises,958
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,56,Administrative and Support and Waste Management and Remediation Services,10370
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,61,Educational Services,4533
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,62,Health Care and Social Assistance,7031
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,71,"Arts, Entertainment, and Recreation",2386
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,72,Accommodation and Food Services,8600
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,81,Other Services (except Public Administration),2079
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,92,Public Administration,1968
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,31-33,Manufacturing,1297
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,44-45,Retail Trade,3288
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,48-49,Transportation and Warehousing,5175
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,22,Utilities,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,23,Construction,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,22,Utilities,184
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,23,Construction,2040
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,42,Wholesale Trade,862
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,51,Information,541
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,52,Finance and Insurance,891
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,53,Real Estate and Rental and Leasing,645
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",3212
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,55,Management of Companies and Enterprises,628
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,11080
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,61,Educational Services,6978
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,62,Health Care and Social Assistance,7560
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",1563
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,72,Accommodation and Food Services,7085
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,81,Other Services (except Public Administration),1846
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,92,Public Administration,1756
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,31-33,Manufacturing,1226
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,44-45,Retail Trade,3410
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,48-49,Transportation and Warehousing,5911
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,22,Utilities,113
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,23,Construction,1901
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,42,Wholesale Trade,900
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,51,Information,437
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,52,Finance and Insurance,758
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,53,Real Estate and Rental and Leasing,804
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,54,"Professional, Scientific, and Technical Services",2486
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,55,Management of Companies and Enterprises,215
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,56,Administrative and Support and Waste Management and Remediation Services,6419
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,61,Educational Services,2927
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,62,Health Care and Social Assistance,5074
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,71,"Arts, Entertainment, and Recreation",826
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,72,Accommodation and Food Services,5335
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,81,Other Services (except Public Administration),1724
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,92,Public Administration,1439
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,31-33,Manufacturing,883
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,44-45,Retail Trade,2948
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,48-49,Transportation and Warehousing,1800
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,11,"Agriculture, Forestry, Fishing and Hunting",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,22,Utilities,129
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,23,Construction,2703
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,42,Wholesale Trade,1030
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,51,Information,556
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,52,Finance and Insurance,1230
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,53,Real Estate and Rental and Leasing,1010
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,54,"Professional, Scientific, and Technical Services",3037
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,55,Management of Companies and Enterprises,330
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,56,Administrative and Support and Waste Management and Remediation Services,9991
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,61,Educational Services,4229
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,62,Health Care and Social Assistance,6306
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,71,"Arts, Entertainment, and Recreation",3507
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,72,Accommodation and Food Services,7653
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,81,Other Services (except Public Administration),1906
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,92,Public Administration,2181
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,31-33,Manufacturing,988
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,44-45,Retail Trade,3651
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,48-49,Transportation and Warehousing,3301
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,11,"Agriculture, Forestry, Fishing and Hunting",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,22,Utilities,102
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,23,Construction,2123
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,42,Wholesale Trade,956
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,51,Information,362
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,52,Finance and Insurance,1141
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,53,Real Estate and Rental and Leasing,1023
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,54,"Professional, Scientific, and Technical Services",3837
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,55,Management of Companies and Enterprises,603
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,56,Administrative and Support and Waste Management and Remediation Services,11162
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,61,Educational Services,6785
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,62,Health Care and Social Assistance,7976
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,71,"Arts, Entertainment, and Recreation",1702
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,72,Accommodation and Food Services,6684
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,81,Other Services (except Public Administration),2363
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,92,Public Administration,1314
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,31-33,Manufacturing,1096
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,44-45,Retail Trade,3847
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,48-49,Transportation and Warehousing,3493
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,11,"Agriculture, Forestry, Fishing and Hunting",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,22,Utilities,95
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,23,Construction,1975
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,42,Wholesale Trade,867
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,51,Information,481
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,52,Finance and Insurance,1047
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,53,Real Estate and Rental and Leasing,1133
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,54,"Professional, Scientific, and Technical Services",2655
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,55,Management of Companies and Enterprises,313
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,56,Administrative and Support and Waste Management and Remediation Services,12189
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,61,Educational Services,4337
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,62,Health Care and Social Assistance,6380
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,71,"Arts, Entertainment, and Recreation",1003
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,72,Accommodation and Food Services,6268
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,81,Other Services (except Public Administration),1912
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,92,Public Administration,2546
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,31-33,Manufacturing,851
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,44-45,Retail Trade,3809
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,48-49,Transportation and Warehousing,4591
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,11,"Agriculture, Forestry, Fishing and Hunting",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,22,Utilities,155
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,23,Construction,1889
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,42,Wholesale Trade,759
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,51,Information,512
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,52,Finance and Insurance,1197
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,53,Real Estate and Rental and Leasing,1184
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,54,"Professional, Scientific, and Technical Services",2784
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,55,Management of Companies and Enterprises,235
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,56,Administrative and Support and Waste Management and Remediation Services,8111
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,61,Educational Services,3306
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,62,Health Care and Social Assistance,5633
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,71,"Arts, Entertainment, and Recreation",1435
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,72,Accommodation and Food Services,6534
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,81,Other Services (except Public Administration),1512
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,92,Public Administration,1519
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,31-33,Manufacturing,1011
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,44-45,Retail Trade,2902
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,48-49,Transportation and Warehousing,2043
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,11,"Agriculture, Forestry, Fishing and Hunting",0
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,23,Construction,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,22,Utilities,104
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,23,Construction,2782
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,42,Wholesale Trade,961
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,51,Information,472
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,52,Finance and Insurance,1081
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,53,Real Estate and Rental and Leasing,2052
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,54,"Professional, Scientific, and Technical Services",2567
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,55,Management of Companies and Enterprises,312
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,56,Administrative and Support and Waste Management and Remediation Services,10732
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,61,Educational Services,4379
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,62,Health Care and Social Assistance,6774
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,71,"Arts, Entertainment, and Recreation",2602
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,72,Accommodation and Food Services,7776
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,81,Other Services (except Public Administration),2141
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,92,Public Administration,1419
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,31-33,Manufacturing,1117
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,44-45,Retail Trade,3954
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,48-49,Transportation and Warehousing,4355
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,11,"Agriculture, Forestry, Fishing and Hunting",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,22,Utilities,79
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,23,Construction,2233
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,42,Wholesale Trade,876
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,51,Information,438
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,52,Finance and Insurance,1221
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,53,Real Estate and Rental and Leasing,3168
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,54,"Professional, Scientific, and Technical Services",2639
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,55,Management of Companies and Enterprises,555
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,56,Administrative and Support and Waste Management and Remediation Services,11050
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,61,Educational Services,8482
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,62,Health Care and Social Assistance,7284
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,71,"Arts, Entertainment, and Recreation",1360
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,72,Accommodation and Food Services,7114
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,81,Other Services (except Public Administration),1893
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,92,Public Administration,1529
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,31-33,Manufacturing,1137
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,44-45,Retail Trade,3661
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,48-49,Transportation and Warehousing,4084
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,11,"Agriculture, Forestry, Fishing and Hunting",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",0
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,22,Utilities,51
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,23,Construction,2000
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,42,Wholesale Trade,852
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,51,Information,517
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,52,Finance and Insurance,891
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,53,Real Estate and Rental and Leasing,1018
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,54,"Professional, Scientific, and Technical Services",2796
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,55,Management of Companies and Enterprises,372
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,56,Administrative and Support and Waste Management and Remediation Services,10223
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,61,Educational Services,4908
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,62,Health Care and Social Assistance,6553
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,71,"Arts, Entertainment, and Recreation",1115
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,72,Accommodation and Food Services,6217
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,81,Other Services (except Public Administration),1755
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,92,Public Administration,1355
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,31-33,Manufacturing,1615
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,44-45,Retail Trade,3815
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,48-49,Transportation and Warehousing,4566
 Separations,Baltimore City WIA,Maryland Separations by Age,2018Q1,A01,14-18,978
 Separations,Baltimore City WIA,Maryland Separations by Age,2018Q1,A02,19-21,3115
 Separations,Baltimore City WIA,Maryland Separations by Age,2018Q1,A03,22-24,3946
@@ -1429,14 +1068,6 @@ Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q1,E4,Bac
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q2,E4,Bachelor's degree or advanced degree,-240
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q3,E4,Bachelor's degree or advanced degree,794
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q4,E4,Bachelor's degree or advanced degree,-551
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E4,Bachelor's degree or advanced degree,7108
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E4,Bachelor's degree or advanced degree,8977
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E4,Bachelor's degree or advanced degree,9986
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E4,Bachelor's degree or advanced degree,9589
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E4,Bachelor's degree or advanced degree,8132
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E4,Bachelor's degree or advanced degree,9038
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E4,Bachelor's degree or advanced degree,10826
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E4,Bachelor's degree or advanced degree,9499
 Separations,Baltimore City WIA,Maryland Separations by Education,2016Q1,E4,Bachelor's degree or advanced degree,6934
 Separations,Baltimore City WIA,Maryland Separations by Education,2016Q2,E4,Bachelor's degree or advanced degree,9242
 Separations,Baltimore City WIA,Maryland Separations by Education,2016Q3,E4,Bachelor's degree or advanced degree,10094
@@ -1445,7 +1076,6 @@ Separations,Baltimore City WIA,Maryland Separations by Education,2017Q1,E4,Bache
 Separations,Baltimore City WIA,Maryland Separations by Education,2017Q2,E4,Bachelor's degree or advanced degree,9212
 Separations,Baltimore City WIA,Maryland Separations by Education,2017Q3,E4,Bachelor's degree or advanced degree,9901
 Separations,Baltimore City WIA,Maryland Separations by Education,2017Q4,E4,Bachelor's degree or advanced degree,10032
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,10544
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q4,E1,Less than High school,0.093
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q4,E2,"High school or equivalent, no college",0.077
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q4,E3,Some college or Associate degree,0.07
@@ -1453,21 +1083,12 @@ Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q4,E4,Bachel
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),0.213
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q1,E4,Bachelor's degree or advanced degree,0.059
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),0.195
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E4,Bachelor's degree or advanced degree,7967
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E4,Bachelor's degree or advanced degree,9056
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E4,Bachelor's degree or advanced degree,9959
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,10544
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E4,Bachelor's degree or advanced degree,7722
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E4,Bachelor's degree or advanced degree,9715
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E4,Bachelor's degree or advanced degree,10133
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,55,Management of Companies and Enterprises,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,55,Management of Companies and Enterprises,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q2,E1,Less than High school,0.084
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,10544
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,-332
 Separations,Baltimore City WIA,Maryland Separations by Education,2018Q1,E4,Bachelor's degree or advanced degree,7727
 Separations,Baltimore City WIA,Maryland Separations by Education,2018Q2,E4,Bachelor's degree or advanced degree,10171
 Separations,Baltimore City WIA,Maryland Separations by Education,2018Q3,E4,Bachelor's degree or advanced degree,9729
@@ -1489,17 +1110,7 @@ Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q1,E4,Bac
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q2,E4,Bachelor's degree or advanced degree,-540
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q3,E4,Bachelor's degree or advanced degree,N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q3,E3,Some college or Associate degree,0.074
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),12014
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),9243
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),14827
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),14827
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),12014
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),8631
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),15357
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),15285
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Education,2018Q3,E4,Bachelor's degree or advanced degree,0.058
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),1510
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),12014
 Separations,Baltimore City WIA,Maryland Separations by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),8039
 Separations,Baltimore City WIA,Maryland Separations by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),10154
 Separations,Baltimore City WIA,Maryland Separations by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),15191
@@ -1560,10 +1171,6 @@ Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q1,E5,Edu
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),5744
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),-732
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),1341
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),8782
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),15301
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),16124
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),12352
 Separations,Baltimore City WIA,Maryland Separations by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",0
 Separations,Baltimore City WIA,Maryland Separations by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
 Separations,Baltimore City WIA,Maryland Separations by Industry,2018Q1,22,Utilities,145
@@ -1696,8 +1303,6 @@ Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,44-45,R
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,44-45,Retail Trade,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,48-49,Transportation and Warehousing,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,48-49,Transportation and Warehousing,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
 Separations,Baltimore City WIA,Maryland Separations by Age,2019Q3,A01,14-18,N/A
 Separations,Baltimore City WIA,Maryland Separations by Age,2019Q3,A02,19-21,N/A
 Separations,Baltimore City WIA,Maryland Separations by Age,2019Q3,A03,22-24,N/A
@@ -1864,10 +1469,6 @@ Separations,Baltimore City WIA,Maryland Separations by Industry,2017Q4,92,Public
 Separations,Baltimore City WIA,Maryland Separations by Industry,2017Q4,31-33,Manufacturing,1123
 Separations,Baltimore City WIA,Maryland Separations by Industry,2017Q4,44-45,Retail Trade,3613
 Separations,Baltimore City WIA,Maryland Separations by Industry,2017Q4,48-49,Transportation and Warehousing,4243
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),9632
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),16045
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),15212
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),11293
 Separations,Baltimore City WIA,Maryland Separations by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),8054
 Separations,Baltimore City WIA,Maryland Separations by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),9984
 Separations,Baltimore City WIA,Maryland Separations by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),16265
@@ -1895,14 +1496,6 @@ Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2017Q3,E0,Al
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q2,E2,"High school or equivalent, no college",715
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q3,E2,"High school or equivalent, no college",500
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q4,E2,"High school or equivalent, no college",-287
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E2,"High school or equivalent, no college",7863
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E2,"High school or equivalent, no college",11091
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E2,"High school or equivalent, no college",11381
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E2,"High school or equivalent, no college",11386
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E2,"High school or equivalent, no college",9320
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E2,"High school or equivalent, no college",11331
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E2,"High school or equivalent, no college",12099
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E2,"High school or equivalent, no college",11154
 Separations,Baltimore City WIA,Maryland Separations by Education,2016Q1,E2,"High school or equivalent, no college",8449
 Separations,Baltimore City WIA,Maryland Separations by Education,2016Q2,E2,"High school or equivalent, no college",10358
 Separations,Baltimore City WIA,Maryland Separations by Education,2016Q3,E2,"High school or equivalent, no college",11444
@@ -1919,8 +1512,6 @@ Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2018Q4,E0,Al
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2019Q1,E0,All Education Categories,0.085
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2019Q2,E0,All Education Categories,N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Education All,2019Q3,E0,All Education Categories,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",12093
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",-1199
 Separations,Baltimore City WIA,Maryland Separations by Education,2018Q1,E2,"High school or equivalent, no college",9041
 Separations,Baltimore City WIA,Maryland Separations by Education,2018Q2,E2,"High school or equivalent, no college",11065
 Separations,Baltimore City WIA,Maryland Separations by Education,2018Q3,E2,"High school or equivalent, no college",11251
@@ -1932,14 +1523,6 @@ Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q1,2,Female,0.0
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q2,1,Male,0.077
 Separations,Baltimore City WIA,Maryland Separations by Education,2019Q3,E2,"High school or equivalent, no college",N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q2,2,Female,0.073
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",12093
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E2,"High school or equivalent, no college",8911
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E2,"High school or equivalent, no college",10961
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E2,"High school or equivalent, no college",11960
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",12093
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E2,"High school or equivalent, no college",8573
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E2,"High school or equivalent, no college",11682
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E2,"High school or equivalent, no college",11876
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q3,1,Male,0.086
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2016Q3,2,Female,0.076
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q1,E2,"High school or equivalent, no college",-163
@@ -1987,14 +1570,6 @@ Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q2,E1,Les
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q3,E1,Less than High school,513
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q4,E1,Less than High school,-332
 Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q3,52,Finance and Insurance,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E1,Less than High school,5037
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E1,Less than High school,7054
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E1,Less than High school,7301
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E1,Less than High school,7330
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E1,Less than High school,5945
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E1,Less than High school,7594
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E1,Less than High school,8168
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E1,Less than High school,7108
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2019Q2,2,Female,N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2019Q3,0,All Sexes,N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Gender,2019Q3,1,Male,N/A
@@ -2775,8 +2350,6 @@ Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2018Q4,31-33,M
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2018Q4,44-45,Retail Trade,2716
 Earnings,Baltimore City WIA,Maryland Average Earnings by Industry,2018Q4,48-49,Transportation and Warehousing,4255
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q1,31-33,Manufacturing,0.06
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,7681
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,-441
 Separations,Baltimore City WIA,Maryland Separations by Education,2018Q1,E1,Less than High school,5703
 Separations,Baltimore City WIA,Maryland Separations by Education,2018Q2,E1,Less than High school,6855
 Separations,Baltimore City WIA,Maryland Separations by Education,2018Q3,E1,Less than High school,7023
@@ -2928,15 +2501,7 @@ Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q1,48-49,Tran
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",N/A
 Separations,Baltimore City WIA,Maryland Separations by Education,2019Q3,E1,Less than High school,N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,7681
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E1,Less than High school,5609
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E1,Less than High school,7079
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E1,Less than High school,7588
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,7681
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E1,Less than High school,5415
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q2,22,Utilities,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E1,Less than High school,7473
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E1,Less than High school,7629
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q2,23,Construction,N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q2,42,Wholesale Trade,N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q1,E1,Less than High school,-107
@@ -2954,13 +2519,6 @@ Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q1,E3,Som
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q2,E3,Some college or Associate degree,487
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q3,E3,Some college or Associate degree,554
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2017Q4,E3,Some college or Associate degree,-439
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E3,Some college or Associate degree,8204
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E3,Some college or Associate degree,11321
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E3,Some college or Associate degree,11778
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E3,Some college or Associate degree,11796
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E3,Some college or Associate degree,9692
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E3,Some college or Associate degree,11575
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E3,Some college or Associate degree,12499
 Workers,Baltimore City WIA,Maryland Workers by Gender,2019Q3,0,All Sexes,339491
 Workers,Baltimore City WIA,Maryland Workers by Gender,2019Q3,1,Male,154984
 Workers,Baltimore City WIA,Maryland Workers by Gender,2019Q3,2,Female,184507
@@ -2984,7 +2542,6 @@ Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q3,21,"Mining
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q3,22,Utilities,N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q3,23,Construction,N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q3,42,Wholesale Trade,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E3,Some college or Associate degree,11565
 Separations,Baltimore City WIA,Maryland Separations by Education,2016Q1,E3,Some college or Associate degree,8621
 Separations,Baltimore City WIA,Maryland Separations by Education,2016Q2,E3,Some college or Associate degree,10838
 Separations,Baltimore City WIA,Maryland Separations by Education,2016Q3,E3,Some college or Associate degree,11958
@@ -3002,8 +2559,6 @@ Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q3,56,Adminis
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q3,61,Educational Services,N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q3,62,Health Care and Social Assistance,N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,12903
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,-1022
 Separations,Baltimore City WIA,Maryland Separations by Education,2018Q1,E3,Some college or Associate degree,9544
 Separations,Baltimore City WIA,Maryland Separations by Education,2018Q2,E3,Some college or Associate degree,11762
 Separations,Baltimore City WIA,Maryland Separations by Education,2018Q3,E3,Some college or Associate degree,11692
@@ -3017,14 +2572,6 @@ Separations,Baltimore City WIA,Maryland Separations by Education,2019Q3,E3,Some 
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q3,31-33,Manufacturing,N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q3,44-45,Retail Trade,N/A
 Turnover,Baltimore City WIA,Maryland Turnover Rate by Industry,2019Q3,48-49,Transportation and Warehousing,N/A
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,12903
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E3,Some college or Associate degree,9380
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E3,Some college or Associate degree,11334
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E3,Some college or Associate degree,12392
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,12903
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E3,Some college or Associate degree,9022
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E3,Some college or Associate degree,12159
-New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E3,Some college or Associate degree,12498
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q1,E3,Some college or Associate degree,-207
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q2,E3,Some college or Associate degree,-419
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q3,E3,Some college or Associate degree,724
@@ -3032,3 +2579,435 @@ Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2018Q4,E3,Som
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q1,E3,Some college or Associate degree,-136
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q2,E3,Some college or Associate degree,226
 Job Change,Baltimore City WIA,Maryland Job Net Change by Education,2019Q3,E3,Some college or Associate degree,N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q1,1,Male,16443
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q1,2,Female,16142
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q2,1,Male,22265
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q2,2,Female,22724
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q3,1,Male,23348
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q3,2,Female,26224
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q4,1,Male,20949
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2016Q4,2,Female,23497
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q1,1,Male,18936
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q1,2,Female,19147
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q2,1,Male,24149
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q2,2,Female,23986
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q3,1,Male,26813
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q3,2,Female,27039
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q4,1,Male,21342
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2017Q4,2,Female,22922
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q1,1,Male,18090
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q1,2,Female,18804
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q2,1,Male,22514
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q2,2,Female,23768
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q3,1,Male,23502
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q3,2,Female,27442
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q4,1,Male,22216
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2018Q4,2,Female,25077
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q1,1,Male,16657
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q1,2,Female,17805
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q2,1,Male,23234
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q2,2,Female,24858
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q3,1,Male,23447
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q3,2,Female,27197
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q4,1,Male,23406
+New Hires,Baltimore City WIA,Maryland New Hires by Gender,2019Q4,2,Female,26620
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,11,"Agriculture, Forestry, Fishing and Hunting",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,22,Utilities,48
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,23,Construction,1593
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,31-33,Manufacturing,734
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,42,Wholesale Trade,848
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,44-45,Retail Trade,2685
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,48-49,Transportation and Warehousing,1666
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,51,Information,409
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,52,Finance and Insurance,687
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,53,Real Estate and Rental and Leasing,755
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,54,"Professional, Scientific, and Technical Services",2203
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,55,Management of Companies and Enterprises,188
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,56,Administrative and Support and Waste Management and Remediation Services,5996
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,61,Educational Services,2160
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,62,Health Care and Social Assistance,4622
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,71,"Arts, Entertainment, and Recreation",634
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,72,Accommodation and Food Services,4843
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,81,Other Services (except Public Administration),1525
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q1,92,Public Administration,983
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,11,"Agriculture, Forestry, Fishing and Hunting",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,22,Utilities,121
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,23,Construction,2109
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,31-33,Manufacturing,898
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,42,Wholesale Trade,966
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,44-45,Retail Trade,3351
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,48-49,Transportation and Warehousing,2825
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,51,Information,486
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,52,Finance and Insurance,1061
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,53,Real Estate and Rental and Leasing,898
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,54,"Professional, Scientific, and Technical Services",2533
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,55,Management of Companies and Enterprises,296
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,56,Administrative and Support and Waste Management and Remediation Services,8904
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,61,Educational Services,2648
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,62,Health Care and Social Assistance,5691
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,71,"Arts, Entertainment, and Recreation",1712
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,72,Accommodation and Food Services,6971
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,81,Other Services (except Public Administration),1571
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q2,92,Public Administration,1942
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,11,"Agriculture, Forestry, Fishing and Hunting",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,22,Utilities,93
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,23,Construction,1898
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,31-33,Manufacturing,996
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,42,Wholesale Trade,931
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,44-45,Retail Trade,3483
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,48-49,Transportation and Warehousing,3100
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,51,Information,324
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,52,Finance and Insurance,1003
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,53,Real Estate and Rental and Leasing,962
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,54,"Professional, Scientific, and Technical Services",3056
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,55,Management of Companies and Enterprises,507
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,56,Administrative and Support and Waste Management and Remediation Services,9825
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,61,Educational Services,5429
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,62,Health Care and Social Assistance,7300
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,71,"Arts, Entertainment, and Recreation",1215
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,72,Accommodation and Food Services,6264
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,81,Other Services (except Public Administration),2046
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q3,92,Public Administration,1140
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,11,"Agriculture, Forestry, Fishing and Hunting",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,22,Utilities,91
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,23,Construction,1664
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,31-33,Manufacturing,722
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,42,Wholesale Trade,765
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,44-45,Retail Trade,3461
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,48-49,Transportation and Warehousing,4153
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,51,Information,382
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,52,Finance and Insurance,881
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,53,Real Estate and Rental and Leasing,1020
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,54,"Professional, Scientific, and Technical Services",2088
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,55,Management of Companies and Enterprises,282
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,56,Administrative and Support and Waste Management and Remediation Services,10742
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,61,Educational Services,2644
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,62,Health Care and Social Assistance,5671
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,71,"Arts, Entertainment, and Recreation",732
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,72,Accommodation and Food Services,5856
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,81,Other Services (except Public Administration),1687
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2016Q4,92,Public Administration,1601
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,11,"Agriculture, Forestry, Fishing and Hunting",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,22,Utilities,99
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,23,Construction,1453
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,31-33,Manufacturing,896
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,42,Wholesale Trade,696
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,44-45,Retail Trade,2605
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,48-49,Transportation and Warehousing,1914
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,51,Information,580
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,52,Finance and Insurance,1003
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,53,Real Estate and Rental and Leasing,1116
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,54,"Professional, Scientific, and Technical Services",2404
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,55,Management of Companies and Enterprises,229
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,56,Administrative and Support and Waste Management and Remediation Services,7931
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,61,Educational Services,2448
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,62,Health Care and Social Assistance,5094
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,71,"Arts, Entertainment, and Recreation",900
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,72,Accommodation and Food Services,5902
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,81,Other Services (except Public Administration),1380
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q1,92,Public Administration,1434
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,11,"Agriculture, Forestry, Fishing and Hunting",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,22,Utilities,93
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,23,Construction,2084
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,31-33,Manufacturing,969
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,42,Wholesale Trade,885
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,44-45,Retail Trade,3510
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,48-49,Transportation and Warehousing,3487
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,51,Information,524
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,52,Finance and Insurance,1029
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,53,Real Estate and Rental and Leasing,1925
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,54,"Professional, Scientific, and Technical Services",2259
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,55,Management of Companies and Enterprises,291
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,56,Administrative and Support and Waste Management and Remediation Services,10723
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,61,Educational Services,2735
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,62,Health Care and Social Assistance,6087
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,71,"Arts, Entertainment, and Recreation",1596
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,72,Accommodation and Food Services,7084
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,81,Other Services (except Public Administration),1608
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q2,92,Public Administration,1245
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,11,"Agriculture, Forestry, Fishing and Hunting",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,22,Utilities,63
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,23,Construction,2051
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,31-33,Manufacturing,1046
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,42,Wholesale Trade,801
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,44-45,Retail Trade,3375
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,48-49,Transportation and Warehousing,3756
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,51,Information,497
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,52,Finance and Insurance,1071
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,53,Real Estate and Rental and Leasing,3072
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,54,"Professional, Scientific, and Technical Services",2315
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,55,Management of Companies and Enterprises,456
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,56,Administrative and Support and Waste Management and Remediation Services,10568
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,61,Educational Services,7353
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,62,Health Care and Social Assistance,6661
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,71,"Arts, Entertainment, and Recreation",1071
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,72,Accommodation and Food Services,6706
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,81,Other Services (except Public Administration),1679
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q3,92,Public Administration,1308
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,11,"Agriculture, Forestry, Fishing and Hunting",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,22,Utilities,44
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,23,Construction,1718
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,31-33,Manufacturing,1460
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,42,Wholesale Trade,729
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,44-45,Retail Trade,3510
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,48-49,Transportation and Warehousing,4158
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,51,Information,483
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,52,Finance and Insurance,725
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,53,Real Estate and Rental and Leasing,888
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,54,"Professional, Scientific, and Technical Services",2309
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,55,Management of Companies and Enterprises,351
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,56,Administrative and Support and Waste Management and Remediation Services,9983
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,61,Educational Services,2871
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,62,Health Care and Social Assistance,5716
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,71,"Arts, Entertainment, and Recreation",818
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,72,Accommodation and Food Services,5762
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,81,Other Services (except Public Administration),1520
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2017Q4,92,Public Administration,1217
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,11,"Agriculture, Forestry, Fishing and Hunting",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,22,Utilities,117
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,23,Construction,1679
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,31-33,Manufacturing,884
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,42,Wholesale Trade,666
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,44-45,Retail Trade,2691
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,48-49,Transportation and Warehousing,2038
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,51,Information,504
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,52,Finance and Insurance,1204
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,53,Real Estate and Rental and Leasing,662
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,54,"Professional, Scientific, and Technical Services",2235
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,55,Management of Companies and Enterprises,263
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,56,Administrative and Support and Waste Management and Remediation Services,7230
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,61,Educational Services,2385
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,62,Health Care and Social Assistance,5916
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,71,"Arts, Entertainment, and Recreation",952
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,72,Accommodation and Food Services,5085
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,81,Other Services (except Public Administration),1351
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q1,92,Public Administration,1030
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,11,"Agriculture, Forestry, Fishing and Hunting",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,22,Utilities,95
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,23,Construction,1921
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,31-33,Manufacturing,1069
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,42,Wholesale Trade,719
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,44-45,Retail Trade,3056
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,48-49,Transportation and Warehousing,3795
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,51,Information,599
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,52,Finance and Insurance,946
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,53,Real Estate and Rental and Leasing,729
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,54,"Professional, Scientific, and Technical Services",2678
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,55,Management of Companies and Enterprises,435
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,56,Administrative and Support and Waste Management and Remediation Services,9508
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,61,Educational Services,2848
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,62,Health Care and Social Assistance,5886
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,71,"Arts, Entertainment, and Recreation",1440
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,72,Accommodation and Food Services,7365
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,81,Other Services (except Public Administration),1671
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q2,92,Public Administration,1519
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,11,"Agriculture, Forestry, Fishing and Hunting",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,22,Utilities,47
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,23,Construction,1930
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,31-33,Manufacturing,1159
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,42,Wholesale Trade,803
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,44-45,Retail Trade,3472
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,48-49,Transportation and Warehousing,3399
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,51,Information,741
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,52,Finance and Insurance,776
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,53,Real Estate and Rental and Leasing,706
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,54,"Professional, Scientific, and Technical Services",2458
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,55,Management of Companies and Enterprises,573
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,56,Administrative and Support and Waste Management and Remediation Services,9724
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,61,Educational Services,5650
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,62,Health Care and Social Assistance,6532
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,71,"Arts, Entertainment, and Recreation",1240
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,72,Accommodation and Food Services,6557
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,81,Other Services (except Public Administration),1556
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q3,92,Public Administration,3624
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,11,"Agriculture, Forestry, Fishing and Hunting",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,22,Utilities,62
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,23,Construction,1536
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,31-33,Manufacturing,917
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,42,Wholesale Trade,690
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,44-45,Retail Trade,6163
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,48-49,Transportation and Warehousing,4994
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,51,Information,633
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,52,Finance and Insurance,633
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,53,Real Estate and Rental and Leasing,896
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,54,"Professional, Scientific, and Technical Services",2259
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,55,Management of Companies and Enterprises,493
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,56,Administrative and Support and Waste Management and Remediation Services,9840
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,61,Educational Services,3047
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,62,Health Care and Social Assistance,6085
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,71,"Arts, Entertainment, and Recreation",675
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,72,Accommodation and Food Services,5431
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,81,Other Services (except Public Administration),1487
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2018Q4,92,Public Administration,1453
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,11,"Agriculture, Forestry, Fishing and Hunting",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,22,Utilities,102
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,23,Construction,1468
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,31-33,Manufacturing,891
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,42,Wholesale Trade,595
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,44-45,Retail Trade,2327
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,48-49,Transportation and Warehousing,1813
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,51,Information,525
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,52,Finance and Insurance,637
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,53,Real Estate and Rental and Leasing,530
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,54,"Professional, Scientific, and Technical Services",2192
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,55,Management of Companies and Enterprises,369
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,56,Administrative and Support and Waste Management and Remediation Services,7057
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,61,Educational Services,2442
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,62,Health Care and Social Assistance,5244
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,71,"Arts, Entertainment, and Recreation",790
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,72,Accommodation and Food Services,5104
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,81,Other Services (except Public Administration),1275
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q1,92,Public Administration,1096
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,11,"Agriculture, Forestry, Fishing and Hunting",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,22,Utilities,153
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,23,Construction,1844
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,31-33,Manufacturing,1184
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,42,Wholesale Trade,814
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,44-45,Retail Trade,3004
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,48-49,Transportation and Warehousing,4522
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,51,Information,666
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,52,Finance and Insurance,887
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,53,Real Estate and Rental and Leasing,668
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,54,"Professional, Scientific, and Technical Services",2619
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,55,Management of Companies and Enterprises,860
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,56,Administrative and Support and Waste Management and Remediation Services,9137
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,61,Educational Services,2603
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,62,Health Care and Social Assistance,6381
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,71,"Arts, Entertainment, and Recreation",1501
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,72,Accommodation and Food Services,8007
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,81,Other Services (except Public Administration),1543
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q2,92,Public Administration,1696
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,11,"Agriculture, Forestry, Fishing and Hunting",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,22,Utilities,120
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,23,Construction,1774
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,31-33,Manufacturing,1116
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,42,Wholesale Trade,804
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,44-45,Retail Trade,3107
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,48-49,Transportation and Warehousing,5865
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,51,Information,525
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,52,Finance and Insurance,811
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,53,Real Estate and Rental and Leasing,592
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,54,"Professional, Scientific, and Technical Services",2922
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,55,Management of Companies and Enterprises,597
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,56,Administrative and Support and Waste Management and Remediation Services,8626
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,61,Educational Services,5289
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,62,Health Care and Social Assistance,7308
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,71,"Arts, Entertainment, and Recreation",1290
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,72,Accommodation and Food Services,6684
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,81,Other Services (except Public Administration),1628
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q3,92,Public Administration,1585
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,11,"Agriculture, Forestry, Fishing and Hunting",0
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,22,Utilities,84
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,23,Construction,1354
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,31-33,Manufacturing,916
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,42,Wholesale Trade,801
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,44-45,Retail Trade,3118
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,48-49,Transportation and Warehousing,9999
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,51,Information,556
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,52,Finance and Insurance,732
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,53,Real Estate and Rental and Leasing,598
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,54,"Professional, Scientific, and Technical Services",2177
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,55,Management of Companies and Enterprises,494
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,56,Administrative and Support and Waste Management and Remediation Services,10121
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,61,Educational Services,3016
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,62,Health Care and Social Assistance,6135
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,71,"Arts, Entertainment, and Recreation",1108
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,72,Accommodation and Food Services,5867
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,81,Other Services (except Public Administration),1531
+New Hires,Baltimore City WIA,Maryland New Hires by Industry,2019Q4,92,Public Administration,1418
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E1,Less than High school,4541
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E2,"High school or equivalent, no college",6932
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E3,Some college or Associate degree,7188
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E4,Bachelor's degree or advanced degree,5995
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q1,E5,Educational attainment not available (workers aged 24 or younger),7929
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E1,Less than High school,5989
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E2,"High school or equivalent, no college",9224
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E3,Some college or Associate degree,9354
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E4,Bachelor's degree or advanced degree,6996
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q2,E5,Educational attainment not available (workers aged 24 or younger),13427
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E1,Less than High school,6490
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E2,"High school or equivalent, no college",9969
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E3,Some college or Associate degree,10247
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E4,Bachelor's degree or advanced degree,8294
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q3,E5,Educational attainment not available (workers aged 24 or younger),14572
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E1,Less than High school,6270
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E2,"High school or equivalent, no college",9603
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E3,Some college or Associate degree,9753
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E4,Bachelor's degree or advanced degree,7437
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2016Q4,E5,Educational attainment not available (workers aged 24 or younger),11383
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E1,Less than High school,5435
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E2,"High school or equivalent, no college",8301
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E3,Some college or Associate degree,8584
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E4,Bachelor's degree or advanced degree,6964
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q1,E5,Educational attainment not available (workers aged 24 or younger),8798
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E1,Less than High school,6707
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E2,"High school or equivalent, no college",9758
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E3,Some college or Associate degree,9888
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E4,Bachelor's degree or advanced degree,7305
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q2,E5,Educational attainment not available (workers aged 24 or younger),14478
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E1,Less than High school,7541
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E2,"High school or equivalent, no college",11049
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E3,Some college or Associate degree,11339
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E4,Bachelor's degree or advanced degree,9621
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q3,E5,Educational attainment not available (workers aged 24 or younger),14303
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E1,Less than High school,6317
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E2,"High school or equivalent, no college",9761
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E3,Some college or Associate degree,9951
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E4,Bachelor's degree or advanced degree,7443
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2017Q4,E5,Educational attainment not available (workers aged 24 or younger),10791
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E1,Less than High school,5124
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E2,"High school or equivalent, no college",8071
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E3,Some college or Associate degree,8430
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E4,Bachelor's degree or advanced degree,6849
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q1,E5,Educational attainment not available (workers aged 24 or younger),8419
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E1,Less than High school,6280
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E2,"High school or equivalent, no college",9559
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E3,Some college or Associate degree,9770
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E4,Bachelor's degree or advanced degree,7438
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q2,E5,Educational attainment not available (workers aged 24 or younger),13235
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E1,Less than High school,6856
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E2,"High school or equivalent, no college",10735
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E3,Some college or Associate degree,11126
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E4,Bachelor's degree or advanced degree,8680
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q3,E5,Educational attainment not available (workers aged 24 or younger),13548
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E1,Less than High school,6764
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E2,"High school or equivalent, no college",10392
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E3,Some college or Associate degree,10864
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E4,Bachelor's degree or advanced degree,7988
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2018Q4,E5,Educational attainment not available (workers aged 24 or younger),11286
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E1,Less than High school,4828
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E2,"High school or equivalent, no college",7526
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E3,Some college or Associate degree,7883
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E4,Bachelor's degree or advanced degree,6463
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q1,E5,Educational attainment not available (workers aged 24 or younger),7761
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E1,Less than High school,6484
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E2,"High school or equivalent, no college",9976
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E3,Some college or Associate degree,10265
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E4,Bachelor's degree or advanced degree,7724
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q2,E5,Educational attainment not available (workers aged 24 or younger),13643
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E1,Less than High school,6747
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E2,"High school or equivalent, no college",10417
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E3,Some college or Associate degree,10865
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E4,Bachelor's degree or advanced degree,8608
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q3,E5,Educational attainment not available (workers aged 24 or younger),14007
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q4,E1,Less than High school,7157
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q4,E2,"High school or equivalent, no college",10989
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q4,E3,Some college or Associate degree,11372
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q4,E4,Bachelor's degree or advanced degree,8230
+New Hires,Baltimore City WIA,Maryland New Hires by Education,2019Q4,E5,Educational attainment not available (workers aged 24 or younger),12278

@@ -21,7 +21,7 @@ export let wdaDropdowns = `
   <div class="dropdown"> <button class="button" disabled data-lbl="collapse2" style="padding-left: 15%; padding-right: 12.5%">New Hires <br><br>Job Net Changes</button> </div>
   <div class="dropdown"> <button class="button" disabled data-lbl="collapse3" style="padding-left: 17%; padding-right: 17%">Turnover Rate</button> </div>
   <div class="dropdown"> <button class="button" disabled data-lbl="collapse4" style="padding-left: 15%; padding-right: 1%;">Industry Metrics</button> </div>
-  <div class="dropdown"> <button class="button" disabled data-lbl="collapse15" style="padding-left: 20%; padding-right: 20%">Separations</button> </div>
+  <div class="dropdown"> <button class="button" disabled data-lbl="collapse5" style="padding-left: 20%; padding-right: 20%">Separations</button> </div>
 </div>
 `
 
@@ -38,7 +38,7 @@ export let wdaCollapse1 = `
     <div class="buttons">
       <p>
         Indicator: 
-        <select id="wda_dd_1">
+        <select id="collapse1_dd">
           <option>By Age</option>
           <option>By Gender</option>
         </select>
@@ -65,7 +65,7 @@ export let wdaCollapse2 = `
     <div class="buttons">
       <p>
         Indicator: 
-        <select id="wda_dd_2">
+        <select id="collapse2_dd">
           <option>By Education</option>
           <option>By Gender</option>
         </select>
@@ -96,7 +96,7 @@ export let wdaCollapse3 = `
     <div class="buttons">
       <p>
         Indicator: 
-        <select id="wda_dd_3">
+        <select id="collapse3_dd">
           <option>By Education</option>
           <option>By Gender</option>
         </select>
@@ -120,13 +120,14 @@ export let wdaCollapse3 = `
 </div>
 `
 
-export function wdaCollapse4(CountyName) { return `
+export function wdaCollapse4(CountyName) {
+    return `
 <div id="collapse4" style="display: none;">
    <div class="ChartTitle" style="display:inline; float:right; margin-right:90px;">
       <div class="buttons">
          <p>
             Indicator:
-            <select id="wda_dd_4">
+            <select id="collapse4_dd">
                ${CountyName == 'Maryland' ? '' : '<option>Average Monthly Earnings</option>'}
                <option>Job Net Changes</option>
                <option>New Hires</option>
@@ -158,19 +159,20 @@ export function wdaCollapse4(CountyName) { return `
 `
 }
 
-export let wdaCollapse15 = `
-<div id="collapse15" style="display:none;">
+export let wdaCollapse5 = `
+<div id="collapse5" style="display:none;">
    <div class="ChartTitle" style="display:inline; float:right; margin-right:90px;">
       <div class="buttons">
          <p>
             Indicator:
-            <select id="wda_dd_5">
+            <select id="collapse5_dd">
                <option selected="selected">Industry</option>
                <option>Gender</option>
                <option>Education</option>
                <option>Age</option>
             </select>
          </p>
+         <button type="button" id="btn7wda">Toggle Labels</button>
       </div>
    </div>
    <div class="ChartDiv">
