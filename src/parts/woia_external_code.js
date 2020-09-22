@@ -1196,6 +1196,7 @@ import {createDatasets, configCharts, createChart, configSvgz, zeronulls, cma, f
     )
 
     window.wdaChartChange = function() {
+    	console.log('wdaChartChange')
         // Find what tab we were on
         let tab = wdaLookup.filter(obj=>obj['tab'] == localStorage.getItem('Clicked'))[0];
         // Get the selected dropdown Quarter
@@ -1226,8 +1227,8 @@ import {createDatasets, configCharts, createChart, configSvgz, zeronulls, cma, f
         const avail = tab['yearAvailable'][drpQ] 
         // If any of the datasets can't be displayed
         let notAllChartsAvailable = !avail ? false : avail.some(availableAtYear => !availableAtYear)
-        let warn = document.querySelector('#notalldataavailablewarning')
-        warn.style.display = notAllChartsAvailable ? 'inline':'none';
+        let warn = document.querySelector('#notalldataavailablewarning').style.display = notAllChartsAvailable ? 'inline':'none';
+
         console.log({notAllChartsAvailable})
 
 

@@ -460,6 +460,8 @@ window.onload = function() {
             // The Selected Tab
             whichTab = el.dataset.lbl;
             localStorage.setItem('Clicked', whichTab);
+            document.querySelector('#notalldataavailablewarning').style.display = 'none';
+
             // Shown as the header
             let title = document.getElementById("title")
             title.style.display = "inline";
@@ -495,7 +497,6 @@ window.onload = function() {
                     let dropdownValHasChartsAvail = !datasets ? false : datasets.some(avail=>{
                         // let drop = tabInfo['dmy'] ? drpY : drpQ
                         dprX.value == ele.value ? currentYearSelectionAvailable = true : ''
-                        dprX.value == ele.value && !avail ? currentYearSelectionAvailableButIncomplete = true : ''
                         dprX.value != ele.value && avail ? validAlternateYear == ele.value : ''
                         return avail ? true : false
                     })
@@ -516,7 +517,7 @@ window.onload = function() {
             tabInfo && tabInfo['dmy'] && ( hideUnavailableDropdowns(drpY) )
             tabInfo && tabInfo['dmq'] && ( hideUnavailableDropdowns(drpQ) )
             
-            console.log({currentYearSelectionAvailable}, {currentYearSelectionAvailableButIncomplete}, {validAlternateYear})
+            console.log({currentYearSelectionAvailable}, {validAlternateYear})
             
             if(!currentYearSelectionAvailable){
                 console.log('Changing Quartr')
@@ -537,11 +538,11 @@ window.onload = function() {
             hideall(prints);
             drawAll();
 
-            if (!wd && !md) {
+            if (tabInfo['dmy']) {
                 // Counties
                 countyChartChange()
             }
-            if (wd) { 
+            if (tabInfo['dmq']) { 
                 wdaChartChange()
             }
         } )
