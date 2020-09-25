@@ -179,17 +179,19 @@ export let counties_tanf = `
   `
 export let counties_empl_status = `
   <div id="empl_status" style="display: none;" >
-    <div class="ChartTitle">
-      <div style="float: right">
-        <p style="display: inline;"> Select Indicator: </p>
-        <select id="emplStatus_categ_dd">
-          <option>Gender</option>
-          <option>Race</option>
-          <option>Education</option>
-          <option>Poverty</option>
-        </select>
+    <div class="ChartTitle" style="display:inline; float:right; margin-right:90px;">
+      <div class="buttons">
+        <p> 
+        Indicator:
+          <select id="emplStatus_categ_dd">
+            <option>Gender</option>
+            <option>Race</option>
+            <option>Education</option>
+            <option>Poverty</option>
+          </select>
+         </p>
       </div>
-    </div>
+    </div> 
     <div class="ChartDiv">
       <div id="empl_status_chart" class="show">
       </div>

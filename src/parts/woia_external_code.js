@@ -10,13 +10,13 @@ import {createDatasets, configCharts, createChart, configSvgz, zeronulls, cma, f
 
 (async()=>{
 
-    // Tab 1 Chart 1
-    // Tab 1 Chart 2
-    // Tab 2 Chart 1
-    // Tab 2 Chart 2    
-    // Tab 3 Chart 1 Turnover Rate
-    // Tab 4 Chart 1 Industry Metrics
-    // Tab 5 Chart 1 Seperations
+    // Tab 1 Chart 1 -> New Hires
+    // Tab 1 Chart 2 - Average Monthly Earnings
+    // Tab 2 Chart 1 -> New Hires
+    // Tab 2 Chart 2 -> Job Net Change
+    // Tab 3 Chart 1 -> Turnover Rate
+    // Tab 4 Chart 1 -> Industry Metrics
+    // Tab 5 Chart 1 -> Seperations
 
     //
     // Retrieve Data
@@ -33,70 +33,70 @@ import {createDatasets, configCharts, createChart, configSvgz, zeronulls, cma, f
     //
     // Filter Data
     //
-    // Tab 1 Chart 1
+    // Tab 1 Chart 1 -> New Hires
     let workData = dimple.filterData(data, "Time", fullQuarters)
     workData = dimple.filterData(workData, "Indicator", ["Maryland Workers by Age", "Maryland Workers by Gender", "Maryland Workers by Industry"])
     let workDataA = dimple.filterData(workData, "Indicator", "Maryland Workers by Age");
-    createDatasets(workDataA, 'workData', fullQuarters)
     let workDataB = dimple.filterData(workData, "Indicator", "Maryland Workers by Gender");
+    createDatasets(workDataA, 'workData', fullQuarters)
     createDatasets(workDataB, 'workDatg', fullQuarters)
 
     // Tab 1 Chart 2
     let averageData = dimple.filterData(data, "Time", fullQuarters);
     let averageData2 = dimple.filterData(averageData, "Indicator", "Maryland Average Monthly Earnings by Age");
-    createDatasets(averageData2, 'averageData', fullQuarters)
     let averageData1 = dimple.filterData(averageData, "Indicator", "Maryland Average Monthly Earnings by Gender");
+    createDatasets(averageData2, 'averageData', fullQuarters)
     createDatasets(averageData1, 'averageDatg', fullQuarters)
 
     // Tab 2 Chart 1
     let newHireData = dimple.filterData(data, "Time", fullQuarters)
     newHireData = dimple.filterData(newHireData, "Indicator", ["Maryland New Hires by Education", "Maryland New Hires by Gender"])
     let newHireData1 = dimple.filterData(newHireData, "Indicator", "Maryland New Hires by Education");
-    createDatasets(newHireData1, 'newHireDatc', fullQuarters)
     let newHireData2 = dimple.filterData(newHireData, "Indicator", "Maryland New Hires by Gender");
-    createDatasets(newHireData2, 'newHireDatg', fullQuarters)
+    createDatasets(newHireData1, 'newHireDatc', fullQuarters)
+    createDatasets(newHireData2, 'newHireDatg', fullQuarters) 
 
     // Tab 2 Chart 2    
     let jobData = dimple.filterData(data, "Time", fullQuarters)
     jobData = dimple.filterData(jobData, "Indicator", ["Maryland Job Net Change by Education", "Maryland Job Net Change by Gender"])
     let jobData1 = dimple.filterData(jobData, "Indicator", "Maryland Job Net Change by Education");
-    createDatasets(jobData1, 'jobDatc', fullQuarters)
     let jobData2 = dimple.filterData(jobData, "Indicator", "Maryland Job Net Change by Gender");
+    createDatasets(jobData1, 'jobDatc', fullQuarters)
     createDatasets(jobData2, 'jobDatg', fullQuarters)
 
     // Tab 3 Chart 1 Turnover Rate
     let turnOverData = dimple.filterData(data, "Time", fullQuarters)
     turnOverData = dimple.filterData(turnOverData, "Indicator", ["Maryland Turnover Rate by Education", "Maryland Turnover Rate by Gender", "Maryland Workers by Industry"])
     let turnOverData1 = dimple.filterData(turnOverData, "Indicator", "Maryland Turnover Rate by Education");
-    createDatasets(turnOverData1, 'turnOverData', fullQuarters)
     let turnOverData2 = dimple.filterData(turnOverData, "Indicator", "Maryland Turnover Rate by Gender")
+    createDatasets(turnOverData1, 'turnOverData', fullQuarters)
     createDatasets(turnOverData2, 'turnOverDatg', fullQuarters)
 
     // Tab 4 Chart 1 Industry Metrics
     let wdata = dimple.filterData(data, "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"])
     let iwdata0 = dimple.filterData(wdata, "Indicator", "Maryland Workers by Industry")
-    createDatasets(iwdata0, 'iwdata', fullQuarters)
     let iwData1 = dimple.filterData(wdata, "Indicator", "Maryland Average Earnings by Industry")
-    createDatasets(iwData1, 'avgdata', fullQuarters)
     let iwdata2 = dimple.filterData(wdata, "Indicator", "Maryland Job Net Change by Industry")
-    createDatasets(iwdata2, 'netdata', fullQuarters)
     let iwdata3 = dimple.filterData(wdata, "Indicator", "Maryland Turnover Rate by Industry")
-    createDatasets(iwdata3, 'turndata', fullQuarters)
     let iwdata4 = dimple.filterData(wdata, "Indicator", "Maryland New Hires by Industry")
+    createDatasets(iwdata0, 'iwdata', fullQuarters)
+    createDatasets(iwData1, 'avgdata', fullQuarters)
+    createDatasets(iwdata2, 'netdata', fullQuarters)
+    createDatasets(iwdata3, 'turndata', fullQuarters)
     createDatasets(iwdata4, 'hiredata', fullQuarters)
 
     // Tab 5 Chart 1 Seperations
     let indusep = dimple.filterData(data, "Indicator", "Maryland Separations by Industry")
     indusep = dimple.filterData(indusep, "Indicator_Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"])
-    createDatasets(indusep, 'isepdata', fullQuarters)
     let agesep = dimple.filterData(data, "Indicator", "Maryland Separations by Age")
-    window.asepdata1 = dimple.filterData(agesep, "Time", fullQuarters)
-    createDatasets(asepdata1, 'asepdata', fullQuarters)
     let gensep = dimple.filterData(data, "Indicator", "Maryland Separations by Gender")
-    window.gsepdata1 = dimple.filterData(gensep, "Time", fullQuarters)
-    createDatasets(gsepdata1, 'gsepdata', fullQuarters)
     let edusep = dimple.filterData(data, "Indicator", "Maryland Separations by Education")
+    window.asepdata1 = dimple.filterData(agesep, "Time", fullQuarters)
+    window.gsepdata1 = dimple.filterData(gensep, "Time", fullQuarters)
     window.esepdata1 = dimple.filterData(edusep, "Time", fullQuarters)
+    createDatasets(indusep, 'isepdata', fullQuarters)
+    createDatasets(asepdata1, 'asepdata', fullQuarters)
+    createDatasets(gsepdata1, 'gsepdata', fullQuarters)
     createDatasets(edusep, 'esepdata', fullQuarters)
 
     //
@@ -202,8 +202,8 @@ import {createDatasets, configCharts, createChart, configSvgz, zeronulls, cma, f
                ${!workData2018Q4[0] ? '' : displayAvgQuarterTab1('2018Q4', workData2018Q4, workDatg2018Q4, averageData2018Q4, averageDatg2018Q4)}
                ${!workData2019Q1[0] ? '' : displayAvgQuarterTab1('2019Q1', workData2019Q1, workDatg2019Q1, averageData2019Q1, averageDatg2019Q1)}
                ${!workData2019Q2[0] ? '' : displayAvgQuarterTab1('2019Q2', workData2019Q2, workDatg2019Q2, averageData2019Q2, averageDatg2019Q2)}
-               ${!workData2019Q3[0] ? '' : displayAvgQuarterTab1('2019Q3', workData2019Q3, workDatg2019Q3, averageData2019Q3, averageDatg2019Q3)}
-               ${!workData2019Q4[0] ? '' : displayAvgQuarterTab1('2019Q4', workData2019Q4, workDatg2019Q4, averageData2019Q4, averageDatg2019Q4)}
+               ${!workData2019Q3[1] ? '' : displayAvgQuarterTab1('2019Q3', workData2019Q3, workDatg2019Q3, averageData2019Q3, averageDatg2019Q3)}
+               ${!workData2019Q4[1] ? '' : displayAvgQuarterTab1('2019Q4', workData2019Q4, workDatg2019Q4, averageData2019Q4, averageDatg2019Q4)}
   `
     // Tab 2  
     let displayAvgQuarterTab2 = (quarter,jobChangeCount,jobChangeGender,newHireCount,newHireGender)=>{
@@ -254,14 +254,14 @@ import {createDatasets, configCharts, createChart, configSvgz, zeronulls, cma, f
 	   ${displayAvgQuarterTab2('2017Q2', jobDatc2017Q2, jobDatg2017Q2, newHireDatc2017Q2, newHireDatg2017Q2)}
 	   ${displayAvgQuarterTab2('2017Q3', jobDatc2017Q3, jobDatg2017Q3, newHireDatc2017Q3, newHireDatg2017Q3)}
 	   ${displayAvgQuarterTab2('2017Q4', jobDatc2017Q4, jobDatg2017Q4, newHireDatc2017Q4, newHireDatg2017Q4)}
-	   ${!jobDatg2018Q1[0] ? '' : displayAvgQuarterTab2('2018Q1', jobDatc2018Q1, jobDatg2018Q1, newHireDatc2018Q1, newHireDatg2018Q1)}
-	   ${!jobDatg2018Q2[0] ? '' : displayAvgQuarterTab2('2018Q2', jobDatc2018Q2, jobDatg2018Q2, newHireDatc2018Q2, newHireDatg2018Q2)}
-	   ${!jobDatg2018Q3[0] ? '' : displayAvgQuarterTab2('2018Q3', jobDatc2018Q3, jobDatg2018Q3, newHireDatc2018Q3, newHireDatg2018Q3)}
-	   ${!jobDatg2018Q4[0] ? '' : displayAvgQuarterTab2('2018Q4', jobDatc2018Q4, jobDatg2018Q4, newHireDatc2018Q4, newHireDatg2018Q4)}
-	   ${!jobDatg2019Q1[0] ? '' : displayAvgQuarterTab2('2019Q1', jobDatc2019Q1, jobDatg2019Q1, newHireDatc2019Q1, newHireDatg2019Q1)}
-	   ${!jobDatg2019Q2[0] ? '' : displayAvgQuarterTab2('2019Q2', jobDatc2019Q2, jobDatg2019Q2, newHireDatc2019Q2, newHireDatg2019Q2)}
-	   ${!jobDatg2019Q3[0] ? '' : displayAvgQuarterTab2('2019Q3', jobDatc2019Q3, jobDatg2019Q3, newHireDatc2019Q3, newHireDatg2019Q3)}
-	   ${!jobDatg2019Q4[0] ? '' : displayAvgQuarterTab2('2019Q4', jobDatc2019Q4, jobDatg2019Q4, newHireDatc2019Q4, newHireDatg2019Q4)}
+	   ${!newHireDatc2018Q1[0] ? '' : displayAvgQuarterTab2('2018Q1', jobDatc2018Q1, jobDatg2018Q1, newHireDatc2018Q1, newHireDatg2018Q1)}
+	   ${!newHireDatc2018Q2[0] ? '' : displayAvgQuarterTab2('2018Q2', jobDatc2018Q2, jobDatg2018Q2, newHireDatc2018Q2, newHireDatg2018Q2)}
+	   ${!newHireDatc2018Q3[0] ? '' : displayAvgQuarterTab2('2018Q3', jobDatc2018Q3, jobDatg2018Q3, newHireDatc2018Q3, newHireDatg2018Q3)}
+	   ${!newHireDatc2018Q4[0] ? '' : displayAvgQuarterTab2('2018Q4', jobDatc2018Q4, jobDatg2018Q4, newHireDatc2018Q4, newHireDatg2018Q4)}
+	   ${!newHireDatc2019Q1[0] ? '' : displayAvgQuarterTab2('2019Q1', jobDatc2019Q1, jobDatg2019Q1, newHireDatc2019Q1, newHireDatg2019Q1)}
+	   ${!newHireDatc2019Q2[0] ? '' : displayAvgQuarterTab2('2019Q2', jobDatc2019Q2, jobDatg2019Q2, newHireDatc2019Q2, newHireDatg2019Q2)}
+	   ${!newHireDatc2019Q3[0] ? '' : displayAvgQuarterTab2('2019Q3', jobDatc2019Q3, jobDatg2019Q3, newHireDatc2019Q3, newHireDatg2019Q3)}
+	   ${!newHireDatc2019Q4[0] ? '' : displayAvgQuarterTab2('2019Q4', jobDatc2019Q4, jobDatg2019Q4, newHireDatc2019Q4, newHireDatg2019Q4)}
     `
 
     // Tab 3 Turnover Rate
@@ -498,8 +498,8 @@ import {createDatasets, configCharts, createChart, configSvgz, zeronulls, cma, f
             <td>${pcnt(filterForData(turndatax, 19)['Amount'])}</td>
          </tr>
     `
-    }
-    console.log(window)
+    } 
+    
     document.getElementById('table6').innerHTML = `
       <thead>
          <tr>
@@ -1205,33 +1205,30 @@ import {createDatasets, configCharts, createChart, configSvgz, zeronulls, cma, f
         // Get the tabs data at the dropdown selected quarter
         let dta = tab['data'][drpQ]
 
-        // For selected tab, get the text from its Indicator's Dropdown
-        let drpI = document.getElementById( localStorage.getItem('Clicked') + '_dd').value
-
-        /*
         // Check the size of the year's dataset to see if it is empty, pick another one at random if so.
         if ( new Blob([JSON.stringify(dta)]).size < 20 ){
           let notTheSame = false 
           while (!notTheSame){
               let objk = Object.keys( tab['data'] )
-              drpY = objk[Math.floor(Math.random()*objk.length)]
-              notTheSame = drp.value != drpY
-              console.log({notTheSame}, drp.value, drpY)
+              drpQ = objk[Math.floor(Math.random()*objk.length)]
+              notTheSame = drp.value != drpQ
+              console.log({notTheSame}, drp.value, drpQ)
               if(notTheSame){
-                  drp.value = drpY
-                  dta = tab['data'][drpY] 
+                  drp.value = drpQ
+                  dta = tab['data'][drpQ] 
               }
           }
         }
-        */ 
+
+        // For selected tab, get the text from its Indicator's Dropdown
+        let drpI = document.getElementById( localStorage.getItem('Clicked') + '_dd').value
+
         const avail = tab['yearAvailable'][drpQ] 
         // If any of the datasets can't be displayed
         let notAllChartsAvailable = !avail ? false : avail.some(availableAtYear => !availableAtYear)
         let warn = document.querySelector('#notalldataavailablewarning').style.display = notAllChartsAvailable ? 'inline':'none';
 
         console.log({notAllChartsAvailable})
-
-
         console.log( tab['data'][drpQ], tab)
     	console.log('wdaChartChange: ', localStorage.getItem('Clicked'), drpQ, drpI)
 
