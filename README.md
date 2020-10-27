@@ -3,4 +3,6 @@ Description of project
 
 ## Basic Information
 
-- Line Item
+- 'docs' folder contains final code for website.
+- 'src' folder contains the code used in development prior to final-optimizations.
+- 'src/data' folder really only uses the CountyData.csv, MarylandData.csv, wda/ & emp18/ folder. (Old dats is stored here too)
